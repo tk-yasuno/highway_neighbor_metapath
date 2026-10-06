@@ -13,6 +13,9 @@ __pycache__/
 data/raw/osmnx_cache/
 cache/
 
+# Paper writing workspace (not part of the published code/data repo)
+paper_highway_metapath/
+
 # OS / editor
 .DS_Store
 Thumbs.db

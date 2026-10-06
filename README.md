@@ -36,6 +36,43 @@ Each step can also be run standalone as a module (`python -m src.<name>`):
 `osm_fetch`, `clustering`, `highway_segments`, `metapath`, `label_export`,
 `visualize`.
 
+### Running against other regions (v0.2)
+
+The pipeline is no longer hardcoded to Gurgaon: `src/regions.py` defines a
+`RegionConfig` per region (bbox, metric CRS, DBSCAN/metapath parameters, and
+optional named seed places), and every pipeline module takes a `region`
+argument. Select a region with `--region`:
+
+```powershell
+.venv-himet\Scripts\python.exe run_pipeline.py --region gurgaon              # default, unchanged output paths
+.venv-himet\Scripts\python.exe run_pipeline.py --region stuttgart            # Stuttgart-Ludwigsburg, Germany
+.venv-himet\Scripts\python.exe run_pipeline.py --region taoyuan_hsinchu      # Taoyuan-Zhongli-Hsinchu, Taiwan
+.venv-himet\Scripts\python.exe run_pipeline.py --region nagoya_toyota_komaki # Nagoya-Toyota-Komaki, Japan
+```
+
+`gurgaon` is the only region with curated named seed places (`src/config.py`);
+the other three are evaluated on pure DBSCAN auto-detected clusters only (see
+[docs/Plan_v0.2_Generality_Supplementary.md](docs/Plan_v0.2_Generality_Supplementary.md)
+and the paper's Supplementary Materials for why, and for cross-region
+findings). Outputs for non-default regions go to `data/raw/<region>/`,
+`data/processed/<region>/`, and `outputs/<region>/{labels,figures}/`; the
+Gurgaon region keeps the original flat paths for backward compatibility.
+
+### Overpass connectivity troubleshooting
+
+On some networks, the public `overpass-api.de` endpoint's round-robin DNS
+resolves to an unreachable IP, causing requests to hang until timeout. Set
+these environment variables (before running `run_pipeline.py`) to work
+around it without changing any documented default:
+
+| Variable | Purpose | Default |
+|---|---|---|
+| `HIMET_FORCE_IPV4` | Filter DNS results to IPv4 only for this process | `1` (on) |
+| `HIMET_PIN_DNS` | Pin a hostname to a specific IP, e.g. `overpass-api.de=162.55.144.139` | unset |
+| `HIMET_OVERPASS_URL` | Use a different Overpass mirror, e.g. `https://overpass.kumi.systems/api` | unset (uses OSMnx default) |
+| `HIMET_OSM_TIMEOUT` | Per-request timeout in seconds | `180` |
+| `HIMET_OSM_RETRIES` / `HIMET_OSM_RETRY_DELAY` | Retry attempts per OSM layer / seconds between retries | `3` / `20` |
+
 ## Pipeline / graph schema
 
 | Step | Module | Output |
@@ -96,6 +133,38 @@ flag (34 segments / ~24 km of NH48 flagged `is_metapath_hard=True`).
 Maps: `outputs/figures/gurgaon_highway_metapath_map.png` (static, named-pair
 links only) and `.html` (interactive Folium map with full highway network,
 cluster markers, 2/3/4/5 km buffers, and metapath routes).
+
+## v0.2: Cross-region generality check
+
+Section plan: [docs/Plan_v0.2_Generality_Supplementary.md](docs/Plan_v0.2_Generality_Supplementary.md).
+The unmodified pipeline (identical DBSCAN/metapath parameters, no named-seed
+curation) was re-run against three further industrial-logistics belts, each
+sized to the same ~30–40 km physical scale as the Gurgaon bbox: Stuttgart–
+Ludwigsburg (Germany), Taoyuan–Zhongli–Hsinchu (Taiwan), and Nagoya–Toyota–
+Komaki (Japan). Full cross-region comparison:
+[docs/region_comparison_v0_2.csv](docs/region_comparison_v0_2.csv).
+
+| Quantity | Gurgaon | Stuttgart | Taoyuan-Hsinchu | Nagoya-Komaki |
+|---|---:|---:|---:|---:|
+| Industrial polygons | 84 | 409 | 1,239 | 2,260 |
+| Warehouse features | 17 | 286 | 83 | 8,025 |
+| Clusters (Factory/Logistics) | 31 (26/5) | 34 (30/4) | 33 (32/1) | 20 (16/4) |
+| Named-seed matches | 6/6 (100%) | 0 | 0 | 0 |
+| Labeled pairs (%) | 122/130 (93.8%) | 120/120 (100%) | 23/32 (71.9%) | 62/64 (96.9%) |
+| Segments flagged `is_metapath_hard` | 34 (23.8 km) | 0 | 0 | 0 |
+
+Key lessons (full discussion in the paper's Supplementary Materials,
+`paper_highway_metapath/1_Methodology/v5_paper_to_arXiv/supplementary.tex`):
+the pair-level H_NEIGHBOR/H_CHAIN_ACCESS metapath labeling transfers directly
+to new regions with no re-calibration, but (1) the segment-level
+`is_metapath_hard` export is by design restricted to named-seed pairs and so
+is empty for all three auto-only regions, (2) OSM industrial/warehouse
+tagging density varies up to ~470x across these four regions, so the fixed
+DBSCAN radius (`eps=1.5 km`) does not transfer uniformly (it merges 10,209
+warehouse points into one LogisticsCluster in the Nagoya case), and
+(3) HIGHWAY_CONTIGUOUS graph disconnection (5 components in Gurgaon) is
+bbox-specific, not a universal artifact (Stuttgart's identically sized bbox
+is a single connected component).
 
 ## Integration with `method_repair_lot_wcsp` (hard-constraint extension)
 

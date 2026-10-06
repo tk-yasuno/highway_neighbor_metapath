@@ -1,0 +1,121 @@
+﻿factory_name,logistics_name,is_named_pair,shared_corridor,h_neighbor_radius_tier_km,h_neighbor_label,road_distance_km,h_chain_access_label,metapath_labels,priority,path_corridors
+FactoryCluster_auto_21,LogisticsCluster_auto_33,False,A 8,2.0,H_NEIGHBOR(r=2km),3.78,H_CHAIN_ACCESS(distance=3.8km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=3.8km),High,A 8; unnamed; A 8
+FactoryCluster_auto_25,LogisticsCluster_auto_19,False,A 831,2.0,H_NEIGHBOR(r=2km),3.84,H_CHAIN_ACCESS(distance=3.8km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=3.8km),High,A 831; B 14
+FactoryCluster_auto_4,LogisticsCluster_auto_2,False,segment_196,4.0,H_NEIGHBOR(r=4km),5.61,H_CHAIN_ACCESS(distance=5.6km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=5.6km),High,
+FactoryCluster_auto_1,LogisticsCluster_auto_33,False,A 8,2.0,H_NEIGHBOR(r=2km),6.72,H_CHAIN_ACCESS(distance=6.7km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=6.7km),High,unnamed; A 8; unnamed; A 8
+FactoryCluster_auto_8,LogisticsCluster_auto_18,False,,,,6.92,H_CHAIN_ACCESS(distance=6.9km),H_CHAIN_ACCESS(distance=6.9km),High,
+FactoryCluster_auto_22,LogisticsCluster_auto_19,False,L 1180,2.0,H_NEIGHBOR(r=2km),7.96,H_CHAIN_ACCESS(distance=8.0km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=8.0km),High,L 1180; L 1187; Wildparkstraße; B 14
+FactoryCluster_auto_27,LogisticsCluster_auto_2,False,,,,9.08,H_CHAIN_ACCESS(distance=9.1km),H_CHAIN_ACCESS(distance=9.1km),High,
+FactoryCluster_auto_15,LogisticsCluster_auto_18,False,,,,9.54,H_CHAIN_ACCESS(distance=9.5km),H_CHAIN_ACCESS(distance=9.5km),High,
+FactoryCluster_auto_20,LogisticsCluster_auto_2,False,segment_196,5.0,H_NEIGHBOR(r=5km),10.14,H_CHAIN_ACCESS(distance=10.1km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=10.1km),High,K 1859; B 14
+FactoryCluster_auto_23,LogisticsCluster_auto_19,False,B 14,3.0,H_NEIGHBOR(r=3km),11.42,H_CHAIN_ACCESS(distance=11.4km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=11.4km),High,B 27; B 14; B 27a; B 14
+FactoryCluster_auto_25,LogisticsCluster_auto_33,False,A 8,2.0,H_NEIGHBOR(r=2km),12.27,H_CHAIN_ACCESS(distance=12.3km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=12.3km),High,A 831; unnamed; A 8; unnamed; A 8
+FactoryCluster_auto_30,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),12.29,H_CHAIN_ACCESS(distance=12.3km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=12.3km),High,B 14; unnamed; B 14
+FactoryCluster_auto_1,LogisticsCluster_auto_19,False,B 14,3.0,H_NEIGHBOR(r=3km),12.41,H_CHAIN_ACCESS(distance=12.4km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=12.4km),High,unnamed; A 8; unnamed; A 831; B 14
+FactoryCluster_auto_23,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),12.78,H_CHAIN_ACCESS(distance=12.8km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=12.8km),High,B 27; unnamed; A 8
+FactoryCluster_auto_21,LogisticsCluster_auto_19,False,A 8,4.0,H_NEIGHBOR(r=4km),13.28,H_CHAIN_ACCESS(distance=13.3km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=13.3km),High,A 8; unnamed; A 831; B 14
+FactoryCluster_auto_12,LogisticsCluster_auto_18,False,,,,14.35,H_CHAIN_ACCESS(distance=14.3km),H_CHAIN_ACCESS(distance=14.3km),High,
+FactoryCluster_auto_0,LogisticsCluster_auto_19,False,B 14,3.0,H_NEIGHBOR(r=3km),14.44,H_CHAIN_ACCESS(distance=14.4km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=14.4km),High,B 27; B 27a; Österreichischer Platz; B 27a; B 14
+FactoryCluster_auto_24,LogisticsCluster_auto_2,False,B 14,5.0,H_NEIGHBOR(r=5km),15.11,H_CHAIN_ACCESS(distance=15.1km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=15.1km),High,B 14; unnamed; B 14
+FactoryCluster_auto_31,LogisticsCluster_auto_19,False,L 1187,4.0,H_NEIGHBOR(r=4km),17.8,H_CHAIN_ACCESS(distance=17.8km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=17.8km),High,unnamed; B 295; B 27; B 27a; B 14
+FactoryCluster_auto_7,LogisticsCluster_auto_18,False,,,,18.09,H_CHAIN_ACCESS(distance=18.1km),H_CHAIN_ACCESS(distance=18.1km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_0,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),18.43,H_CHAIN_ACCESS(distance=18.4km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=18.4km),High,B 27; unnamed; A 8
+FactoryCluster_auto_26,LogisticsCluster_auto_18,False,,,,18.86,H_CHAIN_ACCESS(distance=18.9km),H_CHAIN_ACCESS(distance=18.9km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_30,LogisticsCluster_auto_19,False,B 14,2.0,H_NEIGHBOR(r=2km),20.51,H_CHAIN_ACCESS(distance=20.5km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=20.5km),High,B 14; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_6,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),21.01,H_CHAIN_ACCESS(distance=21.0km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=21.0km),High,B 27; B 10;B 27; B 27; B 27a; Österreichischer Platz; B 27a; B 14
+FactoryCluster_auto_31,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),21.8,H_CHAIN_ACCESS(distance=21.8km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=21.8km),High,unnamed; B 295; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_32,LogisticsCluster_auto_18,False,,,,21.96,H_CHAIN_ACCESS(distance=22.0km),H_CHAIN_ACCESS(distance=22.0km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_22,LogisticsCluster_auto_33,False,,,,22.31,H_CHAIN_ACCESS(distance=22.3km),H_CHAIN_ACCESS(distance=22.3km),High,L 1180; L 1187; Wildparkstraße; B 14; A 831; unnamed; A 8; unnamed; A 8
+FactoryCluster_auto_0,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),22.33,H_CHAIN_ACCESS(distance=22.3km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=22.3km),High,B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_16,LogisticsCluster_auto_18,False,,,,22.51,H_CHAIN_ACCESS(distance=22.5km),H_CHAIN_ACCESS(distance=22.5km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_6,LogisticsCluster_auto_18,False,,,,22.57,H_CHAIN_ACCESS(distance=22.6km),H_CHAIN_ACCESS(distance=22.6km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_5,LogisticsCluster_auto_19,False,,,,22.81,H_CHAIN_ACCESS(distance=22.8km),H_CHAIN_ACCESS(distance=22.8km),High,B 10; unnamed; B 10; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_11,LogisticsCluster_auto_18,False,,,,22.93,H_CHAIN_ACCESS(distance=22.9km),H_CHAIN_ACCESS(distance=22.9km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_14,LogisticsCluster_auto_18,False,,,,23.09,H_CHAIN_ACCESS(distance=23.1km),H_CHAIN_ACCESS(distance=23.1km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_13,LogisticsCluster_auto_18,False,,,,23.14,H_CHAIN_ACCESS(distance=23.1km),H_CHAIN_ACCESS(distance=23.1km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_24,LogisticsCluster_auto_19,False,B 14,5.0,H_NEIGHBOR(r=5km),23.64,H_CHAIN_ACCESS(distance=23.6km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=23.6km),High,B 14; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_23,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),23.78,H_CHAIN_ACCESS(distance=23.8km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=23.8km),High,B 27; B 14; Konrad-Adenauer-Straße; Gebhard-Müller-Platz; Willy-Brandt-Straße; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14
+FactoryCluster_auto_30,LogisticsCluster_auto_33,False,,,,24.24,H_CHAIN_ACCESS(distance=24.2km),H_CHAIN_ACCESS(distance=24.2km),High,B 14; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_5,LogisticsCluster_auto_2,False,,,,24.25,H_CHAIN_ACCESS(distance=24.2km),H_CHAIN_ACCESS(distance=24.2km),High,B 10; unnamed; B 10; unnamed; B 14
+FactoryCluster_auto_10,LogisticsCluster_auto_18,False,,,,24.47,H_CHAIN_ACCESS(distance=24.5km),H_CHAIN_ACCESS(distance=24.5km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_3,LogisticsCluster_auto_18,False,,,,24.66,H_CHAIN_ACCESS(distance=24.7km),H_CHAIN_ACCESS(distance=24.7km),High,B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_6,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),25.0,H_CHAIN_ACCESS(distance=25.0km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=25.0km),High,B 27; B 10;B 27; B 27; unnamed; A 8
+FactoryCluster_auto_4,LogisticsCluster_auto_19,False,B 14,3.0,H_NEIGHBOR(r=3km),27.97,H_CHAIN_ACCESS(distance=28.0km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=28.0km),High,B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_7,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),30.48,H_CHAIN_ACCESS(distance=30.5km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=30.5km),High,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_26,LogisticsCluster_auto_33,False,B 27,3.0,H_NEIGHBOR(r=3km),31.25,H_CHAIN_ACCESS(distance=31.2km),H_NEIGHBOR(r=3km); H_CHAIN_ACCESS(distance=31.2km),High,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_16,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),25.02,H_CHAIN_ACCESS(distance=25.0km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=25.0km),Medium,B 27; B 10;B 27; B 27; B 27a; Österreichischer Platz; B 27a; B 14
+FactoryCluster_auto_17,LogisticsCluster_auto_19,False,A 81,5.0,H_NEIGHBOR(r=5km),25.16,H_CHAIN_ACCESS(distance=25.2km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=25.2km),Medium,unnamed; B 10; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_31,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),25.7,H_CHAIN_ACCESS(distance=25.7km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=25.7km),Medium,unnamed; B 295; unnamed; B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_17,LogisticsCluster_auto_18,False,,,,26.1,H_CHAIN_ACCESS(distance=26.1km),H_CHAIN_ACCESS(distance=26.1km),Medium,unnamed; B 10; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_7,LogisticsCluster_auto_19,False,A 81,4.0,H_NEIGHBOR(r=4km),26.48,H_CHAIN_ACCESS(distance=26.5km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=26.5km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_5,LogisticsCluster_auto_33,False,,,,26.54,H_CHAIN_ACCESS(distance=26.5km),H_CHAIN_ACCESS(distance=26.5km),Medium,B 10; unnamed; B 10; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_3,LogisticsCluster_auto_19,False,,,,27.17,H_CHAIN_ACCESS(distance=27.2km),H_CHAIN_ACCESS(distance=27.2km),Medium,B 27; B 10;B 27; B 27; B 27a; Österreichischer Platz; B 27a; B 14
+FactoryCluster_auto_26,LogisticsCluster_auto_19,False,A 81,5.0,H_NEIGHBOR(r=5km),27.25,H_CHAIN_ACCESS(distance=27.3km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=27.3km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_28,LogisticsCluster_auto_18,False,,,,27.27,H_CHAIN_ACCESS(distance=27.3km),H_CHAIN_ACCESS(distance=27.3km),Medium,A 81; unnamed; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_24,LogisticsCluster_auto_33,False,,,,27.37,H_CHAIN_ACCESS(distance=27.4km),H_CHAIN_ACCESS(distance=27.4km),Medium,B 14; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_9,LogisticsCluster_auto_19,False,A 81,5.0,H_NEIGHBOR(r=5km),28.01,H_CHAIN_ACCESS(distance=28.0km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=28.0km),Medium,unnamed; B 10; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_29,LogisticsCluster_auto_19,False,,,,28.27,H_CHAIN_ACCESS(distance=28.3km),H_CHAIN_ACCESS(distance=28.3km),Medium,unnamed; B 10; unnamed; B 10; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_20,LogisticsCluster_auto_19,False,B 14,5.0,H_NEIGHBOR(r=5km),28.32,H_CHAIN_ACCESS(distance=28.3km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=28.3km),Medium,K 1859; unnamed; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_6,LogisticsCluster_auto_2,False,,,,28.56,H_CHAIN_ACCESS(distance=28.6km),H_CHAIN_ACCESS(distance=28.6km),Medium,B 27; B 10;B 27; B 10; B 10;B 14; B 14
+FactoryCluster_auto_9,LogisticsCluster_auto_18,False,,,,28.95,H_CHAIN_ACCESS(distance=29.0km),H_CHAIN_ACCESS(distance=29.0km),Medium,unnamed; B 10; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_16,LogisticsCluster_auto_33,False,B 27,4.0,H_NEIGHBOR(r=4km),29.02,H_CHAIN_ACCESS(distance=29.0km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=29.0km),Medium,B 27; B 10;B 27; B 27; unnamed; A 8
+FactoryCluster_auto_17,LogisticsCluster_auto_33,False,,,,29.16,H_CHAIN_ACCESS(distance=29.2km),H_CHAIN_ACCESS(distance=29.2km),Medium,unnamed; B 10; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_29,LogisticsCluster_auto_2,False,,,,29.71,H_CHAIN_ACCESS(distance=29.7km),H_CHAIN_ACCESS(distance=29.7km),Medium,unnamed; B 10; unnamed; B 10; unnamed; B 14
+FactoryCluster_auto_0,LogisticsCluster_auto_18,False,,,,29.76,H_CHAIN_ACCESS(distance=29.8km),H_CHAIN_ACCESS(distance=29.8km),Medium,B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_21,LogisticsCluster_auto_2,False,,,,30.6,H_CHAIN_ACCESS(distance=30.6km),H_CHAIN_ACCESS(distance=30.6km),Medium,A 8; unnamed; B 27; B 14; Konrad-Adenauer-Straße; Gebhard-Müller-Platz; Willy-Brandt-Straße; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14
+FactoryCluster_auto_3,LogisticsCluster_auto_33,False,,,,31.17,H_CHAIN_ACCESS(distance=31.2km),H_CHAIN_ACCESS(distance=31.2km),Medium,B 27; B 10;B 27; B 27; unnamed; A 8
+FactoryCluster_auto_27,LogisticsCluster_auto_19,False,,,,31.44,H_CHAIN_ACCESS(distance=31.4km),H_CHAIN_ACCESS(distance=31.4km),Medium,B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27a; B 14
+FactoryCluster_auto_25,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),31.7,H_CHAIN_ACCESS(distance=31.7km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=31.7km),Medium,A 831; B 14; B 27a; B 14; Konrad-Adenauer-Straße; Gebhard-Müller-Platz; Willy-Brandt-Straße; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14
+FactoryCluster_auto_4,LogisticsCluster_auto_33,False,,,,31.7,H_CHAIN_ACCESS(distance=31.7km),H_CHAIN_ACCESS(distance=31.7km),Medium,B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_29,LogisticsCluster_auto_33,False,,,,32.0,H_CHAIN_ACCESS(distance=32.0km),H_CHAIN_ACCESS(distance=32.0km),Medium,unnamed; B 10; unnamed; B 10; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_9,LogisticsCluster_auto_33,False,,,,32.01,H_CHAIN_ACCESS(distance=32.0km),H_CHAIN_ACCESS(distance=32.0km),Medium,unnamed; B 10; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_20,LogisticsCluster_auto_33,False,,,,32.05,H_CHAIN_ACCESS(distance=32.1km),H_CHAIN_ACCESS(distance=32.1km),Medium,K 1859; unnamed; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_16,LogisticsCluster_auto_2,False,,,,32.58,H_CHAIN_ACCESS(distance=32.6km),H_CHAIN_ACCESS(distance=32.6km),Medium,B 27; B 10;B 27; B 10; B 10;B 14; B 14
+FactoryCluster_auto_17,LogisticsCluster_auto_2,False,,,,32.74,H_CHAIN_ACCESS(distance=32.7km),H_CHAIN_ACCESS(distance=32.7km),Medium,unnamed; B 10; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_31,LogisticsCluster_auto_18,False,,,,33.13,H_CHAIN_ACCESS(distance=33.1km),H_CHAIN_ACCESS(distance=33.1km),Medium,unnamed; B 295; unnamed; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_1,LogisticsCluster_auto_2,False,B 14,4.0,H_NEIGHBOR(r=4km),33.33,H_CHAIN_ACCESS(distance=33.3km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=33.3km),Medium,unnamed; A 8; unnamed; B 27; B 14; Konrad-Adenauer-Straße; Gebhard-Müller-Platz; Willy-Brandt-Straße; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14
+FactoryCluster_auto_22,LogisticsCluster_auto_2,False,B 14,5.0,H_NEIGHBOR(r=5km),33.58,H_CHAIN_ACCESS(distance=33.6km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=33.6km),Medium,L 1180; L 1187; Wildparkstraße; B 14; B 27a; B 14; Konrad-Adenauer-Straße; Gebhard-Müller-Platz; Willy-Brandt-Straße; B 14; B 10;B 14; Poststraße; B 10;B 14; B 14
+FactoryCluster_auto_7,LogisticsCluster_auto_2,False,,,,34.07,H_CHAIN_ACCESS(distance=34.1km),H_CHAIN_ACCESS(distance=34.1km),Medium,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_3,LogisticsCluster_auto_2,False,,,,34.73,H_CHAIN_ACCESS(distance=34.7km),H_CHAIN_ACCESS(distance=34.7km),Medium,B 27; B 10;B 27; B 10; B 10;B 14; B 14
+FactoryCluster_auto_26,LogisticsCluster_auto_2,False,,,,34.84,H_CHAIN_ACCESS(distance=34.8km),H_CHAIN_ACCESS(distance=34.8km),Medium,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_23,LogisticsCluster_auto_18,False,,,,35.17,H_CHAIN_ACCESS(distance=35.2km),H_CHAIN_ACCESS(distance=35.2km),Medium,B 27; unnamed; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_27,LogisticsCluster_auto_33,False,,,,35.17,H_CHAIN_ACCESS(distance=35.2km),H_CHAIN_ACCESS(distance=35.2km),Medium,B 14; B 10;B 14; Poststraße; B 10;B 14; B 14; Willy-Brandt-Straße; Gebhard-Müller-Platz; Konrad-Adenauer-Straße; B 14; B 27; unnamed; A 8
+FactoryCluster_auto_8,LogisticsCluster_auto_19,False,A 81,4.0,H_NEIGHBOR(r=4km),35.36,H_CHAIN_ACCESS(distance=35.4km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=35.4km),Medium,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_9,LogisticsCluster_auto_2,False,,,,35.6,H_CHAIN_ACCESS(distance=35.6km),H_CHAIN_ACCESS(distance=35.6km),Medium,unnamed; B 10; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_32,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),36.18,H_CHAIN_ACCESS(distance=36.2km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=36.2km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_11,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),37.15,H_CHAIN_ACCESS(distance=37.2km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=37.2km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_14,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),37.31,H_CHAIN_ACCESS(distance=37.3km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=37.3km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_13,LogisticsCluster_auto_19,False,B 27,5.0,H_NEIGHBOR(r=5km),37.36,H_CHAIN_ACCESS(distance=37.4km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=37.4km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_15,LogisticsCluster_auto_19,False,A 81,4.0,H_NEIGHBOR(r=4km),37.98,H_CHAIN_ACCESS(distance=38.0km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=38.0km),Medium,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_10,LogisticsCluster_auto_19,False,,,,38.69,H_CHAIN_ACCESS(distance=38.7km),H_CHAIN_ACCESS(distance=38.7km),Medium,B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_30,LogisticsCluster_auto_18,False,,,,39.21,H_CHAIN_ACCESS(distance=39.2km),H_CHAIN_ACCESS(distance=39.2km),Medium,B 14; B 10;B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_8,LogisticsCluster_auto_33,False,,,,39.36,H_CHAIN_ACCESS(distance=39.4km),H_CHAIN_ACCESS(distance=39.4km),Medium,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_32,LogisticsCluster_auto_33,False,B 27,4.0,H_NEIGHBOR(r=4km),40.18,,H_NEIGHBOR(r=4km),Medium,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_11,LogisticsCluster_auto_33,False,B 27,5.0,H_NEIGHBOR(r=5km),41.15,,H_NEIGHBOR(r=5km),Medium,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_14,LogisticsCluster_auto_33,False,B 27,5.0,H_NEIGHBOR(r=5km),41.31,,H_NEIGHBOR(r=5km),Medium,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_13,LogisticsCluster_auto_33,False,B 27,5.0,H_NEIGHBOR(r=5km),41.36,,H_NEIGHBOR(r=5km),Medium,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_28,LogisticsCluster_auto_19,False,A 81,4.0,H_NEIGHBOR(r=4km),41.5,,H_NEIGHBOR(r=4km),Medium,A 81; unnamed; B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_28,LogisticsCluster_auto_33,False,B 27,5.0,H_NEIGHBOR(r=5km),45.5,,H_NEIGHBOR(r=5km),Medium,A 81; unnamed; B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_5,LogisticsCluster_auto_18,False,,,,41.5,,,None,B 10; unnamed; B 10; B 10;B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_15,LogisticsCluster_auto_33,False,,,,41.98,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_21,LogisticsCluster_auto_18,False,,,,41.99,,,None,A 8; unnamed; B 27; unnamed; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_24,LogisticsCluster_auto_18,False,,,,42.34,,,None,B 14; B 10;B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_10,LogisticsCluster_auto_33,False,,,,42.69,,,None,B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_12,LogisticsCluster_auto_19,False,,,,42.79,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; B 27a; B 14
+FactoryCluster_auto_25,LogisticsCluster_auto_18,False,,,,42.81,,,None,A 831; B 14; B 27a; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_8,LogisticsCluster_auto_2,False,,,,42.94,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_32,LogisticsCluster_auto_2,False,,,,43.76,,,None,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_22,LogisticsCluster_auto_18,False,,,,44.7,,,None,L 1180; L 1187; Wildparkstraße; B 14; B 27a; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_1,LogisticsCluster_auto_18,False,,,,44.72,,,None,unnamed; A 8; unnamed; B 27; unnamed; B 27; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_11,LogisticsCluster_auto_2,False,,,,44.74,,,None,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_14,LogisticsCluster_auto_2,False,,,,44.9,,,None,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_13,LogisticsCluster_auto_2,False,,,,44.95,,,None,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_15,LogisticsCluster_auto_2,False,,,,45.56,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_10,LogisticsCluster_auto_2,False,,,,46.27,,,None,B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_4,LogisticsCluster_auto_18,False,,,,46.67,,,None,B 14; B 10;B 14; B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_12,LogisticsCluster_auto_33,False,,,,46.79,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 27; unnamed; B 27; unnamed; A 8
+FactoryCluster_auto_29,LogisticsCluster_auto_18,False,,,,46.97,,,None,unnamed; B 10; unnamed; B 10; B 10;B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_20,LogisticsCluster_auto_18,False,,,,47.02,,,None,K 1859; unnamed; B 14; B 10;B 14; B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_28,LogisticsCluster_auto_2,False,,,,49.08,,,None,A 81; unnamed; B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14
+FactoryCluster_auto_27,LogisticsCluster_auto_18,False,,,,50.14,,,None,B 14; B 10;B 14; B 14; B 10; B 10;B 27; B 27; unnamed; A 81; unnamed; A 81
+FactoryCluster_auto_12,LogisticsCluster_auto_2,False,,,,50.37,,,None,A 81; unnamed; A 81; unnamed; B 27; B 10;B 27; B 10; B 14; B 10;B 14; B 14

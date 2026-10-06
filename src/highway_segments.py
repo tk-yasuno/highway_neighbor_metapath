@@ -11,7 +11,8 @@ import networkx as nx
 import osmnx as ox
 import pandas as pd
 
-from . import config
+from . import config, regions
+from .regions import RegionConfig
 
 
 def _normalize_tag(value) -> str | None:
@@ -24,11 +25,11 @@ def _normalize_tag(value) -> str | None:
     return str(value).strip()
 
 
-def load_highway_graph() -> nx.MultiDiGraph:
-    return ox.load_graphml(config.DATA_RAW_DIR / "highway_graph.graphml")
+def load_highway_graph(region: RegionConfig) -> nx.MultiDiGraph:
+    return ox.load_graphml(region.data_raw_dir / "highway_graph.graphml")
 
 
-def build_segments_and_corridors(graph: nx.MultiDiGraph | None = None):
+def build_segments_and_corridors(region: RegionConfig, graph: nx.MultiDiGraph | None = None):
     """Return (segments_gdf, corridor_geoms, graph_undirected).
 
     segments_gdf : one row per HighwaySegment (OSM way edge) with a
@@ -39,7 +40,7 @@ def build_segments_and_corridors(graph: nx.MultiDiGraph | None = None):
     graph_undirected : nx.Graph with edge weight "length" (metres), used for
         HIGHWAY_CONTIGUOUS shortest-path (H_CHAIN_ACCESS) queries.
     """
-    graph = graph or load_highway_graph()
+    graph = graph or load_highway_graph(region)
     edges = ox.graph_to_gdfs(graph, nodes=False).reset_index()
 
     corridor_ids = []
@@ -55,7 +56,7 @@ def build_segments_and_corridors(graph: nx.MultiDiGraph | None = None):
     edges["corridor_id"] = corridor_ids
     edges["segment_id"] = [f"S{i}" for i in range(len(edges))]
 
-    edges_metric = edges.to_crs(config.CRS_METRIC)
+    edges_metric = edges.to_crs(region.crs_metric)
     corridor_geoms = {
         cid: grp.geometry.union_all()
         for cid, grp in edges_metric.groupby("corridor_id")
@@ -80,8 +81,9 @@ def build_segments_and_corridors(graph: nx.MultiDiGraph | None = None):
 
 
 if __name__ == "__main__":
-    segments, corridors, g_u = build_segments_and_corridors()
-    out_path = config.DATA_PROCESSED_DIR / "highway_segments.geojson"
+    _region = regions.get_region("gurgaon")
+    segments, corridors, g_u = build_segments_and_corridors(_region)
+    out_path = _region.data_processed_dir / "highway_segments.geojson"
     segments.to_file(out_path, driver="GeoJSON")
     print(f"segments: {len(segments)}, corridors: {len(corridors)}")
     print(f"undirected graph: {g_u.number_of_nodes()} nodes, {g_u.number_of_edges()} edges")

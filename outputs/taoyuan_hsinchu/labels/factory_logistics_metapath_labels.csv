@@ -1,0 +1,24 @@
+﻿factory_name,logistics_name,is_named_pair,shared_corridor,h_neighbor_radius_tier_km,h_neighbor_label,road_distance_km,h_chain_access_label,metapath_labels,priority,path_corridors
+FactoryCluster_auto_12,LogisticsCluster_auto_32,False,66,2.0,H_NEIGHBOR(r=2km),4.25,H_CHAIN_ACCESS(distance=4.2km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=4.2km),High,66
+FactoryCluster_auto_6,LogisticsCluster_auto_32,False,66,4.0,H_NEIGHBOR(r=4km),7.67,H_CHAIN_ACCESS(distance=7.7km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=7.7km),High,66
+FactoryCluster_auto_5,LogisticsCluster_auto_32,False,66,2.0,H_NEIGHBOR(r=2km),8.08,H_CHAIN_ACCESS(distance=8.1km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=8.1km),High,unnamed; 66
+FactoryCluster_auto_17,LogisticsCluster_auto_32,False,66,2.0,H_NEIGHBOR(r=2km),10.42,H_CHAIN_ACCESS(distance=10.4km),H_NEIGHBOR(r=2km); H_CHAIN_ACCESS(distance=10.4km),High,31;桃102; 31; 66; unnamed; 66
+FactoryCluster_auto_10,LogisticsCluster_auto_32,False,,,,13.57,H_CHAIN_ACCESS(distance=13.6km),H_CHAIN_ACCESS(distance=13.6km),High,31;桃102; 31; 66; unnamed; 66
+FactoryCluster_auto_1,LogisticsCluster_auto_32,False,15,5.0,H_NEIGHBOR(r=5km),14.15,H_CHAIN_ACCESS(distance=14.2km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=14.2km),High,15; 66
+FactoryCluster_auto_11,LogisticsCluster_auto_32,False,segment_302,4.0,H_NEIGHBOR(r=4km),14.54,H_CHAIN_ACCESS(distance=14.5km),H_NEIGHBOR(r=4km); H_CHAIN_ACCESS(distance=14.5km),High,15; 66
+FactoryCluster_auto_31,LogisticsCluster_auto_32,False,,,,16.43,H_CHAIN_ACCESS(distance=16.4km),H_CHAIN_ACCESS(distance=16.4km),High,31; unnamed; 31; 66; unnamed; 66
+FactoryCluster_auto_30,LogisticsCluster_auto_32,False,66,5.0,H_NEIGHBOR(r=5km),16.7,H_CHAIN_ACCESS(distance=16.7km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=16.7km),High,1; 平鎮系統交流道; 66; unnamed; 66; unnamed; 66
+FactoryCluster_auto_14,LogisticsCluster_auto_32,False,,,,16.84,H_CHAIN_ACCESS(distance=16.8km),H_CHAIN_ACCESS(distance=16.8km),High,永安交流道; 61; unnamed; 66
+FactoryCluster_auto_18,LogisticsCluster_auto_32,False,,,,18.86,H_CHAIN_ACCESS(distance=18.9km),H_CHAIN_ACCESS(distance=18.9km),High,1; 平鎮系統交流道; 66; unnamed; 66; unnamed; 66
+FactoryCluster_auto_8,LogisticsCluster_auto_32,False,,,,19.49,H_CHAIN_ACCESS(distance=19.5km),H_CHAIN_ACCESS(distance=19.5km),High,1; 平鎮系統交流道; 66; unnamed; 66; 31; 66; unnamed; 66
+FactoryCluster_auto_13,LogisticsCluster_auto_32,False,,,,20.29,H_CHAIN_ACCESS(distance=20.3km),H_CHAIN_ACCESS(distance=20.3km),High,31; 31;桃102; 31; 66; unnamed; 66
+FactoryCluster_auto_21,LogisticsCluster_auto_32,False,,,,20.47,H_CHAIN_ACCESS(distance=20.5km),H_CHAIN_ACCESS(distance=20.5km),High,永安交流道; 61; 66
+FactoryCluster_auto_2,LogisticsCluster_auto_32,False,66,5.0,H_NEIGHBOR(r=5km),21.12,H_CHAIN_ACCESS(distance=21.1km),H_NEIGHBOR(r=5km); H_CHAIN_ACCESS(distance=21.1km),High,中豐交流道; 1; 中壢交流道; 1; 平鎮系統交流道; 66; unnamed; 66; unnamed; 66
+FactoryCluster_auto_9,LogisticsCluster_auto_32,False,,,,23.76,H_CHAIN_ACCESS(distance=23.8km),H_CHAIN_ACCESS(distance=23.8km),High,1; 1;115; unnamed; 1; 楊梅交流道; 1; 平鎮系統交流道; 66; unnamed; 66; 31; 66; unnamed; 66
+FactoryCluster_auto_16,LogisticsCluster_auto_32,False,,,,24.38,H_CHAIN_ACCESS(distance=24.4km),H_CHAIN_ACCESS(distance=24.4km),High,31; 31;113丙; 31; unnamed; 31; 66; unnamed; 66
+FactoryCluster_auto_0,LogisticsCluster_auto_32,False,,,,35.06,H_CHAIN_ACCESS(distance=35.1km),H_CHAIN_ACCESS(distance=35.1km),Medium,1; 平鎮系統交流道; 66; unnamed; 66; 31; 66; unnamed; 66
+FactoryCluster_auto_4,LogisticsCluster_auto_32,False,,,,35.07,H_CHAIN_ACCESS(distance=35.1km),H_CHAIN_ACCESS(distance=35.1km),Medium,高原交流道; unnamed; 3; 大溪交流道; 66; 平鎮三交流道; 66; 平鎮三交流道; 66; unnamed; 66; unnamed; 66
+FactoryCluster_auto_25,LogisticsCluster_auto_32,False,,,,35.64,H_CHAIN_ACCESS(distance=35.6km),H_CHAIN_ACCESS(distance=35.6km),Medium,湖口交流道; 1; 平鎮系統交流道; 66; unnamed; 66; 31; 66; unnamed; 66
+FactoryCluster_auto_15,LogisticsCluster_auto_32,False,66,4.0,H_NEIGHBOR(r=4km),,,H_NEIGHBOR(r=4km),Medium,
+FactoryCluster_auto_26,LogisticsCluster_auto_32,False,66,4.0,H_NEIGHBOR(r=4km),,,H_NEIGHBOR(r=4km),Medium,
+FactoryCluster_auto_24,LogisticsCluster_auto_32,False,,,,41.48,,,None,關西交流道; 3; 大溪交流道; 66; 平鎮三交流道; 66; 平鎮三交流道; 66; unnamed; 66; unnamed; 66

@@ -1,8 +1,8 @@
-"""Step 4 (visualization): plot the Gurgaon highway network together with the
+"""Step 4 (visualization): plot a region's highway network together with the
 FactoryCluster / LogisticsCluster nodes and their Highway-neighbor metapath
 links, using GeoPandas + OSM data.
 
-Produces:
+Produces (per region, see ``RegionConfig.map_basename``):
   outputs/figures/gurgaon_highway_metapath_map.png   (static overview map)
   outputs/figures/gurgaon_highway_metapath_map.html  (interactive folium map)
 """
@@ -18,8 +18,9 @@ import pandas as pd
 from matplotlib.lines import Line2D
 from shapely.geometry import LineString
 
-from . import config, label_export, metapath
+from . import config, label_export, metapath, regions
 from .highway_segments import build_segments_and_corridors, load_highway_graph
+from .regions import RegionConfig
 
 HIGHWAY_COLORS = {
     "motorway": "#b30000",
@@ -56,7 +57,7 @@ def _path_geometry(graph_directed: nx.MultiDiGraph, path_nodes: list) -> LineStr
     return LineString(coords)
 
 
-def plot_static_map(segments, clusters, pair_table, out_path):
+def plot_static_map(segments, clusters, pair_table, region: RegionConfig, out_path):
     fig, ax = plt.subplots(figsize=(13, 11))
 
     for hw_class, color in HIGHWAY_COLORS.items():
@@ -73,12 +74,13 @@ def plot_static_map(segments, clusters, pair_table, out_path):
 
     # radius buffers (2/3/4/5 km) around named seed clusters only, to avoid clutter
     named_wgs = clusters[clusters["is_named_seed"]]
-    named_metric = named_wgs.to_crs(config.CRS_METRIC)
-    for r_km in config.NEIGHBOR_RADII_KM:
-        buffers = named_metric.copy()
-        buffers["geometry"] = buffers.geometry.buffer(r_km * 1000)
-        buffers = buffers.to_crs(config.CRS_WGS84)
-        buffers.boundary.plot(ax=ax, color="gray", linewidth=0.4, linestyle="--", alpha=0.6, zorder=1)
+    named_metric = named_wgs.to_crs(region.crs_metric)
+    if len(named_wgs):
+        for r_km in region.neighbor_radii_km:
+            buffers = named_metric.copy()
+            buffers["geometry"] = buffers.geometry.buffer(r_km * 1000)
+            buffers = buffers.to_crs(config.CRS_WGS84)
+            buffers.boundary.plot(ax=ax, color="gray", linewidth=0.4, linestyle="--", alpha=0.6, zorder=1)
 
     for _, row in named_wgs.iterrows():
         ax.annotate(
@@ -92,10 +94,16 @@ def plot_static_map(segments, clusters, pair_table, out_path):
     # still exported in full to the labels CSV.
     name_to_point = {row["name"]: row.geometry for _, row in clusters.iterrows()}
     named_names = set(clusters.loc[clusters["is_named_seed"], "name"])
+    # Regions with no curated named seed places (v0.2 generality case
+    # studies) have an empty named_names set; fall back to drawing
+    # High-priority auto-cluster links directly so the figure is not blank.
+    eligible_names = named_names if named_names else set(clusters["name"])
     for _, row in pair_table.iterrows():
         if row["priority"] not in ("High", "Medium"):
             continue
-        if row["factory_name"] not in named_names or row["logistics_name"] not in named_names:
+        if not named_names and row["priority"] != "High":
+            continue
+        if row["factory_name"] not in eligible_names or row["logistics_name"] not in eligible_names:
             continue
         p1 = name_to_point.get(row["factory_name"])
         p2 = name_to_point.get(row["logistics_name"])
@@ -104,12 +112,12 @@ def plot_static_map(segments, clusters, pair_table, out_path):
         color = "#d62728" if row["priority"] == "High" else "#ff9f1c"
         ax.plot([p1.x, p2.x], [p1.y, p2.y], color=color, linewidth=1.6, linestyle=":", alpha=0.85, zorder=3)
 
-    west, south, east, north = config.BBOX
+    west, south, east, north = region.bbox
     ax.set_xlim(west, east)
     ax.set_ylim(south, north)
     ax.set_title(
-        "Gurgaon Highway-neighbor Metapath: Industrial Park <-> Logistics District\n"
-        "(NH48-centred supply-chain belt; dashed circles = 2/3/4/5 km neighbor radii)",
+        f"{region.display_name}\nHighway-neighbor Metapath: Industrial Park <-> Logistics District\n"
+        f"(dashed circles = {', '.join(str(r) for r in region.neighbor_radii_km)} km neighbor radii)",
         fontsize=12,
     )
     ax.set_xlabel("Longitude")
@@ -130,8 +138,8 @@ def plot_static_map(segments, clusters, pair_table, out_path):
     plt.close(fig)
 
 
-def plot_interactive_map(segments, clusters, pair_table, graph_directed, h_chain_rows, out_path):
-    west, south, east, north = config.BBOX
+def plot_interactive_map(segments, clusters, pair_table, graph_directed, h_chain_rows, region: RegionConfig, out_path):
+    west, south, east, north = region.bbox
     center = [(south + north) / 2, (west + east) / 2]
     m = folium.Map(location=center, zoom_start=11, tiles="OpenStreetMap")
 
@@ -153,7 +161,7 @@ def plot_interactive_map(segments, clusters, pair_table, graph_directed, h_chain
             icon=folium.Icon(color=color, icon=icon, prefix="fa"),
         ).add_to(m)
         if row["is_named_seed"]:
-            for r_km in config.NEIGHBOR_RADII_KM:
+            for r_km in region.neighbor_radii_km:
                 folium.Circle(
                     location=(row.geometry.y, row.geometry.x),
                     radius=r_km * 1000, color="gray", weight=0.7, fill=False, opacity=0.5,
@@ -165,12 +173,17 @@ def plot_interactive_map(segments, clusters, pair_table, graph_directed, h_chain
     name_to_id = {row["name"]: row["cluster_id"] for _, row in clusters.iterrows()}
     # restrict drawn connector lines to named-seed <-> named-seed pairs (same
     # rationale as the static map) so the interactive map highlights the
-    # headline Industrial Park <-> Logistics District links clearly.
+    # headline Industrial Park <-> Logistics District links clearly; for
+    # regions with no named seeds (v0.2 generality case studies), fall back
+    # to High-priority auto-cluster links so the map is not empty.
     named_names = set(clusters.loc[clusters["is_named_seed"], "name"])
+    eligible_names = named_names if named_names else set(clusters["name"])
     for _, row in pair_table.iterrows():
         if row["priority"] not in ("High", "Medium"):
             continue
-        if row["factory_name"] not in named_names or row["logistics_name"] not in named_names:
+        if not named_names and row["priority"] != "High":
+            continue
+        if row["factory_name"] not in eligible_names or row["logistics_name"] not in eligible_names:
             continue
         key = (name_to_id.get(row["factory_name"]), name_to_id.get(row["logistics_name"]))
         chain = chain_lookup.get(key)
@@ -195,21 +208,23 @@ def plot_interactive_map(segments, clusters, pair_table, graph_directed, h_chain
     m.save(out_path)
 
 
-def run_visualization():
-    clusters = gpd.read_file(config.DATA_PROCESSED_DIR / "clusters.geojson")
-    segments, _, _ = build_segments_and_corridors()
-    graph_directed = load_highway_graph()
-    results = metapath.run_all()
-    pair_table = label_export.build_pair_label_table(results)
+def run_visualization(region: RegionConfig):
+    regions.ensure_dirs(region)
+    clusters = gpd.read_file(region.data_processed_dir / "clusters.geojson")
+    segments, _, _ = build_segments_and_corridors(region)
+    graph_directed = load_highway_graph(region)
+    results = metapath.run_all(region)
+    pair_table = label_export.build_pair_label_table(results, region)
 
-    png_path = config.FIGURES_DIR / "gurgaon_highway_metapath_map.png"
-    html_path = config.FIGURES_DIR / "gurgaon_highway_metapath_map.html"
-    plot_static_map(segments, clusters, pair_table, png_path)
-    plot_interactive_map(segments, clusters, pair_table, graph_directed, results["h_chain"], html_path)
+    png_path = region.figures_dir / f"{region.map_basename}.png"
+    html_path = region.figures_dir / f"{region.map_basename}.html"
+    plot_static_map(segments, clusters, pair_table, region, png_path)
+    plot_interactive_map(segments, clusters, pair_table, graph_directed, results["h_chain"], region, html_path)
     return png_path, html_path
 
 
 if __name__ == "__main__":
-    png_path, html_path = run_visualization()
+    _region = regions.get_region("gurgaon")
+    png_path, html_path = run_visualization(_region)
     print(f"saved -> {png_path}")
     print(f"saved -> {html_path}")

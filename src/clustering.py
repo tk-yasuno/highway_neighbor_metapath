@@ -11,17 +11,18 @@ import pandas as pd
 from shapely.geometry import Point
 from sklearn.cluster import DBSCAN
 
-from . import config
+from . import config, regions
+from .regions import RegionConfig
 
 
-def _load_points() -> gpd.GeoDataFrame:
+def _load_points(region: RegionConfig) -> gpd.GeoDataFrame:
     """Load industrial polygons + warehouse features as a single point layer
     (projected to metric CRS), tagged with their OSM source type."""
-    ind = gpd.read_file(config.DATA_RAW_DIR / "industrial_polygons.geojson")
-    wh = gpd.read_file(config.DATA_RAW_DIR / "warehouse_features.geojson")
+    ind = gpd.read_file(region.data_raw_dir / "industrial_polygons.geojson")
+    wh = gpd.read_file(region.data_raw_dir / "warehouse_features.geojson")
 
-    ind = ind.to_crs(config.CRS_METRIC)
-    wh = wh.to_crs(config.CRS_METRIC)
+    ind = ind.to_crs(region.crs_metric)
+    wh = wh.to_crs(region.crs_metric)
 
     ind_pts = gpd.GeoDataFrame(
         {
@@ -31,7 +32,7 @@ def _load_points() -> gpd.GeoDataFrame:
             "src_type": "industrial",
         },
         geometry=ind.geometry.centroid,
-        crs=config.CRS_METRIC,
+        crs=region.crs_metric,
     )
     wh_pts = gpd.GeoDataFrame(
         {
@@ -41,15 +42,15 @@ def _load_points() -> gpd.GeoDataFrame:
             "src_type": "warehouse",
         },
         geometry=wh.geometry.centroid,
-        crs=config.CRS_METRIC,
+        crs=region.crs_metric,
     )
     pts = pd.concat([ind_pts, wh_pts], ignore_index=True)
-    return gpd.GeoDataFrame(pts, geometry="geometry", crs=config.CRS_METRIC)
+    return gpd.GeoDataFrame(pts, geometry="geometry", crs=region.crs_metric)
 
 
-def _dbscan_cluster(points: gpd.GeoDataFrame) -> np.ndarray:
+def _dbscan_cluster(points: gpd.GeoDataFrame, region: RegionConfig) -> np.ndarray:
     coords = np.column_stack([points.geometry.x.values, points.geometry.y.values])
-    db = DBSCAN(eps=config.DBSCAN_EPS_M, min_samples=config.DBSCAN_MIN_SAMPLES)
+    db = DBSCAN(eps=region.dbscan_eps_m, min_samples=region.dbscan_min_samples)
     labels = db.fit_predict(coords)
     # Treat every noise point (-1) as its own singleton cluster instead of
     # discarding it: sparse Indian OSM tagging means isolated-but-real named
@@ -62,16 +63,22 @@ def _dbscan_cluster(points: gpd.GeoDataFrame) -> np.ndarray:
     return labels
 
 
-def _seed_assignment(cluster_centroids: gpd.GeoSeries) -> dict[int, tuple[str, str]]:
+def _seed_assignment(cluster_centroids: gpd.GeoSeries, region: RegionConfig) -> dict[int, tuple[str, str]]:
     """Greedily snap each named seed place to its nearest cluster (within
-    SEED_MATCH_TOLERANCE_KM), returning {cluster_idx: (name, type)}."""
+    region.seed_match_tolerance_km), returning {cluster_idx: (name, type)}.
+
+    Regions with no curated ``seed_places`` (the v0.2 generality case
+    studies) simply return an empty mapping, leaving every cluster as an
+    auto-named ``FactoryCluster_auto_N`` / ``LogisticsCluster_auto_N``."""
+    if not region.seed_places:
+        return {}
     seed_pts = {
         name: gpd.GeoSeries([Point(info["lon"], info["lat"])], crs=config.CRS_WGS84)
-        .to_crs(config.CRS_METRIC)
+        .to_crs(region.crs_metric)
         .iloc[0]
-        for name, info in config.SEED_PLACES.items()
+        for name, info in region.seed_places.items()
     }
-    tolerance_m = config.SEED_MATCH_TOLERANCE_KM * 1000.0
+    tolerance_m = region.seed_match_tolerance_km * 1000.0
 
     # distance matrix: seeds x clusters
     seed_names = list(seed_pts.keys())
@@ -91,20 +98,20 @@ def _seed_assignment(cluster_centroids: gpd.GeoSeries) -> dict[int, tuple[str, s
         if dists[seed_idx, cluster_idx] > tolerance_m:
             continue
         name = seed_names[seed_idx]
-        assigned[cluster_idx] = (name, config.SEED_PLACES[name]["type"])
+        assigned[cluster_idx] = (name, region.seed_places[name]["type"])
         used_seeds.add(seed_idx)
         used_clusters.add(cluster_idx)
     return assigned
 
 
-def build_clusters() -> gpd.GeoDataFrame:
+def build_clusters(region: RegionConfig) -> gpd.GeoDataFrame:
     """Run the full clustering step and return one row per FactoryCluster /
     LogisticsCluster node, in WGS84, with columns:
     cluster_id, name, node_type ("factory"/"logistics"), n_members,
     member_names, is_named_seed, geometry (centroid point).
     """
-    points = _load_points()
-    labels = _dbscan_cluster(points)
+    points = _load_points(region)
+    labels = _dbscan_cluster(points, region)
     points = points.assign(cluster_label=labels)
 
     rows = []
@@ -114,9 +121,9 @@ def build_clusters() -> gpd.GeoDataFrame:
         members = points[points["cluster_label"] == cid]
         centroid = members.geometry.union_all().centroid
         centroids.append(centroid)
-    centroids_gs = gpd.GeoSeries(centroids, crs=config.CRS_METRIC)
+    centroids_gs = gpd.GeoSeries(centroids, crs=region.crs_metric)
 
-    seed_map = _seed_assignment(centroids_gs)
+    seed_map = _seed_assignment(centroids_gs, region)
 
     for i, cid in enumerate(cluster_ids):
         members = points[points["cluster_label"] == cid]
@@ -148,14 +155,17 @@ def build_clusters() -> gpd.GeoDataFrame:
             }
         )
 
-    clusters = gpd.GeoDataFrame(rows, geometry="geometry", crs=config.CRS_METRIC)
+    clusters = gpd.GeoDataFrame(rows, geometry="geometry", crs=region.crs_metric)
     clusters = clusters.to_crs(config.CRS_WGS84)
     return clusters
 
 
 if __name__ == "__main__":
-    clusters = build_clusters()
-    out_path = config.DATA_PROCESSED_DIR / "clusters.geojson"
+    from . import regions as _regions
+
+    _region = _regions.get_region("gurgaon")
+    clusters = build_clusters(_region)
+    out_path = _region.data_processed_dir / "clusters.geojson"
     clusters.to_file(out_path, driver="GeoJSON")
     print(clusters[["cluster_id", "name", "node_type", "n_members", "is_named_seed"]].to_string())
     print(f"saved -> {out_path}")

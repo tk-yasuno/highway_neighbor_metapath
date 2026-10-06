@@ -18,25 +18,25 @@ import numpy as np
 import osmnx as ox
 from scipy.spatial import cKDTree
 
-from . import config
+from . import config, regions
 from .highway_segments import build_segments_and_corridors, load_highway_graph
-
-MAX_RADIUS_KM = max(config.NEIGHBOR_RADII_KM)
-
-
-def _load_clusters() -> gpd.GeoDataFrame:
-    clusters = gpd.read_file(config.DATA_PROCESSED_DIR / "clusters.geojson")
-    return clusters.to_crs(config.CRS_METRIC)
+from .regions import RegionConfig
 
 
-def compute_near_highway(clusters_metric: gpd.GeoDataFrame, corridor_geoms: dict) -> list[dict]:
-    """NEAR_HIGHWAY(cluster, corridor) rows for every pair within MAX_RADIUS_KM."""
+def _load_clusters(region: RegionConfig) -> gpd.GeoDataFrame:
+    clusters = gpd.read_file(region.data_processed_dir / "clusters.geojson")
+    return clusters.to_crs(region.crs_metric)
+
+
+def compute_near_highway(clusters_metric: gpd.GeoDataFrame, corridor_geoms: dict, region: RegionConfig) -> list[dict]:
+    """NEAR_HIGHWAY(cluster, corridor) rows for every pair within max(region.neighbor_radii_km)."""
+    max_radius_km = max(region.neighbor_radii_km)
     rows = []
     for _, cl in clusters_metric.iterrows():
         pt = cl.geometry
         for corridor_id, geom in corridor_geoms.items():
             dist_km = pt.distance(geom) / 1000.0
-            if dist_km <= MAX_RADIUS_KM:
+            if dist_km <= max_radius_km:
                 rows.append(
                     {
                         "cluster_id": cl["cluster_id"],
@@ -49,14 +49,14 @@ def compute_near_highway(clusters_metric: gpd.GeoDataFrame, corridor_geoms: dict
     return rows
 
 
-def _radius_tier(distance_km: float) -> float | None:
-    for r in sorted(config.NEIGHBOR_RADII_KM):
+def _radius_tier(distance_km: float, region: RegionConfig) -> float | None:
+    for r in sorted(region.neighbor_radii_km):
         if distance_km <= r:
             return r
     return None
 
 
-def compute_h_neighbor(near_highway_rows: list[dict]) -> list[dict]:
+def compute_h_neighbor(near_highway_rows: list[dict], region: RegionConfig) -> list[dict]:
     """Factory-Highway-Logistics metapath: pairs sharing a corridor, labeled
     with the smallest radius tier at which both endpoints are within range."""
     import pandas as pd
@@ -71,7 +71,7 @@ def compute_h_neighbor(near_highway_rows: list[dict]) -> list[dict]:
     merged = factories.merge(logistics, on="corridor_id", suffixes=("_factory", "_logistics"))
     for _, row in merged.iterrows():
         r_pair = max(row["distance_km_factory"], row["distance_km_logistics"])
-        tier = _radius_tier(r_pair)
+        tier = _radius_tier(r_pair, region)
         if tier is None:
             continue
         results.append(
@@ -100,10 +100,11 @@ def compute_h_chain_access(
     clusters_metric: gpd.GeoDataFrame,
     graph_u: nx.Graph,
     graph_directed: nx.MultiDiGraph,
+    region: RegionConfig,
 ) -> list[dict]:
     """Factory-HighwayChain-Logistics metapath: shortest HIGHWAY_CONTIGUOUS
     road-network path between the nearest highway node to each cluster."""
-    node_gdf = ox.graph_to_gdfs(graph_directed, edges=False).to_crs(config.CRS_METRIC)
+    node_gdf = ox.graph_to_gdfs(graph_directed, edges=False).to_crs(region.crs_metric)
     node_ids = node_gdf.index.tolist()
     coords = np.column_stack([node_gdf.geometry.x.values, node_gdf.geometry.y.values])
     kdtree = cKDTree(coords)
@@ -124,7 +125,7 @@ def compute_h_chain_access(
             distance_km = (path_length_m + f_snap_dist + l_snap_dist) / 1000.0
             path_corridors = _path_corridors(graph_directed, path_nodes)
             label = None
-            if distance_km <= config.CHAIN_DISTANCE_THRESHOLD_KM:
+            if distance_km <= region.chain_distance_threshold_km:
                 label = f"H_CHAIN_ACCESS(distance={distance_km:.1f}km)"
             results.append(
                 {
@@ -133,7 +134,7 @@ def compute_h_chain_access(
                     "logistics_cluster_id": l["cluster_id"],
                     "logistics_name": l["name"],
                     "road_distance_km": round(distance_km, 2),
-                    "within_threshold": distance_km <= config.CHAIN_DISTANCE_THRESHOLD_KM,
+                    "within_threshold": distance_km <= region.chain_distance_threshold_km,
                     "label": label,
                     "path_node_ids": path_nodes,
                     "path_corridors": path_corridors,
@@ -167,14 +168,14 @@ def _path_corridors(graph_directed: nx.MultiDiGraph, path_nodes: list) -> list[s
     return seen
 
 
-def run_all():
-    clusters_metric = _load_clusters()
-    segments, corridor_geoms, graph_u = build_segments_and_corridors()
-    graph_directed = load_highway_graph()
+def run_all(region: RegionConfig):
+    clusters_metric = _load_clusters(region)
+    segments, corridor_geoms, graph_u = build_segments_and_corridors(region)
+    graph_directed = load_highway_graph(region)
 
-    near_highway_rows = compute_near_highway(clusters_metric, corridor_geoms)
-    h_neighbor_rows = compute_h_neighbor(near_highway_rows)
-    h_chain_rows = compute_h_chain_access(clusters_metric, graph_u, graph_directed)
+    near_highway_rows = compute_near_highway(clusters_metric, corridor_geoms, region)
+    h_neighbor_rows = compute_h_neighbor(near_highway_rows, region)
+    h_chain_rows = compute_h_chain_access(clusters_metric, graph_u, graph_directed, region)
 
     return {
         "near_highway": near_highway_rows,
@@ -185,9 +186,10 @@ def run_all():
 
 
 if __name__ == "__main__":
-    out = run_all()
+    _region = regions.get_region("gurgaon")
+    out = run_all(_region)
     print(f"NEAR_HIGHWAY edges: {len(out['near_highway'])}")
     print(f"H_NEIGHBOR pairs: {len(out['h_neighbor'])}")
     print(f"H_CHAIN_ACCESS pairs (incl. over-threshold): {len(out['h_chain'])}")
     n_within = sum(1 for r in out["h_chain"] if r["within_threshold"])
-    print(f"H_CHAIN_ACCESS pairs within {config.CHAIN_DISTANCE_THRESHOLD_KM}km: {n_within}")
+    print(f"H_CHAIN_ACCESS pairs within {_region.chain_distance_threshold_km}km: {n_within}")

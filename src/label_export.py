@@ -15,15 +15,16 @@ from __future__ import annotations
 import geopandas as gpd
 import pandas as pd
 
-from . import config, metapath
+from . import metapath, regions
+from .regions import RegionConfig
 
 
-def _priority(radius_tier_km: float | None, chain_distance_km: float | None) -> str:
-    high = (radius_tier_km is not None and radius_tier_km <= config.PRIORITY_HIGH_NEIGHBOR_KM) or (
-        chain_distance_km is not None and chain_distance_km <= config.PRIORITY_HIGH_CHAIN_KM
+def _priority(radius_tier_km: float | None, chain_distance_km: float | None, region: RegionConfig) -> str:
+    high = (radius_tier_km is not None and radius_tier_km <= region.priority_high_neighbor_km) or (
+        chain_distance_km is not None and chain_distance_km <= region.priority_high_chain_km
     )
     medium = (radius_tier_km is not None) or (
-        chain_distance_km is not None and chain_distance_km <= config.CHAIN_DISTANCE_THRESHOLD_KM
+        chain_distance_km is not None and chain_distance_km <= region.chain_distance_threshold_km
     )
     if high:
         return "High"
@@ -32,10 +33,10 @@ def _priority(radius_tier_km: float | None, chain_distance_km: float | None) -> 
     return "None"
 
 
-def build_pair_label_table(results: dict) -> pd.DataFrame:
+def build_pair_label_table(results: dict, region: RegionConfig) -> pd.DataFrame:
     h_neighbor = pd.DataFrame(results["h_neighbor"])
     h_chain = pd.DataFrame(results["h_chain"])
-    named_names = set(metapath._load_clusters().loc[lambda d: d["is_named_seed"], "name"])
+    named_names = set(metapath._load_clusters(region).loc[lambda d: d["is_named_seed"], "name"])
 
     # best (smallest-radius) H_NEIGHBOR row per (factory, logistics) pair
     if not h_neighbor.empty:
@@ -69,6 +70,7 @@ def build_pair_label_table(results: dict) -> pd.DataFrame:
         priority = _priority(
             radius_tier_km if pd.notna(radius_tier_km) else None,
             chain_distance_km if (pd.notna(chain_distance_km) and within_threshold) else None,
+            region,
         )
         labels = [l for l in (row.get("label_neighbor"), row.get("label_chain")) if isinstance(l, str)]
         out_rows.append(
@@ -96,7 +98,7 @@ def build_pair_label_table(results: dict) -> pd.DataFrame:
     return df.reset_index(drop=True)
 
 
-def build_segment_hard_constraint_table(results: dict, pair_table: pd.DataFrame) -> gpd.GeoDataFrame:
+def build_segment_hard_constraint_table(results: dict, pair_table: pd.DataFrame, region: RegionConfig) -> gpd.GeoDataFrame:
     """Flag each HighwaySegment edge precisely, instead of flagging an entire
     named corridor.
 
@@ -107,6 +109,9 @@ def build_segment_hard_constraint_table(results: dict, pair_table: pd.DataFrame)
     pair-label CSV for transparency but are excluded here so the exported
     hard-constraint flag stays precise and does not over-trigger
     method_repair_lot_wcsp's Definition 8 for unrelated stretches of road.
+    Regions with no curated ``seed_places`` (Section "Supplementary
+    Materials") therefore have zero named pairs and zero flagged segments by
+    design -- this is a reported limitation, not a bug (see Discussion).
 
     * H_NEIGHBOR-driven flag: the edge belongs to the pair's shared corridor
       AND lies within the matched radius tier of the factory or logistics
@@ -116,8 +121,8 @@ def build_segment_hard_constraint_table(results: dict, pair_table: pd.DataFrame)
       name" somewhere else in the network).
     """
     segments = results["segments"].copy()
-    segments_metric = segments.to_crs(config.CRS_METRIC)
-    clusters_metric = metapath._load_clusters()
+    segments_metric = segments.to_crs(region.crs_metric)
+    clusters_metric = metapath._load_clusters(region)
     name_to_point = {row["name"]: row.geometry for _, row in clusters_metric.iterrows()}
     name_to_id = {row["name"]: row["cluster_id"] for _, row in clusters_metric.iterrows()}
 
@@ -186,25 +191,27 @@ def build_segment_hard_constraint_table(results: dict, pair_table: pd.DataFrame)
     ]
 
 
-def run_export():
-    results = metapath.run_all()
-    pair_table = build_pair_label_table(results)
-    segment_table = build_segment_hard_constraint_table(results, pair_table)
+def run_export(region: RegionConfig):
+    regions.ensure_dirs(region)
+    results = metapath.run_all(region)
+    pair_table = build_pair_label_table(results, region)
+    segment_table = build_segment_hard_constraint_table(results, pair_table, region)
 
-    pair_csv = config.LABELS_DIR / "factory_logistics_metapath_labels.csv"
+    pair_csv = region.labels_dir / "factory_logistics_metapath_labels.csv"
     pair_table.to_csv(pair_csv, index=False, encoding="utf-8-sig")
 
-    seg_csv = config.LABELS_DIR / "segment_hard_constraint_flags.csv"
+    seg_csv = region.labels_dir / "segment_hard_constraint_flags.csv"
     segment_table.drop(columns="geometry").to_csv(seg_csv, index=False, encoding="utf-8-sig")
-    seg_geojson = config.LABELS_DIR / "segment_hard_constraint_flags.geojson"
+    seg_geojson = region.labels_dir / "segment_hard_constraint_flags.geojson"
     segment_table.to_file(seg_geojson, driver="GeoJSON")
 
     return pair_table, segment_table
 
 
 if __name__ == "__main__":
-    pair_table, segment_table = run_export()
+    _region = regions.get_region("gurgaon")
+    pair_table, segment_table = run_export(_region)
     print(pair_table.to_string(max_colwidth=40))
     print()
     print(f"segments flagged hard (High priority): {segment_table['is_metapath_hard'].sum()} / {len(segment_table)}")
-    print(f"saved -> {config.LABELS_DIR}")
+    print(f"saved -> {_region.labels_dir}")
