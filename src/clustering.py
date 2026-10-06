@@ -1,0 +1,161 @@
+"""Step 1 (clustering): turn raw OSM industrial/warehouse geometries into the
+MVP's FactoryCluster / LogisticsCluster node set via DBSCAN, then snap each
+cluster to a human-readable name using the named seed places in config.py.
+"""
+
+from __future__ import annotations
+
+import geopandas as gpd
+import numpy as np
+import pandas as pd
+from shapely.geometry import Point
+from sklearn.cluster import DBSCAN
+
+from . import config
+
+
+def _load_points() -> gpd.GeoDataFrame:
+    """Load industrial polygons + warehouse features as a single point layer
+    (projected to metric CRS), tagged with their OSM source type."""
+    ind = gpd.read_file(config.DATA_RAW_DIR / "industrial_polygons.geojson")
+    wh = gpd.read_file(config.DATA_RAW_DIR / "warehouse_features.geojson")
+
+    ind = ind.to_crs(config.CRS_METRIC)
+    wh = wh.to_crs(config.CRS_METRIC)
+
+    ind_pts = gpd.GeoDataFrame(
+        {
+            "osm_element": ind["element"],
+            "osm_id": ind["id"],
+            "osm_name": ind["name"] if "name" in ind.columns else None,
+            "src_type": "industrial",
+        },
+        geometry=ind.geometry.centroid,
+        crs=config.CRS_METRIC,
+    )
+    wh_pts = gpd.GeoDataFrame(
+        {
+            "osm_element": wh["element"],
+            "osm_id": wh["id"],
+            "osm_name": wh["name"] if "name" in wh.columns else None,
+            "src_type": "warehouse",
+        },
+        geometry=wh.geometry.centroid,
+        crs=config.CRS_METRIC,
+    )
+    pts = pd.concat([ind_pts, wh_pts], ignore_index=True)
+    return gpd.GeoDataFrame(pts, geometry="geometry", crs=config.CRS_METRIC)
+
+
+def _dbscan_cluster(points: gpd.GeoDataFrame) -> np.ndarray:
+    coords = np.column_stack([points.geometry.x.values, points.geometry.y.values])
+    db = DBSCAN(eps=config.DBSCAN_EPS_M, min_samples=config.DBSCAN_MIN_SAMPLES)
+    labels = db.fit_predict(coords)
+    # Treat every noise point (-1) as its own singleton cluster instead of
+    # discarding it: sparse Indian OSM tagging means isolated-but-real named
+    # industrial/warehouse polygons are common and should not be dropped.
+    next_id = labels.max() + 1 if len(labels) else 0
+    for i, lab in enumerate(labels):
+        if lab == -1:
+            labels[i] = next_id
+            next_id += 1
+    return labels
+
+
+def _seed_assignment(cluster_centroids: gpd.GeoSeries) -> dict[int, tuple[str, str]]:
+    """Greedily snap each named seed place to its nearest cluster (within
+    SEED_MATCH_TOLERANCE_KM), returning {cluster_idx: (name, type)}."""
+    seed_pts = {
+        name: gpd.GeoSeries([Point(info["lon"], info["lat"])], crs=config.CRS_WGS84)
+        .to_crs(config.CRS_METRIC)
+        .iloc[0]
+        for name, info in config.SEED_PLACES.items()
+    }
+    tolerance_m = config.SEED_MATCH_TOLERANCE_KM * 1000.0
+
+    # distance matrix: seeds x clusters
+    seed_names = list(seed_pts.keys())
+    dists = np.array(
+        [[seed_pts[s].distance(c) for c in cluster_centroids] for s in seed_names]
+    )
+
+    assigned: dict[int, tuple[str, str]] = {}
+    used_clusters: set[int] = set()
+    # greedy: repeatedly pick the globally closest (seed, cluster) pair
+    flat_order = np.dstack(np.unravel_index(np.argsort(dists, axis=None), dists.shape))[0]
+    used_seeds: set[int] = set()
+    for seed_idx, cluster_idx in flat_order:
+        seed_idx, cluster_idx = int(seed_idx), int(cluster_idx)
+        if seed_idx in used_seeds or cluster_idx in used_clusters:
+            continue
+        if dists[seed_idx, cluster_idx] > tolerance_m:
+            continue
+        name = seed_names[seed_idx]
+        assigned[cluster_idx] = (name, config.SEED_PLACES[name]["type"])
+        used_seeds.add(seed_idx)
+        used_clusters.add(cluster_idx)
+    return assigned
+
+
+def build_clusters() -> gpd.GeoDataFrame:
+    """Run the full clustering step and return one row per FactoryCluster /
+    LogisticsCluster node, in WGS84, with columns:
+    cluster_id, name, node_type ("factory"/"logistics"), n_members,
+    member_names, is_named_seed, geometry (centroid point).
+    """
+    points = _load_points()
+    labels = _dbscan_cluster(points)
+    points = points.assign(cluster_label=labels)
+
+    rows = []
+    cluster_ids = sorted(points["cluster_label"].unique())
+    centroids = []
+    for cid in cluster_ids:
+        members = points[points["cluster_label"] == cid]
+        centroid = members.geometry.union_all().centroid
+        centroids.append(centroid)
+    centroids_gs = gpd.GeoSeries(centroids, crs=config.CRS_METRIC)
+
+    seed_map = _seed_assignment(centroids_gs)
+
+    for i, cid in enumerate(cluster_ids):
+        members = points[points["cluster_label"] == cid]
+        n_industrial = (members["src_type"] == "industrial").sum()
+        n_warehouse = (members["src_type"] == "warehouse").sum()
+        default_type = "factory" if n_industrial >= n_warehouse else "logistics"
+        member_names = sorted({n for n in members["osm_name"].dropna().tolist()})
+
+        if i in seed_map:
+            name, node_type = seed_map[i]
+            is_named_seed = True
+        else:
+            node_type = default_type
+            prefix = "FactoryCluster" if node_type == "factory" else "LogisticsCluster"
+            name = f"{prefix}_auto_{cid}"
+            is_named_seed = False
+
+        rows.append(
+            {
+                "cluster_id": f"C{cid}",
+                "name": name,
+                "node_type": node_type,
+                "n_members": len(members),
+                "n_industrial": int(n_industrial),
+                "n_warehouse": int(n_warehouse),
+                "member_names": "; ".join(member_names) if member_names else "",
+                "is_named_seed": is_named_seed,
+                "geometry": centroids_gs.iloc[i],
+            }
+        )
+
+    clusters = gpd.GeoDataFrame(rows, geometry="geometry", crs=config.CRS_METRIC)
+    clusters = clusters.to_crs(config.CRS_WGS84)
+    return clusters
+
+
+if __name__ == "__main__":
+    clusters = build_clusters()
+    out_path = config.DATA_PROCESSED_DIR / "clusters.geojson"
+    clusters.to_file(out_path, driver="GeoJSON")
+    print(clusters[["cluster_id", "name", "node_type", "n_members", "is_named_seed"]].to_string())
+    print(f"saved -> {out_path}")

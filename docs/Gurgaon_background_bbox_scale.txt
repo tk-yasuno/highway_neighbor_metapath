@@ -1,0 +1,12 @@
+グルガオン（グルグラム）周辺の主要な工業団地（IMTマネサールなど）と巨大倉庫街（ビラスプール、ファルクナガル、ルハリなど）をすべてカバーする包含長方形（バウンディングボックス：bbox）のサイズは、おおよそ縦（南北）に約25km 〜 30km、横（東西）に約35kmの広さになります。
+中心部から郊外のハブ一帯を囲むと、以下のような距離感と位置関係になります。
+1. 縦（南北軸）の広さ：約25km 〜 30km
+• 北端：グルガオン西側の物流拠点であるファルクナガル（Farrukhnagar）や、市内のウドヨグ・ビハール（Udyog Vihar）
+• 南端：NH-48（デリー・ムンバイ高速道路方面）沿いの主要物流拠点であるビラスプール（Bilaspur）周辺、またはさらに南のソナ（Sohna）開発エリア。
+• 実際の距離感：ファルクナガルからビラスプールまでは道路距離で約25km、ソナエリアまで広げると南北約30kmの幅になります。 [1] (https://dcmsme.gov.in/dips/gurgaon.pdf)
+2. 横（東西軸）の広さ：約35km
+• 東端：グルガオン中心部（サイバーシティやゴルフコースロード周辺の商業・IT地区）や、南東のソナ・ロード側。
+• 西端：最大級のGrade-A倉庫街（IndoSpaceやHorizonなど）が集積するルハリ（Luhari）地区。
+• 実際の距離感：グルガオン中心部から最西端のルハリ物流エリアまでは、直線距離で約30km、道路距離（NH-48および地方道経由）で約40km離れています。そのため、西端の倉庫街を含めると東西の幅は約35kmに達します。 [1] (https://www.hiparks.com/warehousing-park-luhari-delhi-ncr), [2] (https://lo-goigroup.com/properties/luhari-logistics-estate/)
+まとめ：bboxの規模感
+この「縦30km × 横35km」というエリア（およそ1,000平方キロメートル弱）の中に、自動車産業の中心地であるIMTマネサールや、数百万平方フィート級の巨大eコマース・3PL倉庫がいくつも点在する巨大なサプライチェーン地帯が収まっている形です。 [1] (https://lo-goigroup.com/properties/luhari-logistics-estate/), [2] (https://dcmsme.gov.in/dips/gurgaon.pdf), [3] (https://www.hiparks.com/warehousing-park-luhari-delhi-ncr), [4] (https://www.gurgaonapartments.in/projects/industrial-logistic-park-in-gurgaon.html)
