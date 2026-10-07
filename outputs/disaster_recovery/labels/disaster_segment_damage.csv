@@ -1,0 +1,901 @@
+﻿segment_id,corridor_id,highway,ref,name,length,u,v,metapath_priority,is_metapath_hard,metapath_pairs,damage_type,initial_open,disaster_hard
+S0,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,303.28419259101787,249120685,537994231,None,False,,none,True,False
+S1,segment_1,primary_link,,,66.72152201297376,249120685,249222640,None,False,,none,True,False
+S2,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,296.6471602379445,249222640,4757946190,None,False,,crack_pothole,True,False
+S3,NH148A,primary,NH148A,"['Mehrauli-Gurgaon Road', 'Mehrauli Gurgaon Road']",371.6550291827345,250871574,11843420750,None,False,,none,True,False
+S4,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,542.0341056844918,250876152,271335332,None,False,,none,True,False
+S5,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,58.454787892504484,251691410,5487700576,None,False,,none,True,False
+S6,Moulsari Road,primary_link,,Moulsari Road,35.68534830223833,251691410,6997868049,None,False,,none,True,False
+S7,Sohna Road,primary,,Sohna Road,198.68582924412635,266375052,266589921,None,False,,none,True,False
+S8,NH48,motorway,NH48,Delhi-Gurugram Expressway,42.07565875387812,266376018,6082251692,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S9,Sohna Road,primary,,Sohna Road,10.334916474438574,266589921,266589936,None,False,,none,True,False
+S10,Sohna Road,primary,,Sohna Road,51.189706041437006,266589936,11909667842,None,False,,none,True,False
+S11,Gurudwara Road,primary,,Gurudwara Road,8.940105948049617,266589936,2006383516,None,False,,none,True,False
+S12,Entry 12,motorway_link,,Entry 12,199.46184525899815,266773863,266376018,None,False,,none,True,False
+S13,segment_13,motorway_link,,,53.85949925222364,266773981,268919694,None,False,,none,True,False
+S14,NH48,motorway,NH48,Delhi-Gurugram Expressway,3010.2957730292924,266773981,9791574385,None,False,,none,True,False
+S15,segment_15,motorway_link,,,23.891314607495104,267125891,268432069,None,False,,none,True,False
+S16,NH48,motorway,NH48,Delhi-Gurugram Expressway,1222.8613170186886,268432069,6467829006,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S17,segment_17,motorway_link,,,59.24826417501646,268905713,268905721,None,False,,none,True,False
+S18,Entry 13,motorway_link,,Entry 13,267.54786703542146,268905714,268905715,None,False,,none,True,False
+S19,NH48,motorway,NH48,Delhi-Gurugram Expressway,205.81791175048338,268905715,268905717,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S20,segment_20,motorway_link,,,108.32210561818681,268905716,268905712,None,False,,none,True,False
+S21,NH48,motorway,NH48,Delhi-Gurugram Expressway,1037.1442563934766,268905716,266773981,None,False,,none,True,False
+S22,Exit 15,motorway_link,,Exit 15,233.26137757677253,268905717,268905720,None,False,,none,True,False
+S23,NH48,motorway,NH48,Delhi-Gurugram Expressway,768.9505343323546,268905717,11843465243,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S24,NH48,motorway,NH48,Delhi-Gurugram Expressway,256.30462336646144,268905721,268905716,None,False,,none,True,False
+S25,Exit 16,motorway_link,,Exit 16,196.46468581031462,268905722,313444913,None,False,,none,True,False
+S26,NH48,motorway,NH48,Delhi-Gurugram Expressway,978.4409687922315,268905722,6342646625,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S27,segment_27,motorway_link,,,52.531149880162864,268919702,268919699,None,False,,none,True,False
+S28,NH48,motorway,NH48,Delhi-Gurugram Expressway,756.154458765827,268919702,268905721,None,False,,none,True,False
+S29,segment_29,motorway_link,,,241.94202199616768,269101499,271335284,None,False,,none,True,False
+S30,NH48,motorway,NH48,Delhi-Gurugram Expressway,974.746582845479,269101499,268905715,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S31,NH48,motorway,NH48,Delhi-Gurugram Expressway,29.074322105011067,270624144,11817876525,None,False,,none,True,False
+S32,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,600.5118783252922,271335311,5592140798,None,False,,none,True,False
+S33,segment_33,primary_link,,,15.659866127646204,271335314,6192159850,None,False,,none,True,False
+S34,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,293.70042615205773,271335314,271335330,None,False,,none,True,False
+S35,segment_35,trunk_link,,,18.30691212434275,271335330,271335332,None,False,,none,True,False
+S36,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,68.46608425251776,271335330,11920062955,None,False,,none,True,False
+S37,segment_37,trunk_link,,,18.30691212434275,271335332,271335330,None,False,,none,True,False
+S38,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,348.00454810664917,271335332,6193886830,None,False,,none,True,False
+S39,segment_39,trunk_link,,,15.981991218582575,271335425,271335529,None,False,,none,True,False
+S40,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,264.5956366830722,271335425,271335530,None,False,,none,True,False
+S41,segment_41,trunk_link,,,15.981991218582575,271335529,271335425,None,False,,none,True,False
+S42,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,165.74255155381073,271335529,251691410,None,False,,none,True,False
+S43,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,202.8465964522042,271335530,9865451046,None,False,,none,True,False
+S44,segment_44,primary,,,207.90043378856456,271335530,9865451046,None,False,,none,True,False
+S45,segment_45,trunk_link,,,23.788562815704825,271336000,271336002,None,False,,none,True,False
+S46,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,888.0923748367763,271336000,271335425,None,False,,none,True,False
+S47,segment_47,trunk_link,,,23.788562815704825,271336002,271336000,None,False,,none,True,False
+S48,NH148A,trunk,NH148A,"['Acharya Shri Tulsi Marg', 'Anuvrat Marg']",154.1567360152252,271336002,11888519916,None,False,,none,True,False
+S49,segment_49,primary_link,,,69.70248405099422,271336085,3953762671,None,False,,none,True,False
+S50,segment_50,motorway_link,,,70.22752444563567,273456820,273456822,None,False,,none,True,False
+S51,NH48,motorway,NH48,Delhi-Gurugram Expressway,442.39226668300677,273456822,268919702,None,False,,landslide_block,False,True
+S52,NH48,motorway,NH48,Delhi-Gurugram Expressway,954.4041290390492,278166434,12088691764,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S53,segment_53,motorway_link,,,34.203480742082625,278166436,278166434,None,False,,none,True,False
+S54,NH48,"['motorway', 'trunk']",NH48,Delhi-Gurugram Expressway,281.3660711026763,278166436,11909112463,None,False,,none,True,False
+S55,segment_55,motorway_link,,,29.38521795150325,278166509,278166512,None,False,,none,True,False
+S56,NH48,motorway,NH48,Delhi-Gurugram Expressway,939.7523793965959,278166509,278166531,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S57,segment_57,motorway_link,,,59.565320629907,278166517,278166531,None,False,,none,True,False
+S58,NH48,motorway,NH48,Delhi-Gurugram Expressway,1804.242728911103,278166531,278166579,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S59,segment_59,motorway_link,,,224.5188385387611,278166579,278166578,None,False,,none,True,False
+S60,NH48,motorway,NH48,Delhi-Gurugram Expressway,1284.914334811743,278166579,266376018,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S61,NH48,motorway,NH48,Delhi-Gurugram Expressway,237.48355496050155,320917729,12088736372,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S62,segment_62,motorway_link,,,441.3161011867305,320917729,11285021802,None,False,,none,True,False
+S63,NH48,motorway,NH48,Delhi-Gurugram Expressway,191.30373912247703,320917733,7610591405,None,False,,none,True,False
+S64,Mehrauli Gurgaon Road,primary_link,,Mehrauli Gurgaon Road,40.531436530659406,537994230,537994231,None,False,,none,True,False
+S65,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,277.01210523207817,537994230,249222640,None,False,,none,True,False
+S66,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,252.81806126627066,537994231,2622332713,None,False,,none,True,False
+S67,NH48,trunk,NH48,Amer Road,838.670214895817,541319051,6026792706,None,False,,none,True,False
+S68,segment_68,trunk_link,,,14.683963046957116,541319075,11818396705,None,False,,landslide_block,False,True
+S69,NH48,trunk,NH48,Amer Road,301.83206724168247,541319075,7440839087,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S70,segment_70,primary_link,,,84.53312150507513,1307851118,3953762674,None,False,,none,True,False
+S71,MDR137,primary,MDR137,Link to Faridabad Road,1741.424215067189,1307851122,3953762675,None,False,,crack_pothole,True,False
+S72,NH48,motorway,NH48,Delhi-Gurugram Expressway,2099.7164830529077,1359090798,268432069,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S73,segment_73,motorway_link,,,141.3045442905676,1359090798,6072850778,None,False,,none,True,False
+S74,segment_74,motorway_link,,,18.466057861143167,1397292609,13571936006,None,False,,none,True,False
+S75,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,303.8885547161819,1397292609,13418051039,None,False,,none,True,False
+S76,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,3468.635273079069,1397292677,4134884217,None,False,,none,True,False
+S77,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,211.85158443524728,1397292677,11959861086,None,False,,none,True,False
+S78,SH15A,primary,SH15A,,819.5657378055978,1397292823,11928388320,None,False,,none,True,False
+S79,segment_79,primary_link,,,43.25991300728743,1397292823,7877267461,None,False,,none,True,False
+S80,segment_80,primary_link,,,8.005899760360668,1397292862,9898705686,None,False,,none,True,False
+S81,SH15A,primary,SH15A,,550.4803282951292,1397292862,11890420769,None,False,,none,True,False
+S82,SH15A,primary,SH15A,,11.011490068120219,1549870600,2006201555,None,False,,none,True,False
+S83,SH26,primary,SH26,Gurgaon Rewari Narnaul Singhana Road,1124.484531952599,1549870600,11843016073,None,False,,none,True,False
+S84,segment_84,primary,,,15.131896978302025,1549870601,9918551091,None,False,,landslide_block,False,True
+S85,segment_85,primary_link,,,66.66685803472711,1563402601,1307851122,None,False,,none,True,False
+S86,SH15A,primary,SH15A,,11.938172554986707,1732780392,7230262763,None,False,,none,True,False
+S87,SH15A,primary,SH15A,,25.553093600137537,1732780392,7230280487,None,False,,crack_pothole,True,False
+S88,SH15A,primary,SH15A,,1260.3900866209476,1732780405,4132346640,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S89,SH15A,primary,SH15A,,152.5934627481256,1732780405,9901520542,None,False,,none,True,False
+S90,Ram Nagar Road,primary,,Ram Nagar Road,9.965348530142588,1774430915,1549870601,None,False,,none,True,False
+S91,SH15A,primary,SH15A,Gurugram Road,351.5613128433345,1774430915,1997754361,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S92,NH248A,trunk,NH248A,,185.37149848951665,1812344837,11289872380,None,False,,none,True,False
+S93,segment_93,trunk_link,,,189.5191184869198,1812344837,11289872380,None,False,,none,True,False
+S94,segment_94,motorway_link,,,276.3426541052807,1815765305,1815784696,None,False,,none,True,False
+S95,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,6147.819383202088,1815765437,9808456217,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S96,NH48,trunk,NH48,Amer Road,330.78674373262396,1815784686,9891305939,None,False,,none,True,False
+S97,segment_97,motorway_link,,,268.2609611455294,1815784688,1815784730,None,False,,crack_pothole,True,False
+S98,segment_98,trunk_link,,,129.63366570322304,1815784690,1815784698,None,False,,none,True,False
+S99,NH48,trunk,NH48,Amer Road,354.8305587705082,1815784690,1815784737,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S100,segment_100,motorway_link,,,648.225055619386,1815784696,4335283880,None,False,,crack_pothole,True,False
+S101,segment_101,motorway_link,,,409.02425655657913,1815784696,1815784712,None,False,,none,True,False
+S102,segment_102,trunk_link,,,202.28144097835883,1815784698,1815784734,None,False,,none,True,False
+S103,segment_103,trunk_link,,,195.09348899507057,1815784712,9808647848,None,False,,none,True,False
+S104,segment_104,motorway_link,,,378.30179081059345,1815784730,1815784698,None,False,,none,True,False
+S105,segment_105,motorway_link,,,472.4280322267123,1815784730,9808368194,None,False,,none,True,False
+S106,segment_106,motorway_link,,,387.9307259662848,1815784734,1815765305,None,False,,none,True,False
+S107,segment_107,trunk_link,,,35.16791954534236,1815784734,1815784737,None,False,,none,True,False
+S108,segment_108,trunk_link,,,14.251996741562115,1815784737,4138336939,None,False,,none,True,False
+S109,NH48,trunk,NH48,Amer Road,270.4112550121181,1815784737,11818381857,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S110,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,691.5110087297353,1815791355,1815791478,None,False,,none,True,False
+S111,segment_111,motorway_link,,,362.1992462928785,1815791355,1815791390,None,False,,none,True,False
+S112,segment_112,motorway_link,,,77.88059242077387,1815791390,1815791413,None,False,,none,True,False
+S113,segment_113,motorway_link,,,244.1752855191524,1815791413,9808323746,None,False,,none,True,False
+S114,segment_114,motorway_link,,,343.1575298505824,1815791413,1815791478,None,False,,none,True,False
+S115,segment_115,motorway_link,,,299.3242563379381,1815791449,1815791390,None,False,,none,True,False
+S116,segment_116,motorway_link,,,379.55142640133636,1815791449,1815765437,None,False,,none,True,False
+S117,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,6574.639190546169,1815791478,4132345170,None,False,,none,True,False
+S118,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,686.1682999445854,1815791481,1815765437,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,crack_pothole,True,False
+S119,segment_119,motorway_link,,,339.7015319276527,1815791481,9808323746,None,False,,none,True,False
+S120,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,17.696904552006522,1815791513,9808318692,None,False,,none,True,False
+S121,segment_121,motorway_link,,,1068.175062831793,1815791513,1815791449,None,False,,none,True,False
+S122,segment_122,trunk_link,,,9.760172884350865,1864557585,12797454590,None,False,,none,True,False
+S123,segment_123,trunk,,,1093.3078103252562,1864557585,6088400747,None,False,,none,True,False
+S124,segment_124,trunk_link,,,32.83775452343901,1997036318,1997036319,None,False,,none,True,False
+S125,NH48,trunk,NH48,Amer Road,112.95029316145781,1997036319,11818256792,None,False,,none,True,False
+S126,segment_126,trunk_link,,,17.944851602907466,1997089480,1997089474,None,False,,none,True,False
+S127,NH48,trunk,NH48,Amer Road,974.0540137590505,1997089480,9545291285,High,True,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S128,segment_128,primary,,,4.471653632814511,1997354758,1997754361,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S129,SH15A,primary,SH15A,Gurugram Road,353.8465984723013,1997354758,1549870601,None,False,,none,True,False
+S130,SH26,primary,SH26,Pataudi Road,9.481582306216959,2006201555,6071404821,None,False,,none,True,False
+S131,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,1619.9142140658507,2006201555,7437688642,None,False,,none,True,False
+S132,Sohna Road,primary,,Sohna Road,11.678891786539861,2006383516,2006383521,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S133,Gurudwara Road,primary,,Gurudwara Road,9.918133129146149,2006383521,266589921,None,False,,none,True,False
+S134,Sohna Road,primary,,Sohna Road,190.49065546285917,2006383521,1997354758,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S135,segment_135,motorway_link,,,28.82585362345616,2006489665,270624144,None,False,,landslide_block,False,True
+S136,Link to Faridabad Road,primary,,Link to Faridabad Road,317.7257643154932,2622332703,250876152,None,False,,none,True,False
+S137,MDR137,primary,MDR137,Link to Faridabad Road,126.5736458908408,2622332704,1307851122,None,False,,none,True,False
+S138,segment_138,primary_link,,,41.53783140766099,2622332704,5487588843,None,False,,none,True,False
+S139,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,60.320942247688905,2622332713,250876152,None,False,,none,True,False
+S140,Link to Faridabad Road,primary,,Link to Faridabad Road,262.8951271964543,2622332713,2622332704,None,False,,none,True,False
+S141,segment_141,motorway_link,,,554.5671843332262,2724959526,12278015322,None,False,,none,True,False
+S142,segment_142,motorway,,,370.92416348069366,2724959526,2788849635,None,False,,none,True,False
+S143,NH48,motorway,NH48,Delhi-Gurugram Expressway,335.6226948177061,2774809992,6467828992,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S144,Flyover,"['primary_link', 'motorway_link']",,"['Flyover', 'Delhi-Gurugram Expressway Ramp']",640.4028856478407,2774809992,6467829003,None,False,,crack_pothole,True,False
+S145,NH248BB,motorway,NH248BB,Dwarka Expressway,140.46890607041436,2788849635,6569833464,None,False,,none,True,False
+S146,NH352W,"['primary', 'trunk']","['NH352W', 'SH26']","['Pataudi Road', 'Gurgaon Rewari Narnaul Singhana Road']",49.1108687373427,2794104940,7544058372,None,False,,none,True,False
+S147,segment_147,trunk,,,39.534499601203855,2794104940,10600614430,None,False,,none,True,False
+S148,segment_148,motorway_link,,,101.92416177647347,3179713581,11287178351,None,False,,none,True,False
+S149,segment_149,primary_link,,,80.89735958692195,3953762669,1868729066,None,False,,landslide_block,False,True
+S150,MDR137,primary,MDR137,"['Faridabad-Gurgaon Road', 'Link to Faridabad Road']",106.67902087153257,3953762669,3953762674,None,False,,none,True,False
+S151,MDR137,primary,MDR137,Faridabad-Gurgaon Road,1025.909564060244,3953762671,11906821433,None,False,,none,True,False
+S152,segment_152,primary_link,,,7.628823443486226,3953762674,3953762675,None,False,,none,True,False
+S153,MDR137,primary,MDR137,Link to Faridabad Road,1728.3001448793984,3953762674,4757946141,None,False,,none,True,False
+S154,segment_154,primary_link,,,7.628823443486226,3953762675,3953762674,None,False,,none,True,False
+S155,MDR137,primary,MDR137,"['Faridabad-Gurgaon Road', 'Link to Faridabad Road']",105.00105570374114,3953762675,3953762671,None,False,,none,True,False
+S156,segment_156,primary_link,,,71.91540442951309,3953762675,1868729077,None,False,,none,True,False
+S157,NH248BB,motorway,NH248BB,Dwarka Expressway,4444.153095636718,4130541795,13148751028,None,False,,none,True,False
+S158,segment_158,motorway_link,,,367.0239724092403,4132345170,4132345416,None,False,,none,True,False
+S159,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,778.6598955053906,4132345170,9883124087,None,False,,none,True,False
+S160,segment_160,motorway_link,,,959.8900787019935,4132345416,4132346598,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S161,segment_161,motorway_link,,,86.8059399127937,4132346598,9882506425,None,False,,none,True,False
+S162,segment_162,motorway_link,,,131.03843897981884,4132346598,4132346640,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S163,SH15A,primary,SH15A,,109.87459740382968,4132346640,9882506425,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,landslide_block,False,True
+S164,SH15A,primary,SH15A,,1260.3900866209474,4132346640,1732780405,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S165,SH15A,primary,SH15A,,633.9780522687912,4133264095,9912385793,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S166,SH15A,primary,SH15A,,207.3705119032203,4133264095,11908997969,None,False,,none,True,False
+S167,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,3468.6352730790686,4134884217,1397292677,None,False,,none,True,False
+S168,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,1169.0909757928607,4134884217,1815791513,None,False,,crack_pothole,True,False
+S169,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,576.0085993827764,4134895722,9914305526,None,False,,none,True,False
+S170,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,523.5136477094983,4134895722,7379262587,None,False,,none,True,False
+S171,SH15A,primary,SH15A,,5341.048410854352,4135047549,9883124088,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S172,SH15A,primary,SH15A,,597.6968586508721,4135047549,11908871366,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S173,segment_173,trunk_link,,,14.251996741562115,4138336939,1815784737,None,False,,none,True,False
+S174,NH48,trunk,NH48,Amer Road,400.80645007786995,4138336939,1815784686,None,False,,none,True,False
+S175,segment_175,trunk_link,,,80.21298691024248,4138336939,1815784712,None,False,,none,True,False
+S176,segment_176,primary_link,,,59.13415369809256,4138397490,7544058372,None,False,,none,True,False
+S177,segment_177,trunk_link,,,8.57442138566039,4139980895,7379261281,None,False,,none,True,False
+S178,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,127.45075561305896,4139980895,9898950515,None,False,,none,True,False
+S179,segment_179,trunk_link,,,9.264615183562622,4140053679,7413982044,None,False,,none,True,False
+S180,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,1798.7045296332756,4140053679,9903383707,None,False,,none,True,False
+S181,segment_181,primary_link,,,7.572405393853228,4146406989,9916328040,None,False,,none,True,False
+S182,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,285.5251738827391,4146406989,7437425052,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S183,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,59.77077013069121,4210373145,9897263368,None,False,,none,True,False
+S184,segment_184,trunk_link,,,6.29467255461301,4210373145,7379262585,None,False,,none,True,False
+S185,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,2359.6586631959285,4335283813,9808368186,None,False,,none,True,False
+S186,segment_186,motorway_link,,,339.9194284049531,4335283813,4335283877,None,False,,none,True,False
+S187,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,291.8566693838137,4335283868,11818442410,None,False,,none,True,False
+S188,segment_188,motorway_link,,,820.4630672018081,4335283877,9808652616,None,False,,none,True,False
+S189,segment_189,motorway_link,,,580.4492365557909,4335283877,1815784688,None,False,,none,True,False
+S190,segment_190,motorway_link,,,359.7259439968868,4335283880,4335283868,None,False,,none,True,False
+S191,MDR137,primary,MDR137,Link to Faridabad Road,122.01464520620199,4757946141,2622332703,None,False,,none,True,False
+S192,segment_192,primary_link,,,68.25879891108585,4757946141,4757946138,None,False,,none,True,False
+S193,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,251.25627167660065,4757946170,4757946183,None,False,,none,True,False
+S194,DLF Cyber City Flyover,primary_link,,DLF Cyber City Flyover,914.5184077460003,4757946170,4757946054,None,False,,none,True,False
+S195,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,121.47694630142152,4757946183,249120685,None,False,,none,True,False
+S196,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,986.4437827161601,4757946190,271335529,None,False,,none,True,False
+S197,segment_197,primary_link,,,76.96413698130085,4757946190,4757946183,None,False,,none,True,False
+S198,segment_198,primary,,,2350.209846586619,5150748916,7371574071,None,False,,none,True,False
+S199,SH15A,primary,SH15A,,426.08542832215375,5150748931,9911730089,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S200,SH15A,primary,SH15A,,360.30414183938717,5150748931,11843079375,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,crack_pothole,True,False
+S201,segment_201,primary_link,,,63.96925726213161,5487588850,2622332703,None,False,,none,True,False
+S202,segment_202,primary_link,,,45.607229769149484,5487700575,5487700576,None,False,,none,True,False
+S203,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,288.88140955392197,5487700576,11873972342,None,False,,none,True,False
+S204,segment_204,trunk_link,,,22.25502052841259,5487872403,5487872404,None,False,,landslide_block,False,True
+S205,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,78.04556045316072,5487872403,5592140799,None,False,,none,True,False
+S206,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,99.02469612942909,5487872404,6094346341,None,False,,none,True,False
+S207,segment_207,trunk_link,,,24.03929290470586,5592140798,5592140799,None,False,,none,True,False
+S208,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,80.85178674056982,5592140798,5487872404,None,False,,none,True,False
+S209,segment_209,trunk_link,,,12.734843443541658,5592140798,6659846174,None,False,,none,True,False
+S210,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,140.21722119463783,5592140799,13876230436,None,False,,none,True,False
+S211,NH48,motorway,NH48,Delhi-Gurugram Expressway,2246.8898003800027,5830038204,13236388684,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S212,segment_212,motorway_link,,,51.311563574889476,5830038204,5830038203,None,False,,none,True,False
+S213,segment_213,trunk_link,,,10.830633300841598,6026792706,6026792707,None,False,,none,True,False
+S214,NH48,trunk,NH48,Amer Road,1206.8463720609432,6026792706,9880618225,High,True,IMT Manesar <-> Bilaspur Logistics Hub,none,True,False
+S215,segment_215,trunk_link,,,10.830633300841598,6026792707,6026792706,None,False,,crack_pothole,True,False
+S216,segment_216,trunk_link,,,13.023167756134225,6026792795,6026792796,None,False,,none,True,False
+S217,NH48,"['trunk_link', 'trunk']",NH48,Amer Road,768.6584147867458,6026792795,9884677888,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S218,segment_218,trunk_link,,,13.023167756134225,6026792796,6026792795,None,False,,none,True,False
+S219,SH26,primary,SH26,Gurgaon Rewari Narnaul Singhana Road,9.362612959208743,6071404820,1549870600,None,False,,none,True,False
+S220,SH15A,primary,SH15A,Gurugram Road,667.071413779948,6071404820,12774281558,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S221,segment_221,primary,,,10.612922095153241,6071404821,6071404820,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S222,segment_222,motorway_link,,,45.469076671548066,6082251691,6082251692,None,False,,none,True,False
+S223,NH48,motorway,NH48,Delhi-Gurugram Expressway,57.851672277006735,6082251692,269101499,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S224,segment_224,trunk,,,871.4553605208396,6088409724,11909541800,None,False,,none,True,False
+S225,segment_225,primary,,,10.126845126277596,6088634495,6088634496,None,False,,none,True,False
+S226,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,244.5109630180342,6088634495,6486082456,None,False,,landslide_block,False,True
+S227,segment_227,primary,,,10.126845126277596,6088634496,6088634495,None,False,,none,True,False
+S228,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,384.2742135564546,6088634496,6487088148,None,False,,none,True,False
+S229,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,88.01308106551076,6092152536,10031177141,None,False,,none,True,False
+S230,segment_230,trunk_link,,,15.471280960074015,6094346341,3511890971,None,False,,none,True,False
+S231,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,350.52908834598384,6094346341,271335314,None,False,,none,True,False
+S232,segment_232,primary_link,,,15.659866127646204,6192159850,271335314,None,False,,none,True,False
+S233,segment_233,primary_link,,,16.621031543406684,6193886830,6193886831,None,False,,none,True,False
+S234,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,394.3956681057045,6193886830,5487872403,None,False,,none,True,False
+S235,segment_235,primary_link,,,16.621031543406684,6193886831,6193886830,None,False,,none,True,False
+S236,segment_236,trunk_link,,,8.351744981133452,6211813729,11818396712,None,False,,none,True,False
+S237,Flyover,primary_link,,Flyover,389.77922402175744,6322579356,6092152536,None,False,,none,True,False
+S238,Delhi-Gurugram Expressway Ramp,primary_link,,Delhi-Gurugram Expressway Ramp,235.74823155686278,6322579356,7142088001,None,False,,landslide_block,False,True
+S239,NH48,motorway,NH48,Delhi-Gurugram Expressway,75.38867267948334,6342646625,11843401740,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S240,segment_240,motorway_link,,,73.74656043648012,6342646626,6342646625,None,False,,none,True,False
+S241,SH15A,primary,SH15A,"['Sub. Major Laxmi Chand Road', 'Sub. Major Laxmi Chand Road Flyover']",1988.7405794686135,6345179751,9824975319,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S242,SH15A,primary,SH15A,,332.95573018332016,6345179751,11843501866,None,False,,none,True,False
+S243,segment_243,primary_link,,,304.1284167467926,6458148439,271335311,None,False,,none,True,False
+S244,Flyover,primary_link,,Flyover,816.3388229520109,6458148439,6458403510,None,False,,none,True,False
+S245,segment_245,primary_link,,,52.58982394366678,6458403495,6458403496,None,False,,none,True,False
+S246,Flyover,primary_link,,Flyover,720.2102618577776,6458403495,6322579356,None,False,,none,True,False
+S247,segment_247,primary_link,,,453.64605128643774,6458403496,12823338544,None,False,,none,True,False
+S248,NH148A,"['primary', 'trunk']",NH148A,"['Mehrauli-Gurgaon Road', 'Mehrauli Gurgaon Road']",329.9218743705504,6458403504,6092152536,None,False,,none,True,False
+S249,segment_249,primary_link,,,338.45141657575715,6458403504,6458403508,None,False,,none,True,False
+S250,segment_250,primary_link,,,173.8548282287669,6458403508,6458403496,None,False,,none,True,False
+S251,segment_251,primary_link,,,61.99990335370397,6458403508,6458403510,None,False,,none,True,False
+S252,segment_252,primary_link,,,63.450927252438554,6458403510,6458403495,None,False,,none,True,False
+S253,segment_253,motorway_link,,,93.29687879158249,6467828986,6467828987,None,False,,none,True,False
+S254,NH48,motorway,NH48,Delhi-Gurugram Expressway,352.6765124962689,6467828986,7041199924,None,False,,none,True,False
+S255,NH48,motorway,NH48,Delhi-Gurugram Expressway,203.08095669401297,6467828992,6467829016,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S256,segment_256,motorway_link,,,146.98703712549923,6467828992,6467828997,None,False,,crack_pothole,True,False
+S257,segment_257,motorway_link,,,50.108419396382075,6467829000,6467829016,None,False,,crack_pothole,True,False
+S258,Delhi-Gurugram Expressway Ramp,motorway_link,,Delhi-Gurugram Expressway Ramp,185.08665112016638,6467829003,7142083599,None,False,,none,True,False
+S259,Flyover,primary_link,,Flyover,300.8541995808313,6467829003,6458148439,None,False,,none,True,False
+S260,NH48,motorway,NH48,Delhi-Gurugram Expressway,154.74663363906663,6467829004,7142083599,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S261,segment_261,motorway_link,,,71.76000171043916,6467829006,7142083595,None,False,,none,True,False
+S262,NH48,motorway,NH48,Delhi-Gurugram Expressway,377.79707559932825,6467829006,6467829004,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S263,segment_263,motorway_link,,,290.50041661867687,6467829008,6467829004,None,False,,none,True,False
+S264,NH48,motorway,NH48,Delhi-Gurugram Expressway,1164.4961116227148,6467829016,5830038204,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S265,segment_265,primary,,,9.739347145871799,6486082455,6486082456,None,False,,none,True,False
+S266,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,242.5224658978191,6486082455,6088634496,None,False,,none,True,False
+S267,segment_267,primary,,,9.739347145871799,6486082456,6486082455,None,False,,none,True,False
+S268,Mehrauli-Gurgaon Road Flyover,primary,,"['Mehrauli-Gurgaon Road Flyover', 'Mehrauli-Gurgaon Road']",2574.2845735804135,6486082456,250871574,None,False,,none,True,False
+S269,NH248BB,motorway,NH248BB,Dwarka Expressway,309.68419796482823,6569833464,7610591434,None,False,,landslide_block,False,True
+S270,segment_270,motorway_link,,,415.1317125781738,6569833464,7610591418,None,False,,none,True,False
+S271,segment_271,trunk_link,,,36.20205504570681,6631271814,9545291285,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S272,segment_272,trunk_link,,,13.305593610385891,6649059150,6649059151,None,False,,none,True,False
+S273,NH48,trunk,NH48,Amer Road,264.2187044742035,6649059150,6649059152,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S274,segment_274,trunk_link,,,12.389006106733422,6649059152,6649059153,None,False,,none,True,False
+S275,NH48,trunk,NH48,"['Vatika Flyover', 'Amer Road']",1735.946040301358,6649059152,11909112454,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S276,segment_276,trunk_link,,,12.389006106733422,6649059153,6649059152,None,False,,none,True,False
+S277,segment_277,trunk_link,,,12.734843443541658,6659846174,5592140798,None,False,,none,True,False
+S278,segment_278,trunk_link,,,14.179740366694485,6660142824,6660142825,None,False,,none,True,False
+S279,segment_279,trunk_link,,,14.179740366694485,6660142825,6660142824,None,False,,none,True,False
+S280,NH48,trunk,NH48,,54.83869551205649,6660142825,11818161118,None,False,,none,True,False
+S281,segment_281,trunk_link,,,28.4342055768948,6660142830,6660142829,None,False,,none,True,False
+S282,NH48,trunk,NH48,Gurugram New Sector Road Flyover,897.0735619875807,6660142830,11818151829,None,False,,none,True,False
+S283,NH48,trunk,NH48,,120.22199258573816,6660142832,6660142830,None,False,,none,True,False
+S284,segment_284,trunk_link,,,22.134620741562244,6660142832,6660142831,None,False,,none,True,False
+S285,segment_285,trunk_link,,,10.709816604470818,6728792726,11818151833,None,False,,none,True,False
+S286,segment_286,motorway_link,,,28.330291889103144,7041199924,7041199923,None,False,,none,True,False
+S287,NH48,motorway,NH48,Delhi-Gurugram Expressway,936.5637326656669,7041199924,273456822,None,False,,none,True,False
+S288,NH48,motorway,NH48,Delhi-Gurugram Expressway,1282.9572176404106,7142083599,6467828986,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S289,NH48,motorway,NH48,Delhi-Gurugram Expressway,849.7530609259217,7142088001,2774809992,High,True,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S290,SH15A,primary,SH15A,,117.43912692659946,7230262745,1397292823,None,False,,none,True,False
+S291,segment_291,primary,,,59.49777083695193,7230262748,7230262745,None,False,,none,True,False
+S292,SH15A,primary,SH15A,,185.84517697361238,7230262748,11928397576,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S293,SH15A,primary,SH15A,,7.652709147070405,7230262763,9901520542,None,False,,none,True,False
+S294,SH15A,primary,SH15A,,39.33000886217053,7230262763,9901520534,None,False,,none,True,False
+S295,SH15A,primary,SH15A,,37.62327823032576,7230262775,7230262763,None,False,,none,True,False
+S296,segment_296,primary_link,,,58.62546901638686,7230262775,9901520534,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S297,SH15A,primary,SH15A,,1880.2429299962455,7230280487,11928397575,None,False,,none,True,False
+S298,segment_298,primary_link,,,11.867879309538475,7371574065,7371574069,None,False,,none,True,False
+S299,segment_299,primary,,,41.62545570902512,7371574065,7371574071,None,False,,none,True,False
+S300,segment_300,primary_link,,,11.867879309538475,7371574069,7371574065,None,False,,none,True,False
+S301,segment_301,primary,,,46.256488981105186,7371574069,7371574072,None,False,,none,True,False
+S302,segment_302,primary,,,2350.209846586619,7371574071,5150748916,None,False,,none,True,False
+S303,segment_303,primary,,,42.566653315548216,7371574071,7371574069,None,False,,none,True,False
+S304,segment_304,primary,,,47.95508343798064,7371574072,7371574065,None,False,,crack_pothole,True,False
+S305,segment_305,trunk_link,,,14.775533874325278,7379073297,7379073298,None,False,,crack_pothole,True,False
+S306,NH48,trunk,NH48,Amer Road,1266.79458768182,7379073297,11818303106,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S307,segment_307,trunk_link,,,14.775533874325278,7379073298,7379073297,None,False,,none,True,False
+S308,NH48,trunk,NH48,Amer Road,556.5544308338502,7379073312,7379073297,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S309,segment_309,trunk_link,,,13.763224916773911,7379073312,11818396704,None,False,,none,True,False
+S310,segment_310,trunk_link,,,7.365120385300964,7379261272,11959724323,None,False,,none,True,False
+S311,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,536.3946759504498,7379261272,9883043869,None,False,,none,True,False
+S312,segment_312,trunk_link,,,8.57442138566039,7379261281,4139980895,None,False,,none,True,False
+S313,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,370.06318951541584,7379261281,11959752963,None,False,,none,True,False
+S314,segment_314,trunk_link,,,6.29467255461301,7379262585,4210373145,None,False,,none,True,False
+S315,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,41.11425645303278,7379262585,7379262587,None,False,,none,True,False
+S316,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,41.30793901754437,7379262587,4210373145,None,False,,none,True,False
+S317,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,523.5136477094982,7379262587,4134895722,None,False,,none,True,False
+S318,segment_318,trunk_link,,,62.723905850783304,7413302411,7413302408,None,False,,none,True,False
+S319,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,75.1036221176859,7413302411,11932405229,None,False,,crack_pothole,True,False
+S320,segment_320,trunk_link,,,9.264615183562622,7413982044,4140053679,None,False,,crack_pothole,True,False
+S321,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,213.49158990165856,7413982044,11959883307,None,False,,none,True,False
+S322,segment_322,primary_link,,,10.303002413378167,7425090749,7425090750,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S323,NH248A,"['primary', 'trunk']",NH248A,"['Sohna Road', 'Rajiv Chowk Underpass', 'Shubhash Chowk Underpass']",3546.168272859797,7425090749,11909411852,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S324,segment_324,primary_link,,,10.303002413378167,7425090750,7425090749,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S325,Sohna Road,primary,,Sohna Road,240.4456053952979,7425090750,11909667841,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S326,segment_326,primary_link,,,9.475838470232729,7437425052,9916328038,None,False,,none,True,False
+S327,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,243.6822368741573,7437425052,7437688648,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S328,segment_328,primary_link,,,6.106480842052626,7437688642,7437688648,None,False,,none,True,False
+S329,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,243.1226953532203,7437688642,9916328038,None,False,,crack_pothole,True,False
+S330,segment_330,primary_link,,,6.106480842052626,7437688648,7437688642,None,False,,none,True,False
+S331,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,1625.6860430892204,7437688648,6071404821,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S332,segment_332,trunk_link,,,15.144008432916962,7440839087,7440839091,None,False,,none,True,False
+S333,NH48,trunk,NH48,Amer Road,172.19792141822583,7440839087,7440839088,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S334,segment_334,trunk_link,,,10.973965532749343,7440839088,7440839089,None,False,,none,True,False
+S335,NH48,trunk,NH48,Amer Road,571.9969587509164,7440839088,7379073312,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S336,segment_336,trunk_link,,,10.973965532749343,7440839089,7440839088,None,False,,none,True,False
+S337,segment_337,trunk_link,,,15.144008432916962,7440839091,7440839087,None,False,,none,True,False
+S338,segment_338,trunk_link,,,14.23925747076359,7440839199,11818381856,None,False,,none,True,False
+S339,NH48,trunk,NH48,Amer Road,665.3591147549273,7440839199,9888876445,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S340,NH48,trunk,NH48,Amer Road,1829.6049904012327,7466598581,11818396712,None,False,,none,True,False
+S341,segment_341,trunk_link,,,14.984138292606156,7466598581,7466598582,None,False,,none,True,False
+S342,segment_342,trunk_link,,,14.984138292606156,7466598582,7466598581,None,False,,none,True,False
+S343,SH15A,primary,SH15A,,156.75425853223362,7488907018,11843077564,None,False,,crack_pothole,True,False
+S344,SH15A,primary,SH15A,,69.14628568153918,7488907018,9912385793,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S345,NH352W,trunk,NH352W,,8.247886581815445,7543673664,7543673665,None,False,,none,True,False
+S346,segment_346,trunk,,,35.224298587466926,7543673664,7544058371,None,False,,none,True,False
+S347,NH352W,trunk,NH352W,,20.166188958225913,7543673665,11843751359,None,False,,none,True,False
+S348,segment_348,trunk_link,,,7.511012592508658,7544058360,10081984364,None,False,,none,True,False
+S349,SH26,primary,SH26,Gurgaon Rewari Narnaul Singhana Road,41.75094063682096,7544058367,7543673664,None,False,,none,True,False
+S350,segment_350,primary_link,,,52.689387867427186,7544058367,7544058371,None,False,,none,True,False
+S351,segment_351,trunk,,,396.6610199051578,7544058371,13332872886,None,False,,none,True,False
+S352,SH26,primary,SH26,Pataudi Road,974.3145737160894,7544058372,11843016072,None,False,,none,True,False
+S353,segment_353,motorway,,,365.438646750128,7610574167,7610591432,None,False,,none,True,False
+S354,segment_354,motorway_link,,,438.06237893352386,7610574167,320917733,None,False,,none,True,False
+S355,NH48,motorway,NH48,Delhi-Gurugram Expressway,208.39163869688568,7610591405,12278015322,None,False,,none,True,False
+S356,segment_356,motorway_link,,,401.34888015198663,7610591405,2788849635,None,False,,none,True,False
+S357,NH48,motorway,NH48,Delhi-Gurugram Expressway,190.69170669348642,7610591418,320917729,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S358,NH248BB,motorway,NH248BB,Dwarka Expressway,1601.6294210577992,7610591434,11285054888,None,False,,none,True,False
+S359,SH15A,primary,SH15A,,93.90193800478838,7613824677,11843067841,None,False,,none,True,False
+S360,segment_360,primary,,,23.073791931954503,7613824677,7613824678,None,False,,crack_pothole,True,False
+S361,segment_361,primary,,,52.50438356692304,7613824678,7613862095,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S362,SH15A,primary,SH15A,,1020.2445860494342,7613862095,11843501863,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S363,segment_363,primary,,,15.008409748537208,7613862095,7613862097,None,False,,none,True,False
+S364,segment_364,primary,,,55.89740386839233,7613862097,7613824677,None,False,,none,True,False
+S365,SH15A,primary,SH15A,,42.129871365206306,7877267461,7230262748,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S366,NH248A,trunk,NH248A,,8469.03164235305,8901672715,11927969970,None,False,,none,True,False
+S367,segment_367,motorway_link,,,1176.5931041348306,8901672716,8901678232,None,False,,none,True,False
+S368,NH248A,trunk,NH248A,,190.4966732086102,8901672716,1812344837,None,False,,none,True,False
+S369,NE-4,motorway,NE-4,Delhi - Vadodara Expressway,4686.943072277704,8901678232,11928233468,None,False,,none,True,False
+S370,NE-4,motorway,NE-4,Delhi - Vadodara Expressway,750.4642103490542,8901678233,8901678232,None,False,,none,True,False
+S371,NH248A,trunk,NH248A,,1137.2253630414775,8901678233,1812344838,None,False,,none,True,False
+S372,segment_372,motorway_link,,,789.1673066679085,8901678243,1812344838,None,False,,none,True,False
+S373,NE-4,motorway,NE-4,Delhi - Vadodara Expressway,1102.3143305473159,8901678243,8901672715,None,False,,none,True,False
+S374,segment_374,trunk_link,,,55.265536364361445,9545291283,9545291282,None,False,,none,True,False
+S375,NH48,trunk,NH48,Amer Road,906.2863185243266,9545291283,1997036319,None,False,,none,True,False
+S376,NH48,trunk,NH48,Amer Road,662.0283980016944,9545291285,9910861882,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S377,segment_377,motorway_link,,,39.07912072678336,9791574385,9791574386,None,False,,none,True,False
+S378,NH48,motorway,NH48,Delhi-Gurugram Expressway,979.9655949667834,9791574385,270624144,None,False,,none,True,False
+S379,segment_379,motorway_link,,,69.78360577806832,9808318683,1397292609,None,False,,none,True,False
+S380,segment_380,motorway_link,,,78.00862616148831,9808318683,9808318692,None,False,,none,True,False
+S381,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,52.73044173553354,9808318692,1397292609,None,False,,none,True,False
+S382,segment_382,motorway_link,,,1023.7411817889888,9808323746,9808318683,None,False,,none,True,False
+S383,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,6380.5897638593,9808368186,1815791355,None,False,,none,True,False
+S384,segment_384,motorway_link,,,702.3104405535651,9808368194,9808368186,None,False,,none,True,False
+S385,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,2591.6102606274235,9808456217,4335283868,None,False,,none,True,False
+S386,segment_386,motorway_link,,,784.1962999007951,9808456217,9808456226,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S387,segment_387,motorway_link,,,734.3772878147706,9808456226,11818381857,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S388,segment_388,motorway_link,,,534.1815553486447,9808456226,1815765305,None,False,,none,True,False
+S389,segment_389,motorway_link,,,400.05146097003774,9808647848,1815784688,None,False,,none,True,False
+S390,segment_390,trunk_link,,,131.81009369999174,9808647848,1815784686,None,False,,none,True,False
+S391,segment_391,trunk_link,,,6.986196051995148,9819196686,11818381854,None,False,,none,True,False
+S392,segment_392,trunk_link,,,442.5605751491019,9819196686,9819196702,None,False,,none,True,False
+S393,NH48,trunk,NH48,Amer Road,16.199200577442664,9819196693,4138336939,None,False,,none,True,False
+S394,NH48,trunk,NH48,Amer Road,777.5624204887592,9819196700,9819196693,None,False,,landslide_block,False,True
+S395,segment_395,trunk_link,,,12.46198608915176,9819196700,9819196686,None,False,,none,True,False
+S396,segment_396,trunk_link,,,337.46027641571493,9819196702,9819196693,None,False,,none,True,False
+S397,segment_397,motorway_link,,,1067.3906994664605,9819196702,4335283880,None,False,,none,True,False
+S398,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,7.533451738831915,9824975319,11841192743,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S399,SH15A,primary,SH15A,"['Sub. Major Laxmi Chand Road', 'Sub. Major Laxmi Chand Road Flyover']",1988.740579468614,9824975319,6345179751,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S400,segment_400,primary_link,,,51.22831542741715,9824975319,11841192742,None,False,,none,True,False
+S401,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,262.50083295101535,9865451046,4757946170,None,False,,none,True,False
+S402,segment_402,primary_link,,,11.294916153610288,9865553315,11873972342,None,False,,none,True,False
+S403,segment_403,trunk_link,,,12.83261565819711,9880239361,9880239362,None,False,,none,True,False
+S404,NH48,trunk,NH48,Amer Road,652.9419088278723,9880239361,11890764057,None,False,,none,True,False
+S405,segment_405,trunk_link,,,12.83261565819711,9880239362,9880239361,None,False,,none,True,False
+S406,segment_406,trunk_link,,,15.15190864405752,9880239363,9880239364,None,False,,none,True,False
+S407,NH48,trunk,NH48,Amer Road,921.955978698029,9880239363,541319051,None,False,,none,True,False
+S408,segment_408,trunk_link,,,15.15190864405752,9880239364,9880239363,None,False,,crack_pothole,True,False
+S409,segment_409,trunk_link,,,15.284505827462441,9880618225,9880618226,None,False,,none,True,False
+S410,NH48,trunk,NH48,Amer Road,944.2941170725921,9880618225,11817844038,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S411,segment_411,trunk_link,,,15.284505827462441,9880618226,9880618225,None,False,,none,True,False
+S412,segment_412,motorway_link,,,520.793607361299,9881059821,12088736372,None,False,,none,True,False
+S413,NH248BB,motorway,NH248BB,Dwarka Expressway,307.1293390317898,9881059821,11285021802,None,False,,crack_pothole,True,False
+S414,SH15A,primary,SH15A,,17.541546510213767,9882506425,9883116659,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,landslide_block,False,True
+S415,SH15A,primary,SH15A,,109.87459740382968,9882506425,4132346640,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S416,segment_416,trunk_link,,,7.683440840127334,9883043869,9883043870,None,False,,none,True,False
+S417,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,592.8081335595879,9883043869,9898950516,None,False,,crack_pothole,True,False
+S418,segment_418,trunk_link,,,7.683440840127334,9883043870,9883043869,None,False,,none,True,False
+S419,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,534.1948172506959,9883043870,11959724323,None,False,,none,True,False
+S420,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,722.2260392755071,9883114798,9883116639,None,False,,none,True,False
+S421,segment_421,motorway_link,,,375.2462300213969,9883114798,9883116617,None,False,,landslide_block,False,True
+S422,segment_422,motorway_link,,,84.49480449525582,9883116617,9883116624,None,False,,landslide_block,False,True
+S423,segment_423,motorway_link,,,338.53329030191145,9883116624,9883116639,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S424,segment_424,motorway_link,,,286.6151308153959,9883116624,4132345416,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S425,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,6582.643274848297,9883116639,1815791481,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub,none,True,False
+S426,SH15A,primary,SH15A,,35.356201959139774,9883116659,9883124088,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S427,SH15A,primary,SH15A,,17.541546510213767,9883116659,9882506425,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S428,segment_428,motorway_link,,,67.36635772349243,9883116659,9883124093,None,False,,none,True,False
+S429,segment_429,motorway_link,,,248.98458542159523,9883116695,9883116617,None,False,,none,True,False
+S430,segment_430,motorway_link,,,455.39772497295274,9883116695,9883124087,None,False,,none,True,False
+S431,SH15A,primary,SH15A,,35.356201959139774,9883124088,9883116659,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S432,SH15A,primary,SH15A,,5341.048410854349,9883124088,4135047549,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S433,segment_433,motorway_link,,,83.27991125118677,9883124088,9883124093,None,False,,none,True,False
+S434,segment_434,motorway_link,,,987.6724110448552,9883124093,9883116695,None,False,,none,True,False
+S435,segment_435,trunk_link,,,21.111997250084965,9883171783,9883171784,None,False,,none,True,False
+S436,NH48,trunk,NH48,Amer Road,756.4186820318715,9883171784,9880239363,None,False,,none,True,False
+S437,segment_437,trunk_link,,,13.11031070937395,9884796845,9885041716,None,False,,none,True,False
+S438,segment_438,motorway_link,,,262.7106961034986,9884796864,11806517362,None,False,,none,True,False
+S439,segment_439,trunk_link,,,14.481235004383404,9885041710,9885041711,None,False,,none,True,False
+S440,NH48,trunk,NH48,Amer Road,74.30533526337793,9885041710,9885050817,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S441,segment_441,trunk_link,,,14.481235004383404,9885041711,9885041710,None,False,,none,True,False
+S442,segment_442,trunk_link,,,12.510028308016285,9885041712,9885041713,None,False,,none,True,False
+S443,NH48,trunk,NH48,Amer Road,86.617433505334,9885041712,9885041716,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S444,segment_444,trunk_link,,,12.510028308016285,9885041713,9885041712,None,False,,none,True,False
+S445,segment_445,trunk_link,,,10.233121338168608,9885041714,9885041715,None,False,,none,True,False
+S446,NH48,trunk,NH48,Amer Road,89.83474447232798,9885041714,9885041712,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S447,segment_447,trunk_link,,,10.233121338168608,9885041715,9885041714,None,False,,none,True,False
+S448,segment_448,trunk_link,,,13.11031070937395,9885041716,9884796845,None,False,,none,True,False
+S449,NH48,trunk,NH48,Amer Road,132.61608919691923,9885041716,9885041710,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S450,segment_450,trunk_link,,,15.210254285163815,9885050817,9885050818,None,False,,none,True,False
+S451,NH48,trunk,NH48,Amer Road,295.5685246238432,9885050817,9885050819,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S452,segment_452,trunk_link,,,15.210254285163815,9885050818,9885050817,None,False,,none,True,False
+S453,segment_453,trunk_link,,,9.034228782789821,9885050819,9885050820,None,False,,none,True,False
+S454,NH48,trunk,NH48,Amer Road,741.3672432983376,9885050819,9891232554,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S455,segment_455,trunk_link,,,9.034228782789821,9885050820,9885050819,None,False,,crack_pothole,True,False
+S456,segment_456,trunk_link,,,11.421397536915837,9885050822,9885050823,None,False,,none,True,False
+S457,NH48,trunk,NH48,Amer Road,1102.9826669085355,9885050822,1815784690,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S458,segment_458,trunk_link,,,11.421397536915837,9885050823,9885050822,None,False,,none,True,False
+S459,segment_459,trunk_link,,,14.386870013790157,9885050824,9885050825,None,False,,none,True,False
+S460,NH48,trunk,NH48,Amer Road,181.8015713705302,9885050824,9885050826,High,True,IMT Manesar <-> Bilaspur Logistics Hub,none,True,False
+S461,segment_461,trunk_link,,,14.386870013790157,9885050825,9885050824,None,False,,none,True,False
+S462,segment_462,trunk_link,,,12.74082156379026,9885050826,9885050827,None,False,,none,True,False
+S463,NH48,trunk,NH48,Amer Road,1839.9004565830048,9885050826,6026792795,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S464,segment_464,trunk_link,,,12.74082156379026,9885050827,9885050826,None,False,,none,True,False
+S465,segment_465,trunk_link,,,17.222400826384757,9888876444,9888876445,None,False,,none,True,False
+S466,segment_466,trunk_link,,,17.222400826384757,9888876445,9888876444,None,False,,none,True,False
+S467,NH48,trunk,NH48,Amer Road,1070.8367676613534,9888876445,11818396711,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S468,segment_468,trunk_link,,,12.744773067134554,9888876446,9888876447,None,False,,none,True,False
+S469,segment_469,trunk_link,,,12.744773067134554,9888876447,9888876446,None,False,,none,True,False
+S470,NH48,trunk,NH48,Amer Road,201.0682241370868,9888876447,9819196700,None,False,,none,True,False
+S471,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,43.40425758096004,9891013000,11959861087,None,False,,none,True,False
+S472,segment_472,trunk_link,,,8.963369447073772,9891013000,9891013001,None,False,,none,True,False
+S473,segment_473,trunk_link,,,8.963369447073772,9891013001,9891013000,None,False,,none,True,False
+S474,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,849.6601640547543,9891013001,11959883306,None,False,,none,True,False
+S475,segment_475,trunk_link,,,10.35420742187979,9891232553,9891232554,None,False,,none,True,False
+S476,segment_476,trunk_link,,,10.35420742187979,9891232554,9891232553,None,False,,none,True,False
+S477,NH48,trunk,NH48,Amer Road,958.733703321391,9891232554,9885050822,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S478,segment_478,trunk_link,,,14.127322126595951,9891305837,9891305838,None,False,,none,True,False
+S479,NH48,trunk,NH48,Amer Road,44.132906904050195,9891305837,9885050824,High,True,IMT Manesar <-> Bilaspur Logistics Hub,none,True,False
+S480,segment_480,trunk_link,,,14.127322126595951,9891305838,9891305837,None,False,,none,True,False
+S481,segment_481,trunk_link,,,11.862517780806423,9891305939,9891305940,None,False,,crack_pothole,True,False
+S482,NH48,trunk,NH48,Amer Road,693.4503382809532,9891305939,9891305837,None,False,,none,True,False
+S483,segment_483,trunk_link,,,11.862517780806423,9891305940,9891305939,None,False,,none,True,False
+S484,segment_484,trunk_link,,,30.485696737004684,9892914460,9892914463,None,False,,landslide_block,False,True
+S485,NH248A,trunk,NH248A,Sohna Road,5400.004346897132,9892914460,11909411847,None,False,,crack_pothole,True,False
+S486,segment_486,trunk_link,,,7.4744652073333215,9897263368,11959752963,None,False,,none,True,False
+S487,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,367.0884014376816,9897263368,4139980895,None,False,,none,True,False
+S488,SH15A,primary,SH15A,,12.972485202294761,9898705686,11890403312,None,False,,none,True,False
+S489,segment_489,primary_link,,,8.005899760360668,9898705686,1397292862,None,False,,crack_pothole,True,False
+S490,segment_490,trunk_link,,,7.777914651801123,9898950515,9898950516,None,False,,none,True,False
+S491,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,593.1433749221817,9898950515,9883043870,None,False,,none,True,False
+S492,segment_492,trunk_link,,,7.777914651801123,9898950516,9898950515,None,False,,none,True,False
+S493,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,128.00388955618013,9898950516,7379261281,None,False,,crack_pothole,True,False
+S494,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,35.758023032912305,9899356265,9899356269,None,False,,none,True,False
+S495,segment_495,trunk_link,,,7.241018294652683,9899356265,9899356266,None,False,,none,True,False
+S496,segment_496,trunk_link,,,7.241018294652683,9899356266,9899356265,None,False,,none,True,False
+S497,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,930.8340410194586,9899356266,9901067044,None,False,,none,True,False
+S498,segment_498,trunk_link,,,8.251076366474116,9899356269,9899356270,None,False,,none,True,False
+S499,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,819.3353581019946,9899356269,11982614677,None,False,,none,True,False
+S500,segment_500,trunk_link,,,8.251076366474116,9899356270,9899356269,None,False,,none,True,False
+S501,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,35.433927556803276,9899356270,9899356266,None,False,,crack_pothole,True,False
+S502,segment_502,trunk_link,,,8.71222623493748,9901067044,9903383707,None,False,,none,True,False
+S503,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,140.6937289077278,9901067044,7413302411,None,False,,none,True,False
+S504,segment_504,primary_link,,,45.37017010924245,9901520532,7230280487,None,False,,none,True,False
+S505,SH15A,primary,SH15A,,114.46987039840054,9901520534,1732780405,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S506,SH15A,primary,SH15A,,20.162036572348864,9901520542,1732780392,None,False,,none,True,False
+S507,segment_507,trunk_link,,,8.71222623493748,9903383707,9901067044,None,False,,none,True,False
+S508,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,931.2377745170176,9903383707,9899356265,None,False,,none,True,False
+S509,NH48,motorway,NH48,Delhi-Gurugram Expressway,78.84090834470148,9903651820,268905722,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S510,segment_510,motorway_link,,,43.48852179568077,9903651820,6095224685,None,False,,none,True,False
+S511,segment_511,trunk_link,,,13.606792607737138,9910861876,9910861899,None,False,,none,True,False
+S512,NH48,trunk,NH48,Amer Road,68.80584257239965,9910861876,9910861901,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S513,segment_513,trunk_link,,,14.212398741911906,9910861881,9910861882,None,False,,none,True,False
+S514,segment_514,trunk_link,,,14.212398741911906,9910861882,9910861881,None,False,,none,True,False
+S515,NH48,trunk,NH48,Amer Road,201.17664991816835,9910861882,9910861884,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S516,segment_516,trunk_link,,,11.162583953527259,9910861883,9910861884,None,False,,none,True,False
+S517,segment_517,trunk_link,,,11.162583953527259,9910861884,9910861883,None,False,,none,True,False
+S518,NH48,trunk,NH48,Amer Road,211.6566761615451,9910861884,9910861898,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,landslide_block,False,True
+S519,segment_519,trunk_link,,,12.361634664370163,9910861897,9910861898,None,False,,none,True,False
+S520,NH48,trunk,NH48,Amer Road,133.61085050477982,9910861898,9910861876,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S521,segment_521,trunk_link,,,12.361634664370163,9910861898,9910861897,None,False,,none,True,False
+S522,segment_522,trunk_link,,,13.606792607737138,9910861899,9910861876,None,False,,none,True,False
+S523,segment_523,trunk_link,,,12.672823951212003,9910861900,9910861901,None,False,,none,True,False
+S524,segment_524,trunk_link,,,12.672823951212003,9910861901,9910861900,None,False,,none,True,False
+S525,NH48,trunk,NH48,Amer Road,589.4702366560658,9910861901,9910861905,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S526,segment_526,trunk_link,,,33.30803248969756,9910861905,9910861904,None,False,,none,True,False
+S527,NH48,trunk,NH48,Gurugram New Sector Road Flyover,1014.6278973516946,9910861905,6649059150,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S528,SH15A,primary,SH15A,,403.74719136147667,9911730089,11842964112,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S529,SH15A,primary,SH15A,,426.08542832215375,9911730089,5150748931,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S530,SH15A,primary,SH15A,,69.14628568153918,9912385793,7488907018,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S531,SH15A,primary,SH15A,,633.9780522687913,9912385793,4133264095,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S532,segment_532,primary_link,,,15.823596860108433,9912385793,9912385796,None,False,,crack_pothole,True,False
+S533,segment_533,trunk_link,,,11.801518454742103,9913715402,9913715403,None,False,,none,True,False
+S534,segment_534,trunk_link,,,11.801518454742103,9913715403,9913715402,None,False,,landslide_block,False,True
+S535,NH48,trunk,NH48,Amer Road,425.6258354711345,9913715403,11890787260,None,False,,none,True,False
+S536,segment_536,trunk_link,,,13.601423240342642,9913715404,9913715405,None,False,,none,True,False
+S537,segment_537,trunk_link,,,13.601423240342642,9913715405,9913715404,None,False,,none,True,False
+S538,NH48,trunk,NH48,Amer Road,64.53826646222578,9913715405,9913715403,None,False,,none,True,False
+S539,segment_539,trunk_link,,,9.749990087248792,9913745803,9913745804,None,False,,none,True,False
+S540,segment_540,trunk_link,,,9.749990087248792,9913745804,9913745803,None,False,,none,True,False
+S541,NH48,trunk,NH48,Amer Road,365.58177589999116,9913745804,9913745808,High,True,IMT Manesar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S542,segment_542,trunk_link,,,10.915517166780699,9913745807,9913745808,None,False,,none,True,False
+S543,segment_543,trunk_link,,,10.915517166780699,9913745808,9913745807,None,False,,crack_pothole,True,False
+S544,NH48,trunk,NH48,Amer Road,139.6409787395216,9913745808,9913745810,High,True,IMT Manesar <-> Bilaspur Logistics Hub,none,True,False
+S545,segment_545,trunk_link,,,10.71087851958238,9913745809,9913745810,None,False,,none,True,False
+S546,segment_546,trunk_link,,,10.71087851958238,9913745810,9913745809,None,False,,none,True,False
+S547,NH48,trunk,NH48,Amer Road,678.2034751798793,9913745810,9913715405,High,True,IMT Manesar <-> Bilaspur Logistics Hub,none,True,False
+S548,segment_548,trunk_link,,,8.593060191499452,9914305526,9914305527,None,False,,none,True,False
+S549,NH352W,"['trunk_link', 'trunk']",NH352W,Gurgaon Rewari Narnaul Singhana Road,1109.348189305492,9914305526,10600614430,None,False,,none,True,False
+S550,segment_550,trunk_link,,,8.593060191499452,9914305527,9914305526,None,False,,none,True,False
+S551,NH352W,trunk,NH352W,,578.3667209071028,9914305527,4134895722,None,False,,none,True,False
+S552,segment_552,primary_link,,,9.475838470232729,9916328038,7437425052,None,False,,none,True,False
+S553,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,285.7889494225644,9916328038,9916328040,None,False,,none,True,False
+S554,segment_554,primary_link,,,7.572405393853228,9916328040,4146406989,None,False,,none,True,False
+S555,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,379.49771394635883,9916328040,11841192706,None,False,,none,True,False
+S556,Mehrauli-Gurgaon Road Flyover,primary,,"['Mehrauli-Gurgaon Road Flyover', 'Mehrauli-Gurgaon Road']",2227.215668002906,10031177141,11843702444,None,False,,none,True,False
+S557,segment_557,primary_link,,,10.27624549847159,10031177141,250871574,None,False,,none,True,False
+S558,segment_558,trunk_link,,,7.511012592508658,10081984364,7544058360,None,False,,none,True,False
+S559,segment_559,trunk_link,,,12.360936922804735,10130280311,10130280312,None,False,,none,True,False
+S560,NH48,trunk,NH48,Amer Road,728.9732249534651,10130280311,9545291283,None,False,,none,True,False
+S561,segment_561,trunk_link,,,12.360936922804735,10130280312,10130280311,None,False,,none,True,False
+S562,NH248A,"['primary', 'trunk']",NH248A,"['Sohna Road', 'Rajiv Chowk Underpass', 'Shubhash Chowk Underpass']",3588.8795414171623,10154285762,7425090750,None,False,,none,True,False
+S563,segment_563,trunk_link,,,29.518916340337796,10154285762,11909411850,None,False,,none,True,False
+S564,segment_564,trunk_link,,,11.630055861142994,10267389246,10267389247,None,False,,none,True,False
+S565,segment_565,trunk_link,,,11.630055861142994,10267389247,10267389246,None,False,,none,True,False
+S566,NH48,trunk,NH48,Amer Road,856.0106055397815,10267389247,1997089480,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S567,segment_567,trunk_link,,,74.20564202914912,10600614430,7544058360,None,False,,none,True,False
+S568,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,379.76095266012334,10682995433,6088634495,None,False,,none,True,False
+S569,segment_569,primary,,,52.71460945061474,10682995433,6487088148,None,False,,none,True,False
+S570,segment_570,trunk,,,94.89667449950421,10698543080,12797454590,None,False,,none,True,False
+S571,segment_571,trunk_link,,,18.363859678669787,11155676397,11155676398,None,False,,none,True,False
+S572,segment_572,trunk_link,,,18.363859678669787,11155676398,11155676397,None,False,,none,True,False
+S573,NH48,trunk,NH48,Amer Road,304.4025492787507,11155676398,11597845851,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S574,NH248BB,motorway,NH248BB,Dwarka Expressway,141.51439827546582,11285021802,7610574167,None,False,,none,True,False
+S575,segment_575,motorway_link,,,247.87800805096123,11285054881,11285054888,None,False,,none,True,False
+S576,NH248BB,motorway,NH248BB,Dwarka Expressway,76.11226351518373,11285054888,11409068749,None,False,,none,True,False
+S577,NH248BB,motorway,NH248BB,Dwarka Expressway,1598.3536016051683,11285054892,9881059821,None,False,,none,True,False
+S578,segment_578,motorway_link,,,181.34487668884316,11285054892,11285054865,None,False,,none,True,False
+S579,NH248BB,motorway,NH248BB,Dwarka Expressway,1562.343022922064,11285054984,11409068745,None,False,,none,True,False
+S580,segment_580,motorway_link,,,1925.2321560040828,11285054984,4139920413,None,False,,none,True,False
+S581,NH248BB,motorway,NH248BB,,282.3109924744764,11287178317,11287226420,None,False,,crack_pothole,True,False
+S582,segment_582,motorway_link,,,89.89136745250151,11287178317,11287226423,None,False,,none,True,False
+S583,NH248BB,motorway,NH248BB,Dwarka Expressway,307.26005135897094,11287178321,11287178317,None,False,,none,True,False
+S584,NH248BB,motorway,NH248BB,Dwarka Expressway,164.8559504405271,11287178336,13148751031,None,False,,none,True,False
+S585,segment_585,motorway_link,,,163.48525823441935,11287178345,11287178298,None,False,,crack_pothole,True,False
+S586,NH248BB,motorway,NH248BB,Dwarka Expressway,335.58041465028475,11287178345,11287178351,None,False,,none,True,False
+S587,NH248BB,motorway,NH248BB,Dwarka Expressway,834.3690048762307,11287178351,11287178367,None,False,,none,True,False
+S588,NH248BB,motorway,NH248BB,Dwarka Expressway,1500.9296224688599,11287178367,11287178336,None,False,,none,True,False
+S589,NH248BB,motorway,NH248BB,Dwarka Expressway,1492.6556714051928,11287178367,11287178336,None,False,,landslide_block,False,True
+S590,segment_590,motorway_link,,,83.5552466331215,11287226415,11287226420,None,False,,crack_pothole,True,False
+S591,NH248BB,motorway,NH248BB,Dwarka Expressway,1928.359751454815,11287226420,11285054984,None,False,,none,True,False
+S592,NH248BB,motorway,NH248BB,Dwarka Expressway,1487.976043874344,11287226453,11287178321,None,False,,none,True,False
+S593,NH248BB,motorway,NH248BB,Dwarka Expressway,1488.3807381270115,11287226453,11287178321,None,False,,none,True,False
+S594,segment_594,motorway_link,,,158.81163225867846,11287226463,13148751031,None,False,,landslide_block,False,True
+S595,NH248A,trunk,NH248A,,245.45702799573763,11289872380,8901672715,None,False,,none,True,False
+S596,segment_596,motorway_link,,,32.58874500111285,11409068742,11409068745,None,False,,none,True,False
+S597,NH248BB,motorway,NH248BB,Dwarka Expressway,92.70550235536366,11409068745,11285054892,None,False,,none,True,False
+S598,NH248BB,motorway,NH248BB,Dwarka Expressway,2942.7782979471067,11409068749,11287178345,None,False,,none,True,False
+S599,segment_599,motorway_link,,,41.31780104615631,11409068749,11409068746,None,False,,none,True,False
+S600,segment_600,trunk_link,,,14.308929925506492,11597845850,11597845851,None,False,,none,True,False
+S601,segment_601,trunk_link,,,14.308929925506492,11597845851,11597845850,None,False,,none,True,False
+S602,NH48,"['trunk_link', 'trunk']",NH48,Amer Road,103.29365036908963,11597845851,11962370632,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S603,segment_603,motorway_link,,,22.70747745992667,11806517359,11806517362,None,False,,none,True,False
+S604,segment_604,motorway_link,,,786.8592860326371,11806517362,9808368194,None,False,,none,True,False
+S605,segment_605,trunk_link,,,16.06481645644457,11817839279,11817839280,None,False,,none,True,False
+S606,NH48,trunk,NH48,Amer Road,1222.3463756666854,11817839279,9913745804,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S607,segment_607,trunk_link,,,16.06481645644457,11817839280,11817839279,None,False,,none,True,False
+S608,segment_608,trunk_link,,,14.132055498012832,11817844037,11817844038,None,False,,none,True,False
+S609,segment_609,trunk_link,,,14.132055498012832,11817844038,11817844037,None,False,,none,True,False
+S610,NH48,trunk,NH48,Amer Road,331.1381208055153,11817844038,11155676398,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S611,segment_611,motorway_link,,,19.19266777798016,11817876525,11817876526,None,False,,none,True,False
+S612,NH48,motorway,NH48,Delhi-Gurugram Expressway,2481.126289314924,11817876525,11817953059,None,False,,none,True,False
+S613,segment_613,motorway_link,,,11.86954459449005,11817953057,11817953058,None,False,,none,True,False
+S614,segment_614,motorway_link,,,11.86954459449005,11817953058,11817953057,None,False,,none,True,False
+S615,NH48,motorway,NH48,Delhi-Gurugram Expressway,2335.6735885403264,11817953058,278166509,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S616,segment_616,motorway_link,,,11.801918415410498,11817953059,11817953060,None,False,,none,True,False
+S617,NH48,motorway,NH48,Delhi-Gurugram Expressway,560.5549417242577,11817953059,12738628046,None,False,,none,True,False
+S618,segment_618,motorway_link,,,11.801918415410498,11817953060,11817953059,None,False,,none,True,False
+S619,NH48,trunk,NH48,Amer Road,130.35318357738814,11818151829,11818151831,None,False,,none,True,False
+S620,segment_620,trunk_link,,,14.970126289485442,11818151829,11818151830,None,False,,none,True,False
+S621,segment_621,trunk_link,,,14.970126289485442,11818151830,11818151829,None,False,,none,True,False
+S622,NH48,trunk,NH48,Amer Road,102.42360901030236,11818151831,11818151833,None,False,,none,True,False
+S623,segment_623,trunk_link,,,12.620898507894552,11818151831,11818151832,None,False,,none,True,False
+S624,segment_624,trunk_link,,,12.620898507894552,11818151832,11818151831,None,False,,none,True,False
+S625,segment_625,trunk_link,,,10.709816604470818,11818151833,6728792726,None,False,,none,True,False
+S626,NH48,trunk,NH48,Amer Road,889.5743101750979,11818151833,10130280311,None,False,,none,True,False
+S627,segment_627,trunk_link,,,14.927022218567654,11818161118,11818161119,None,False,,none,True,False
+S628,NH48,trunk,NH48,,171.41183615234598,11818161118,6660142832,None,False,,none,True,False
+S629,segment_629,trunk_link,,,14.927022218567654,11818161119,11818161118,None,False,,none,True,False
+S630,segment_630,trunk_link,,,11.214190483492604,11818256791,11818256792,None,False,,none,True,False
+S631,segment_631,trunk_link,,,11.214190483492604,11818256792,11818256791,None,False,,none,True,False
+S632,NH48,trunk,NH48,Amer Road,477.07599786932593,11818256792,11818256796,None,False,,landslide_block,False,True
+S633,segment_633,trunk_link,,,14.718014258003885,11818256795,11818256796,None,False,,none,True,False
+S634,segment_634,trunk_link,,,14.718014258003885,11818256796,11818256795,None,False,,crack_pothole,True,False
+S635,NH48,trunk,NH48,Amer Road,656.3765656932003,11818256796,11818256798,None,False,,none,True,False
+S636,segment_636,trunk_link,,,11.422568811586428,11818256797,11818256798,None,False,,none,True,False
+S637,segment_637,trunk_link,,,11.422568811586428,11818256798,11818256797,None,False,,none,True,False
+S638,NH48,trunk,NH48,Amer Road,1195.5897597480805,11818256798,11818303107,None,False,,none,True,False
+S639,segment_639,trunk_link,,,11.49180764212129,11818303097,11818303098,None,False,,none,True,False
+S640,segment_640,trunk_link,,,11.49180764212129,11818303098,11818303097,None,False,,none,True,False
+S641,NH48,trunk,NH48,Amer Road,613.2947034209009,11818303098,10267389247,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S642,segment_642,trunk_link,,,11.87330571963181,11818303099,11818303100,None,False,,none,True,False
+S643,NH48,trunk,NH48,Amer Road,73.25075824842823,11818303100,11818303098,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S644,segment_644,trunk_link,,,11.87330571963181,11818303100,11818303099,None,False,,none,True,False
+S645,segment_645,trunk_link,,,12.28254725050722,11818303105,11818303106,None,False,,none,True,False
+S646,segment_646,trunk_link,,,12.28254725050722,11818303106,11818303105,None,False,,landslide_block,False,True
+S647,NH48,trunk,NH48,Amer Road,695.3398577810862,11818303106,11818303100,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S648,segment_648,trunk_link,,,12.113075630834306,11818303107,11818303108,None,False,,none,True,False
+S649,NH48,trunk,NH48,Amer Road,1084.9125141070144,11818303107,7466598581,None,False,,landslide_block,False,True
+S650,segment_650,trunk_link,,,12.113075630834306,11818303108,11818303107,None,False,,none,True,False
+S651,segment_651,trunk_link,,,14.23925747076359,11818381856,7440839199,None,False,,none,True,False
+S652,NH48,trunk,NH48,Amer Road,69.13848341675204,11818381857,7440839199,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S653,segment_653,trunk_link,,,13.763224916773911,11818396704,7379073312,None,False,,none,True,False
+S654,segment_654,trunk_link,,,14.683963046957116,11818396705,541319075,None,False,,none,True,False
+S655,segment_655,trunk_link,,,14.216428078329676,11818396706,11818396707,None,False,,none,True,False
+S656,NH48,trunk,NH48,Amer Road,76.7515008514278,11818396707,541319075,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S657,segment_657,trunk_link,,,14.216428078329676,11818396707,11818396706,None,False,,none,True,False
+S658,segment_658,trunk_link,,,14.620719539982659,11818396708,11818396709,None,False,,none,True,False
+S659,NH48,trunk,NH48,Amer Road,85.62164780681756,11818396709,11818396707,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S660,segment_660,trunk_link,,,14.620719539982659,11818396709,11818396708,None,False,,none,True,False
+S661,segment_661,trunk_link,,,15.027018668149331,11818396710,11818396711,None,False,,none,True,False
+S662,NH48,trunk,NH48,Amer Road,89.41617241745895,11818396711,11818396709,Medium,False,IMT Manesar <-> Bilaspur Logistics Hub; IMT Manesar <-> Farrukhnagar Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S663,segment_663,trunk_link,,,15.027018668149331,11818396711,11818396710,None,False,,none,True,False
+S664,NH48,trunk,NH48,Amer Road,44.148832725928465,11818396712,11818396713,None,False,,none,True,False
+S665,segment_665,trunk_link,,,8.351744981133452,11818396712,6211813729,None,False,,none,True,False
+S666,NH48,trunk,NH48,Amer Road,61.85756527983378,11818396713,11818396715,None,False,,none,True,False
+S667,segment_667,trunk_link,,,8.988219032016117,11818396713,11818396714,None,False,,crack_pothole,True,False
+S668,segment_668,trunk_link,,,8.988219032016117,11818396714,11818396713,None,False,,none,True,False
+S669,NH48,trunk,NH48,Amer Road,73.80114797488147,11818396715,11818396717,None,False,,none,True,False
+S670,segment_670,trunk_link,,,9.887731408709106,11818396715,11818396716,None,False,,none,True,False
+S671,segment_671,trunk_link,,,9.887731408709106,11818396716,11818396715,None,False,,none,True,False
+S672,segment_672,trunk_link,,,10.949442417412127,11818396717,11818396718,None,False,,none,True,False
+S673,NH48,trunk,NH48,Amer Road,942.2220333767881,11818396717,9888876447,None,False,,none,True,False
+S674,segment_674,trunk_link,,,10.949442417412127,11818396718,11818396717,None,False,,none,True,False
+S675,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,130.54818066626254,11818442410,11818442415,None,False,,none,True,False
+S676,segment_676,motorway_link,,,133.72288765345473,11818442410,11818442415,None,False,,none,True,False
+S677,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,293.9845360743458,11818442416,4335283813,None,False,,none,True,False
+S678,Delhi Western Peripheral Expressway,motorway,,Delhi Western Peripheral Expressway,127.7658332648562,11818442423,11818442416,None,False,,none,True,False
+S679,segment_679,motorway_link,,,132.92714328942193,11818442423,11818442416,None,False,,none,True,False
+S680,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,10.561655823730295,11841192706,11841192743,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S681,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,379.5936910764323,11841192706,4146406989,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S682,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,7.533451738831915,11841192743,9824975319,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,landslide_block,False,True
+S683,SH15A,primary,SH15A,Sub. Major Laxmi Chand Road,10.561655823730295,11841192743,11841192706,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S684,segment_684,primary_link,,,7.173866955688487,11842964112,11842964113,None,False,,none,True,False
+S685,SH15A,primary,SH15A,,432.08764350986814,11842964112,11909093796,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S686,segment_686,primary_link,,,7.173866955688487,11842964113,11842964112,None,False,,none,True,False
+S687,SH15A,primary,SH15A,,404.0880695919934,11842964113,9911730089,None,False,,none,True,False
+S688,segment_688,primary_link,,,8.154935486854816,11843016072,11843016073,None,False,,none,True,False
+S689,SH26,primary,SH26,Pataudi Road,1115.2673128209196,11843016072,2006201555,None,False,,none,True,False
+S690,segment_690,primary_link,,,8.154935486854816,11843016073,11843016072,None,False,,none,True,False
+S691,SH26,primary,SH26,Gurgaon Rewari Narnaul Singhana Road,952.8905842090311,11843016073,7544058367,None,False,,crack_pothole,True,False
+S692,segment_692,primary_link,,,6.851496944471149,11843037983,11843037984,None,False,,none,True,False
+S693,SH15A,primary,SH15A,,545.9156967966817,11843037983,11843079374,None,False,,none,True,False
+S694,segment_694,primary_link,,,6.851496944471149,11843037984,11843037983,None,False,,none,True,False
+S695,SH15A,primary,SH15A,,706.5270283996196,11843037984,11843077565,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S696,segment_696,primary_link,,,5.461373844441648,11843067840,11843067841,None,False,,none,True,False
+S697,SH15A,primary,SH15A,,97.60542508294238,11843067840,7613824678,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S698,segment_698,primary_link,,,5.461373844441648,11843067841,11843067840,None,False,,none,True,False
+S699,SH15A,primary,SH15A,,580.6863062320753,11843067841,11909093797,None,False,,none,True,False
+S700,segment_700,primary_link,,,7.717161663529647,11843077564,11843077565,None,False,,none,True,False
+S701,SH15A,primary,SH15A,,705.7760413594782,11843077564,11843037983,None,False,,none,True,False
+S702,segment_702,primary_link,,,7.717161663529647,11843077565,11843077564,None,False,,none,True,False
+S703,SH15A,primary,SH15A,,156.60424840996404,11843077565,7488907018,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S704,segment_704,primary_link,,,8.579964161478456,11843079374,11843079375,None,False,,none,True,False
+S705,SH15A,primary,SH15A,,360.8313369293846,11843079374,5150748931,None,False,,none,True,False
+S706,segment_706,primary_link,,,8.579964161478456,11843079375,11843079374,None,False,,none,True,False
+S707,SH15A,primary,SH15A,,545.5070022424408,11843079375,11843037984,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S708,NH48,motorway,NH48,Delhi-Gurugram Expressway,526.9834401333948,11843401740,7142088001,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S709,segment_709,motorway_link,,,200.76982802679524,11843401740,13602373803,None,False,,none,True,False
+S710,segment_710,primary_link,,,30.43599026584392,11843420746,11843420750,None,False,,none,True,False
+S711,NH148A,"['primary', 'trunk']",NH148A,Mehrauli Gurgaon Road,226.4605425540587,11843420750,271335311,None,False,,none,True,False
+S712,segment_712,primary_link,,,30.435990265843916,11843420750,11843420746,None,False,,none,True,False
+S713,NH248BB,motorway,NH248BB,Dwarka Expressway,478.25647882545155,11843438958,4130541795,None,False,,none,True,False
+S714,segment_714,motorway_link,,,179.61481872925742,11843438958,12234337620,None,False,,none,True,False
+S715,Entry 14,motorway_link,,Entry 14,163.99748117068646,11843465242,11843465243,None,False,,none,True,False
+S716,NH48,motorway,NH48,Delhi-Gurugram Expressway,363.3842210893069,11843465243,9903651820,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,crack_pothole,True,False
+S717,segment_717,primary,,,90.74717081498753,11843501863,11843501865,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S718,SH15A,primary,SH15A,,1012.3341211266165,11843501864,7613862097,None,False,,none,True,False
+S719,segment_719,primary,,,38.700296606048056,11843501864,11843501863,None,False,,crack_pothole,True,False
+S720,SH15A,primary,SH15A,,331.46854217234545,11843501865,6345179751,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S721,segment_721,primary,,,24.647425101304435,11843501865,11843501866,None,False,,none,True,False
+S722,segment_722,primary,,,102.37374126857816,11843501866,11843501864,None,False,,landslide_block,False,True
+S723,Mehrauli-Gurgaon Road,primary,,Mehrauli-Gurgaon Road,343.8954388515101,11843702444,6486082455,None,False,,none,True,False
+S724,segment_724,primary_link,,,30.769145384214966,11843702444,11843702447,None,False,,none,True,False
+S725,segment_725,trunk,,,9.29863771840363,11843751359,2794104940,None,False,,none,True,False
+S726,NH352W,trunk,NH352W,,1079.3559951801913,11843751359,9914305527,None,False,,none,True,False
+S727,segment_727,primary_link,,,11.294916153610288,11873972342,9865553315,None,False,,none,True,False
+S728,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,387.20968956551644,11873972342,271336002,None,False,,none,True,False
+S729,NH148A,trunk,NH148A,Acharya Shri Tulsi Marg,89.39720734680222,11888519916,11888519914,None,False,,none,True,False
+S730,NH148A,trunk,NH148A,Acharya Shri Tulsi Marg,90.88757971745834,11888519916,11888519914,None,False,,none,True,False
+S731,segment_731,primary_link,,,8.01975683279438,11890386316,11890386317,None,False,,none,True,False
+S732,SH15A,primary,SH15A,,307.6552253992046,11890386316,11928358834,None,False,,none,True,False
+S733,segment_733,primary_link,,,8.01975683279438,11890386317,11890386316,None,False,,none,True,False
+S734,SH15A,primary,SH15A,,1993.0757205654666,11890386317,11890403313,None,False,,none,True,False
+S735,segment_735,primary_link,,,8.011786634218197,11890403312,11890403313,None,False,,none,True,False
+S736,SH15A,primary,SH15A,,1993.1306745922236,11890403312,11890386316,None,False,,none,True,False
+S737,segment_737,primary_link,,,8.011786634218197,11890403313,11890403312,None,False,,none,True,False
+S738,SH15A,primary,SH15A,,12.860203741951594,11890403313,1397292862,None,False,,none,True,False
+S739,segment_739,primary_link,,,8.02373141073172,11890420769,11890420770,None,False,,none,True,False
+S740,SH15A,primary,SH15A,,4963.575359094362,11890420769,11928388321,None,False,,landslide_block,False,True
+S741,segment_741,primary_link,,,8.02373141073172,11890420770,11890420769,None,False,,none,True,False
+S742,SH15A,primary,SH15A,,549.7178700812038,11890420770,9898705686,None,False,,none,True,False
+S743,segment_743,trunk_link,,,16.954945092044454,11890764057,11890764058,None,False,,landslide_block,False,True
+S744,segment_744,trunk_link,,,38.23472204088609,11890787260,11890787259,None,False,,none,True,False
+S745,NH48,trunk,NH48,Amer Road,1039.8276087347122,11890787260,9880239361,None,False,,none,True,False
+S746,segment_746,trunk_link,,,42.23720547995665,11890787261,541319051,None,False,,none,True,False
+S747,segment_747,primary_link,,,10.444764697222316,11906821430,11906821431,None,False,,none,True,False
+S748,MDR137,primary,MDR137,Faridabad-Gurgaon Road,178.80503251982282,11906821430,11906821432,None,False,,none,True,False
+S749,segment_749,primary_link,,,10.444764697222316,11906821431,11906821430,None,False,,none,True,False
+S750,segment_750,primary_link,,,12.623017913540838,11906821432,11906821433,None,False,,none,True,False
+S751,MDR137,primary,MDR137,Faridabad-Gurgaon Road,1019.4850748998986,11906821432,3953762669,None,False,,none,True,False
+S752,segment_752,primary_link,,,12.623017913540838,11906821433,11906821432,None,False,,none,True,False
+S753,MDR137,primary,MDR137,Faridabad-Gurgaon Road,178.93980085297144,11906821433,11906821431,None,False,,none,True,False
+S754,segment_754,primary_link,,,9.09823538771296,11908871365,11908871366,None,False,,none,True,False
+S755,SH15A,primary,SH15A,,598.5235295015723,11908871365,4135047549,None,False,,none,True,False
+S756,SH15A,primary,SH15A,,102.99551645418344,11908871366,11908871368,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S757,segment_757,primary_link,,,9.09823538771296,11908871366,11908871365,None,False,,none,True,False
+S758,SH15A,primary,SH15A,,103.18904710755366,11908871367,11908871365,None,False,,none,True,False
+S759,segment_759,primary_link,,,8.485108418837793,11908871367,11908871368,None,False,,crack_pothole,True,False
+S760,SH15A,primary,SH15A,,54.92217302192072,11908871368,11908997970,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S761,segment_761,primary_link,,,8.485108418837793,11908871368,11908871367,None,False,,none,True,False
+S762,SH15A,primary,SH15A,,55.04618204417217,11908997969,11908871367,None,False,,none,True,False
+S763,segment_763,primary_link,,,8.156662647153555,11908997969,11908997970,None,False,,none,True,False
+S764,segment_764,primary_link,,,8.156662647153555,11908997970,11908997969,None,False,,none,True,False
+S765,SH15A,primary,SH15A,,206.0575664985759,11908997970,4133264095,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,landslide_block,False,True
+S766,segment_766,primary_link,,,5.690038327628583,11909093795,11909093796,None,False,,none,True,False
+S767,SH15A,primary,SH15A,,433.0076020615388,11909093795,11842964113,None,False,,landslide_block,False,True
+S768,segment_768,primary_link,,,5.690038327628583,11909093796,11909093795,None,False,,crack_pothole,True,False
+S769,SH15A,primary,SH15A,,25.094972959256623,11909093796,11909093798,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S770,segment_770,primary_link,,,5.466388634794802,11909093797,11909093798,None,False,,none,True,False
+S771,SH15A,primary,SH15A,,24.66668639277078,11909093797,11909093795,None,False,,none,True,False
+S772,segment_772,primary_link,,,5.466388634794802,11909093798,11909093797,None,False,,none,True,False
+S773,SH15A,primary,SH15A,,584.6337426519456,11909093798,11843067840,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S774,segment_774,trunk_link,,,114.71628777898819,11909112454,11909112463,None,False,,landslide_block,False,True
+S775,NH48,"['motorway', 'trunk']",NH48,"['Amer Road', 'Delhi-Gurugram Expressway']",361.8862127571998,11909112454,278166434,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S776,NH48,trunk,NH48,,42.65624341669643,11909112463,12250202278,None,False,,none,True,False
+S777,segment_777,trunk_link,,,25.111789794214484,11909411845,11909411847,None,False,,none,True,False
+S778,NH248A,trunk,NH248A,Sohna Road,55.36118550256974,11909411847,10154285762,None,False,,none,True,False
+S779,segment_779,trunk_link,,,25.54047292869504,11909411848,11909411849,None,False,,none,True,False
+S780,NH248A,trunk,NH248A,Sohna Road,5479.855884169292,11909411848,11927984481,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S781,segment_781,trunk_link,,,12.425392078774781,11909411851,11909411852,None,False,,none,True,False
+S782,segment_782,trunk_link,,,12.425392078774781,11909411852,11909411851,None,False,,none,True,False
+S783,NH248A,trunk,NH248A,Sohna Road,88.83344346670401,11909411852,11909411848,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S784,segment_784,trunk,,,56.11444274642412,11909541800,10698543080,None,False,,none,True,False
+S785,segment_785,trunk_link,,,70.58869280753956,11909541800,10698543080,None,False,,none,True,False
+S786,segment_786,primary_link,,,9.568601211813569,11909667840,11909667841,None,False,,none,True,False
+S787,Sohna Road,primary,,Sohna Road,241.66959473320622,11909667840,7425090749,None,False,,none,True,False
+S788,Sohna Road,primary,,Sohna Road,17.852732615887426,11909667841,11909667843,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S789,segment_789,primary_link,,,9.568601211813569,11909667841,11909667840,None,False,,none,True,False
+S790,Sohna Road,primary,,Sohna Road,18.392065798089632,11909667842,11909667840,None,False,,none,True,False
+S791,segment_791,primary_link,,,9.363117489744058,11909667842,11909667843,None,False,,none,True,False
+S792,segment_792,primary_link,,,9.363117489744058,11909667843,11909667842,None,False,,none,True,False
+S793,Sohna Road,primary,,Sohna Road,51.006555719472004,11909667843,2006383516,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S794,segment_794,motorway_link,,,30.579897588244396,11911322663,11911322664,None,False,,landslide_block,False,True
+S795,NH48,motorway,NH48,Delhi-Gurugram Expressway,1016.7273447949615,11911322663,1359090798,None,False,,none,True,False
+S796,segment_796,motorway_link,,,30.579897588244396,11911322664,11911322663,None,False,,landslide_block,False,True
+S797,segment_797,trunk_link,,,19.012923212162672,11920062954,11920062955,None,False,,none,True,False
+S798,segment_798,trunk_link,,,19.012923212162672,11920062955,11920062954,None,False,,none,True,False
+S799,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,780.9431249581589,11920062955,537994230,None,False,,none,True,False
+S800,segment_800,trunk_link,,,25.071677059896345,11927954368,11927969969,None,False,,none,True,False
+S801,NH248A,trunk,NH248A,,7955.513387192602,11927954368,8901678233,None,False,,none,True,False
+S802,segment_802,trunk_link,,,25.071677059896345,11927969969,11927954368,None,False,,none,True,False
+S803,segment_803,trunk_link,,,21.280575960109424,11927969970,11927969971,None,False,,none,True,False
+S804,NH248A,trunk,NH248A,,484.5257211802694,11927969970,9892914460,None,False,,none,True,False
+S805,NH248A,trunk,NH248A,,419.3043015231941,11927984481,11927954368,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S806,segment_806,trunk_link,,,33.25598935603691,11927984482,11927984481,None,False,,none,True,False
+S807,segment_807,motorway_link,,,38.78841601780303,11928233467,11928233468,None,False,,none,True,False
+S808,NE-4,motorway,NE-4,Delhi - Vadodara Expressway,4654.014186831655,11928233467,8901678243,None,False,,none,True,False
+S809,segment_809,motorway_link,,,38.78841601780303,11928233468,11928233467,None,False,,none,True,False
+S810,segment_810,primary_link,,,7.850825562651978,11928358831,11928358832,None,False,,landslide_block,False,True
+S811,segment_811,primary_link,,,7.850825562651978,11928358832,11928358831,None,False,,landslide_block,False,True
+S812,SH15A,primary,SH15A,,275.4221267726427,11928358832,11928358835,None,False,,none,True,False
+S813,segment_813,primary_link,,,7.996502623265599,11928358834,11928358835,None,False,,none,True,False
+S814,SH15A,primary,SH15A,,276.15043036431155,11928358834,11928358831,None,False,,none,True,False
+S815,segment_815,primary_link,,,7.996502623265599,11928358835,11928358834,None,False,,none,True,False
+S816,SH15A,primary,SH15A,,307.1501688764956,11928358835,11890386317,None,False,,none,True,False
+S817,segment_817,primary_link,,,8.012399890015104,11928388320,11928388321,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S818,SH15A,primary,SH15A,,4963.807479878359,11928388320,11890420770,None,False,,none,True,False
+S819,segment_819,primary_link,,,8.012399890015104,11928388321,11928388320,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S820,SH15A,primary,SH15A,,829.6465872660463,11928388321,7877267461,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,crack_pothole,True,False
+S821,segment_821,primary_link,,,13.621030231784278,11928397575,11928397576,None,False,,none,True,False
+S822,SH15A,primary,SH15A,,171.57342439043575,11928397575,7230262745,None,False,,none,True,False
+S823,segment_823,primary_link,,,13.621030231784278,11928397576,11928397575,None,False,,none,True,False
+S824,SH15A,primary,SH15A,,1873.857248813602,11928397576,7230262775,Medium,False,IMT Manesar <-> Farrukhnagar Logistics Hub; Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S825,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,1585.209144239966,11932405229,7413982044,None,False,,landslide_block,False,True
+S826,segment_826,trunk_link,,,48.008152296256746,11932405232,11932405229,None,False,,none,True,False
+S827,segment_827,trunk_link,,,7.365120385300964,11959724323,7379261272,None,False,,none,True,False
+S828,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,872.1134061028063,11959724323,11982614676,None,False,,crack_pothole,True,False
+S829,segment_829,trunk_link,,,7.4744652073333215,11959752963,9897263368,None,False,,none,True,False
+S830,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,58.913103686420094,11959752963,7379262585,None,False,,none,True,False
+S831,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,43.44107921468915,11959861086,9891013001,None,False,,crack_pothole,True,False
+S832,segment_832,trunk_link,,,10.363607895543291,11959861086,11959861087,None,False,,none,True,False
+S833,segment_833,trunk_link,,,10.363607895543291,11959861087,11959861086,None,False,,none,True,False
+S834,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,205.2881354006983,11959861087,1397292677,None,False,,none,True,False
+S835,segment_835,trunk_link,,,9.168801257516916,11959883306,11959883307,None,False,,none,True,False
+S836,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,217.1020251192311,11959883306,4140053679,None,False,,none,True,False
+S837,segment_837,trunk_link,,,9.168801257516916,11959883307,11959883306,None,False,,none,True,False
+S838,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,854.0724989747018,11959883307,9891013000,None,False,,none,True,False
+S839,segment_839,trunk_link,,,14.746184181209038,11962368059,11962368060,None,False,,none,True,False
+S840,NH48,"['trunk_link', 'trunk']",NH48,Amer Road,816.9897402701765,11968274406,11817839279,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,landslide_block,False,True
+S841,segment_841,trunk_link,,,9.190383948631611,11982614676,11982614677,None,False,,none,True,False
+S842,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,815.523500028433,11982614676,9899356270,None,False,,crack_pothole,True,False
+S843,segment_843,trunk_link,,,9.190383948631611,11982614677,11982614676,None,False,,none,True,False
+S844,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,865.6756447923709,11982614677,7379261272,None,False,,none,True,False
+S845,NH48,motorway,NH48,Delhi-Gurugram Expressway,215.9465697696299,12088691764,7610591418,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S846,segment_846,motorway_link,,,501.8448020102108,12088691764,7610591434,None,False,,none,True,False
+S847,NH48,motorway,NH48,Delhi-Gurugram Expressway,775.2475987577741,12088736372,11817953058,Medium,False,Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S848,segment_848,motorway_link,,,134.8302883195715,12234337623,4130541795,None,False,,none,True,False
+S849,NH248BB,motorway,NH248BB,Dwarka Expressway,471.63626609509396,12234369974,12234369979,None,False,,none,True,False
+S850,segment_850,motorway_link,,,116.89393897627832,12234369974,12234369975,None,False,,none,True,False
+S851,segment_851,motorway_link,,,170.6099621865115,12234369978,12234369979,None,False,,none,True,False
+S852,segment_852,trunk_link,,,26.583489548729272,12250202278,12250202279,None,False,,none,True,False
+S853,NH48,trunk,NH48,Vatika Flyover,1858.8975108138493,12250202278,6660142825,None,False,,none,True,False
+S854,segment_854,trunk_link,,,26.583489548729272,12250202279,12250202278,None,False,,none,True,False
+S855,NH48,motorway,NH48,Delhi-Gurugram Expressway,967.0147920271663,12278015322,278166436,None,False,,none,True,False
+S856,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,7219.7299385835495,12520537914,12520587478,None,False,,none,True,False
+S857,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,346.9524676334562,12520537914,13417514316,None,False,,none,True,False
+S858,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,4816.998299631755,12520558787,12520587461,None,False,,none,True,False
+S859,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,44.8546771702415,12520587460,12520587480,None,False,,none,True,False
+S860,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,131.78001653319552,12520587460,12520587480,None,False,,none,True,False
+S861,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,101.32494868996929,12520587461,12520587460,None,False,,none,True,False
+S862,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,51.74671630721777,12520587478,12520587461,None,False,,none,True,False
+S863,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,4869.218714033963,12520587478,12520558787,None,False,,none,True,False
+S864,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,105.45894644104122,12520587480,12520587478,None,False,,none,True,False
+S865,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,7147.533289405031,12520587480,12520537914,None,False,,crack_pothole,True,False
+S866,NH48,motorway,NH48,Delhi-Gurugram Expressway,232.2828318805315,12738628046,320917733,None,False,,none,True,False
+S867,segment_867,motorway_link,,,569.3562975891347,12738628046,7610591432,None,False,,crack_pothole,True,False
+S868,SH15A,primary,SH15A,Gurugram Road,676.4567068654069,12774281558,1549870600,None,False,,none,True,False
+S869,SH15A,primary,SH15A,Gurugram Road,58.851706219103015,12774281558,12774281560,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,none,True,False
+S870,segment_870,primary_link,,,44.54949773904386,12774281560,9918551091,None,False,,none,True,False
+S871,SH15A,primary,SH15A,Gurugram Road,33.000890765048,12774281560,1774430915,Medium,False,Sohna Industrial Area <-> Farrukhnagar Logistics Hub,landslide_block,False,True
+S872,segment_872,trunk_link,,,9.760172884350865,12797454590,1864557585,None,False,,none,True,False
+S873,segment_873,trunk,,,447.6589739838695,12797454590,13332872885,None,False,,none,True,False
+S874,segment_874,primary_link,,,55.88109641316636,13020900349,11841192743,None,False,,none,True,False
+S875,segment_875,motorway_link,,,124.29016919905882,13148751028,11287226461,None,False,,none,True,False
+S876,NH248BB,motorway,NH248BB,Dwarka Expressway,177.00708021235363,13148751028,11287226453,None,False,,none,True,False
+S877,NH248BB,motorway,NH248BB,Dwarka Expressway,4464.062723816512,13148751031,12234369974,None,False,,none,True,False
+S878,segment_878,motorway_link,,,27.81981719635499,13236388684,13236388685,None,False,,none,True,False
+S879,segment_879,trunk_link,,,7.209657861191007,13332872885,13332872886,None,False,,none,True,False
+S880,segment_880,trunk,,,431.70972834905785,13332872885,7543673665,None,False,,none,True,False
+S881,segment_881,trunk_link,,,7.209657861191007,13332872886,13332872885,None,False,,none,True,False
+S882,segment_882,trunk,,,446.250516798581,13332872886,1864557585,None,False,,none,True,False
+S883,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,770.2831974692431,13417514316,13417514352,None,False,,none,True,False
+S884,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,346.9524676334562,13417514316,12520537914,None,False,,none,True,False
+S885,segment_885,trunk_link,,,8.785400615425562,13417514321,13417514352,None,False,,none,True,False
+S886,segment_886,trunk,,,771.350174014059,13417514321,13417514316,None,False,,none,True,False
+S887,segment_887,trunk_link,,,8.785400615425562,13417514352,13417514321,None,False,,none,True,False
+S888,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,7647.888963738815,13417514352,13418051040,None,False,,none,True,False
+S889,segment_889,trunk_link,,,18.170559395747382,13418051039,13418051040,None,False,,crack_pothole,True,False
+S890,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,7647.650678642956,13418051039,13417514321,None,False,,none,True,False
+S891,segment_891,trunk_link,,,18.170559395747382,13418051040,13418051039,None,False,,none,True,False
+S892,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,309.25971016835103,13418051040,13571936006,None,False,,none,True,False
+S893,segment_893,motorway_link,,,18.466057861143167,13571936006,1397292609,None,False,,none,True,False
+S894,NH352W,trunk,NH352W,Gurgaon Rewari Narnaul Singhana Road,1235.8407281204975,13571936006,4134884217,None,False,,none,True,False
+S895,NH48,"['trunk_link', 'trunk']",NH48,Amer Road,429.43046596027835,13792853600,9885041714,High,True,IMT Manesar <-> Bilaspur Logistics Hub; Udyog Vihar <-> Bilaspur Logistics Hub,none,True,False
+S896,segment_896,trunk_link,,,24.249908848643617,13876230436,13876230437,None,False,,none,True,False
+S897,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,89.91287467339255,13876230436,13876230439,None,False,,none,True,False
+S898,segment_898,trunk_link,,,25.9130142932262,13876230439,13876230438,None,False,,none,True,False
+S899,NH148A,trunk,NH148A,Mehrauli Gurgaon Road,553.9802342148987,13876230439,6458403504,None,False,,none,True,False

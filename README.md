@@ -166,6 +166,94 @@ warehouse points into one LogisticsCluster in the Nagoya case), and
 bbox-specific, not a universal artifact (Stuttgart's identically sized bbox
 is a single connected component).
 
+## v0.3: Disaster Pavement Recovery Scheduling WCSP
+
+Section plan: [docs/Plan_v0.3_Disaster_Recovery_WCSP.md](docs/Plan_v0.3_Disaster_Recovery_WCSP.md).
+Concept source: [docs/ScenarioOptimization_20261007.jpg](docs/ScenarioOptimization_20261007.jpg)
+(a major earthquake across the region causes pavement crack/pothole damage
+*and* landslide-blocked HighwaySegments; which segments should be repaired
+first to minimize cumulative Supply Chain Loss, and what Recovery Benefit
+does each extra kilometre of repair buy?). This turns the static
+`is_metapath_hard` labeling above into a concrete downstream consumer: a
+synthetic-earthquake scenario generator, a Repair Lot builder, a Supply
+Chain Loss evaluator, and a tabu-search scheduler, implemented in
+`src/disaster_recovery/` and run via `run_disaster_recovery.py`.
+
+```powershell
+.venv-himet\Scripts\python.exe run_disaster_recovery.py --region gurgaon
+.venv-himet\Scripts\python.exe run_disaster_recovery.py --region stuttgart
+.venv-himet\Scripts\python.exe run_disaster_recovery.py --region taoyuan_hsinchu
+.venv-himet\Scripts\python.exe run_disaster_recovery.py --region nagoya_toyota_komaki
+# or, sequentially for all four:
+.venv-himet\Scripts\python.exe run_disaster_recovery_all_regions.py
+```
+
+Each region requires its `run_pipeline.py --region <key>` outputs to already
+exist. The model: a fixed-seed synthetic earthquake independently damages
+each HighwaySegment (`BLOCK_PROB`=4% landslide-blocked/impassable,
+`CRACK_PROB`=8% crack/pothole/passable); damaged segments are bundled by
+HIGHWAY_CONTIGUOUS graph adjacency into Repair Lots; a lot is **hard**
+(must be scheduled within the horizon) if it contains a blocked segment
+(`hard_disaster`) or an `is_metapath_hard` segment (`hard_metapath`). Each
+lot's repair **duration** is `ceil(sum of each member segment's length /
+its damage-type production rate)` -- 100 m/day for landslide-block
+clearance (heavy equipment), 500 m/day for crack/pothole patching -- so a
+5.8 km landslide-blocked lot realistically takes ~58 crew-days, not 1. A
+tabu search schedules hard lots over a 60-day horizon onto 4 crews working
+concurrently (a lot occupies one crew for its full duration once started),
+minimizing `J(x) = a1*SC_Loss_norm + a2*cost_norm + beta_hard*v_hard +
+beta_cap*v_cap`, where Supply Chain Loss sums `w_i * v_j`
+(FactoryCluster/LogisticsCluster OSM footprint area, km²) over every
+metapath-labeled pair that cannot reach each other within an allowed detour
+of the currently-open road network.
+
+An earlier version treated every Repair Lot as a fixed one-day job and
+`daily_capacity` as a lots/day quota (ignoring lot length entirely); that
+made all three well-connected regions converge to an identical 92.9%
+Recovery Benefit within 2 days regardless of real damage extent -- a
+modeling artifact, not a genuine cross-region finding (see the Plan's
+"Decisions" for the full diagnosis). The length/production-rate-based
+duration model below gives each region a distinct, non-degenerate recovery
+curve.
+
+| Quantity | Gurgaon | Stuttgart | Taoyuan-Hsinchu | Nagoya-Komaki |
+|---|---:|---:|---:|---:|
+| HighwaySegments (landslide/crack) | 900 (36/53) | 1,031 (38/74) | 1,127 (41/83) | 3,190 (114/253) |
+| Repair Lots (hard) | 71 (37) | 88 (35) | 90 (34) | 249 (103) |
+| Hard-lot repair demand (total / longest, crew-days) | 190 / 52 | 163 / 35 | 398 / 61 | 913 / 62 |
+| Eligible pairs (excluded pre-disaster-unreachable) | 120 (2) | 120 (0) | 21 (2) | 48 (14) |
+| Hard lots scheduled within 60d horizon (v_hard) | 37/37 (0) | 35/35 (0) | 34/34 (0) | 103/103 (0) |
+| Capacity overflow-days (v_cap) | 0 | 0 | 1 | 34 |
+| Final J(x) (initial -> final) | 1.075 -> 1.047 | 1.483 -> 1.183 | 101.4 -> 21.6 | 3300.3 -> 681.0 |
+| Recovery Benefit (% of no-repair SC_Loss) | 95.4% | 81.7% | 45.0% | 0.0%\* |
+
+Non-Gurgaon regions always have `hard_metapath=False` (0 `is_metapath_hard`
+segments, as in v0.2 above), so their hard lots are driven entirely by
+`hard_disaster`. Taoyuan-Hsinchu's 398 crew-days of demand and
+Nagoya-Komaki's 913 crew-days both exceed their 4-crew x 60-day = 240
+crew-day budget, correctly producing capacity overflow (`v_cap>0`) rather
+than ever leaving a hard lot unscheduled (`v_hard=0`, as the
+`beta_hard >> beta_cap` penalty hierarchy intends) -- a genuine,
+region-specific resourcing shortfall (more damage than 4 crews can clear in
+60 days), not a bug. Nagoya-Komaki's 0.0% is a different, independently
+confirmed finding: this seed's random damage draw never disconnects any of
+its 48 eligible pairs even with all 114 blocked segments simultaneously
+closed (SC_Loss is 0 on every day, no-repair or otherwise), reflecting that
+network's redundancy rather than an artifact of the duration model.
+
+Per-region outputs: `outputs/disaster_recovery/` (Gurgaon, flat path) or
+`outputs/<region>/disaster_recovery/` (other three), each with
+`labels/` (synthetic damage + repair lots), `schedule/repair_schedule.csv`,
+`metrics/{sc_loss_timeseries,recovery_frontier,tabu_convergence}.csv`, and
+`figures/{sc_loss_timeseries,recovery_frontier,tabu_convergence}.png` -- the
+`recovery_frontier.png` is the Recovery Benefit (y) vs. cumulative repair
+distance (x) staircase from the concept sketch.
+
+Known limitation: no real seismic-hazard or landslide-susceptibility data is
+used (`src/disaster_recovery/scenario.py` draws independent per-segment
+Bernoulli damage with a fixed RNG seed); see the Plan's Decisions/Further
+Considerations for how a real hazard layer would be substituted.
+
 ## Integration with `method_repair_lot_wcsp` (hard-constraint extension)
 
 `method_repair_lot_wcsp.pdf` defines the repair-lot inclusion decision

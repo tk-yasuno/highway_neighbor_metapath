@@ -30,6 +30,10 @@ def _load_points(region: RegionConfig) -> gpd.GeoDataFrame:
             "osm_id": ind["id"],
             "osm_name": ind["name"] if "name" in ind.columns else None,
             "src_type": "industrial",
+            # real polygon footprint area (0.0 for a bare Point geometry, e.g. a
+            # future building=warehouse node) -- used by v0.3's disaster-recovery
+            # supply-chain weighting (w_i / v_j proportional to cluster area).
+            "member_area_m2": ind.geometry.area,
         },
         geometry=ind.geometry.centroid,
         crs=region.crs_metric,
@@ -40,6 +44,7 @@ def _load_points(region: RegionConfig) -> gpd.GeoDataFrame:
             "osm_id": wh["id"],
             "osm_name": wh["name"] if "name" in wh.columns else None,
             "src_type": "warehouse",
+            "member_area_m2": wh.geometry.area,
         },
         geometry=wh.geometry.centroid,
         crs=region.crs_metric,
@@ -108,7 +113,10 @@ def build_clusters(region: RegionConfig) -> gpd.GeoDataFrame:
     """Run the full clustering step and return one row per FactoryCluster /
     LogisticsCluster node, in WGS84, with columns:
     cluster_id, name, node_type ("factory"/"logistics"), n_members,
-    member_names, is_named_seed, geometry (centroid point).
+    member_names, is_named_seed, area_m2 (summed real footprint area of the
+    cluster's member OSM polygons, 0.0 if all members are bare points; used
+    by v0.3's disaster-recovery supply-chain weighting), geometry (centroid
+    point).
     """
     points = _load_points(region)
     labels = _dbscan_cluster(points, region)
@@ -131,6 +139,7 @@ def build_clusters(region: RegionConfig) -> gpd.GeoDataFrame:
         n_warehouse = (members["src_type"] == "warehouse").sum()
         default_type = "factory" if n_industrial >= n_warehouse else "logistics"
         member_names = sorted({n for n in members["osm_name"].dropna().tolist()})
+        area_m2 = float(members["member_area_m2"].sum())
 
         if i in seed_map:
             name, node_type = seed_map[i]
@@ -151,6 +160,7 @@ def build_clusters(region: RegionConfig) -> gpd.GeoDataFrame:
                 "n_warehouse": int(n_warehouse),
                 "member_names": "; ".join(member_names) if member_names else "",
                 "is_named_seed": is_named_seed,
+                "area_m2": area_m2,
                 "geometry": centroids_gs.iloc[i],
             }
         )

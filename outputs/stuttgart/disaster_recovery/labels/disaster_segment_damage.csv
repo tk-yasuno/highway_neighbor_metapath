@@ -1,0 +1,1032 @@
+﻿segment_id,corridor_id,highway,ref,name,length,u,v,metapath_priority,is_metapath_hard,metapath_pairs,damage_type,initial_open,disaster_hard
+S0,A 8,motorway_link,A 8,,396.63375126415696,242419,59908965,None,False,,none,True,False
+S1,A 8,motorway,A 8,,562.6341987602815,242419,242411,None,False,,none,True,False
+S2,segment_2,motorway_link,,,431.9675570473436,242452,589619,None,False,,none,True,False
+S3,A 81,motorway_link,A 81,,592.3976082257036,242452,433564,None,False,,none,True,False
+S4,A 81,motorway_link,A 81,,401.1023242030597,242454,242452,None,False,,none,True,False
+S5,A 831,motorway,A 831,,359.7346175186733,242454,242479,None,False,,none,True,False
+S6,segment_6,motorway_link,,,760.4023872027572,242457,266710219,None,False,,none,True,False
+S7,segment_7,motorway_link,,,463.2562276022007,242457,498369,None,False,,none,True,False
+S8,A 831,motorway,A 831,,522.8910897242333,242479,498369,None,False,,none,True,False
+S9,A 81,motorway_link,A 81,,294.4292647974044,433564,433568,None,False,,none,True,False
+S10,segment_10,motorway_link,,,325.11814071262364,433570,36614062,None,False,,none,True,False
+S11,A 81,motorway_link,A 81,,702.2387465077481,433570,433577,None,False,,none,True,False
+S12,A 81,motorway,A 81,,2406.7787237523507,433826,433835,None,False,,none,True,False
+S13,A 81,motorway,A 81,,317.175313385136,433835,13720486873,None,False,,crack_pothole,True,False
+S14,segment_14,motorway_link,,,269.995048064867,433835,433854,None,False,,none,True,False
+S15,segment_15,motorway_link,,,67.39035001602852,433854,269778077,None,False,,none,True,False
+S16,segment_16,motorway_link,,,40.82757985814703,433854,540121179,None,False,,none,True,False
+S17,segment_17,motorway_link,,,344.723778289539,434210,434215,None,False,,none,True,False
+S18,A 81,motorway,A 81,,922.8181147800875,434210,7480346596,None,False,,none,True,False
+S19,segment_19,motorway_link,,,422.24747029106794,434215,434219,None,False,,none,True,False
+S20,segment_20,motorway_link,,,269.32787181196124,434215,33319211,None,False,,none,True,False
+S21,B 10,trunk,B 10,,1136.6910178574876,434219,1153319872,None,False,,none,True,False
+S22,B 10,trunk,B 10,,281.76852480436014,434235,21529575,None,False,,none,True,False
+S23,segment_23,motorway_link,,,866.3120224520065,434235,7002820660,None,False,,none,True,False
+S24,segment_24,trunk_link,,,250.00172587331852,434253,434257,None,False,,none,True,False
+S25,B 10,trunk,B 10,,400.6767156526844,434253,5667409022,None,False,,none,True,False
+S26,segment_26,trunk_link,,,48.540737785189805,434257,399489666,None,False,,none,True,False
+S27,B 10,trunk,B 10,,1092.5929515898358,434264,434235,None,False,,none,True,False
+S28,B 27,trunk_link,B 27,,993.5118753320995,434278,434286,None,False,,none,True,False
+S29,B 10,trunk,B 10,,1103.9010513853937,434278,13887885,None,False,,none,True,False
+S30,B 27,trunk,B 27,,271.5493928704753,434286,434287,None,False,,none,True,False
+S31,B 27,trunk,B 27,,881.1884440166693,434287,434308,None,False,,none,True,False
+S32,B 27,trunk_link,B 27,,354.3493495605003,434287,88272488,None,False,,none,True,False
+S33,B 27,trunk,B 27,,299.77290918276975,434293,434295,None,False,,none,True,False
+S34,B 27,trunk,B 27,,150.22504502638088,434295,5243254409,None,False,,none,True,False
+S35,B 27,trunk_link,B 27,,138.67875977090608,434295,245809985,None,False,,none,True,False
+S36,B 27,trunk,B 27,,1108.4939954761496,434297,13887885,None,False,,none,True,False
+S37,B 10,trunk_link,B 10,,920.9565188384913,434297,265808368,None,False,,crack_pothole,True,False
+S38,B 27,trunk,B 27,,1295.2832472956547,434308,220586616,None,False,,none,True,False
+S39,B 27,trunk,B 27,,488.7172672776907,434323,434293,None,False,,none,True,False
+S40,B 27,trunk_link,B 27,,513.5723235381847,434323,434293,None,False,,none,True,False
+S41,B 27,trunk_link,B 27,,105.61013670903935,434352,434354,None,False,,none,True,False
+S42,B 27,trunk,B 27,,107.2402209200952,434352,248204259,None,False,,none,True,False
+S43,B 27,trunk_link,B 27,,100.39342163651582,434354,3411061252,None,False,,none,True,False
+S44,B 27,trunk_link,B 27,,66.02312636659583,434354,248204259,None,False,,none,True,False
+S45,B 27,trunk_link,B 27,,26.326673486227357,434375,3411061252,None,False,,none,True,False
+S46,B 27,trunk_link,B 27,,135.47172447266487,434377,434381,None,False,,none,True,False
+S47,B 27,trunk_link,B 27,,135.47172447266485,434381,434377,None,False,,none,True,False
+S48,B 27,trunk_link,B 27,,88.12020467020699,434381,434383,None,False,,none,True,False
+S49,B 27,trunk,B 27,,513.1437984687433,434383,220588065,None,False,,none,True,False
+S50,L 1180,trunk_link,L 1180,,286.58038130015586,498275,21276915,None,False,,none,True,False
+S51,L 1187,trunk,L 1187,Rotenwaldstraße,313.4064436019208,498275,3426630589,None,False,,landslide_block,False,True
+S52,Wildparkstraße,trunk,,Wildparkstraße,630.0989551436037,498281,498285,None,False,,none,True,False
+S53,L 1187,trunk_link,L 1187,,324.5178540394567,498281,48783226,None,False,,none,True,False
+S54,B 14,trunk,B 14,,267.2339558747741,498285,498286,None,False,,none,True,False
+S55,B 14,trunk,B 14,,573.2585194371331,498286,498294,None,False,,none,True,False
+S56,B 14,trunk_link,B 14,,207.98321153839603,498294,132870879,None,False,,none,True,False
+S57,B 14,trunk,B 14,,325.29514362556205,498294,13264658069,None,False,,none,True,False
+S58,B 14,trunk,B 14,,678.0997516600503,498297,3255783423,None,False,,none,True,False
+S59,A 831,motorway,A 831,,916.0209466821705,498369,498376,None,False,,none,True,False
+S60,A 831,motorway,A 831,,656.3099324978868,498370,266710219,None,False,,none,True,False
+S61,segment_61,motorway_link,,,271.84727807461013,498370,28100329,None,False,,none,True,False
+S62,segment_62,motorway_link,,,442.4165605004374,498376,36607666,None,False,,none,True,False
+S63,A 831,motorway,A 831,,388.86788645023466,498376,142585056,None,False,,none,True,False
+S64,segment_64,motorway_link,,,179.89186630565322,551605,3595285073,None,False,,none,True,False
+S65,A 8,motorway,A 8,,5680.9240359443165,589619,315862829,None,False,,none,True,False
+S66,segment_66,motorway_link,,,736.5392275917802,589679,30373810,None,False,,none,True,False
+S67,A 8,motorway_link,A 8,,281.4383307428076,589679,30373198,None,False,,none,True,False
+S68,B 27,trunk,B 27,,293.82935428674944,589698,1591445906,None,False,,landslide_block,False,True
+S69,B 27,trunk_link,B 27,,324.39302714677535,589698,1591445906,None,False,,crack_pothole,True,False
+S70,B 27,trunk,B 27,,352.1740270665579,589772,12595106914,None,False,,none,True,False
+S71,B 27,trunk_link,B 27,,201.53121743792533,589772,589777,None,False,,none,True,False
+S72,segment_72,trunk_link,,,14.831390916682185,589777,1591479355,None,False,,none,True,False
+S73,segment_73,trunk_link,,,36.263924561525926,589777,13760299037,None,False,,none,True,False
+S74,B 27,trunk,B 27,,462.9356460370983,589957,1591479277,None,False,,none,True,False
+S75,B 27,trunk_link,B 27,,235.23760885494127,589957,10683729,None,False,,none,True,False
+S76,B 27,primary,B 27,Obere Weinsteige,26.012191309291538,590035,1161452866,None,False,,none,True,False
+S77,B 27,primary,B 27,Obere Weinsteige,219.42601659934178,590035,3236957555,None,False,,none,True,False
+S78,B 27,primary,B 27,"['Neue Weinsteige', 'Obere Weinsteige']",1206.6697900192326,590040,590072,None,False,,none,True,False
+S79,B 27,primary,B 27,Obere Weinsteige,108.42096788068588,590040,279208896,None,False,,none,True,False
+S80,B 27,primary,B 27,Neue Weinsteige,360.5821027089304,590072,275129069,None,False,,none,True,False
+S81,B 27,primary,B 27,"['Neue Weinsteige', 'Obere Weinsteige']",1206.6697900192326,590072,590040,None,False,,none,True,False
+S82,B 27,primary,B 27,Heilbronner Straße,746.7259553023712,590170,4020625588,None,False,,none,True,False
+S83,B 27,primary,B 27,Pragsattel,73.72786952981035,590298,590300,None,False,,none,True,False
+S84,Pragsattel,primary_link,,Pragsattel,36.65169172835708,590300,13887901,None,False,,landslide_block,False,True
+S85,B 27,primary,B 27,"['Pragsattel', 'Heilbronner Straße']",211.4537501343294,590300,590306,None,False,,none,True,False
+S86,B 27,primary,B 27,Heilbronner Straße,1984.333096160868,590306,1491597982,None,False,,none,True,False
+S87,Willy-Brandt-Straße,primary_link,,Willy-Brandt-Straße,345.8592389866699,590409,3663605417,None,False,,none,True,False
+S88,B 10;B 14,trunk,B 10;B 14,Uferstraße,354.0340826642114,590574,27304798,None,False,,none,True,False
+S89,B 10,trunk_link,B 10,,223.3498648083405,590597,279633574,None,False,,none,True,False
+S90,B 10,trunk,B 10,Uferstraße,455.57886246654124,590597,376756572,None,False,,none,True,False
+S91,B 10,trunk,B 10,Uferstraße,1067.5296780831384,590615,590624,None,False,,none,True,False
+S92,B 10,trunk,B 10,,409.9455663137744,590624,12662359730,None,False,,none,True,False
+S93,segment_93,trunk_link,,,208.41956755054477,590624,265709335,None,False,,none,True,False
+S94,B 10,trunk,B 10,,283.10611598880087,590721,265428510,None,False,,none,True,False
+S95,segment_95,trunk_link,,,142.61220990930195,590721,94916352,None,False,,none,True,False
+S96,B 10,trunk,B 10,,1021.1767629175116,590733,590742,None,False,,none,True,False
+S97,B 10,trunk,B 10,,296.9664433029758,590742,13888094,None,False,,none,True,False
+S98,segment_98,trunk_link,,,164.55684246172248,590742,590748,None,False,,none,True,False
+S99,segment_99,trunk_link,,,39.41721485782534,590748,2090851981,None,False,,none,True,False
+S100,segment_100,trunk_link,,,34.51371526609429,590748,590749,None,False,,none,True,False
+S101,segment_101,trunk_link,,,8.746220003781614,590749,11616418564,None,False,,none,True,False
+S102,segment_102,trunk_link,,,32.313572104292476,590749,2090851977,None,False,,none,True,False
+S103,B 27,trunk_link,B 27,,310.66636329575823,590983,11137497,None,False,,none,True,False
+S104,A 8,motorway_link,A 8,,321.5750977673807,591099,242457,None,False,,none,True,False
+S105,A 8,motorway,A 8,,957.6694271396452,591099,433568,None,False,,none,True,False
+S106,A 81,motorway,A 81,,289.633809661193,591401,591406,None,False,,none,True,False
+S107,segment_107,motorway_link,,,75.26645998553441,591401,2175940984,None,False,,crack_pothole,True,False
+S108,A 81,motorway,A 81,,291.85790199341955,593655,156908150,None,False,,none,True,False
+S109,segment_109,motorway_link,,,67.03109068876326,593655,156908111,None,False,,none,True,False
+S110,A 81,motorway,A 81,,153.50551634890923,593690,249518992,None,False,,none,True,False
+S111,segment_111,motorway_link,,,437.0574470281171,593690,27798075,None,False,,none,True,False
+S112,A 81,motorway,A 81,,3871.8017824886406,593747,34917999,None,False,,none,True,False
+S113,segment_113,motorway_link,,,210.662725797191,593815,33319205,None,False,,none,True,False
+S114,A 81,motorway,A 81,,1100.519633227897,593815,593824,None,False,,none,True,False
+S115,A 81,motorway,A 81,,4011.1647722833322,593824,21265014,None,False,,none,True,False
+S116,B 27a,primary_link,B 27a,,220.1980716203811,670774,69443640,None,False,,none,True,False
+S117,B 27a,primary,B 27a,Österreichischer Platz,43.75595304314775,670774,1557540679,None,False,,none,True,False
+S118,B 27,primary,B 27,"['Charlottenstraße', 'Hohenheimer Straße']",1146.5508860835942,676069,1848965614,None,False,,none,True,False
+S119,B 27,primary,B 27,"['Neue Weinsteige', 'Hohenheimer Straße']",684.4382419946992,676069,275129069,None,False,,none,True,False
+S120,segment_120,motorway_link,,,26.474851278097823,10533590,472589278,None,False,,none,True,False
+S121,segment_121,motorway_link,,,96.3331769782603,10533590,28100336,None,False,,none,True,False
+S122,B 27,trunk_link,B 27,,40.332355912156146,10683729,11137360,None,False,,none,True,False
+S123,B 27,trunk_link,B 27,,53.21573288000056,10683729,11137351,None,False,,none,True,False
+S124,B 27,trunk,B 27,,479.94484532425633,11137335,1591445957,None,False,,crack_pothole,True,False
+S125,B 27,trunk_link,B 27,,203.49341032286745,11137335,11137344,None,False,,crack_pothole,True,False
+S126,B 27,trunk_link,B 27,,26.57722898770202,11137360,1591479268,None,False,,crack_pothole,True,False
+S127,B 27,trunk_link,B 27,,48.73835306902955,11137362,1591479268,None,False,,none,True,False
+S128,B 27,trunk_link,B 27,,230.99744101904187,11137497,1591445957,None,False,,none,True,False
+S129,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,23.0499031173338,12620665,12620697,None,False,,crack_pothole,True,False
+S130,B 27,primary,B 27,Friedrichstraße,131.82176168278335,12620665,1587388559,None,False,,none,True,False
+S131,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,19.300023493353876,12620685,1490435012,None,False,,none,True,False
+S132,B 27,primary,B 27,Friedrichstraße,8.93683004894253,12620697,280975108,None,False,,none,True,False
+S133,segment_133,primary_link,,,8.437840211565879,12620697,280975101,None,False,,none,True,False
+S134,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,21.03423552849152,12620697,12620685,None,False,,none,True,False
+S135,B 10;B 27,"['trunk', 'trunk_link']",B 10;B 27,,1624.4948821204573,13887885,13887912,None,False,,landslide_block,False,True
+S136,B 27,primary,B 27,Pragsattel,34.14905712311522,13887901,1489742579,None,False,,none,True,False
+S137,B 10;B 27,"['trunk_link', 'primary']",B 10;B 27,Heilbronner Straße,1326.9384317019624,13887912,265805392,None,False,,none,True,False
+S138,B 10;B 27,trunk_link,B 10;B 27,,44.43107239225709,13887912,1693994245,None,False,,none,True,False
+S139,B 27,trunk_link,B 27,,61.20116622451515,13888038,13888093,None,False,,none,True,False
+S140,B 10;B 27,"['trunk', 'trunk_link']",B 10;B 27,,1953.978591180341,13888054,1141833485,None,False,,none,True,False
+S141,B 27,trunk_link,B 27,,144.77398183747715,13888093,5243254409,None,False,,none,True,False
+S142,B 10,trunk,B 10,,1547.3366716240198,13888094,503349067,None,False,,none,True,False
+S143,B 27a,primary,B 27a,Friedrichstraße,163.92209967772538,20293650,3219353713,None,False,,none,True,False
+S144,B 27a,primary,B 27a,,57.14796186541866,20849964,69433639,None,False,,none,True,False
+S145,B 27a,primary,B 27a,Paulinenbrücke,45.38119737292114,20849964,1557540679,None,False,,none,True,False
+S146,B 27,primary_link,B 27,,20.161032396468872,20850015,565050063,None,False,,none,True,False
+S147,B 14,primary_link,B 14,,26.690479696795222,20850015,73801919,None,False,,none,True,False
+S148,B 27,primary,B 27,"['Willi-Bleicher-Straße', 'Schloßstraße', 'Planie-Tunnel', 'Richard-von-Weizsäcker-Planie']",862.5408003765739,20850552,281435062,None,False,,none,True,False
+S149,B 27a,primary,B 27a,Theodor-Heuss-Straße,381.0094714741823,20850552,183632879,None,False,,landslide_block,False,True
+S150,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,14.741205396666238,20918811,9341271730,None,False,,none,True,False
+S151,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,12.52344063767352,20918811,9341271731,None,False,,none,True,False
+S152,B 10;B 14,primary,B 10;B 14,Uferstraße,26.255614907749013,21097698,1648442936,None,False,,none,True,False
+S153,Poststraße,trunk_link,,Poststraße,29.059620030615704,21097698,1316564616,None,False,,none,True,False
+S154,Uferstraße,primary_link,,Uferstraße,32.44352143659933,21097698,10544453074,None,False,,none,True,False
+S155,B 10;B 14,trunk_link,B 10;B 14,,494.78111381173323,21097703,271788862,None,False,,none,True,False
+S156,B 10;B 14,trunk,B 10;B 14,Uferstraße,493.2389915808348,21097703,271788862,None,False,,none,True,False
+S157,B 10,trunk,B 10,Uferstraße,1863.1249014290572,21097709,28256489,None,False,,none,True,False
+S158,B 10,trunk_link,B 10,,149.42741392359008,21097709,271196635,None,False,,none,True,False
+S159,A 81,motorway,A 81,,1476.1561407977479,21265003,10087259857,None,False,,none,True,False
+S160,A 81,motorway,A 81,,183.22091806525907,21265014,21265003,None,False,,none,True,False
+S161,A 81,motorway_link,A 81,,211.7434736015751,21265014,265767723,None,False,,none,True,False
+S162,L 1180,trunk,L 1180,Wildparkstraße,273.04512548008825,21276915,31232252,None,False,,none,True,False
+S163,L 1180,trunk_link,L 1180,,737.1407650240158,21276916,13403181676,None,False,,landslide_block,False,True
+S164,L 1187,trunk_link,L 1187,Wildparkstraße,304.04191704933567,21276916,3426630589,None,False,,none,True,False
+S165,L 1180,trunk,L 1180,Wildparkstraße,1290.2012548661687,21276929,31232092,None,False,,none,True,False
+S166,L 1180,trunk,L 1180,Wildparkstraße,182.66081019931863,21276943,26866857,None,False,,none,True,False
+S167,segment_167,trunk_link,,,197.47641060175232,21276943,3220308735,None,False,,none,True,False
+S168,L 1180,trunk,L 1180,Wildparkstraße,1380.905956770565,21276944,262710548,None,False,,none,True,False
+S169,L 1187,trunk,L 1187,Rotenwaldstraße,72.07188267076917,21276950,266561999,None,False,,none,True,False
+S170,segment_170,motorway_link,,,187.57741428944027,21529565,7480346596,None,False,,none,True,False
+S171,segment_171,motorway_link,,,313.9812357707107,21529565,21529575,None,False,,none,True,False
+S172,B 10,trunk,B 10,,155.20962768218564,21529575,21529576,None,False,,none,True,False
+S173,segment_173,motorway_link,,,557.0573579960175,21529576,21529604,None,False,,crack_pothole,True,False
+S174,B 10,trunk,B 10,,224.0463445438552,21529576,265813295,None,False,,crack_pothole,True,False
+S175,B 10,trunk,B 10,,85.61062763776857,21529578,65346469,None,False,,none,True,False
+S176,segment_176,trunk_link,,,80.18028585937466,21529578,21529581,None,False,,none,True,False
+S177,segment_177,trunk_link,,,78.55250816839093,21529581,65346469,None,False,,none,True,False
+S178,segment_178,trunk_link,,,56.93860622884566,21529581,246567254,None,False,,none,True,False
+S179,B 10,trunk,B 10,,215.15382145910533,21529599,30366318,None,False,,none,True,False
+S180,segment_180,motorway_link,,,364.4840052361268,21529599,21529604,None,False,,none,True,False
+S181,segment_181,motorway_link,,,386.1706582487711,21529604,593824,None,False,,none,True,False
+S182,B 14,trunk_link,B 14,,220.45441044551634,21556373,36610325,None,False,,none,True,False
+S183,B 27,trunk,B 27,,1282.2564169372165,21585235,248204314,None,False,,none,True,False
+S184,B 27,trunk_link,B 27,,84.62732905752681,21585238,245949002,None,False,,none,True,False
+S185,B 27,trunk_link,B 27,,78.29026520744068,21585238,248202324,None,False,,none,True,False
+S186,B 27,trunk_link,B 27,,43.35159025456953,21585243,248202588,None,False,,none,True,False
+S187,B 14,trunk,B 14,,267.2349954974536,26161058,26470329,None,False,,none,True,False
+S188,segment_188,trunk_link,,,417.44204232845823,26161058,26470327,None,False,,crack_pothole,True,False
+S189,B 14,trunk,B 14,,771.1731170557475,26161072,26470354,None,False,,crack_pothole,True,False
+S190,B 29,trunk,B 29,,534.1726477058274,26161074,26470401,None,False,,none,True,False
+S191,B 14,trunk,B 14,,815.5438330466774,26161074,26161072,None,False,,none,True,False
+S192,B 29,trunk,B 29,,975.2821880674561,26464811,26464818,None,False,,none,True,False
+S193,segment_193,trunk_link,,,483.3776712145797,26464811,26161072,None,False,,none,True,False
+S194,B 14,trunk,B 14,,1035.3707401073586,26464818,26471028,None,False,,none,True,False
+S195,B 14,trunk,B 14,,255.19144313200718,26470296,26470297,None,False,,none,True,False
+S196,segment_196,trunk_link,,,390.06132714636533,26470296,26470305,None,False,,none,True,False
+S197,B 14,trunk,B 14,,1719.0783929069637,26470297,26470351,None,False,,none,True,False
+S198,segment_198,trunk_link,,,29.461234617208223,26470304,2425790713,None,False,,crack_pothole,True,False
+S199,segment_199,trunk_link,,,31.215507626123923,26470339,2425792020,None,False,,none,True,False
+S200,B 14,trunk_link,B 14,,285.59239103565415,26470351,26470359,None,False,,none,True,False
+S201,B 14,trunk,B 14,,214.08081095606434,26470351,26470352,None,False,,none,True,False
+S202,B 14,trunk,B 14,,914.7488240773805,26470352,26470380,None,False,,none,True,False
+S203,B 14,trunk,B 14,,1310.7694603900952,26470353,26161058,None,False,,none,True,False
+S204,B 14,trunk,B 14,,206.28315515524173,26470354,26470353,None,False,,landslide_block,False,True
+S205,segment_205,trunk_link,,,353.23061301756013,26470354,26470361,None,False,,none,True,False
+S206,B 14,trunk_link,B 14,An der Talaue,10.075907871200144,26470359,26477650,None,False,,none,True,False
+S207,B 14,trunk_link,B 14,An der Talaue,101.96287321959119,26470359,26470361,None,False,,none,True,False
+S208,segment_208,trunk_link,,,288.41154201113983,26470361,26470353,None,False,,none,True,False
+S209,B 14,trunk_link,B 14,An der Talaue,101.96287321959119,26470361,26470359,None,False,,none,True,False
+S210,B 14,trunk,B 14,,623.1616972996471,26470380,26464818,None,False,,none,True,False
+S211,segment_211,trunk_link,,,687.0735726967123,26470380,26470401,None,False,,none,True,False
+S212,B 29,trunk,B 29,,1583.056626957341,26470401,2305183567,None,False,,crack_pothole,True,False
+S213,segment_213,trunk,,,1071.5168379584493,26470983,26471027,None,False,,none,True,False
+S214,segment_214,trunk_link,,,185.5520569997897,26471000,2046520212,None,False,,none,True,False
+S215,segment_215,trunk_link,,,796.9482764509878,26471013,26471000,None,False,,none,True,False
+S216,B 14,trunk,B 14,,1433.9266121583103,26471013,26471027,None,False,,none,True,False
+S217,B 14,trunk,B 14,,960.745761637264,26471027,26161074,None,False,,none,True,False
+S218,segment_218,trunk,,,798.2562594947547,26471028,26472650,None,False,,none,True,False
+S219,B 14,trunk,B 14,,1160.6222548678877,26471028,26471038,None,False,,none,True,False
+S220,B 14,trunk,B 14,,534.6961809300623,26471038,26471042,None,False,,none,True,False
+S221,B 14,trunk,B 14,,500.9196086983936,26471042,26471061,None,False,,none,True,False
+S222,B 14,trunk_link,B 14,,496.7043241013738,26471042,26471061,None,False,,none,True,False
+S223,B 14,trunk,B 14,,150.85529064501168,26471058,26472879,None,False,,none,True,False
+S224,segment_224,trunk_link,,,267.2830400800946,26471058,321464400,None,False,,none,True,False
+S225,B 14,trunk,B 14,Kappelbergtunnel,3884.7729061234854,26471061,26471182,None,False,,none,True,False
+S226,segment_226,trunk_link,,,422.9849621772408,26471063,26471038,None,False,,landslide_block,False,True
+S227,segment_227,trunk_link,,,299.1465810648157,26471063,26470983,None,False,,none,True,False
+S228,B 14,trunk_link,B 14,,28.60741921188194,26471114,26471116,None,False,,none,True,False
+S229,B 14,trunk_link,B 14,,205.6836135258379,26471116,26472879,None,False,,crack_pothole,True,False
+S230,B 14,trunk,B 14,Kappelbergtunnel,3869.5882910792047,26471150,26471058,None,False,,none,True,False
+S231,B 14,trunk_link,B 14,,304.3536399312732,26471182,1186309586,None,False,,none,True,False
+S232,B 14,trunk,B 14,,347.4554334950288,26471182,26471197,None,False,,none,True,False
+S233,B 14,trunk,B 14,,642.9794414922571,26471197,26471234,None,False,,none,True,False
+S234,B 14,trunk_link,B 14,,33.7553151397718,26471210,271770223,None,False,,none,True,False
+S235,B 14,trunk_link,B 14,,44.13440992756222,26471210,271770452,None,False,,none,True,False
+S236,B 14,trunk,B 14,,297.0426593506177,26471218,26471150,None,False,,none,True,False
+S237,B 14,trunk_link,B 14,,254.97038321590705,26471218,26471210,None,False,,none,True,False
+S238,B 14,trunk,B 14,,725.0825805452256,26471223,26471218,None,False,,landslide_block,False,True
+S239,B 14,trunk,B 14,,316.7968590177053,26471234,27304794,None,False,,none,True,False
+S240,segment_240,trunk_link,,,365.8232033272008,26471234,559471920,None,False,,none,True,False
+S241,segment_241,trunk,,,652.0444527836241,26472650,8552857665,None,False,,none,True,False
+S242,segment_242,trunk_link,,,240.12660139715146,26472650,26471000,None,False,,none,True,False
+S243,B 14,trunk,B 14,,642.2133820009118,26472879,26471013,None,False,,none,True,False
+S244,B 14,trunk_link,B 14,An der Talaue,10.075907871200144,26477650,26470359,None,False,,none,True,False
+S245,B 14,trunk_link,B 14,,25.60841279919089,26477650,2020318721,None,False,,none,True,False
+S246,K 1859,trunk_link,K 1859,An der Talaue,52.18454822629705,26477650,2020318733,None,False,,none,True,False
+S247,segment_247,trunk_link,,,283.67764685258356,27254451,262709193,None,False,,none,True,False
+S248,L 1180,trunk,L 1180,Wildparkstraße,824.0693825363172,27254451,262710447,None,False,,none,True,False
+S249,B 10;B 14,trunk,B 10;B 14,Uferstraße,246.71628626976494,27304794,21097703,None,False,,none,True,False
+S250,B 10,trunk,B 10,Uferstraße,1136.5794792394304,27304798,559471771,None,False,,none,True,False
+S251,B 14,trunk,B 14,,375.26032382667415,27304798,26471223,None,False,,none,True,False
+S252,B 10,trunk,B 10,Uferstraße,732.0192741815914,27304805,27304794,None,False,,none,True,False
+S253,B 14,trunk_link,B 14,,350.77586001523196,27304805,26471223,None,False,,none,True,False
+S254,segment_254,trunk_link,,,192.70794818766737,27393038,21276944,None,False,,none,True,False
+S255,segment_255,motorway_link,,,31.886924998229944,27798075,3055631816,None,False,,none,True,False
+S256,segment_256,motorway_link,,,19.95774074638706,27798075,3055631813,None,False,,none,True,False
+S257,A 81,motorway_link,A 81,,30.865350313344987,27798078,1480482671,None,False,,none,True,False
+S258,segment_258,motorway_link,,,914.3743102802789,28100329,36614062,None,False,,none,True,False
+S259,segment_259,motorway_link,,,407.40939742488155,28100329,433564,None,False,,none,True,False
+S260,segment_260,motorway_link,,,94.18804136658842,28100332,28100336,None,False,,none,True,False
+S261,segment_261,motorway_link,,,201.01582942929653,28100336,28100340,None,False,,none,True,False
+S262,A 831,motorway,A 831,,1107.7855320063968,28100340,498370,None,False,,none,True,False
+S263,B 10,trunk_link,B 10,,58.32697520825877,28256486,28256489,None,False,,none,True,False
+S264,B 10,trunk,B 10,Uferstraße,1532.87312813119,28256489,27304805,None,False,,none,True,False
+S265,B 10,trunk,B 10,Uferstraße,1036.8923103270397,28372843,282252754,None,False,,none,True,False
+S266,B 10,trunk,B 10,,495.4776423459938,28372860,28372843,None,False,,none,True,False
+S267,B 10,trunk_link,B 10,,489.6114709113531,28372860,28372843,None,False,,none,True,False
+S268,K 1859,trunk_link,K 1859,An der Talaue,139.9638444368902,28787330,2020318733,None,False,,none,True,False
+S269,segment_269,trunk_link,,,29.192907376297626,28807155,2046522704,None,False,,landslide_block,False,True
+S270,B 10,trunk,B 10,,1460.6771946492481,29374724,28372860,None,False,,none,True,False
+S271,segment_271,trunk_link,,,250.0996635107277,29374731,1601302924,None,False,,none,True,False
+S272,B 10,trunk,B 10,,832.3583582284473,29374731,29374724,None,False,,none,True,False
+S273,segment_273,motorway_link,,,687.8238257573881,30358487,3094236798,None,False,,none,True,False
+S274,segment_274,motorway_link,,,196.27311501869997,30358487,30358494,None,False,,none,True,False
+S275,B 27,primary,B 27,"['Heilbronner Straße', 'Frankfurter Straße']",2267.8690652257546,30358494,2721751714,None,False,,none,True,False
+S276,segment_276,motorway_link,,,254.4869110601685,30358517,30358487,None,False,,none,True,False
+S277,A 81,motorway,A 81,,423.99626749669585,30358517,249523860,None,False,,crack_pothole,True,False
+S278,B 10,trunk,B 10,,102.48578155744717,30366318,33319199,None,False,,none,True,False
+S279,A 8,motorway_link,A 8,,106.82995896888393,30373198,30373201,None,False,,none,True,False
+S280,segment_280,motorway_link,,,451.94823114732293,30373198,1155023151,None,False,,none,True,False
+S281,A 8,motorway_link,A 8,,275.3090999595164,30373201,30373209,None,False,,none,True,False
+S282,A 8,motorway_link,A 8,,403.40851021199813,30373209,59908960,None,False,,crack_pothole,True,False
+S283,A 8,motorway_link,A 8,,201.03124837932754,30374321,30374325,None,False,,crack_pothole,True,False
+S284,segment_284,motorway_link,,,212.22872978802675,30374321,30375006,None,False,,none,True,False
+S285,A 8,motorway_link,A 8,,300.8175047656927,30374325,2038638580,None,False,,none,True,False
+S286,A 8,motorway_link,A 8,,1508.9051716242288,30374337,1578421226,None,False,,crack_pothole,True,False
+S287,segment_287,motorway_link,,,292.80886874127697,30374420,30374325,None,False,,none,True,False
+S288,segment_288,motorway_link,,,239.54972989302593,30374420,30373209,None,False,,none,True,False
+S289,segment_289,motorway_link,,,425.5397195284499,30375006,30375306,None,False,,none,True,False
+S290,segment_290,motorway_link,,,250.2883391977196,30375006,3228724503,None,False,,none,True,False
+S291,segment_291,motorway_link,,,143.5981286002043,30375182,30374420,None,False,,crack_pothole,True,False
+S292,B 27,trunk,B 27,,311.4064507525933,30375298,2039811982,None,False,,none,True,False
+S293,segment_293,trunk_link,,,321.06423043889174,30375298,2039811982,None,False,,none,True,False
+S294,B 27,trunk,B 27,,410.35465382542907,30375302,30375306,None,False,,none,True,False
+S295,segment_295,motorway_link,,,206.88105776740292,30375302,30375359,None,False,,none,True,False
+S296,B 27,trunk,B 27,,381.61834458469764,30375306,282721793,None,False,,none,True,False
+S297,segment_297,motorway_link,,,327.0906286125557,30375359,30373201,None,False,,none,True,False
+S298,segment_298,motorway_link,,,338.5962062967566,30375359,30374337,None,False,,none,True,False
+S299,segment_299,motorway_link,,,28.8198672148537,30391583,3587254218,None,False,,none,True,False
+S300,Peregrinastraße,trunk_link,,Peregrinastraße,1016.426965477807,30391602,2927559855,None,False,,none,True,False
+S301,B 27,"['trunk', 'primary']",B 27,Löffelstraße,1618.7895943195863,30391602,3236957555,None,False,,none,True,False
+S302,segment_302,motorway_link,,,18.36406288799961,30904510,33233844,None,False,,none,True,False
+S303,B 27,primary,B 27,Frankfurter Straße,234.91383313279795,30904510,249523852,None,False,,none,True,False
+S304,B 27,primary,B 27,Heilbronner Straße,170.8449724486477,30904645,6483528570,None,False,,none,True,False
+S305,B 27,primary,B 27,Heilbronner Straße,404.20525997609656,30904645,2721751714,None,False,,none,True,False
+S306,B 27,trunk,B 27,,428.21367142054083,30904958,1155023151,None,False,,none,True,False
+S307,B 10,trunk,B 10,,757.6178772006245,31084949,1732239525,None,False,,none,True,False
+S308,segment_308,trunk_link,,,754.7722877010425,31084949,1732239525,None,False,,none,True,False
+S309,L 1180,trunk,L 1180,Wildparkstraße,319.04959388035127,31232077,21276916,None,False,,none,True,False
+S310,L 1180,trunk_link,L 1180,,144.0351116032083,31232083,31232077,None,False,,none,True,False
+S311,L 1180,trunk_link,L 1180,,72.84953048551003,31232083,248538831,None,False,,none,True,False
+S312,L 1180,trunk,L 1180,Wildparkstraße,239.41318043787453,31232092,31232077,None,False,,none,True,False
+S313,L 1180,trunk_link,L 1180,,205.35566179412575,31232092,31232083,None,False,,none,True,False
+S314,L 1180,trunk,L 1180,Wildparkstraße,1515.0510938712684,31232250,27254451,None,False,,none,True,False
+S315,L 1180,trunk,L 1180,Wildparkstraße,197.93309587448374,31232252,31232250,None,False,,none,True,False
+S316,L 1180,trunk_link,L 1180,,152.3808730622966,31232252,31232268,None,False,,none,True,False
+S317,L 1180,trunk_link,L 1180,,118.76627149351627,31232268,13401562702,None,False,,none,True,False
+S318,L 1180,trunk_link,L 1180,,178.50866626630014,31232268,31232250,None,False,,none,True,False
+S319,B 27,primary,B 27,Stuttgarter Straße,21.325436575298102,33233039,13865865763,None,False,,none,True,False
+S320,B 27,primary,B 27,Stuttgarter Straße,31.29712449788731,33233039,335357814,None,False,,none,True,False
+S321,B 27,motorway_link,B 27,,39.95270871252735,33233843,701276010,None,False,,none,True,False
+S322,B 27,primary,B 27,Frankfurter Straße,311.5621954808297,33233843,33233844,None,False,,none,True,False
+S323,segment_323,motorway_link,,,18.460247285948963,33233844,249523896,None,False,,none,True,False
+S324,B 27,trunk,B 27,Frankfurter Straße,179.1860075992811,33233844,3094236798,None,False,,crack_pothole,True,False
+S325,B 27,trunk,B 27,,180.1184611125423,33233848,33233849,None,False,,none,True,False
+S326,segment_326,trunk_link,,,184.8653995896365,33233848,2599627188,None,False,,none,True,False
+S327,B 27,"['trunk', 'primary']",B 27,Stuttgarter Straße,2983.1081977619046,33233849,13865865762,None,False,,none,True,False
+S328,B 27,primary,B 27,Stuttgarter Straße,9.569660834546655,33234247,13865865763,None,False,,none,True,False
+S329,B 27,primary,B 27,Stuttgarter Straße,1917.32230264318,33234247,2337687703,None,False,,none,True,False
+S330,B 10,trunk,B 10,,229.42308895740953,33319199,434219,None,False,,none,True,False
+S331,segment_331,motorway_link,,,262.4391121105965,33319199,33319211,None,False,,none,True,False
+S332,segment_332,motorway_link,,,383.62663485910775,33319205,265813295,None,False,,crack_pothole,True,False
+S333,segment_333,motorway_link,,,660.3593508758441,33319205,30366318,None,False,,none,True,False
+S334,segment_334,motorway_link,,,127.45617644210614,33319211,21529565,None,False,,none,True,False
+S335,B 10,trunk,B 10,,207.94466722939205,33319286,265885535,None,False,,none,True,False
+S336,B 10,primary,B 10,,1617.9863263157783,33319286,33319325,None,False,,none,True,False
+S337,B 10,primary,B 10,,97.19069485276513,33319325,3848657334,None,False,,none,True,False
+S338,B 10,primary,B 10,,1617.9863263157783,33319325,33319286,None,False,,none,True,False
+S339,B 10,primary,B 10,,90.82875955916974,33319478,2332142080,None,False,,none,True,False
+S340,B 10,primary,B 10,,75.95637352141746,33319525,33319531,None,False,,none,True,False
+S341,B 10,primary,B 10,,394.3843750776224,33319525,2332142080,None,False,,none,True,False
+S342,segment_342,primary_link,,,215.24223841551736,33319525,49507294,None,False,,none,True,False
+S343,B 10,primary,B 10,,75.95637352141746,33319531,33319525,None,False,,none,True,False
+S344,B 10,primary,B 10,,1103.2034071653968,33319531,33319583,None,False,,none,True,False
+S345,B 10,primary,B 10,,1103.2034071653968,33319583,33319531,None,False,,none,True,False
+S346,B 10,primary,B 10,,104.44751227847573,33319583,33319700,None,False,,none,True,False
+S347,segment_347,primary_link,,,76.1301887627729,33319585,2559650182,None,False,,none,True,False
+S348,segment_348,primary_link,,,144.11117139544035,33319588,33319599,None,False,,none,True,False
+S349,segment_349,primary_link,,,36.936846325106785,33319588,33319584,None,False,,none,True,False
+S350,segment_350,primary_link,,,144.11117139544032,33319599,33319588,None,False,,crack_pothole,True,False
+S351,segment_351,primary_link,,,60.050003477270835,33319599,33319677,None,False,,none,True,False
+S352,segment_352,primary_link,,,46.65091558634269,33319634,265886024,None,False,,none,True,False
+S353,segment_353,primary_link,,,96.33254929501953,33319634,33319646,None,False,,none,True,False
+S354,segment_354,primary_link,,,96.33254929501953,33319646,33319634,None,False,,crack_pothole,True,False
+S355,segment_355,primary_link,,,94.56414524364031,33319646,33319583,None,False,,none,True,False
+S356,segment_356,primary_link,,,27.675476097120487,33319663,57567074,None,False,,none,True,False
+S357,B 10,primary,B 10,,74.06420516294679,33319677,286465118,None,False,,none,True,False
+S358,B 10,primary,B 10,,1367.8175442163633,33319677,33325122,None,False,,crack_pothole,True,False
+S359,B 10,primary,B 10,,96.63934945424862,33319700,286465118,None,False,,none,True,False
+S360,B 10,primary,B 10,,104.44751227847573,33319700,33319583,None,False,,none,True,False
+S361,segment_361,primary_link,,,77.82855778299945,33319700,33319646,None,False,,none,True,False
+S362,B 10,trunk_link,B 10,,62.41630449061354,33319859,59721196,None,False,,crack_pothole,True,False
+S363,B 10,trunk_link,B 10,,67.94824588581939,33319859,1619556944,None,False,,none,True,False
+S364,B 10,primary,B 10,,1367.8175442163633,33325122,33319677,None,False,,none,True,False
+S365,B 10,primary,B 10,,318.92847122489417,33325122,49501927,None,False,,none,True,False
+S366,B 10,primary_link,B 10,,152.07598827619643,33325124,49501975,None,False,,none,True,False
+S367,B 10,primary,B 10,,183.42873924520092,33325124,3065282605,None,False,,none,True,False
+S368,segment_368,primary_link,,,20.946928589424967,33327565,590306,None,False,,none,True,False
+S369,B 27,primary,B 27,"['Pragsattel', 'Heilbronner Straße']",195.62567555288283,33327565,13887901,None,False,,none,True,False
+S370,B 14,trunk_link,B 14,,277.0387061392247,33630741,26471150,None,False,,crack_pothole,True,False
+S371,B 295,primary,B 295,,82.25588430080047,33631837,38670395,None,False,,none,True,False
+S372,segment_372,motorway_link,,,153.1746801411571,34580780,142585056,None,False,,none,True,False
+S373,segment_373,motorway_link,,,114.1801414000453,34580790,34580780,None,False,,none,True,False
+S374,A 81,motorway,A 81,,204.04482838559355,34917999,137324272,None,False,,none,True,False
+S375,A 81,motorway_link,A 81,,272.1159409711291,34917999,247137626,None,False,,none,True,False
+S376,A 81,motorway,A 81,,226.56916138205827,34918000,7932112341,None,False,,none,True,False
+S377,A 81,motorway_link,A 81,,308.9765735283869,34918000,13296164440,None,False,,none,True,False
+S378,A 81,motorway_link,A 81,,321.3020283520487,34918006,137324272,None,False,,none,True,False
+S379,A 81,motorway_link,A 81,,40.78901109013569,34918010,538093753,None,False,,none,True,False
+S380,B 10;B 27,trunk_link,B 10;B 27,,54.77245604861829,35825763,13888054,None,False,,none,True,False
+S381,B 14,trunk,B 14,,398.995965221562,36606356,36606360,None,False,,none,True,False
+S382,B 14,trunk,B 14,,397.69922309153014,36606360,36606365,None,False,,none,True,False
+S383,B 14,trunk_link,B 14,,154.68866666866091,36606360,132870874,None,False,,none,True,False
+S384,B 14,trunk,B 14,,648.5112432502309,36606365,36606370,None,False,,none,True,False
+S385,Wildparkstraße,trunk,,Wildparkstraße,932.7619099207162,36606370,36606375,None,False,,none,True,False
+S386,B 14,trunk_link,B 14,,430.8200379361259,36606370,48783235,None,False,,none,True,False
+S387,L 1187,trunk,L 1187,Wildparkstraße,317.56908418952344,36606375,36606378,None,False,,none,True,False
+S388,L 1180,trunk_link,L 1180,Wildparkstraße,547.7083571308658,36606378,21276915,None,False,,none,True,False
+S389,L 1187,trunk,L 1187,Rotenwaldstraße,443.3692056061196,36606378,21276950,None,False,,none,True,False
+S390,segment_390,motorway_link,,,140.75229423572986,36607666,34580780,None,False,,none,True,False
+S391,segment_391,motorway_link,,,49.13740076154514,36607666,498381,None,False,,none,True,False
+S392,B 14,trunk_link,B 14,,372.63926741287213,36609637,36610905,None,False,,none,True,False
+S393,B 14,trunk,B 14,,424.2271454473228,36609637,36606356,None,False,,none,True,False
+S394,B 14,trunk_link,B 14,,416.09224456821653,36610325,3255783423,None,False,,landslide_block,False,True
+S395,B 14,trunk_link,B 14,,266.0339684561097,36610325,36606356,None,False,,none,True,False
+S396,B 14,trunk_link,B 14,,227.63466960203476,36610905,588402408,None,False,,crack_pothole,True,False
+S397,segment_397,motorway_link,,,181.2879772729279,36614062,254078200,None,False,,none,True,False
+S398,segment_398,trunk_link,,,62.835732911578596,38408174,38408197,None,False,,none,True,False
+S399,B 10,trunk,B 10,,310.7902634420193,38408174,265809289,None,False,,none,True,False
+S400,B 10,trunk_link,B 10,,166.58660031501458,38408189,5667409022,None,False,,none,True,False
+S401,B 10,trunk_link,B 10,,91.383786509522,38408194,38408189,None,False,,crack_pothole,True,False
+S402,segment_402,trunk_link,,,244.48640781609706,38408197,434257,None,False,,none,True,False
+S403,segment_403,trunk_link,,,204.74702620313104,38408197,1540974222,None,False,,none,True,False
+S404,B 295,primary,B 295,"['Steiermärker Straße', 'Wiener Platz']",260.62927641477535,38670395,10863739018,None,False,,none,True,False
+S405,B 295,primary,B 295,,82.25588430080046,38670395,33631837,None,False,,none,True,False
+S406,B 295,primary,B 295,Siemensstraße,74.4032615087529,38670477,38670558,None,False,,none,True,False
+S407,B 295,primary,B 295,Siemensstraße,441.25003123267186,38670477,419261365,None,False,,none,True,False
+S408,B 295,primary,B 295,Stuttgarter Straße,178.98761319430065,38670499,38670504,None,False,,none,True,False
+S409,B 295,primary,B 295,Stuttgarter Straße,178.9876131943006,38670504,38670499,None,False,,none,True,False
+S410,B 295,primary,B 295,Tunnelstraße,356.73648222697005,38670504,38670532,None,False,,crack_pothole,True,False
+S411,B 295,primary,B 295,Siemensstraße,54.35351933261673,38670532,419261365,None,False,,none,True,False
+S412,segment_412,primary_link,,,29.91867542366422,38670532,267330555,None,False,,crack_pothole,True,False
+S413,segment_413,primary_link,,,16.392873209813132,38670558,1299531588,None,False,,none,True,False
+S414,B 295,primary,B 295,"['Pragsattel', 'Siemensstraße']",105.35781356315584,38670558,590298,None,False,,landslide_block,False,True
+S415,A 81,motorway_link,A 81,,15.929497212120268,41976399,540121189,None,False,,none,True,False
+S416,B 295,primary,B 295,,267.44286586459253,41976399,2073762881,None,False,,none,True,False
+S417,segment_417,trunk_link,,,196.30816749261146,48775970,48783203,None,False,,none,True,False
+S418,B 14,trunk,B 14,,571.3984039652419,48775970,498285,None,False,,none,True,False
+S419,segment_419,trunk_link,,,465.1263937650129,48783231,498286,None,False,,none,True,False
+S420,B 14,"['trunk', 'primary']",B 14,"['Burgstallstraße', 'Heslacher Tunnel', 'Gäubahntunnel', 'Viereichenhautunnel']",2305.9145946722465,48783236,69321350,None,False,,none,True,False
+S421,B 10,primary_link,B 10,,188.53509931008642,49501908,3065282630,None,False,,landslide_block,False,True
+S422,B 10,primary_link,B 10,,134.10550418083042,49501908,49501924,None,False,,landslide_block,False,True
+S423,B 10,primary_link,B 10,,134.1055041808304,49501924,49501908,None,False,,none,True,False
+S424,B 10,primary_link,B 10,,147.57785279619816,49501927,49501908,None,False,,none,True,False
+S425,B 10,primary,B 10,,226.721510617654,49501927,3065282630,None,False,,none,True,False
+S426,B 10,primary_link,B 10,,162.2763307644747,49501935,49501975,None,False,,none,True,False
+S427,B 10,primary_link,B 10,,162.2763307644747,49501975,49501935,None,False,,none,True,False
+S428,B 10,primary_link,B 10,,127.547060564251,49501975,3065282605,None,False,,none,True,False
+S429,segment_429,primary_link,,,238.08158498706666,49507280,33319531,None,False,,none,True,False
+S430,segment_430,primary_link,,,20.947334198334666,49507303,49507280,None,False,,none,True,False
+S431,segment_431,motorway_link,,,42.06097457353926,54146868,3587254218,None,False,,none,True,False
+S432,B 295,primary,B 295,,423.3608767770313,55575825,2058498323,None,False,,none,True,False
+S433,B 295,primary,B 295,Föhrichstraße,500.02328486505587,55575825,60676959,None,False,,none,True,False
+S434,B 295,primary,B 295,,194.8358437757476,55575909,55575912,None,False,,none,True,False
+S435,B 295,primary,B 295,,1532.1168636460834,55575909,2058498323,None,False,,none,True,False
+S436,B 295,primary_link,B 295,,151.19592299237067,55575912,96571354,None,False,,none,True,False
+S437,B 295,primary,B 295,,153.23838915938342,55575912,96571529,None,False,,none,True,False
+S438,B 295,primary,B 295,,231.99367302950918,55575928,592125944,None,False,,none,True,False
+S439,B 295,primary,B 295,,873.1195689920327,55575928,540131600,None,False,,none,True,False
+S440,segment_440,primary_link,,,107.0850714752113,56554358,326121974,None,False,,none,True,False
+S441,segment_441,primary_link,,,62.72028378766328,56554358,2332142007,None,False,,none,True,False
+S442,segment_442,primary_link,,,15.945507559614017,57567074,33319634,None,False,,none,True,False
+S443,segment_443,primary_link,,,44.77820630392131,57567225,57567074,None,False,,none,True,False
+S444,A 8,motorway_link,A 8,,539.1583379252033,59908960,242411,None,False,,none,True,False
+S445,segment_445,motorway_link,,,374.95258927211756,59908960,59908965,None,False,,none,True,False
+S446,segment_446,trunk_link,,,59.03244344907798,60179561,262709545,None,False,,none,True,False
+S447,segment_447,trunk_link,,,498.5974680126602,60479135,29374724,None,False,,none,True,False
+S448,B 295,primary,B 295,Föhrichstraße,16.300388399830954,60676956,60676959,None,False,,none,True,False
+S449,B 295,primary,B 295,"['Steiermärker Straße', 'Feuerbacher Tunnel', 'Föhrichstraße']",1820.4827748520438,60676956,2380614643,None,False,,none,True,False
+S450,segment_450,primary_link,,,180.3815853915034,60676956,60676961,None,False,,crack_pothole,True,False
+S451,B 295,primary,B 295,Föhrichstraße,16.300388399830954,60676959,60676956,None,False,,none,True,False
+S452,B 295,primary,B 295,Föhrichstraße,500.02328486505587,60676959,55575825,None,False,,none,True,False
+S453,B 10,trunk_link,B 10,,29.497233606601867,65345693,2205908880,None,False,,none,True,False
+S454,B 10,trunk_link,B 10,,40.45018056742928,65345698,2205908880,None,False,,crack_pothole,True,False
+S455,B 10,trunk,B 10,,204.4153757238385,65346469,33319286,None,False,,none,True,False
+S456,B 14,primary_link,B 14,Hauptstätter Straße,32.33795543796668,69235198,73820274,None,False,,none,True,False
+S457,B 14,primary_link,B 14,,154.6145182092403,69235198,80282551,None,False,,none,True,False
+S458,segment_458,trunk_link,,,146.0092214111817,69301916,69303356,None,False,,none,True,False
+S459,B 27,trunk,B 27,,343.5030194823442,69303356,30391602,None,False,,crack_pothole,True,False
+S460,B 27,trunk,B 27,,398.0261196864575,69313566,589772,None,False,,none,True,False
+S461,B 14,"['trunk', 'primary']",B 14,"['Burgstallstraße', 'Heslacher Tunnel', 'Gäubahntunnel', 'Viereichenhautunnel']",2101.489887660992,69321350,48775970,None,False,,none,True,False
+S462,B 14,primary,B 14,Heslacher Tunnel,909.566033585742,69321350,3440514114,None,False,,none,True,False
+S463,Österreichischer Platz,primary_link,,Österreichischer Platz,35.64013228485624,69433639,1186002458,None,False,,none,True,False
+S464,B 27a,primary,B 27a,Österreichischer Platz,24.693556868007157,69433639,1186002465,None,False,,none,True,False
+S465,B 27a,primary_link,B 27a,Österreichischer Platz,36.04714785705316,69437631,670774,None,False,,none,True,False
+S466,B 14,primary,B 14,Hauptstätter Straße,307.2251986819651,69443640,1059525052,None,False,,none,True,False
+S467,B 14,primary,B 14,Hauptstätter Straße,293.956217090992,69444850,1557540795,None,False,,none,True,False
+S468,B 14,primary,B 14,Hauptstätter Straße,102.86759011983466,69444850,69443640,None,False,,none,True,False
+S469,B 27,primary,B 27,Friedrichstraße,126.6010234202994,71711299,1490428668,None,False,,none,True,False
+S470,B 27,primary,B 27,Richard-von-Weizsäcker-Planie,18.610273402121205,73801722,565050064,None,False,,none,True,False
+S471,B 14,primary_link,B 14,,12.510303340759325,73801722,565050066,None,False,,none,True,False
+S472,B 14,primary_link,B 14,,17.03800467090201,73801728,20850015,None,False,,none,True,False
+S473,B 14,primary_link,B 14,Charlottenplatz,20.482849301317955,73801728,565050068,None,False,,none,True,False
+S474,B 27,primary,B 27,Charlottenstraße,45.05017846600441,73801728,270922103,None,False,,none,True,False
+S475,B 27,primary,B 27,Richard-von-Weizsäcker-Planie,10.15206370742836,73801740,281435066,None,False,,none,True,False
+S476,B 14,primary_link,B 14,Konrad-Adenauer-Straße,34.415633098559255,73801765,73801805,None,False,,none,True,False
+S477,B 27,primary_link,B 27,Richard-von-Weizsäcker-Planie,64.16316557619237,73801765,257880320,None,False,,none,True,False
+S478,B 27,primary_link,B 27,,21.376317384747992,73801805,281426678,None,False,,none,True,False
+S479,B 14,primary_link,B 14,Konrad-Adenauer-Straße,25.342780101701226,73801805,565050065,None,False,,none,True,False
+S480,B 27,primary,B 27,Charlottenplatz,14.295012782285214,73801828,565050065,None,False,,none,True,False
+S481,B 27,primary_link,B 27,,47.307999643420914,73801828,73801728,None,False,,none,True,False
+S482,B 14,primary_link,B 14,,15.347607522862056,73801828,73801836,None,False,,none,True,False
+S483,B 14,primary_link,B 14,,18.561737135952235,73801836,2091272749,None,False,,none,True,False
+S484,B 14,primary_link,B 14,"['Holzstraße', 'Hauptstätter Straße']",227.62723198564117,73801919,269382280,None,False,,landslide_block,False,True
+S485,B 14,primary,B 14,"['Hauptstätter Straße', 'Konrad-Adenauer-Straße']",493.9327154738675,73820274,73859028,None,False,,none,True,False
+S486,B 14,primary,B 14,"['Willy-Brandt-Straße', 'Konrad-Adenauer-Straße']",622.4990747691132,73859026,3663605417,None,False,,none,True,False
+S487,Konrad-Adenauer-Straße,primary_link,,Konrad-Adenauer-Straße,202.81199043544225,73859026,89532164,None,False,,none,True,False
+S488,B 14,primary,B 14,Konrad-Adenauer-Straße,117.49919019803187,73859028,73859026,None,False,,none,True,False
+S489,segment_489,primary_link,,,28.332202899385283,76841626,20293650,None,False,,none,True,False
+S490,B 27,primary,B 27,Theodor-Heuss-Straße,129.77818170235898,76841626,20850552,None,False,,none,True,False
+S491,B 27,primary_link,B 27,,10.540762588865356,80282551,281426674,None,False,,none,True,False
+S492,B 14,primary_link,B 14,Charlottenplatz,40.08385111344402,80282551,73801728,None,False,,none,True,False
+S493,B 10,primary_link,B 10,"['Neckartalstraße', 'Neckatralstraße']",152.84762074149447,84856083,9181513920,None,False,,none,True,False
+S494,Neckartalstraße,primary_link,,"['Neckartalstraße', 'König-Karls-Brücke']",51.973481270095355,84856104,84856083,None,False,,none,True,False
+S495,B 27,trunk_link,B 27,,55.699244365266026,88272488,245810098,None,False,,none,True,False
+S496,B 27,trunk_link,B 27,,45.11503651712022,88272488,67074710,None,False,,none,True,False
+S497,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,29.292018818585206,89532164,4791811355,None,False,,none,True,False
+S498,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,45.38291587414514,89532164,9177909219,None,False,,none,True,False
+S499,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,17.186070679162746,89532202,9341271728,None,False,,none,True,False
+S500,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,22.575800606926947,89532202,590409,None,False,,none,True,False
+S501,segment_501,trunk_link,,,89.29711528274937,94916374,94916376,None,False,,none,True,False
+S502,segment_502,trunk_link,,,329.71576294376774,94916376,590733,None,False,,none,True,False
+S503,B 295,primary_link,B 295,,45.08598049541213,96571354,3050410772,None,False,,crack_pothole,True,False
+S504,B 295,primary_link,B 295,,114.23970249351707,96571354,96571529,None,False,,none,True,False
+S505,B 295,primary,B 295,,293.21046382419155,96571529,55575928,None,False,,none,True,False
+S506,L 1180,trunk,L 1180,Wildparkstraße,168.18784651070882,100311265,21276944,None,False,,none,True,False
+S507,B 14,primary,B 14,Heslacher Tunnel,26.24965571688895,118299121,3440514121,None,False,,none,True,False
+S508,B 14,primary,B 14,Heslacher Tunnel,40.43599927835092,118299121,249482220,None,False,,none,True,False
+S509,B 27,primary_link,B 27,,57.06850207762203,130444598,130444638,None,False,,none,True,False
+S510,segment_510,primary_link,,,41.38047727680833,130444598,130444618,None,False,,none,True,False
+S511,B 27,primary,B 27,Pragsattel,43.14873116431728,130444598,489364951,None,False,,none,True,False
+S512,B 295,primary,B 295,Siemensstraße,33.10902141210994,130444618,1299531588,None,False,,none,True,False
+S513,B 27,primary,B 27,Heilbronner Straße,220.6601552164859,130444638,265805437,None,False,,none,True,False
+S514,B 14,trunk_link,B 14,,17.054103949760723,132870874,3653178721,None,False,,none,True,False
+S515,B 14,trunk_link,B 14,,24.54048229650794,132870874,1687700615,None,False,,none,True,False
+S516,B 14,trunk_link,B 14,,64.47263965188404,132870879,1687700615,None,False,,none,True,False
+S517,B 14,trunk_link,B 14,,65.64921949022856,132870879,13444871131,None,False,,none,True,False
+S518,A 81,motorway,A 81,,3457.5196034192054,137324272,593815,None,False,,landslide_block,False,True
+S519,A 831,"['trunk', 'motorway']","['A 831', 'B 14']",,1576.5591107878358,142585056,36609637,None,False,,none,True,False
+S520,segment_520,motorway_link,,,86.09322156983525,156908139,156908150,None,False,,none,True,False
+S521,A 81,motorway,A 81,,3304.665798811955,156908150,593690,None,False,,none,True,False
+S522,B 27,primary,B 27,Frankfurter Straße,234.04872509808908,181577000,2270958628,None,False,,none,True,False
+S523,segment_523,primary_link,,,135.17201790257425,181577014,181577000,None,False,,none,True,False
+S524,Theodor-Heuss-Straße,primary_link,,Theodor-Heuss-Straße,20.740477904374192,183632879,183633619,None,False,,none,True,False
+S525,B 27a,primary,B 27a,"['Theodor-Heuss-Straße', 'Paulinenstraße', 'Rotebühlstraße', 'Paulinenbrücke']",813.1256572784013,183632879,20849964,None,False,,none,True,False
+S526,B 27a,primary,B 27a,Theodor-Heuss-Straße,512.3084765931584,183633619,20293650,None,False,,none,True,False
+S527,B 27,trunk_link,B 27,,124.58389108971062,220586616,220586788,None,False,,none,True,False
+S528,B 27,trunk,B 27,,115.13028379942168,220586616,220586859,None,False,,none,True,False
+S529,B 27,trunk_link,B 27,,61.129388677984956,220586766,220586788,None,False,,none,True,False
+S530,B 27,trunk_link,B 27,,86.19831672209928,220586788,220586859,None,False,,none,True,False
+S531,B 27,trunk_link,B 27,,61.129388677984956,220586788,220586766,None,False,,none,True,False
+S532,B 27,trunk,B 27,,525.8077191299767,220586859,434352,None,False,,none,True,False
+S533,B 27,trunk_link,B 27,,103.84252178156004,220587131,220587788,None,False,,none,True,False
+S534,B 27,trunk_link,B 27,,103.84252178156004,220587788,220587131,None,False,,landslide_block,False,True
+S535,B 27,trunk_link,B 27,,103.406338151206,220587788,220588433,None,False,,none,True,False
+S536,B 27,trunk_link,B 27,,69.39939816778713,220588065,220587788,None,False,,crack_pothole,True,False
+S537,B 27,trunk,B 27,,113.32340842387117,220588065,220588433,None,False,,none,True,False
+S538,B 27,trunk,B 27,,1205.025724707685,220588433,434323,None,False,,none,True,False
+S539,B 27,trunk_link,B 27,,120.09460757295528,245809985,13888093,None,False,,none,True,False
+S540,B 27,trunk_link,B 27,,74.6363892629705,245809985,245809994,None,False,,none,True,False
+S541,B 27,trunk_link,B 27,,84.6273290575268,245949002,21585238,None,False,,none,True,False
+S542,segment_542,motorway_link,,,55.26990805508535,246335028,591406,None,False,,none,True,False
+S543,segment_543,trunk_link,,,56.93860622884566,246567254,21529581,None,False,,none,True,False
+S544,A 81,motorway_link,A 81,,44.77135059710876,247137626,247137627,None,False,,none,True,False
+S545,A 81,motorway_link,A 81,,83.24450479303528,247137626,34918006,None,False,,none,True,False
+S546,B 27,"['trunk', 'primary']",B 27,"['Stuttgarter Straße', 'Schlossstraße', 'Heilbronner Straße']",3101.749838641331,248202324,6483528565,None,False,,none,True,False
+S547,B 27,trunk_link,B 27,,56.26161793784897,248202588,248202589,None,False,,none,True,False
+S548,B 27,trunk_link,B 27,,43.35159025456953,248202588,21585243,None,False,,none,True,False
+S549,B 27,trunk_link,B 27,,35.030451683748765,248202588,1145940195,None,False,,none,True,False
+S550,B 27,trunk_link,B 27,,56.26161793784897,248202589,248202588,None,False,,none,True,False
+S551,B 27,trunk_link,B 27,,138.83776165089327,248202589,21585235,None,False,,none,True,False
+S552,B 27,trunk,B 27,,159.1077052458289,248202675,21585235,None,False,,none,True,False
+S553,B 27,trunk_link,B 27,,96.47812857868794,248202675,248202589,None,False,,none,True,False
+S554,B 27,trunk_link,B 27,,116.70914370246228,248203488,21585238,None,False,,none,True,False
+S555,B 27,trunk,B 27,,134.94407189784744,248203488,248202324,None,False,,none,True,False
+S556,B 27,trunk,B 27,,1280.0553819474853,248204259,248203488,None,False,,none,True,False
+S557,B 27,trunk,B 27,,94.33756394642904,248204314,434383,None,False,,none,True,False
+S558,B 27,trunk_link,B 27,,87.54359479113944,248204314,434381,None,False,,none,True,False
+S559,L 1180,trunk_link,L 1180,,72.84953048551,248538831,31232083,None,False,,none,True,False
+S560,B 10,trunk,B 10,Uferstraße,468.20483066200444,248907762,21097709,None,False,,crack_pothole,True,False
+S561,segment_561,trunk_link,,,555.3735891692379,248907802,590615,None,False,,none,True,False
+S562,B 10,trunk,B 10,Uferstraße,553.8867697693896,248907802,590615,None,False,,none,True,False
+S563,B 14,primary,B 14,Heslacher Tunnel,66.10728327008901,249482220,3440514114,None,False,,none,True,False
+S564,B 14,primary,B 14,Heslacher Tunnel,40.43599927835092,249482220,118299121,None,False,,none,True,False
+S565,A 81,motorway,A 81,,6484.3888947572805,249518992,3094236817,None,False,,none,True,False
+S566,segment_566,motorway_link,,,49.34115866708064,249523852,249523853,None,False,,none,True,False
+S567,B 27,primary,B 27,Frankfurter Straße,38.093944230014245,249523852,701276010,None,False,,none,True,False
+S568,segment_568,motorway_link,,,240.02902691792764,249523853,249523860,None,False,,none,True,False
+S569,A 81,motorway,A 81,,6503.080984122474,249523860,1881186968,None,False,,none,True,False
+S570,B 27,primary,B 27,Frankfurter Straße,12.44089082059001,249523896,30904510,None,False,,none,True,False
+S571,segment_571,motorway_link,,,28.166308664890792,249523896,249523897,None,False,,none,True,False
+S572,segment_572,motorway_link,,,299.92942658750866,249523897,593747,None,False,,none,True,False
+S573,B 295,primary_link,B 295,,63.85929309377954,251061811,1705181360,None,False,,none,True,False
+S574,A 8,motorway,A 8,,396.7399387314139,254078189,589619,None,False,,none,True,False
+S575,segment_575,motorway_link,,,342.5524608252713,254078200,242479,None,False,,none,True,False
+S576,segment_576,motorway_link,,,151.92033412218126,254078200,254078189,None,False,,none,True,False
+S577,B 14,trunk_link,B 14,,49.90596684421879,254638398,1687700574,None,False,,none,True,False
+S578,B 27,primary,B 27,"['Planie-Tunnel', 'Friedrichstraße', 'Richard-von-Weizsäcker-Planie']",707.6441875054364,257880320,3219353713,None,False,,none,True,False
+S579,B 295,primary_link,B 295,,193.99083958927767,260682376,592126013,None,False,,none,True,False
+S580,B 295,primary_link,B 295,,13.03312281740777,260682376,1705181360,None,False,,none,True,False
+S581,segment_581,trunk_link,,,100.10680014475048,262709193,262709545,None,False,,none,True,False
+S582,segment_582,trunk_link,,,44.46007909638106,262709193,27254452,None,False,,none,True,False
+S583,segment_583,trunk_link,,,445.62701291570306,262709545,262710447,None,False,,none,True,False
+S584,L 1180,trunk,L 1180,Wildparkstraße,1351.2437407971622,262710447,21276943,None,False,,none,True,False
+S585,segment_585,trunk_link,,,826.5703671869273,262710548,21276929,None,False,,crack_pothole,True,False
+S586,L 1180,trunk,L 1180,Wildparkstraße,822.9584552463352,262710548,21276929,None,False,,none,True,False
+S587,B 10,trunk,B 10,Uferstraße,448.20959247997456,265421955,265708705,None,False,,none,True,False
+S588,B 10,trunk_link,B 10,,218.026216506844,265421955,265422477,None,False,,crack_pothole,True,False
+S589,B 10,trunk,B 10,,996.0190110997007,265428510,590733,None,False,,landslide_block,False,True
+S590,segment_590,trunk_link,,,660.1788782014216,265428510,12134532160,None,False,,none,True,False
+S591,B 10;B 14,trunk,B 10;B 14,Uferstraße,476.0528425970733,265705663,590574,None,False,,none,True,False
+S592,B 10;B 14,trunk_link,B 10;B 14,,244.8037268450432,265705663,1038074630,None,False,,none,True,False
+S593,B 10,trunk,B 10,Uferstraße,693.6969763937293,265708705,248907802,None,False,,none,True,False
+S594,B 10,trunk,B 10,,638.5600881257775,265710176,265710582,None,False,,landslide_block,False,True
+S595,segment_595,trunk_link,,,633.6997904277317,265710176,265710582,None,False,,none,True,False
+S596,B 10,trunk,B 10,,816.3095725011198,265710582,29374731,None,False,,none,True,False
+S597,segment_597,motorway_link,,,61.197023652922795,265767723,265767807,None,False,,none,True,False
+S598,A 81,motorway_link,A 81,,38.377132261439286,265767723,2073762873,None,False,,none,True,False
+S599,B 295,primary,B 295,,157.81407780691163,265767807,540121187,None,False,,none,True,False
+S600,B 27,primary,B 27,Heilbronner Straße,132.3772880532892,265805392,130444598,None,False,,none,True,False
+S601,B 10,primary,B 10,"['Neckartalstraße', 'Rosensteintunnel', 'Pragsatteltunnel', 'Rosensteintunnel (Südröhre)', 'Pragstraße', 'Neckatralstraße']",2514.325599551112,265805392,13191755080,None,False,,none,True,False
+S602,B 10;B 27,"['trunk_link', 'primary']",B 10;B 27,Heilbronner Straße,1238.5987500563758,265805437,13888054,None,False,,none,True,False
+S603,B 10,trunk,B 10,,442.9850354065648,265808368,38408174,None,False,,none,True,False
+S604,B 10,trunk,B 10,,1554.85973372528,265809289,434264,None,False,,none,True,False
+S605,B 10,trunk,B 10,,156.1558908293885,265813295,21529578,None,False,,none,True,False
+S606,B 10,trunk,B 10,,223.59495330338453,265813365,21529599,None,False,,none,True,False
+S607,B 10,trunk,B 10,,105.23079882641566,265885535,265813365,None,False,,none,True,False
+S608,segment_608,trunk_link,,,155.50853278883744,265885535,1586022305,None,False,,none,True,False
+S609,B 27a,primary_link,B 27a,Hauptstätter Straße,236.25067513139328,265972406,1605370691,None,False,,none,True,False
+S610,B 14,primary,B 14,Hauptstätter Straße,137.92247830864386,265972406,69444850,None,False,,none,True,False
+S611,L 1187,trunk,L 1187,Rotenwaldstraße,675.232382515616,266561999,498263,None,False,,none,True,False
+S612,L 1187,trunk,L 1187,Rotenwaldstraße,11.64136386168832,266561999,13403181611,None,False,,none,True,False
+S613,A 81,motorway,"['A 81', 'A 831']",,703.1722302360175,266710219,433577,None,False,,none,True,False
+S614,B 295,primary,B 295,Siemensstraße,502.69108749474503,267330555,33631837,None,False,,none,True,False
+S615,B 14,primary_link,B 14,Hauptstätter Straße,124.75519634610701,269382280,2905919550,None,False,,none,True,False
+S616,B 14,trunk_link,B 14,,32.6945373105909,269418180,33630741,None,False,,none,True,False
+S617,B 295,primary,B 295,,195.78841140730526,269778077,3200574566,None,False,,none,True,False
+S618,A 81,motorway_link,A 81,,42.41886329035712,269941720,538093753,None,False,,none,True,False
+S619,B 27,primary,B 27,"['Charlottenstraße', 'Hohenheimer Straße']",1134.4729650938457,270922103,676069,None,False,,none,True,False
+S620,B 14,trunk_link,B 14,,266.99434393447933,271199330,26471197,None,False,,none,True,False
+S621,segment_621,trunk_link,,,84.4241730634113,271725707,12662359730,None,False,,none,True,False
+S622,L 1100,trunk_link,L 1100,,12.462154987234673,271771538,9828370034,None,False,,none,True,False
+S623,B 10;B 14,trunk,B 10;B 14,Uferstraße,406.4020900216856,271788862,3290142174,None,False,,none,True,False
+S624,B 27,primary,B 27,"['Neue Weinsteige', 'Hohenheimer Straße']",684.4382419946992,275129069,676069,None,False,,none,True,False
+S625,B 27,primary,B 27,Neue Weinsteige,365.3096487384221,275129069,590072,None,False,,none,True,False
+S626,segment_626,primary_link,,,103.11512949718323,276503074,181577014,None,False,,none,True,False
+S627,segment_627,primary_link,,,309.5004140007098,276503074,2599627188,None,False,,none,True,False
+S628,segment_628,primary_link,,,79.97959050168095,276503074,13188817805,None,False,,crack_pothole,True,False
+S629,segment_629,primary_link,,,27.869439131057323,279208896,1161452866,None,False,,none,True,False
+S630,B 27,primary,B 27,Obere Weinsteige,50.12715594073846,279208896,590035,None,False,,none,True,False
+S631,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,13.74126103225542,280975093,11930262856,None,False,,none,True,False
+S632,B 27,primary,B 27,Heilbronner Straße,22.024161877227257,280975093,590170,None,False,,landslide_block,False,True
+S633,segment_633,primary_link,,,10.171799979749364,280975099,280975104,None,False,,none,True,False
+S634,segment_634,primary_link,,,7.004550711346579,280975099,7540338802,None,False,,none,True,False
+S635,segment_635,primary_link,,,18.071463775407775,280975101,12620665,None,False,,none,True,False
+S636,segment_636,primary_link,,,12.530982571383788,280975101,280975099,None,False,,none,True,False
+S637,B 27,primary,B 27,Friedrichstraße,8.837266039969078,280975104,572214530,None,False,,crack_pothole,True,False
+S638,segment_638,primary_link,,,5.876890672493053,280975108,9343585457,None,False,,none,True,False
+S639,B 27,primary,B 27,Friedrichstraße,14.234502732982685,280975108,280975093,None,False,,none,True,False
+S640,B 14,primary_link,B 14,,28.984983658472878,281426674,73801919,None,False,,none,True,False
+S641,B 27,primary_link,B 27,,27.76297672267791,281426674,20850015,None,False,,none,True,False
+S642,B 27,primary_link,B 27,,12.108720514337673,281426678,73801828,None,False,,none,True,False
+S643,B 14,primary_link,B 14,,16.227121786005863,281426678,73801836,None,False,,none,True,False
+S644,B 14,primary_link,B 14,,37.07733452276802,281430626,73801728,None,False,,none,True,False
+S645,B 27,primary,B 27,Charlottenstraße,40.09269961456647,281430626,565050068,None,False,,none,True,False
+S646,Richard-von-Weizsäcker-Planie,primary_link,,Richard-von-Weizsäcker-Planie,16.78671853535016,281435062,281435066,None,False,,landslide_block,False,True
+S647,B 27,primary,B 27,Richard-von-Weizsäcker-Planie,21.213213671339595,281435062,73801722,None,False,,none,True,False
+S648,B 27,primary,B 27,Richard-von-Weizsäcker-Planie,42.112817946446484,281435066,257880320,None,False,,none,True,False
+S649,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,7.277731286911076,281448661,6528494420,None,False,,landslide_block,False,True
+S650,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,10.728450964144375,281448661,7452363700,None,False,,none,True,False
+S651,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,23.85913477991254,281454709,20918811,None,False,,none,True,False
+S652,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,66.06790313113864,281454709,1670722496,None,False,,none,True,False
+S653,segment_653,trunk_link,,,573.3099657221879,282252754,248907762,None,False,,none,True,False
+S654,B 10,trunk,B 10,Uferstraße,568.8611966213527,282252754,248907762,None,False,,none,True,False
+S655,B 10,primary,B 10,,96.63934945424862,286465118,33319700,None,False,,none,True,False
+S656,B 10,primary,B 10,,74.06420516294679,286465118,33319677,None,False,,none,True,False
+S657,segment_657,primary_link,,,51.04871410574303,286465118,33319599,None,False,,none,True,False
+S658,A 8,motorway,A 8,,4870.158571145289,289169063,591099,None,False,,none,True,False
+S659,A 8,motorway,A 8,,2047.2335854849769,289169745,289169063,None,False,,none,True,False
+S660,B 14,trunk_link,B 14,,62.485809529938436,292417854,26471116,None,False,,none,True,False
+S661,B 14,primary,B 14,"['Heslacher Tunnel', 'Hauptstätter Straße']",182.364164548237,299403593,2917680451,None,False,,none,True,False
+S662,B 14,primary_link,B 14,Hauptstätter Straße,15.636754908784328,299403594,299403593,None,False,,none,True,False
+S663,B 14,primary,B 14,Hauptstätter Straße,43.49582509641389,299403594,1557557285,None,False,,none,True,False
+S664,segment_664,motorway_link,,,43.675536192425426,315113873,551605,None,False,,none,True,False
+S665,A 8,motorway,A 8,,2275.826026332401,315862829,242419,None,False,,none,True,False
+S666,A 8,motorway_link,A 8,,376.5560679395758,315862829,1064313562,None,False,,none,True,False
+S667,A 8,motorway,A 8,,788.4212504649756,316794102,289169745,None,False,,none,True,False
+S668,A 8,motorway_link,A 8,,260.9253218916131,316794102,30374321,None,False,,none,True,False
+S669,B 27,trunk_link,B 27,,369.87224984411876,317049422,434308,None,False,,none,True,False
+S670,B 10,trunk_link,B 10,,224.65246310009675,325721927,265708705,None,False,,none,True,False
+S671,segment_671,primary_link,,,107.0850714752113,326121974,56554358,None,False,,none,True,False
+S672,A 8,motorway,A 8,,869.8934019128595,331171515,254078189,None,False,,none,True,False
+S673,A 81,motorway_link,A 81,,211.98597393637792,331171515,433570,None,False,,none,True,False
+S674,B 27,"['trunk', 'primary']",B 27,Stuttgarter Straße,3025.934207837779,335357814,2675402755,None,False,,none,True,False
+S675,B 10,trunk,B 10,Uferstraße,638.1523709223197,376756572,265421955,None,False,,none,True,False
+S676,segment_676,primary_link,,,21.982834493855346,381305798,49507280,None,False,,none,True,False
+S677,B 10,trunk_link,B 10,,226.8404001960753,381940247,376756572,None,False,,none,True,False
+S678,segment_678,trunk_link,,,56.15791482054119,392146145,2090851977,None,False,,none,True,False
+S679,segment_679,trunk_link,,,20.73962129427244,399489666,434258,None,False,,none,True,False
+S680,segment_680,trunk_link,,,24.01338689090332,399489666,526198053,None,False,,none,True,False
+S681,B 295,primary,B 295,Siemensstraße,441.2500312326719,419261365,38670477,None,False,,none,True,False
+S682,B 295,primary,B 295,Siemensstraße,52.89678336857257,419261365,267330555,None,False,,landslide_block,False,True
+S683,segment_683,trunk_link,,,39.70546411355538,456990704,2090858227,None,False,,none,True,False
+S684,B 295,primary,B 295,Pragsattel,43.51178122708947,489364951,130444618,None,False,,none,True,False
+S685,B 27,primary,B 27,Pragsattel,40.47832601869387,489364951,590298,None,False,,none,True,False
+S686,B 10,trunk,B 10,,168.70656656824133,503349067,456990710,None,False,,none,True,False
+S687,segment_687,trunk_link,,,299.2135288297848,503349067,536913939,None,False,,none,True,False
+S688,segment_688,trunk_link,,,670.6198700620898,534395362,559471771,None,False,,none,True,False
+S689,segment_689,trunk_link,,,28.834955534666044,535030162,11137360,None,False,,crack_pothole,True,False
+S690,segment_690,primary_link,,,87.56637242143302,537254459,13188817805,None,False,,none,True,False
+S691,segment_691,primary_link,,,15.628510856141531,537254464,2670195477,None,False,,none,True,False
+S692,segment_692,primary_link,,,23.17651481637436,537254464,181577014,None,False,,none,True,False
+S693,segment_693,primary_link,,,25.796677557351046,537254464,13188817805,None,False,,none,True,False
+S694,A 81,motorway_link,A 81,,47.87705735164628,537330559,34918006,None,False,,crack_pothole,True,False
+S695,A 81,motorway_link,A 81,,299.5965952896254,538093753,7932112341,None,False,,none,True,False
+S696,segment_696,motorway_link,,,16.9999231944096,540121179,41976399,None,False,,none,True,False
+S697,B 295,primary,B 295,,45.08887870197028,540121179,269778077,None,False,,crack_pothole,True,False
+S698,A 81,motorway_link,A 81,,54.85349873194791,540121182,540121195,None,False,,none,True,False
+S699,B 295,primary,B 295,,10.617069516234817,540121184,2073762873,None,False,,none,True,False
+S700,A 81,motorway_link,A 81,,36.212147908820654,540121184,540121195,None,False,,crack_pothole,True,False
+S701,A 81,motorway_link,A 81,,70.19861841071733,540121187,540121211,None,False,,none,True,False
+S702,B 295,primary,B 295,,58.66906014455324,540121187,540121189,None,False,,none,True,False
+S703,L 1137,primary,L 1137,,11.693556795985119,540121189,540121179,None,False,,none,True,False
+S704,A 81,motorway_link,A 81,,34.379927793827335,540121189,540121211,None,False,,none,True,False
+S705,A 81,motorway_link,A 81,,230.41947395849604,540121195,21265003,None,False,,none,True,False
+S706,A 81,motorway_link,A 81,,336.44174794004874,540121211,13720486873,None,False,,none,True,False
+S707,B 295,primary,B 295,,1625.3779231926935,540131600,41976399,None,False,,none,True,False
+S708,B 295,primary,B 295,,873.1195689920323,540131600,55575928,None,False,,none,True,False
+S709,segment_709,motorway_link,,,23.73274844787101,549267493,551605,None,False,,none,True,False
+S710,B 10,trunk,B 10,Uferstraße,1107.608576255645,559471771,590597,None,False,,none,True,False
+S711,segment_711,trunk_link,,,92.71519621324681,559471920,534395362,None,False,,crack_pothole,True,False
+S712,segment_712,trunk_link,,,61.91311853934622,559471920,534395362,None,False,,none,True,False
+S713,B 27,primary_link,B 27,,24.48829008337735,565050063,565050066,None,False,,none,True,False
+S714,B 27,primary,B 27,Charlottenplatz,29.886905705172325,565050063,73801728,None,False,,none,True,False
+S715,B 27,primary,B 27,Charlottenplatz,14.500100034595482,565050064,565050063,None,False,,none,True,False
+S716,B 14,primary_link,B 14,Charlottenplatz,46.600822822099325,565050064,73801919,None,False,,none,True,False
+S717,B 14,primary_link,B 14,Charlottenplatz,9.375051937625187,565050065,565050066,None,False,,none,True,False
+S718,B 27,primary,B 27,Charlottenplatz,17.259753632879423,565050065,73801740,None,False,,none,True,False
+S719,B 14,primary_link,B 14,Charlottenplatz,12.344243591143698,565050066,565050064,None,False,,none,True,False
+S720,B 27,primary_link,B 27,,23.31309926558882,565050066,73801740,None,False,,none,True,False
+S721,B 14,primary_link,B 14,,13.800287623039642,565050066,73801828,None,False,,none,True,False
+S722,B 27,primary,B 27,Charlottenplatz,30.691310005153138,565050068,73801828,None,False,,landslide_block,False,True
+S723,B 14,primary_link,B 14,Konrad-Adenauer-Straße,46.812809167659225,565050068,2091272749,None,False,,none,True,False
+S724,B 27,primary,B 27,Friedrichstraße,13.680171033214247,572214530,12620665,None,False,,none,True,False
+S725,segment_725,primary_link,,,7.426292502649755,572214530,280975099,None,False,,none,True,False
+S726,segment_726,trunk_link,,,38.50236586783633,590057635,60479135,None,False,,none,True,False
+S727,B 14,trunk_link,B 14,Wildparkstraße,387.8463271857139,592026963,36606375,None,False,,none,True,False
+S728,B 295,primary,B 295,,173.30439536292096,592125944,592126013,None,False,,none,True,False
+S729,B 295,primary_link,B 295,,129.66530822210288,592125944,260682376,None,False,,none,True,False
+S730,B 295,primary,B 295,,240.9833407441622,592126013,55575909,None,False,,none,True,False
+S731,B 14,trunk_link,B 14,,206.32686041394095,620876660,36606365,None,False,,none,True,False
+S732,B 27,primary,B 27,Frankfurter Straße,79.79441604443798,701276010,30358494,None,False,,none,True,False
+S733,segment_733,motorway_link,,,23.450195224887818,701276010,249523853,None,False,,none,True,False
+S734,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,14.134482624391564,871051955,7452363701,None,False,,crack_pothole,True,False
+S735,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,28.10295254683946,871051955,9177909231,None,False,,none,True,False
+S736,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,11.078545597512576,871051981,281448661,None,False,,crack_pothole,True,False
+S737,B 27,trunk_link,B 27,,118.79469580183367,975923535,11137497,None,False,,none,True,False
+S738,B 10;B 14,trunk_link,B 10;B 14,,236.79905490512007,1038074630,590574,None,False,,none,True,False
+S739,B 10;B 14,trunk_link,B 10;B 14,,55.87518658931017,1038074635,1038074630,None,False,,none,True,False
+S740,B 14,primary_link,B 14,Hauptstätter Straße,221.74197533546402,1059525052,69235198,None,False,,landslide_block,False,True
+S741,B 14,primary,B 14,Hauptstätter Straße,252.3709961620094,1059525052,73820274,None,False,,none,True,False
+S742,B 14,primary,B 14,Hauptstätter Straße,254.83084097448028,1059526239,2905919550,None,False,,none,True,False
+S743,B 14,primary_link,B 14,Hauptstätter Straße,133.41683300886604,1059526239,269382280,None,False,,landslide_block,False,True
+S744,B 14,trunk_link,B 14,,45.16406013613036,1062783658,33630741,None,False,,none,True,False
+S745,A 8,motorway_link,A 8,,141.92198923824824,1064313562,3595285073,None,False,,none,True,False
+S746,segment_746,motorway_link,,,123.93223544507798,1064313562,1064313652,None,False,,none,True,False
+S747,segment_747,motorway_link,,,40.64658043610031,1064313652,549267494,None,False,,none,True,False
+S748,segment_748,motorway_link,,,51.14318740181634,1064313652,1064313531,None,False,,none,True,False
+S749,B 10,primary,B 10,"['Leuzetunnel (1. Röhre)', 'Neckartalstraße', 'Uferstraße']",539.4128160963701,1110695362,9181513920,None,False,,none,True,False
+S750,B 14,primary,B 14,"['Leuzetunnel (2. Röhre)', 'Uferstraße']",403.19187137558004,1110695362,10544433005,None,False,,none,True,False
+S751,B 10,trunk,B 10,,1108.8184741012262,1141833485,265808368,None,False,,none,True,False
+S752,B 27,trunk,B 27,,1122.0339358481065,1141833485,434286,None,False,,none,True,False
+S753,B 27,trunk_link,B 27,,35.030451683748765,1145940195,248202588,None,False,,none,True,False
+S754,B 10,trunk_link,B 10,,464.89470301651187,1153319872,33319859,None,False,,none,True,False
+S755,B 10,trunk,B 10,,1397.0971209259674,1153319872,434253,None,False,,none,True,False
+S756,B 27,trunk,B 27,,342.66266147643546,1155023151,3228724503,None,False,,none,True,False
+S757,Peregrinastraße,trunk_link,,Peregrinastraße,573.0735574552078,1161452702,69313566,None,False,,none,True,False
+S758,B 27,primary,B 27,Obere Weinsteige,136.50779507703342,1161452866,590040,None,False,,crack_pothole,True,False
+S759,Österreichischer Platz,primary_link,,Österreichischer Platz,29.345746771491164,1186002458,69437631,None,False,,none,True,False
+S760,Österreichischer Platz,primary_link,,Österreichischer Platz,19.85527763424811,1186002465,1186002458,None,False,,none,True,False
+S761,B 27a,primary,B 27a,Hauptstätter Straße,124.21532454914498,1186002465,1557540795,None,False,,none,True,False
+S762,L 1100,trunk_link,"['L 1100', 'B 14']",,42.75706605420491,1186309586,9828370034,None,False,,none,True,False
+S763,B 14,trunk_link,B 14,,41.451256560520186,1186309586,271772221,None,False,,none,True,False
+S764,segment_764,trunk_link,,,411.2547673731798,1237889962,94916376,None,False,,none,True,False
+S765,B 295,primary,B 295,Siemensstraße,72.8339594410647,1299531588,38670477,None,False,,landslide_block,False,True
+S766,A 81,motorway,A 81,,591.510640353311,1385403778,10087259857,None,False,,none,True,False
+S767,A 81,motorway,A 81,,177.63730710848114,1385403778,36675250,None,False,,landslide_block,False,True
+S768,A 831,motorway,A 831,,311.88905722814246,1387990905,28100340,None,False,,none,True,False
+S769,segment_769,motorway_link,,,338.76564527049703,1387990905,10533590,None,False,,none,True,False
+S770,B 14,primary_link,B 14,,24.447434237860783,1447160635,1447160679,None,False,,none,True,False
+S771,B 14,primary_link,B 14,Heslacher Tunnel,144.2449645524539,1447160679,249482220,None,False,,none,True,False
+S772,B 14,primary_link,B 14,Heslacher Tunnel,141.35230926563534,1447957266,118299121,None,False,,none,True,False
+S773,B 14,primary_link,B 14,,23.046109115555545,1447957281,1447957266,None,False,,none,True,False
+S774,B 14,primary_link,B 14,,40.47677725753398,1447957289,1447957266,None,False,,landslide_block,False,True
+S775,B 14,primary_link,B 14,,24.81887419766772,1447957289,1447957262,None,False,,crack_pothole,True,False
+S776,A 81,motorway_link,A 81,,386.5693747950349,1480482671,249518992,None,False,,none,True,False
+S777,B 295,primary,B 295,Pragsattel,52.513551203543145,1489742579,2148806939,None,False,,none,True,False
+S778,B 27,primary,B 27,"['Pragsattel', 'Heilbronner Straße']",138.40650939898703,1489742579,130444638,None,False,,none,True,False
+S779,segment_779,primary_link,,,5.903261267533308,1490421612,3214951161,None,False,,none,True,False
+S780,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,41.550804330351006,1490421612,280975093,None,False,,none,True,False
+S781,segment_781,primary_link,,,49.08437658712761,1490421612,590170,None,False,,none,True,False
+S782,B 27,primary,B 27,Friedrichstraße,22.715357205036423,1490428668,12620697,None,False,,none,True,False
+S783,segment_783,primary_link,,,33.788867221333675,1490428668,12620685,None,False,,none,True,False
+S784,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,300.6730511575939,1490435012,4990028378,None,False,,none,True,False
+S785,segment_785,primary_link,,,24.629475317335036,1491597982,4020625588,None,False,,none,True,False
+S786,B 27,primary,B 27,Heilbronner Straße,725.8355217584868,1491597982,7006266245,None,False,,none,True,False
+S787,B 10,primary,B 10,,360.715509620928,1497177940,33325124,None,False,,none,True,False
+S788,B 10,trunk_link,B 10,,333.37493199209166,1540974293,265809289,None,False,,none,True,False
+S789,B 27a,primary,B 27a,"['Theodor-Heuss-Straße', 'Paulinenstraße', 'Paulinenbrücke', 'Rotebühlstraße']",804.5454964547256,1557540656,183633619,None,False,,none,True,False
+S790,B 27a,primary,B 27a,Paulinenbrücke,23.60178603311661,1557540679,1557540656,None,False,,none,True,False
+S791,Österreichischer Platz,primary_link,,Österreichischer Platz,35.45079805487095,1557540679,69433639,None,False,,none,True,False
+S792,B 27a,primary,B 27a,Österreichischer Platz,43.75595304314774,1557540679,670774,None,False,,none,True,False
+S793,B 27a,primary_link,B 27a,,179.18605168018487,1557540792,69437631,None,False,,none,True,False
+S794,B 14,primary,B 14,Hauptstätter Straße,38.61810291036545,1557540792,1557540795,None,False,,landslide_block,False,True
+S795,B 14,primary,B 14,Hauptstätter Straße,415.50765694896364,1557540792,1557557285,None,False,,none,True,False
+S796,B 14,primary,B 14,Hauptstätter Straße,38.61810291036545,1557540795,1557540792,None,False,,landslide_block,False,True
+S797,B 14,primary,B 14,Hauptstätter Straße,293.9562170909921,1557540795,69444850,None,False,,none,True,False
+S798,B 14,primary,B 14,Hauptstätter Straße,415.5076569489636,1557557285,1557540792,None,False,,none,True,False
+S799,B 14,primary,B 14,Hauptstätter Straße,41.12963866183684,1557557285,299403593,None,False,,none,True,False
+S800,A 8,motorway_link,A 8,,148.96883192134754,1578421226,1578421256,None,False,,none,True,False
+S801,segment_801,motorway_link,,,169.57131344093398,1578421226,11506663058,None,False,,none,True,False
+S802,A 8,motorway_link,A 8,,336.5626525377868,1578421256,289169063,None,False,,none,True,False
+S803,segment_803,trunk_link,,,52.57543976037949,1586022305,5887210523,None,False,,none,True,False
+S804,segment_804,trunk_link,,,49.49105812259695,1586022305,4373580680,None,False,,none,True,False
+S805,Friedrichsplatz,primary_link,,Friedrichsplatz,25.015915382844383,1587388559,71711299,None,False,,crack_pothole,True,False
+S806,B 27,primary,B 27,Friedrichstraße,70.37535996090934,1587388559,3219353718,None,False,,none,True,False
+S807,B 27,trunk,B 27,,937.6563489590728,1591445906,589957,None,False,,none,True,False
+S808,B 27,trunk,B 27,,919.2800499498219,1591445957,30375298,None,False,,none,True,False
+S809,B 27,trunk_link,B 27,,168.53822413964414,1591479268,1591479277,None,False,,crack_pothole,True,False
+S810,B 27,trunk,B 27,,1006.5239028761611,1591479277,69303356,None,False,,landslide_block,False,True
+S811,segment_811,trunk_link,,,24.0797021684988,1591479349,13760299037,None,False,,landslide_block,False,True
+S812,segment_812,trunk_link,,,47.59486649866607,1601302924,11619156879,None,False,,none,True,False
+S813,segment_813,trunk_link,,,37.01703063660511,1601302924,265709813,None,False,,none,True,False
+S814,B 27a,primary_link,B 27a,,32.86444591251769,1605370691,1557540656,None,False,,none,True,False
+S815,Hauptstätter Straße,primary_link,,Hauptstätter Straße,26.237945984248036,1605370691,1557540679,None,False,,none,True,False
+S816,B 295,primary_link,B 295,,38.09647315940211,1626160290,1705181360,None,False,,none,True,False
+S817,B 295,primary_link,B 295,,33.5402467660633,1626160369,3050410772,None,False,,none,True,False
+S818,B 10;B 14,trunk,B 10;B 14,Uferstraße,473.3182272303986,1648442936,265705663,None,False,,none,True,False
+S819,Uferstraße,primary_link,,Uferstraße,26.715485280761158,1648442939,21097698,None,False,,none,True,False
+S820,Uferstraße,trunk_link,,Uferstraße,35.70770897187011,1648442939,1648442936,None,False,,none,True,False
+S821,Konrad-Adenauer-Straße,primary_link,,Konrad-Adenauer-Straße,295.13874856666223,1670722496,13544197799,None,False,,none,True,False
+S822,B 14,trunk_link,B 14,,171.15525147763165,1687700574,498297,None,False,,none,True,False
+S823,B 14,trunk_link,B 14,,26.338210357677642,1687700615,620876660,None,False,,none,True,False
+S824,B 14,trunk_link,B 14,,38.423066556045164,1687700615,1687700574,None,False,,none,True,False
+S825,B 295,primary_link,B 295,,38.0964731594021,1705181360,1626160290,None,False,,landslide_block,False,True
+S826,B 295,primary_link,B 295,,13.03312281740777,1705181360,260682376,None,False,,none,True,False
+S827,B 10,trunk,B 10,,1069.7730231028142,1732239525,265710176,None,False,,none,True,False
+S828,B 27,primary,B 27,Charlottenstraße,10.90126850675208,1848965614,281430626,None,False,,none,True,False
+S829,B 27,primary_link,B 27,Charlottenstraße,22.369914609330674,1848965614,270922103,None,False,,none,True,False
+S830,B 14,primary,B 14,"['Am Neckartor', 'Cannstatter Straße', 'Kurztunnel', 'Willy-Brandt-Straße', 'Schwanenplatztunnel (Nordröhre)']",2299.096982683418,1877540254,3761636472,None,False,,none,True,False
+S831,A 81,motorway,A 81,,207.90595280297566,1881186968,3054799942,None,False,,none,True,False
+S832,segment_832,motorway_link,,,296.3896896975433,1881186968,1881187114,None,False,,none,True,False
+S833,A 81,motorway_link,A 81,,50.20012321123297,1881186979,1881187114,None,False,,none,True,False
+S834,A 81,motorway_link,A 81,,257.21881468641783,1881187114,3054799942,None,False,,none,True,False
+S835,B 14,trunk_link,B 14,,271.005099473528,2020318721,26470352,None,False,,none,True,False
+S836,K 1859,trunk_link,K 1859,An der Talaue,52.184548226297046,2020318733,26477650,None,False,,none,True,False
+S837,segment_837,trunk_link,,,58.80835999740986,2020318733,2020318721,None,False,,none,True,False
+S838,K 1859,trunk_link,K 1859,An der Talaue,139.9638444368902,2020318733,28787330,None,False,,none,True,False
+S839,A 8,motorway_link,A 8,,145.96920177806354,2038638580,30374337,None,False,,none,True,False
+S840,A 8,motorway_link,A 8,,87.91837549545164,2038638580,289169745,None,False,,landslide_block,False,True
+S841,B 27,trunk,B 27,,275.9678982189361,2039811982,30375302,None,False,,none,True,False
+S842,segment_842,trunk_link,,,37.315234625438855,2046520212,28807156,None,False,,none,True,False
+S843,segment_843,trunk_link,,,56.72683329852555,2046520212,2046520225,None,False,,none,True,False
+S844,segment_844,trunk_link,,,45.15816008055943,2046522702,2046522704,None,False,,none,True,False
+S845,segment_845,trunk_link,,,294.8681568924918,2046522704,26471063,None,False,,none,True,False
+S846,B 295,primary,B 295,,1532.1168636460832,2058498323,55575909,None,False,,none,True,False
+S847,B 295,primary,B 295,,406.9417312602098,2058498323,55575825,None,False,,none,True,False
+S848,B 295,primary,B 295,,39.57831644927822,2073762873,265767807,None,False,,none,True,False
+S849,A 81,motorway_link,A 81,,17.695446079716945,2073762873,2073762881,None,False,,none,True,False
+S850,A 81,motorway_link,A 81,,16.701186578614767,2073762881,540121184,None,False,,none,True,False
+S851,segment_851,trunk_link,,,175.79742075164853,2090851977,13888094,None,False,,none,True,False
+S852,segment_852,trunk_link,,,282.99322946195207,2090858227,456990710,None,False,,none,True,False
+S853,B 14,primary_link,B 14,Konrad-Adenauer-Straße,269.71986175071424,2091272749,73859028,None,False,,none,True,False
+S854,segment_854,primary_link,,,32.352608292804746,2148806939,590298,None,False,,none,True,False
+S855,B 295,primary,B 295,Pragsattel,55.66614662091104,2148806939,489364951,None,False,,none,True,False
+S856,segment_856,trunk_link,,,47.307457881346295,2173694323,2090858227,None,False,,none,True,False
+S857,B 10,trunk_link,B 10,,62.86126202107514,2203746898,38408189,None,False,,none,True,False
+S858,B 10,trunk_link,B 10,,493.99593949216325,2205908880,434264,None,False,,none,True,False
+S859,B 27,primary,B 27,Frankfurter Straße,34.72237087760889,2270958628,249523896,None,False,,none,True,False
+S860,segment_860,motorway_link,,,44.37179198331024,2270958628,249523897,None,False,,none,True,False
+S861,segment_861,trunk_link,,,57.992510402937214,2292733892,60479135,None,False,,none,True,False
+S862,L 1187,trunk,L 1187,Rotenwaldstraße,1133.4033721129783,2293882964,498275,None,False,,crack_pothole,True,False
+S863,B 10,primary,B 10,,86.197401236358,2332142007,33319325,None,False,,none,True,False
+S864,B 10,primary,B 10,,86.8218500591961,2332142026,2332142007,None,False,,none,True,False
+S865,segment_865,primary_link,,,94.91911895999328,2332142026,56554358,None,False,,none,True,False
+S866,B 10,primary,B 10,,100.25997286255537,2332142080,2332142026,None,False,,none,True,False
+S867,B 10,primary,B 10,,394.38437507762234,2332142080,33319525,None,False,,crack_pothole,True,False
+S868,B 27,primary,B 27,Stuttgarter Straße,1911.666216662247,2337687703,33233039,None,False,,crack_pothole,True,False
+S869,B 295,primary,B 295,Steiermärker Straße,57.850318274997655,2380614643,2380622769,None,False,,none,True,False
+S870,B 295,primary,B 295,"['Steiermärker Straße', 'Feuerbacher Tunnel', 'Föhrichstraße']",1820.482774852044,2380614643,60676956,None,False,,crack_pothole,True,False
+S871,B 295,primary,B 295,Bludenzer Straße,415.6418074649696,2380622769,38670499,None,False,,landslide_block,False,True
+S872,segment_872,trunk_link,,,74.3123876169996,2425790698,2425790713,None,False,,none,True,False
+S873,segment_873,trunk_link,,,284.07365875212577,2425790713,26470297,None,False,,none,True,False
+S874,segment_874,trunk_link,,,74.80328517847096,2425792015,2425792020,None,False,,none,True,False
+S875,segment_875,trunk_link,,,281.98555154097744,2425792020,26470329,None,False,,none,True,False
+S876,segment_876,trunk_link,,,74.25731816557219,2459299072,5887210523,None,False,,crack_pothole,True,False
+S877,B 14,trunk_link,B 14,,52.81824175957691,2469445406,271199330,None,False,,none,True,False
+S878,segment_878,primary_link,,,186.36589944427365,2471324299,60676959,None,False,,none,True,False
+S879,segment_879,primary_link,,,28.003258714827105,2559650174,2559650182,None,False,,crack_pothole,True,False
+S880,segment_880,primary_link,,,21.86999669302234,2559650182,33319588,None,False,,none,True,False
+S881,segment_881,trunk_link,,,203.57981544595648,2599627188,33233849,None,False,,none,True,False
+S882,segment_882,primary_link,,,309.5004140007098,2599627188,276503074,None,False,,none,True,False
+S883,segment_883,primary_link,,,26.409659406133674,2670195477,537254464,None,False,,none,True,False
+S884,segment_884,trunk_link,,,175.5659321596337,2675402755,2670195477,None,False,,none,True,False
+S885,B 27,"['trunk', 'primary']",B 27,,154.66598897177636,2675402755,181577000,None,False,,none,True,False
+S886,B 27,primary,B 27,Heilbronner Straße,404.20525997609656,2721751714,30904645,None,False,,none,True,False
+S887,B 27,primary,B 27,"['Heilbronner Straße', 'Frankfurter Straße']",2305.8193948506364,2721751714,33233843,None,False,,none,True,False
+S888,B 14,primary,B 14,Hauptstätter Straße,305.71716618737526,2905919550,265972406,None,False,,none,True,False
+S889,B 14,primary,B 14,"['Heslacher Tunnel', 'Hauptstätter Straße']",175.7321790633278,2917680451,299403594,None,False,,none,True,False
+S890,B 14,primary,B 14,Heslacher Tunnel,1124.7044922631696,2917680451,3440514121,None,False,,none,True,False
+S891,segment_891,primary_link,,,32.94283640346263,2957898404,5327184817,None,False,,none,True,False
+S892,B 295,primary_link,B 295,,50.80519683657327,3050410769,3050410772,None,False,,none,True,False
+S893,B 295,primary_link,B 295,,45.08598049541213,3050410772,96571354,None,False,,none,True,False
+S894,B 295,primary_link,B 295,,33.54024676606329,3050410772,1626160369,None,False,,crack_pothole,True,False
+S895,A 81,motorway,A 81,,3445.74752429881,3054799942,591401,None,False,,none,True,False
+S896,B 10,primary,B 10,,268.2224514237014,3065282605,33325122,None,False,,none,True,False
+S897,B 10,primary,B 10,,264.18920909664394,3065282630,1497177940,None,False,,crack_pothole,True,False
+S898,B 27,trunk,B 27,,119.81095148251525,3094236798,33233848,None,False,,none,True,False
+S899,A 81,motorway,A 81,,171.82881746811762,3094236817,593747,None,False,,none,True,False
+S900,segment_900,motorway_link,,,271.29999278087587,3094236817,30904510,None,False,,none,True,False
+S901,B 295,primary,B 295,,63.09773918621657,3200574566,5327184817,None,False,,none,True,False
+S902,segment_902,primary_link,,,39.60327622045098,3200574566,13686848838,None,False,,none,True,False
+S903,segment_903,primary_link,,,18.406996276346614,3214951161,1490435012,None,False,,none,True,False
+S904,segment_904,primary_link,,,39.29050572949595,3214951161,280975108,None,False,,none,True,False
+S905,B 27,primary,B 27,Friedrichstraße,181.39291881768625,3219353713,3219353716,None,False,,none,True,False
+S906,B 27,primary,B 27,Friedrichstraße,51.691163638730856,3219353716,71711299,None,False,,none,True,False
+S907,segment_907,primary_link,,,20.025548499784357,3219353716,3219353718,None,False,,none,True,False
+S908,B 27,primary,B 27,Friedrichstraße,334.45503422188114,3219353718,76841626,None,False,,crack_pothole,True,False
+S909,B 27,trunk,B 27,,391.93639966904914,3228724503,589698,None,False,,none,True,False
+S910,B 27,"['trunk', 'primary']",B 27,Löffelstraße,1230.8678984781986,3236957555,69313566,None,False,,none,True,False
+S911,B 27,primary,B 27,Obere Weinsteige,219.42601659934178,3236957555,590035,None,False,,none,True,False
+S912,A 831,"['trunk', 'motorway']","['A 831', 'B 14']",,1268.4206256213895,3255783423,1387990905,None,False,,none,True,False
+S913,B 10;B 14,primary,"['B 10;B 14', 'B 14']",Uferstraße,76.41903930721233,3290142174,10544453074,None,False,,none,True,False
+S914,Poststraße,trunk_link,,Poststraße,52.864524502121434,3290142174,21097698,None,False,,none,True,False
+S915,B 27,trunk_link,B 27,,26.326673486227357,3411061252,434375,None,False,,none,True,False
+S916,B 27,trunk_link,B 27,,34.78788225036995,3411061252,3411061259,None,False,,none,True,False
+S917,B 27,trunk_link,B 27,,100.39342163651582,3411061252,434354,None,False,,crack_pothole,True,False
+S918,L 1187,trunk,L 1187,Wildparkstraße,154.9851062957116,3426630589,498281,None,False,,none,True,False
+S919,B 14,primary,B 14,Heslacher Tunnel,66.10728327008901,3440514114,249482220,None,False,,none,True,False
+S920,B 14,primary,B 14,Heslacher Tunnel,909.5660335857419,3440514114,69321350,None,False,,crack_pothole,True,False
+S921,B 14,primary_link,B 14,Heslacher Tunnel,192.69508817103286,3440514114,1447957289,None,False,,none,True,False
+S922,B 14,primary,B 14,Heslacher Tunnel,26.24965571688895,3440514121,118299121,None,False,,none,True,False
+S923,B 14,primary,B 14,Heslacher Tunnel,1124.7044922631696,3440514121,2917680451,None,False,,none,True,False
+S924,B 14,primary_link,B 14,Heslacher Tunnel,180.92240120131908,3440514121,1447160679,None,False,,none,True,False
+S925,segment_925,motorway_link,,,138.25795456364867,3587254218,1578421256,None,False,,none,True,False
+S926,A 8,motorway_link,A 8,,729.9071487003037,3595285073,589679,None,False,,crack_pothole,True,False
+S927,B 14,primary,B 14,"['Schwanenplatztunnel (Südröhre)', 'Am Neckartor', 'Berger Tunnel', 'Schwanenplatztunnel', 'Cannstatter Straße', 'Willy-Brandt-Straße']",2357.011042611987,3663605417,9735310909,None,False,,none,True,False
+S928,B 14,primary,B 14,Willy-Brandt-Straße,95.70998566487926,3761636472,13002274561,None,False,,none,True,False
+S929,Willy-Brandt-Straße,primary_link,,Willy-Brandt-Straße,123.68732445323624,3761636472,13002274560,None,False,,none,True,False
+S930,segment_930,primary_link,,,80.02734833096167,3848657325,3848657328,None,False,,none,True,False
+S931,segment_931,primary_link,,,80.02734833096166,3848657328,3848657325,None,False,,none,True,False
+S932,segment_932,primary_link,,,53.94592876484473,3848657328,33319478,None,False,,none,True,False
+S933,B 10,primary,B 10,,83.75604591055307,3848657334,33319478,None,False,,none,True,False
+S934,segment_934,primary_link,,,70.47279738625335,3848657334,3848657328,None,False,,crack_pothole,True,False
+S935,B 27,primary,B 27,Heilbronner Straße,2002.9059619005898,4020625588,33327565,None,False,,none,True,False
+S936,L 1014,primary_link,L 1014,Gebhard-Müller-Platz,30.929351326967097,4183314229,7466896922,None,False,,none,True,False
+S937,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,36.28574280095588,4183314229,7904113315,None,False,,none,True,False
+S938,L 1014,primary_link,L 1014,Gebhard-Müller-Platz,6.895840050463092,4791811355,7452363701,None,False,,none,True,False
+S939,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,5.193598324060975,4791811355,871051981,None,False,,none,True,False
+S940,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,323.1762202530532,4990028374,1490421612,None,False,,none,True,False
+S941,Arnulf-Klett-Platz,primary_link,,Arnulf-Klett-Platz,31.343446026989255,4990028378,4990028374,None,False,,none,True,False
+S942,Arnulf-Klett-Platz,primary,,"['Arnulf-Klett-Platz', 'Schillerstraße']",236.92577886945256,4990028378,281454709,None,False,,none,True,False
+S943,B 27,trunk,B 27,,245.9948372978028,5243254409,434297,None,False,,none,True,False
+S944,B 295,primary,B 295,,1308.1533869024136,5327184817,540131600,None,False,,none,True,False
+S945,B 10,trunk,B 10,,402.864540197529,5667409022,434278,None,False,,none,True,False
+S946,segment_946,trunk_link,,,142.21071134770318,5887210523,265813365,None,False,,none,True,False
+S947,B 27,primary,B 27,Heilbronner Straße,170.92566749108255,6483528565,30904645,None,False,,none,True,False
+S948,B 27,primary,B 27,Heilbronner Straße,15.875223879768786,6483528565,6483528570,None,False,,none,True,False
+S949,B 27,"['trunk', 'primary']",B 27,"['Schlossstraße', 'Heilbronner Straße', 'Frankfurter Straße', 'Stuttgarter Straße']",3080.50980010229,6483528570,248202675,None,False,,none,True,False
+S950,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,13.39257844064981,6528494420,89532202,None,False,,none,True,False
+S951,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,19.091124756566362,6528494420,590409,None,False,,none,True,False
+S952,segment_952,motorway_link,,,41.85015652689046,6773871439,1480482671,None,False,,none,True,False
+S953,A 81,motorway,A 81,,3338.784188104626,7002820660,34918000,None,False,,none,True,False
+S954,B 27,primary,B 27,Heilbronner Straße,50.46414436916428,7006266245,280975104,None,False,,none,True,False
+S955,segment_955,primary_link,,,48.98286962526684,7006266245,11930262856,None,False,,none,True,False
+S956,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,8.148119522203439,7057217592,89532202,None,False,,none,True,False
+S957,L 1014,primary_link,L 1014,Gebhard-Müller-Platz,10.73065116307785,7057217592,9341271728,None,False,,none,True,False
+S958,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,10.81819430716418,7452363700,871051955,None,False,,none,True,False
+S959,L 1014,primary_link,L 1014,Gebhard-Müller-Platz,12.85789917192992,7452363700,7057217592,None,False,,none,True,False
+S960,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,4.3567024551455145,7452363701,871051981,None,False,,none,True,False
+S961,L 1014,primary_link,L 1014,Gebhard-Müller-Platz,8.476477485981206,7452363701,7452363700,None,False,,none,True,False
+S962,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,12.299138765190184,7466896922,9341271731,None,False,,crack_pothole,True,False
+S963,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,32.45722319237197,7466896922,7904113315,None,False,,none,True,False
+S964,A 81,motorway,A 81,,399.2790927769883,7480346596,7002820660,None,False,,none,True,False
+S965,segment_965,primary_link,,,14.836166313746947,7540338802,280975093,None,False,,none,True,False
+S966,segment_966,primary_link,,,11.127986730313044,7540338802,9343585457,None,False,,none,True,False
+S967,Gebhard-Müller-Platz,primary,,"['Gebhard-Müller-Platz', 'Arnulf-Klett-Platz', 'Schillerstraße']",206.4391273690918,7904113315,4990028374,None,False,,none,True,False
+S968,A 81,motorway,A 81,,3564.48360489587,7932112341,30358517,None,False,,none,True,False
+S969,segment_969,trunk,,,593.8853209432584,8552857664,26470983,None,False,,none,True,False
+S970,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,10.903911545552482,9177909219,1670722496,None,False,,none,True,False
+S971,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,5.961700808382748,9177909231,9177909219,None,False,,landslide_block,False,True
+S972,B 10,primary_link,B 10,Neckartalstraße,41.37533479959782,9181493000,84856083,None,False,,none,True,False
+S973,Cannstatter Straße,primary_link,,Cannstatter Straße,30.210662578794523,9181493000,3836686092,None,False,,none,True,False
+S974,B 10,primary,B 10,"['Neckartalstraße', 'Rosensteintunnel', 'Pragsatteltunnel', 'Rosensteintunnel (Nordröhre)', 'Pragstraße']",2598.331190505803,9181513920,265805437,None,False,,none,True,False
+S975,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,18.871043848213993,9341271728,7466896922,None,False,,none,True,False
+S976,Gebhard-Müller-Platz,primary,,Gebhard-Müller-Platz,22.96111152581341,9341271730,871051955,None,False,,none,True,False
+S977,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,25.178464535317616,9341271730,9177909231,None,False,,none,True,False
+S978,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,5.827525266550167,9341271731,9341271730,None,False,,none,True,False
+S979,Gebhard-Müller-Platz,primary_link,,Gebhard-Müller-Platz,26.017751263823012,9341271731,7057217592,None,False,,crack_pothole,True,False
+S980,segment_980,primary_link,,,2.8442008566518138,9343585457,280975101,None,False,,none,True,False
+S981,segment_981,primary_link,,,7.570148767242512,9343585457,12620697,None,False,,none,True,False
+S982,B 10,primary_link,B 10,,87.75046600492747,9576522155,1877540254,None,False,,none,True,False
+S983,B 10,primary,B 10,Neckartalstraße,84.15722253619167,9576522155,10544433005,None,False,,none,True,False
+S984,B 10;B 14,primary,B 10;B 14,"['Leuzetunnel (Weströhre)', 'Uferstraße']",550.5429892650172,9735310909,13168133094,None,False,,none,True,False
+S985,L 1100,trunk_link,L 1100,,12.02904701591875,9828370034,4169455661,None,False,,none,True,False
+S986,L 1100,trunk_link,"['L 1100', 'B 14']",,39.53626663912503,9828370034,271199330,None,False,,crack_pothole,True,False
+S987,A 81,motorway,A 81,,591.5106403533109,10087259857,1385403778,None,False,,none,True,False
+S988,B 14,primary,B 14,Kurztunnel,38.19046343929755,10544433005,1877540254,None,False,,none,True,False
+S989,B 10,primary,B 10,"['Leuzetunnel (3. Röhre)', 'Neckartalstraße', 'Leuzetunnel (Weströhre)']",224.23267779071202,10544433005,9735310909,None,False,,none,True,False
+S990,B 10;B 14,primary,B 10;B 14,Uferstraße,387.70098524965164,10544453074,1110695362,None,False,,none,True,False
+S991,segment_991,primary_link,,,30.022029476356625,10863739018,2380622769,None,False,,crack_pothole,True,False
+S992,B 295,primary,B 295,Steiermärker Straße,84.02396048354784,10863739018,2380614643,None,False,,none,True,False
+S993,segment_993,motorway_link,,,22.81495702166476,11506663058,551651,None,False,,none,True,False
+S994,segment_994,motorway_link,,,29.763130647128087,11506663058,701230306,None,False,,none,True,False
+S995,segment_995,trunk_link,,,8.746220003781614,11616418564,590749,None,False,,none,True,False
+S996,Arnulf-Klett-Platz,primary,,Arnulf-Klett-Platz,13.318543428070067,11930262856,280975104,None,False,,none,True,False
+S997,segment_997,primary_link,,,5.663144159156815,11930262856,7540338802,None,False,,landslide_block,False,True
+S998,B 27,trunk,B 27,,1001.6724730853217,12595106914,11137335,None,False,,none,True,False
+S999,B 10,trunk,B 10,,1212.5151147436416,12662359730,590721,None,False,,crack_pothole,True,False
+S1000,segment_1000,trunk_link,,,41.6824338358506,12662359736,271725707,None,False,,none,True,False
+S1001,segment_1001,trunk_link,,,39.119964427141895,12684228262,271725707,None,False,,none,True,False
+S1002,L 1014,primary_link,L 1014,Willy-Brandt-Straße,250.68029218941757,13002274560,4183314229,None,False,,none,True,False
+S1003,Willy-Brandt-Straße,primary_link,,Willy-Brandt-Straße,27.511463522159154,13002274561,13002274560,None,False,,none,True,False
+S1004,B 14,primary,B 14,"['Willy-Brandt-Straße', 'Konrad-Adenauer-Straße']",657.592120284054,13002274561,13544197800,None,False,,none,True,False
+S1005,B 10;B 14,primary,B 10;B 14,Uferstraße,41.52995388660215,13168133094,21097698,None,False,,none,True,False
+S1006,Poststraße,primary_link,,Poststraße,48.04049292375148,13168133094,1316564616,None,False,,crack_pothole,True,False
+S1007,segment_1007,primary_link,,,25.796677557351046,13188817805,537254464,None,False,,none,True,False
+S1008,segment_1008,primary_link,,,79.97959050168095,13188817805,276503074,None,False,,none,True,False
+S1009,Cannstatter Straße,primary_link,,"['Cannstatter Straße', 'Neckartalstraße']",185.57835107143023,13191755080,9181493000,None,False,,none,True,False
+S1010,B 10,primary,B 10,Neckartalstraße,58.296524601646354,13191755080,9576522155,None,False,,none,True,False
+S1011,B 10,primary_link,B 10,,97.51484417006682,13203900952,9181493000,None,False,,none,True,False
+S1012,B 14,trunk,B 14,,146.8179650227488,13264658069,498297,None,False,,none,True,False
+S1013,B 14,trunk_link,B 14,,839.4887821387485,13264658069,36610905,None,False,,none,True,False
+S1014,A 81,motorway_link,A 81,Westrandstraße,62.870970249059255,13296164440,13910645599,None,False,,crack_pothole,True,False
+S1015,A 81,motorway_link,A 81,,51.79017475034949,13296164440,13296164441,None,False,,none,True,False
+S1016,L 1180,trunk_link,L 1180,,45.081285594019874,13401523182,13401562702,None,False,,none,True,False
+S1017,L 1180,trunk_link,L 1180,,118.7662714935163,13401562702,31232268,None,False,,none,True,False
+S1018,L 1180,trunk_link,L 1180,,43.97759305994726,13401562702,31232090,None,False,,none,True,False
+S1019,L 1187,trunk,L 1187,Rotenwaldstraße,11.64136386168832,13403181611,266561999,None,False,,none,True,False
+S1020,L 1180,trunk_link,L 1180,,24.256033343795252,13403181676,21276950,None,False,,crack_pothole,True,False
+S1021,L 1187,trunk,L 1187,Rotenwaldstraße,95.0637630700941,13403181676,13403181611,None,False,,none,True,False
+S1022,B 14,trunk_link,B 14,,20.586658347634277,13444871200,620876660,None,False,,none,True,False
+S1023,segment_1023,primary_link,,,10.235759618574388,13544197799,13544197800,None,False,,none,True,False
+S1024,B 14,primary_link,B 14,Konrad-Adenauer-Straße,246.41811443841578,13544197799,73801765,None,False,,none,True,False
+S1025,B 14,primary,B 14,"['Hauptstätter Straße', 'Konrad-Adenauer-Straße']",462.18869022456136,13544197800,1059526239,None,False,,none,True,False
+S1026,A 81,motorway,A 81,,3706.2241903604067,13720486873,434210,None,False,,none,True,False
+S1027,segment_1027,trunk_link,,,125.1194308144022,13760299037,12595106914,None,False,,none,True,False
+S1028,B 27,primary,B 27,Stuttgarter Straße,20.653234626297483,13865865762,33234247,None,False,,crack_pothole,True,False
+S1029,B 27,primary,B 27,Stuttgarter Straße,13.58178042571849,13865865763,13865865762,None,False,,none,True,False
+S1030,B 27,primary,B 27,,22.36777838930935,13865865763,335357814,None,False,,none,True,False

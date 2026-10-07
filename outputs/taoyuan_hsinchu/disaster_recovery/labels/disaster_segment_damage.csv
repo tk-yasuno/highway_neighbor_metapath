@@ -1,0 +1,1128 @@
+﻿segment_id,corridor_id,highway,ref,name,length,u,v,metapath_priority,is_metapath_hard,metapath_pairs,damage_type,initial_open,disaster_hard
+S0,竹林交流道,motorway_link,,竹林交流道,203.80055362143614,25942370,132586694,None,False,,none,True,False
+S1,竹科交流道東向出口,trunk_link,,"['竹科交流道東向出口', '竹科交流道']",623.0500104245019,26069794,1188790246,None,False,,none,True,False
+S2,竹科交流道,trunk_link,,竹科交流道,281.5992743693528,26069794,1151731183,None,False,,none,True,False
+S3,4,primary,4,"['新南路一段', '新南路二段']",249.59739036286805,32415615,261053465,None,False,,none,True,False
+S4,機場系統交流道,motorway_link,,機場系統交流道,363.831083385859,32415676,251473452,None,False,,none,True,False
+S5,2,motorway,2,桃園環線,806.2659214057771,32415676,1512760076,None,False,,none,True,False
+S6,機場系統交流道,motorway_link,,機場系統交流道,463.86026831746074,32415708,3074416481,None,False,,none,True,False
+S7,機場系統交流道,motorway_link,,機場系統交流道,938.0923024104862,32415708,47950672,None,False,,none,True,False
+S8,大竹交流道,motorway_link,,大竹交流道,229.73670461584507,32415739,1946339303,None,False,,none,True,False
+S9,2,motorway,2,機場支線,1160.9619251995234,32415739,32415744,None,False,,none,True,False
+S10,桃園交流道,motorway_link,,桃園交流道,255.68519806139437,32616137,47836336,None,False,,none,True,False
+S11,1,motorway,1,中山高速公路,501.6399435559296,32616137,428581474,None,False,,crack_pothole,True,False
+S12,1,motorway,1,中山高速公路,949.5587124891739,32616139,32616137,None,False,,none,True,False
+S13,桃園交流道,motorway_link,,桃園交流道,303.11712366139545,32616139,9317130158,None,False,,none,True,False
+S14,桃園交流道,motorway_link,,桃園交流道,200.28767349469243,32617741,261053488,None,False,,none,True,False
+S15,桃園交流道,motorway_link,,桃園交流道,147.46181565615018,32617741,261053465,None,False,,none,True,False
+S16,4,primary,4,"['新南路一段', '新南路二段', '新南路高架道路']",249.49008485638547,32617745,9368113706,None,False,,none,True,False
+S17,4,primary,4,新南路一段,306.24517659058773,35269983,32617745,None,False,,none,True,False
+S18,4,primary,4,"['新南路一段', '新南路二段']",558.9086155677975,35269983,9368113706,None,False,,none,True,False
+S19,4,"['primary', 'motorway_link']",4,"['新南路一段', '桃園交流道']",176.22628996714553,35269983,9368113697,None,False,,none,True,False
+S20,桃園交流道,motorway_link,,桃園交流道,84.01724286122399,47836336,428581478,None,False,,none,True,False
+S21,桃園交流道,motorway_link,,桃園交流道,295.032929222611,47836336,9368113706,None,False,,none,True,False
+S22,1,motorway,1,中山高速公路,946.5418260688541,47848638,32616139,None,False,,none,True,False
+S23,2,motorway,2,桃園環線,1120.960445903646,47848901,32415676,None,False,,none,True,False
+S24,2,motorway,2,"['桃園環線', '機場支線']",592.3379867424587,47950672,510849925,None,False,,none,True,False
+S25,南桃園交流道,motorway_link,,南桃園交流道,212.84415760633593,47950901,1567942303,None,False,,none,True,False
+S26,2,motorway,2,桃園環線,847.7362842089203,47950901,245390635,None,False,,none,True,False
+S27,2,motorway,2,機場支線,849.8493997822623,47952551,47950672,None,False,,none,True,False
+S28,機場系統交流道,motorway_link,,機場系統交流道,304.2588367189854,47952551,1946239374,None,False,,crack_pothole,True,False
+S29,大溪交流道,motorway_link,,大溪交流道,454.5497136662014,48068885,12249906664,None,False,,crack_pothole,True,False
+S30,3,motorway,3,福爾摩沙高速公路,1839.1233274437127,48068885,939016205,None,False,,crack_pothole,True,False
+S31,3,motorway,3,福爾摩沙高速公路,2971.610709260835,48070729,48070845,None,False,,none,True,False
+S32,segment_32,motorway_link,,,279.72321319002737,48070845,7934992653,None,False,,none,True,False
+S33,3,motorway,3,福爾摩沙高速公路,981.8029674972529,48070845,48070880,None,False,,crack_pothole,True,False
+S34,3,motorway,3,福爾摩沙高速公路,1026.4342560818438,48070880,7934992661,None,False,,none,True,False
+S35,3,motorway,3,福爾摩沙高速公路,709.276779565262,48071421,382954808,None,False,,none,True,False
+S36,segment_36,motorway_link,,,1062.308800174561,48071421,382954421,None,False,,none,True,False
+S37,3,motorway,3,福爾摩沙高速公路,3269.873966756075,48071662,425568166,None,False,,none,True,False
+S38,關西交流道,motorway_link,,關西交流道,188.2118162660402,48078731,48078799,None,False,,none,True,False
+S39,關西交流道,motorway_link,,關西交流道,143.08602672645233,48078799,1422775936,None,False,,none,True,False
+S40,關西交流道,motorway_link,,關西交流道,197.95474916222093,48078799,1422775934,None,False,,none,True,False
+S41,3,primary,3,中豐路二段,271.16884136707614,48081621,48082411,None,False,,none,True,False
+S42,3,primary,3,中豐路二段,209.53877844268266,48081621,6846502670,None,False,,none,True,False
+S43,3,primary,3,中豐路二段,271.16884136707614,48082411,48081621,None,False,,none,True,False
+S44,3;120,primary,"['3;120', '3']","['中豐路二段', '油羅溪橋', '中豐路一段', '頭份林橋']",6787.754808657997,48082411,3285836204,None,False,,none,True,False
+S45,segment_45,primary,,,49.294686627355524,48084483,325705142,None,False,,none,True,False
+S46,3,primary,3,中豐路高平段,42.30813440948647,48084483,1701302304,None,False,,none,True,False
+S47,3,primary,3,員林路一段,1744.6090692566893,48085937,2850426736,None,False,,none,True,False
+S48,3,primary,3,"['員林路一段', '員林路二段']",301.4859468830825,48085937,939016178,None,False,,none,True,False
+S49,1,primary,"['1', '1;桃47']","['永安橋', '中山路', '桃圳橋', '中華路二段', '中華路一段', '中華路']",6519.171352245592,48097850,1256458817,None,False,,none,True,False
+S50,3,primary,3,大昌路一段,10.012360530750584,49006130,7934954829,None,False,,none,True,False
+S51,3,primary,3,"['員林路三段', '中興路', '九座寮橋', '中興路九龍段']",4097.035334471446,49006130,3129555326,None,False,,landslide_block,False,True
+S52,南桃園交流道,motorway_link,,"['南桃園交流道', '南桃園交流道(東向入口)']",341.9753426303903,49203299,1713676775,None,False,,none,True,False
+S53,4,primary,4,介壽路,2760.1523365342487,52707753,52711608,None,False,,none,True,False
+S54,4,primary,4,瑞安路一段,9.000864368670042,52708758,603803920,None,False,,none,True,False
+S55,3;4,primary,3;4,介壽路,1209.053737780694,52708758,2850426736,None,False,,none,True,False
+S56,segment_56,primary_link,,,62.044751597265154,52708758,52712006,None,False,,none,True,False
+S57,4,primary,4,介壽路,306.7561162550208,52711608,2850426736,None,False,,none,True,False
+S58,4,primary,4,介壽路,2759.3942396023253,52711608,52707753,None,False,,none,True,False
+S59,4,primary,4,瑞安路一段,46.43820953585914,52712006,52712025,None,False,,none,True,False
+S60,3,primary,3,信義路,56.69724153003712,52712006,603803920,None,False,,none,True,False
+S61,segment_61,primary_link,,,33.492042633111005,52712025,52712437,None,False,,none,True,False
+S62,4,primary,4,"['瑞安路一段', '瑞安路二段', '崁津大橋']",3639.3124366138154,52712025,8398140446,None,False,,none,True,False
+S63,4,primary,4,瑞安路一段,54.306412094991025,52712437,603803920,None,False,,none,True,False
+S64,中壢交流道,motorway_link,,中壢交流道,444.2754481382484,59840701,939015974,None,False,,none,True,False
+S65,1,motorway,1,中山高速公路,499.6083043421592,59840701,939016122,None,False,,none,True,False
+S66,1,motorway,1,中山高速公路,651.8545072800187,59840719,2581961093,None,False,,none,True,False
+S67,幼獅交流道,motorway_link,,幼獅交流道,273.1995480353831,59840719,5671183580,None,False,,none,True,False
+S68,1,motorway,1,中山高速公路,1943.8986283193585,59840800,247063849,None,False,,landslide_block,False,True
+S69,竹北交流道,motorway_link,,竹北交流道,373.321623105665,59840859,320239407,None,False,,none,True,False
+S70,1,motorway,1,中山高速公路,811.7589872564491,59840859,2135530569,None,False,,none,True,False
+S71,1,motorway,1,中山高速公路,1906.944981811934,59840941,2127480041,None,False,,none,True,False
+S72,1,motorway,1,中山高速公路,1555.7672644070306,59840961,1828224139,None,False,,none,True,False
+S73,平鎮系統交流道,motorway_link,,平鎮系統交流道,241.54060106773557,59840966,1257925842,None,False,,none,True,False
+S74,1,motorway,1,中山高速公路,1338.0657485087547,59840966,59840961,None,False,,none,True,False
+S75,1,motorway,1,五股楊梅高架道路,308.0090001550405,59840990,5181231448,None,False,,none,True,False
+S76,1,motorway,1,中山高速公路,1373.3526212129386,59840990,2675320892,None,False,,none,True,False
+S77,segment_77,motorway_link,,,250.0810671474718,59841177,2490696573,None,False,,crack_pothole,True,False
+S78,1,motorway,1,中山高速公路,946.8498310045293,59841177,2490696569,None,False,,crack_pothole,True,False
+S79,1,motorway,1,"['中山高速公路', '大鳳山溪橋']",3693.1251490362315,59841220,59841177,None,False,,none,True,False
+S80,新竹交流道,motorway_link,,新竹交流道,1099.351526649074,59841243,1978206250,None,False,,none,True,False
+S81,1,motorway,1,中山高速公路,1064.1926759522655,59841243,10886258434,None,False,,none,True,False
+S82,新竹交流道,motorway_link,,新竹交流道,788.857784789929,59841246,420271595,None,False,,none,True,False
+S83,1,motorway,1,中山高速公路,1047.2717054320685,59841246,59841243,None,False,,none,True,False
+S84,竹林交流道,motorway_link,,竹林交流道,205.49463065780475,78869499,3284177084,None,False,,landslide_block,False,True
+S85,3,motorway,3,福爾摩沙高速公路,854.9425131820713,78869499,78869500,None,False,,none,True,False
+S86,3,motorway,3,"['頭前溪橋', '福爾摩沙高速公路']",5790.839163886522,78869500,1389523627,None,False,,none,True,False
+S87,竹北交流道,motorway_link,,竹北交流道,272.7455713314722,114343419,2135530569,None,False,,none,True,False
+S88,竹北交流道,motorway_link,,竹北交流道,191.39232601350605,114343965,315850123,None,False,,none,True,False
+S89,竹北交流道,motorway_link,,竹北交流道,130.0534824297923,114343965,2407991470,None,False,,none,True,False
+S90,1,primary,"['1', '1;110甲']","['延平路', '環北路']",16.887263744249903,131931575,6012628399,None,False,,none,True,False
+S91,1,primary,1,延平路二段,8.336602934842025,131932279,3109358574,None,False,,none,True,False
+S92,1;112,primary,1;112,環南路,545.484721842144,131932279,6842586121,None,False,,crack_pothole,True,False
+S93,大溪交流道,motorway_link,,大溪交流道,342.20480340994857,131933790,11827123074,None,False,,crack_pothole,True,False
+S94,大溪交流道,motorway_link,,大溪交流道,707.2184741538122,131934405,1396094403,None,False,,none,True,False
+S95,3乙,primary,3乙,文化路,21.790908207170084,131935165,6925124527,None,False,,none,True,False
+S96,segment_96,primary,,,120.48600542161681,131935165,256085377,None,False,,none,True,False
+S97,3乙,primary,3乙,"['文化路', '石園路']",4691.797775749954,131935165,939016067,None,False,,none,True,False
+S98,segment_98,trunk_link,,,44.40098223441236,132434392,12198110925,None,False,,none,True,False
+S99,66,trunk,66,東西向快速公路 觀音大溪線,1389.6000320292073,132434392,3250474525,None,False,,none,True,False
+S100,竹林交流道,motorway_link,,竹林交流道,283.0401201114061,132586616,2143401284,None,False,,none,True,False
+S101,3,motorway,3,福爾摩沙高速公路,781.8026301502604,132586616,3284177089,None,False,,none,True,False
+S102,竹林交流道,motorway_link,,竹林交流道,329.88573838828404,132586694,3284177089,None,False,,crack_pothole,True,False
+S103,68,trunk,68,東西向快速公路 南寮竹東線,2335.4447097373686,132587378,2141161062,None,False,,none,True,False
+S104,68,trunk,68,東西向快速公路 南寮竹東線,3467.3419711466418,132587942,3284045183,None,False,,none,True,False
+S105,2,motorway,2,桃園環線,916.8926365951212,192287833,47848901,None,False,,none,True,False
+S106,南桃園交流道,motorway_link,,南桃園交流道,170.8458837113193,192287833,1987283949,None,False,,none,True,False
+S107,segment_107,primary_link,,,12.819225970263005,205280196,1413143362,None,False,,none,True,False
+S108,平鎮三交流道,trunk_link,,平鎮三交流道,608.700221219438,205282013,10905676222,None,False,,none,True,False
+S109,66,trunk,66,東西向快速公路 觀音大溪線,1300.770499886261,205282013,1424808992,None,False,,none,True,False
+S110,平鎮二交流道,trunk_link,,平鎮二交流道,533.416794434483,205282296,2496037370,None,False,,none,True,False
+S111,66,trunk,66,東西向快速公路 觀音大溪線,1120.6927611659855,205282296,4088964342,None,False,,none,True,False
+S112,平鎮系統交流道,motorway_link,,平鎮系統交流道,376.58644750703814,205282663,205282807,None,False,,none,True,False
+S113,平鎮系統交流道,trunk_link,,平鎮系統交流道,545.7574252460518,205282663,4451903521,None,False,,none,True,False
+S114,平鎮系統交流道,motorway_link,,平鎮系統交流道,111.78893152973498,205282807,939015931,None,False,,none,True,False
+S115,segment_115,motorway_link,,,477.84721576327536,247063849,4415981968,None,False,,none,True,False
+S116,1,motorway,1,中山高速公路,640.5245469140189,247063849,2490696593,None,False,,crack_pothole,True,False
+S117,segment_117,motorway_link,,,621.6572107020539,247063930,2490696593,None,False,,none,True,False
+S118,機場系統交流道,motorway_link,,機場系統交流道,683.1196079009522,251473452,255096759,None,False,,none,True,False
+S119,機場系統交流道,motorway_link,,機場系統交流道,920.4551548391912,251473452,251473568,None,False,,none,True,False
+S120,機場系統交流道,motorway_link,,機場系統交流道,339.27851895051003,251473568,251473597,None,False,,none,True,False
+S121,1,motorway,1,中山高速公路,1651.552098554163,251473597,1598136658,None,False,,none,True,False
+S122,機場系統交流道,motorway_link,,機場系統交流道,425.24779394770917,251473617,32415708,None,False,,none,True,False
+S123,1,motorway,1,中山高速公路,1536.2510569311569,251473617,251473597,None,False,,none,True,False
+S124,機場系統交流道,motorway_link,,機場系統交流道,307.92260322716135,255096759,47848638,None,False,,none,True,False
+S125,2,motorway,2,機場支線,2746.753070221267,255096876,47952551,None,False,,none,True,False
+S126,31,primary,31,"['高鐵北路三段', '南青路']",572.7078131060097,255096902,3006078366,None,False,,none,True,False
+S127,31,primary,31,南青路,115.64023550479726,255097027,255097030,None,False,,none,True,False
+S128,大竹交流道,motorway_link,,大竹交流道,516.4919117813176,255097027,1946339293,None,False,,none,True,False
+S129,31,primary,31,南青路,173.47321253365027,255097030,255097032,None,False,,none,True,False
+S130,31,primary,31,南青路,286.80945010321824,255097032,440826196,None,False,,none,True,False
+S131,大竹交流道,motorway_link,,大竹交流道,591.4321011226438,255097032,1946339526,None,False,,none,True,False
+S132,4,primary,4,龍源路大平段,43.47883915195026,256085205,4461326559,None,False,,none,True,False
+S133,3乙,primary,3乙,龍源路大平段,68.83133528398886,256085219,325705292,None,False,,crack_pothole,True,False
+S134,3乙,primary,3乙,中正路三坑段,26.641669264268344,256085219,4461327789,None,False,,none,True,False
+S135,4,primary,4,龍源路大平段,20.755937923563287,256085219,256085205,None,False,,landslide_block,False,True
+S136,3乙,primary,3乙,"['石門二號橋', '中正路三坑段']",452.9115515025617,256085262,4461327796,None,False,,none,True,False
+S137,3乙,primary,3乙,中正路三坑段,2140.9321474702297,256085262,3350282835,None,False,,none,True,False
+S138,segment_138,primary,,,8.105626586007544,256085377,3350282835,None,False,,none,True,False
+S139,3乙,primary,3乙,中正路三坑段,2130.756539983411,256085377,256085262,None,False,,none,True,False
+S140,3乙,primary,3乙,中正路三坑段,24.024608102645885,256085378,256085377,None,False,,none,True,False
+S141,3乙,primary,3乙,文化路,9.009576891312639,256085378,6925124527,None,False,,none,True,False
+S142,桃園交流道,motorway_link,,桃園交流道,318.90425136707955,256123154,256123162,None,False,,none,True,False
+S143,4,primary_link,4,新南路二段,108.6573604613321,256123154,9368113710,None,False,,none,True,False
+S144,桃園交流道,motorway_link,,桃園交流道,17.715456179913517,261053465,32617745,None,False,,none,True,False
+S145,4,primary,4,新南路一段,125.59947329920928,261053465,261053488,None,False,,none,True,False
+S146,南青路,primary,,南青路,75.11685298199173,269206041,583324163,None,False,,none,True,False
+S147,31,primary,31,南青路,421.3150064477055,269206041,4111270306,None,False,,none,True,False
+S148,31,primary,31,南青路,379.2117600060967,269206134,3005954323,None,False,,none,True,False
+S149,內壢交流道,motorway_link,,內壢交流道,1020.4309510903341,286744967,286745021,None,False,,landslide_block,False,True
+S150,內壢交流道,motorway_link,,內壢交流道,210.5874975035496,286745021,286745022,None,False,,none,True,False
+S151,1,motorway,1,中山高速公路,1128.8238787223856,286745022,1598136507,None,False,,none,True,False
+S152,1,motorway,1,中山高速公路,424.6411222682529,286745037,1232656624,None,False,,none,True,False
+S153,內壢交流道,motorway_link,,內壢交流道,346.3041723149295,286745037,286745058,None,False,,none,True,False
+S154,內壢交流道,motorway_link,,內壢交流道,498.8065843896316,286745058,3190151148,None,False,,none,True,False
+S155,內壢交流道,motorway_link,,內壢交流道,1339.9940295341037,286745058,286745133,None,False,,none,True,False
+S156,segment_156,primary_link,,,55.27250381134584,286745269,286745273,None,False,,none,True,False
+S157,1;110甲,primary,1;110甲,"['埔頂橋', '新街橋', '中華路二段', '延平路']",804.1435208672891,286745273,6012628400,None,False,,none,True,False
+S158,7,primary,7,慈湖路,5.352061750685599,300588048,1455732755,None,False,,none,True,False
+S159,3,primary,3,"['武嶺橋', '信義路']",1350.2150957704698,300588048,52708758,None,False,,none,True,False
+S160,7,primary,7,慈康路,308.8158006281656,300588163,300588173,None,False,,none,True,False
+S161,7,primary,7,"['水口橋', '復興路一段', '慈湖路', '復興路']",4744.240741863787,300588163,1455732755,None,False,,none,True,False
+S162,7,primary,7,復興路一段,180.76221780136967,300588173,300588163,None,False,,none,True,False
+S163,7,primary,7,慈康路,308.8158006281656,300588173,300588163,None,False,,landslide_block,False,True
+S164,segment_164,primary_link,,,201.68184506855027,304159695,1383535928,None,False,,none,True,False
+S165,61,primary,61,西部濱海公路,127.00952064087991,304159695,304159696,None,False,,none,True,False
+S166,61,primary,61,西部濱海公路,21.62664068321532,304159696,304160419,None,False,,none,True,False
+S167,66,primary,66,快速路九段,100.80158165626838,304159696,1383535928,None,False,,none,True,False
+S168,61,primary,61,西部濱海公路,102.52531105499685,304160419,2499580581,None,False,,none,True,False
+S169,66,primary,66,快速路九段,137.69973222448695,304160419,698992023,None,False,,none,True,False
+S170,1,motorway,1,中山高速公路,1351.3896690042961,311080350,382954328,None,False,,none,True,False
+S171,新竹交流道,motorway_link,,新竹交流道,411.92325756573837,311080350,313164209,None,False,,none,True,False
+S172,新竹交流道,motorway_link,,新竹交流道,263.4407944915123,311080356,311080358,None,False,,none,True,False
+S173,新竹交流道,motorway_link,,新竹交流道,617.888165592592,311080356,338641979,None,False,,none,True,False
+S174,新竹交流道,motorway_link,,新竹交流道,114.80340131990278,311080358,311080367,None,False,,none,True,False
+S175,新竹交流道,motorway_link,,新竹交流道,118.96399136800056,311080358,1983162853,None,False,,none,True,False
+S176,新竹交流道,motorway_link,,新竹交流道,214.95489784021777,313164190,311080356,None,False,,none,True,False
+S177,新竹交流道,motorway_link,,新竹交流道,146.17111392332902,313164197,313164190,None,False,,none,True,False
+S178,新竹交流道,motorway_link,,新竹交流道,648.4676264614247,313164209,313164190,None,False,,none,True,False
+S179,新竹交流道,motorway_link,,新竹交流道,251.70330699813834,313164209,1168830664,None,False,,none,True,False
+S180,新竹交流道,motorway_link,,新竹交流道,92.79485968349312,314947099,314947113,None,False,,none,True,False
+S181,新竹交流道,motorway_link,,新竹交流道,692.0147096206664,314947102,413339632,None,False,,crack_pothole,True,False
+S182,1,motorway,1,"['中山高速公路', '頭前溪橋']",1937.7434560521947,314947109,4419549208,None,False,,none,True,False
+S183,新竹交流道,motorway_link,,新竹交流道,125.35974639021762,314947113,314947102,None,False,,none,True,False
+S184,平鎮系統交流道,trunk_link,,平鎮系統交流道,291.0442492477777,315536333,1257925872,None,False,,none,True,False
+S185,66,trunk,66,東西向快速公路 觀音大溪線,1383.1154152997499,315536333,1257925863,None,False,,none,True,False
+S186,1,motorway,1,中山高速公路,1344.7348508659713,315536337,59840719,None,False,,crack_pothole,True,False
+S187,31,primary,31,高鐵南路四段,352.35067344249234,315833649,12257933034,None,False,,crack_pothole,True,False
+S188,31,primary_link,31,,145.89867455278753,315833721,4462884430,None,False,,none,True,False
+S189,31,primary,31,高鐵南路六段,85.31292776559944,315833721,1918306840,None,False,,none,True,False
+S190,竹北交流道,motorway_link,,竹北交流道,503.61574114996677,315850123,59841220,None,False,,crack_pothole,True,False
+S191,新竹交流道,motorway_link,,新竹交流道,547.4862431168175,318919586,10886258434,None,False,,none,True,False
+S192,竹北交流道,motorway_link,,竹北交流道,176.1703855079994,320239407,114343419,None,False,,none,True,False
+S193,竹北交流道,motorway_link,,竹北交流道,127.77007734208355,320239407,4413509221,None,False,,none,True,False
+S194,3乙,primary,3乙,,10.829783118520089,325705126,1701302304,None,False,,none,True,False
+S195,3,primary,3,中豐路高平段,298.2793160162526,325705126,6847981571,None,False,,crack_pothole,True,False
+S196,3乙,primary,3乙,"['龍源路', '龍源路大平段']",4123.727586325975,325705142,2811004670,None,False,,none,True,False
+S197,3乙,primary,3乙,龍源路大平段,25.074498554242872,325705292,4461326585,None,False,,none,True,False
+S198,新竹交流道,motorway_link,,新竹交流道,98.6360760485099,338641974,338641976,None,False,,none,True,False
+S199,新竹交流道,motorway_link,,新竹交流道,175.71478168206653,338641976,338641979,None,False,,none,True,False
+S200,新竹交流道,motorway_link,,新竹交流道,439.82014685159277,338641979,1714279107,None,False,,none,True,False
+S201,segment_201,primary,,,35.74605380467117,345180677,2490761724,None,False,,none,True,False
+S202,31,primary,31,高鐵南路三段,352.0924926963751,345180677,2490761728,None,False,,none,True,False
+S203,新竹交流道,motorway_link,,新竹交流道,358.18985841778806,346112696,1747621080,None,False,,none,True,False
+S204,4,primary,4,"['溪洲大橋', '龍源路大平段']",1650.960161139997,349086927,4461326559,None,False,,landslide_block,False,True
+S205,4,primary,4,"['康莊路三段', '康莊路五段', '瑞安路二段']",5789.623782295281,349086927,8398140447,None,False,,none,True,False
+S206,新竹交流道,motorway_link,,新竹交流道,1249.6212155575035,382954328,1714279093,None,False,,none,True,False
+S207,1,motorway,1,中山高速公路,979.4262200164958,382954328,1714279107,None,False,,none,True,False
+S208,segment_208,motorway_link,,,802.3288208676879,382954511,382954808,None,False,,none,True,False
+S209,segment_209,motorway_link,,,953.1585751373111,382954511,1395250194,None,False,,none,True,False
+S210,3,motorway,3,福爾摩沙高速公路,2447.467487590823,382954808,7934992640,None,False,,none,True,False
+S211,1,motorway,1,中山高速公路,12377.374599724963,391277632,59840990,None,False,,none,True,False
+S212,新竹交流道,motorway_link,,新竹交流道,654.4079331184596,413339632,1747621095,None,False,,none,True,False
+S213,新竹交流道,motorway_link,,新竹交流道,149.85661099945256,413339632,413339633,None,False,,none,True,False
+S214,新竹交流道,motorway_link,,新竹交流道,303.6811698548614,413339633,346112680,None,False,,none,True,False
+S215,新竹交流道,motorway_link,,新竹交流道,124.96730890716579,413339633,1747620958,None,False,,none,True,False
+S216,31,primary_link,31,,81.83050517340257,418760080,7190996903,None,False,,none,True,False
+S217,1,primary,1,八德路二段,77.04603027091255,418760080,3247480523,None,False,,none,True,False
+S218,龍潭交流道,motorway_link,,龍潭交流道,253.66574733687997,420249007,420249419,None,False,,none,True,False
+S219,龍潭交流道,motorway_link,,龍潭交流道,326.3039874854254,420249071,420249163,None,False,,none,True,False
+S220,3,motorway,3,福爾摩沙高速公路,914.8148091085482,420249071,48070729,None,False,,none,True,False
+S221,龍潭交流道,motorway_link,,龍潭交流道,244.63797051339105,420249163,420248852,None,False,,none,True,False
+S222,龍潭交流道,motorway_link,,龍潭交流道,293.9023620404144,420249163,420249419,None,False,,none,True,False
+S223,龍潭交流道,motorway_link,,龍潭交流道,305.9346578119362,420249419,48070729,None,False,,none,True,False
+S224,新竹交流道,motorway_link,,新竹交流道,113.33918203860034,420271595,3064697453,None,False,,none,True,False
+S225,新竹交流道,motorway_link,,新竹交流道,103.85850087245015,420271595,420271608,None,False,,none,True,False
+S226,龍潭交流道,motorway_link,,龍潭交流道,132.92149355909078,425568166,425568174,None,False,,landslide_block,False,True
+S227,3,motorway,3,福爾摩沙高速公路,909.4894559609112,425568166,425568279,None,False,,none,True,False
+S228,龍潭交流道,motorway_link,,龍潭交流道,211.0518529412605,425568174,425568211,None,False,,crack_pothole,True,False
+S229,龍潭交流道,motorway_link,,龍潭交流道,385.32177293314595,425568174,1290355670,None,False,,none,True,False
+S230,龍潭交流道,motorway_link,,龍潭交流道,149.55039844231658,425568211,425568473,None,False,,none,True,False
+S231,龍潭交流道,motorway_link,,龍潭交流道,171.0576877849727,425568257,425568279,None,False,,none,True,False
+S232,3,motorway,3,福爾摩沙高速公路,4641.021028602332,425568279,939016082,None,False,,none,True,False
+S233,龍潭交流道,motorway_link,,龍潭交流道,380.2737803611756,425568364,425568211,None,False,,none,True,False
+S234,龍潭交流道,motorway_link,,龍潭交流道,402.54743444200597,425568473,425568709,None,False,,none,True,False
+S235,龍潭交流道,motorway_link,,龍潭交流道,254.85538582746707,425568473,425568257,None,False,,none,True,False
+S236,竹林交流道,motorway_link,,竹林交流道,401.109083115167,425626491,78869500,None,False,,crack_pothole,True,False
+S237,桃園交流道,motorway_link,,桃園交流道,272.90681645103064,428581478,428581485,None,False,,none,True,False
+S238,segment_238,primary,,,44.93892898085081,429592316,4111270380,None,False,,landslide_block,False,True
+S239,高鐵北路三段,primary,,高鐵北路三段,391.4990235542739,429592316,429592323,None,False,,none,True,False
+S240,31,primary_link,31,南青路,868.6961000154739,429592637,583324177,None,False,,none,True,False
+S241,31,primary,31,南青路,502.91613190235825,440826196,3005967836,None,False,,none,True,False
+S242,南青路,primary,,南青路,68.01000812249363,440826279,3005954320,None,False,,none,True,False
+S243,31,primary_link,31,南青路,796.7522733323741,440826279,440826294,None,False,,none,True,False
+S244,segment_244,primary_link,,,13.581237459235297,440826294,440826295,None,False,,none,True,False
+S245,31,primary_link,31,南青路,83.67650709861779,440826294,429592622,None,False,,none,True,False
+S246,竹科交流道,trunk_link,,竹科交流道,146.47404529780536,441675650,1188790193,None,False,,none,True,False
+S247,竹科交流道,trunk_link,,竹科交流道,283.0733214021147,441675650,1151731118,None,False,,none,True,False
+S248,2,motorway,2,桃園環線,1570.160616579928,510849925,47950901,None,False,,none,True,False
+S249,1,motorway,1,中山高速公路,1500.5737721726334,510849980,47848638,None,False,,none,True,False
+S250,機場系統交流道,motorway_link,,機場系統交流道,305.2674438498739,510849980,1512760128,None,False,,none,True,False
+S251,31,primary_link,31,南青路,307.5346887812966,583324163,4111270305,None,False,,none,True,False
+S252,31,primary_link,31,南青路,394.9801966210924,583324177,583324180,None,False,,none,True,False
+S253,南青路,primary,,南青路,72.76306109815779,583324180,4111270312,None,False,,none,True,False
+S254,31,primary_link,31,南青路,596.810900761863,583324180,583324163,None,False,,crack_pothole,True,False
+S255,大溪交流道,motorway_link,,大溪交流道,444.6210049694339,603803693,1396094403,None,False,,none,True,False
+S256,4,primary,4,瑞安路一段,9.000864368670042,603803920,52708758,None,False,,none,True,False
+S257,3,primary,3,"['武嶺橋', '信義路']",1354.8478190890048,603803920,1455732755,None,False,,none,True,False
+S258,segment_258,motorway_link,,,15.053898573701241,603803979,1988045762,None,False,,crack_pothole,True,False
+S259,3,motorway,3,"['埔頂1號隧道', '埔頂2號隧道', '福爾摩沙高速公路']",1228.1883357564689,603803979,13337710664,None,False,,none,True,False
+S260,61,primary,61,西部濱海公路,17.110408839479785,698992023,698992739,None,False,,none,True,False
+S261,61,primary,61,西部濱海公路,83.62556726550582,698992739,4461627846,None,False,,none,True,False
+S262,66,primary,66,快速路九段,135.39793529799155,698992739,304159696,None,False,,crack_pothole,True,False
+S263,平鎮系統交流道,motorway_link,,平鎮系統交流道,365.9874490832959,939015911,1257925845,None,False,,none,True,False
+S264,平鎮系統交流道,trunk_link,,平鎮系統交流道,349.0442892976991,939015911,1257925892,None,False,,none,True,False
+S265,平鎮系統交流道,motorway_link,,平鎮系統交流道,337.1411175119724,939015931,939016195,None,False,,none,True,False
+S266,平鎮系統交流道,motorway_link,,平鎮系統交流道,357.35145419314966,939015931,1257925873,None,False,,crack_pothole,True,False
+S267,平鎮二交流道,trunk_link,,平鎮二交流道,389.0274621687345,939015953,1439005201,None,False,,none,True,False
+S268,66,trunk,66,東西向快速公路 觀音大溪線,1078.6927020194757,939015953,939016162,None,False,,none,True,False
+S269,平鎮系統交流道,motorway_link,,平鎮系統交流道,272.0093810361583,939015960,2316981313,None,False,,landslide_block,False,True
+S270,1,motorway,1,中山高速公路,1165.9599967862848,939015960,315536337,None,False,,none,True,False
+S271,中壢交流道,motorway_link,,中壢交流道,151.1424984201168,939015974,1828224211,None,False,,none,True,False
+S272,中壢交流道,motorway_link,,中壢交流道,121.91679466726222,939015974,1828224201,None,False,,none,True,False
+S273,3,motorway,3,福爾摩沙高速公路,1008.8360219172159,939016016,603803979,None,False,,none,True,False
+S274,南桃園交流道,motorway_link,,南桃園交流道,287.44783845704336,939016034,1713676819,None,False,,crack_pothole,True,False
+S275,3,primary,"['3', '3;桃64']",員林路二段,823.1807812996379,939016067,939016178,None,False,,none,True,False
+S276,3乙,primary,3乙,"['石園路', '文化路']",4691.797775749956,939016067,131935165,None,False,,none,True,False
+S277,3,primary,3,員林路三段,1381.3896897875281,939016067,3129555326,None,False,,none,True,False
+S278,3,motorway,3,福爾摩沙高速公路,1423.4336627870855,939016082,939016016,None,False,,none,True,False
+S279,大溪交流道,motorway_link,,大溪交流道,323.1321943554444,939016082,2109309498,None,False,,none,True,False
+S280,1,motorway,1,中山高速公路,245.46488238367783,939016122,1828224138,None,False,,none,True,False
+S281,66,trunk,66,東西向快速公路 觀音大溪線,1832.2563978842122,939016162,1420657417,None,False,,none,True,False
+S282,3,primary,"['3', '3;桃64']",員林路二段,823.1807812996379,939016178,939016067,None,False,,none,True,False
+S283,3,primary,3,"['員林路一段', '員林路二段']",285.67055002306506,939016178,48085937,None,False,,none,True,False
+S284,平鎮系統交流道,trunk_link,,平鎮系統交流道,68.16043384437204,939016195,939015911,None,False,,none,True,False
+S285,3,motorway,3,福爾摩沙高速公路,4413.073052890217,939016205,420249071,None,False,,none,True,False
+S286,竹科交流道,trunk_link,,竹科交流道,223.71184773811345,1151731118,1151731412,None,False,,none,True,False
+S287,竹科交流道,trunk_link,,竹科交流道,379.42369992291657,1151731235,1188790250,None,False,,none,True,False
+S288,竹科交流道西向出口,trunk_link,,"['竹科交流道西向出口', '竹科交流道']",554.0290039628183,1151731235,2612147303,None,False,,none,True,False
+S289,竹科交流道,trunk_link,,竹科交流道,240.9260641773097,1151731325,1151731118,None,False,,none,True,False
+S290,竹科交流道,trunk_link,,竹科交流道,251.1967404681343,1151731325,1188790193,None,False,,none,True,False
+S291,68,trunk,68,東西向快速公路 南寮竹東線,1485.961008593085,1156712636,2612147350,None,False,,none,True,False
+S292,新竹交流道,motorway_link,,新竹交流道,205.45970583175543,1168830664,4461257003,None,False,,none,True,False
+S293,新竹交流道,motorway_link,,新竹交流道,118.97077138627897,1168830664,1747620997,None,False,,none,True,False
+S294,竹科交流道,trunk_link,,竹科交流道,424.9885359182616,1188790081,1151731235,None,False,,none,True,False
+S295,68,trunk,68,東西向快速公路 南寮竹東線,1048.040997309998,1188790081,1151731412,None,False,,none,True,False
+S296,竹科交流道,trunk_link,,竹科交流道,318.170300199808,1188790193,1188790380,None,False,,none,True,False
+S297,68,trunk,68,東西向快速公路 南寮竹東線,4668.81705875462,1188790380,2141161070,None,False,,none,True,False
+S298,31,primary,31,高鐵南路三段,365.4158743768055,1211875188,4111379773,None,False,,none,True,False
+S299,31,primary,31,高鐵南路三段,319.67885197501494,1211875188,4111381592,None,False,,none,True,False
+S300,31,primary,31,領航北路四段,12.325877522701665,1215066091,3006078349,None,False,,crack_pothole,True,False
+S301,31,primary,31,高鐵北路三段,10.937277385754983,1215066091,3006078346,None,False,,none,True,False
+S302,segment_302,primary_link,,,105.4184823918315,1215085075,2111821129,None,False,,none,True,False
+S303,1,motorway,1,中山高速公路,1398.2517121318708,1232656367,9499672573,None,False,,none,True,False
+S304,內壢交流道,motorway_link,,內壢交流道,269.324578650565,1232656404,1232656577,None,False,,none,True,False
+S305,內壢交流道,motorway_link,,內壢交流道,553.2457830156486,1232656404,1232656486,None,False,,crack_pothole,True,False
+S306,內壢交流道,motorway_link,,內壢交流道,283.15459570823765,1232656457,1232656404,None,False,,none,True,False
+S307,1,motorway,1,中山高速公路,1226.1140102367067,1232656457,286745022,None,False,,none,True,False
+S308,內壢交流道,motorway_link,,內壢交流道,49.95981305538142,1232656486,1232656607,None,False,,none,True,False
+S309,內壢交流道,motorway_link,,內壢交流道,817.1111261427222,1232656555,1232656624,None,False,,none,True,False
+S310,內壢交流道,motorway_link,,內壢交流道,448.61377316465774,1232656555,286745021,None,False,,none,True,False
+S311,內壢交流道,motorway_link,,內壢交流道,59.052726687143924,1232656607,286745027,None,False,,none,True,False
+S312,內壢交流道,motorway_link,,內壢交流道,75.79512874085742,1232656607,1232656407,None,False,,none,True,False
+S313,1,motorway,1,中山高速公路,670.1948210299877,1232656624,1232656367,None,False,,none,True,False
+S314,segment_314,primary_link,,,48.78063424170227,1256458817,1256458830,None,False,,crack_pothole,True,False
+S315,1,primary,"['1', '1;110甲']",中華路二段,71.97919333592029,1256458817,286745273,None,False,,none,True,False
+S316,平鎮系統交流道,motorway_link,,平鎮系統交流道,362.44318602029097,1257925842,1257925845,None,False,,crack_pothole,True,False
+S317,平鎮系統交流道,motorway_link,,平鎮系統交流道,335.62207811337,1257925842,1257925868,None,False,,none,True,False
+S318,平鎮系統交流道,motorway_link,,平鎮系統交流道,84.8067046730544,1257925845,1257925893,None,False,,none,True,False
+S319,平鎮系統交流道,trunk_link,,平鎮系統交流道,339.2464643154187,1257925850,1257925851,None,False,,none,True,False
+S320,平鎮系統交流道,motorway_link,,平鎮系統交流道,361.91221585534646,1257925850,2111820993,None,False,,none,True,False
+S321,平鎮系統交流道,trunk_link,,平鎮系統交流道,76.61833221016336,1257925851,205282663,None,False,,none,True,False
+S322,66,trunk,66,東西向快速公路 觀音大溪線,1380.2161536467802,1257925863,939015953,None,False,,none,True,False
+S323,平鎮系統交流道,motorway_link,,平鎮系統交流道,265.60266319481116,1257925868,2111820915,None,False,,none,True,False
+S324,平鎮系統交流道,motorway_link,,平鎮系統交流道,298.9524822376046,1257925868,1257925892,None,False,,none,True,False
+S325,平鎮系統交流道,trunk_link,,平鎮系統交流道,322.31443106641507,1257925872,939016195,None,False,,none,True,False
+S326,平鎮系統交流道,motorway_link,,平鎮系統交流道,525.6199028256184,1257925872,1257925873,None,False,,none,True,False
+S327,平鎮系統交流道,motorway_link,,平鎮系統交流道,130.94404547451802,1257925873,315536337,None,False,,none,True,False
+S328,平鎮系統交流道,motorway_link,,平鎮系統交流道,386.1069303925377,1257925874,59840961,None,False,,none,True,False
+S329,平鎮系統交流道,trunk_link,,平鎮系統交流道,290.65133140134765,1257925892,3075139249,None,False,,none,True,False
+S330,平鎮系統交流道,motorway_link,,平鎮系統交流道,316.87652708017464,1257925893,1257925851,None,False,,none,True,False
+S331,平鎮系統交流道,motorway_link,,平鎮系統交流道,277.3236168727406,1257925893,1257925874,None,False,,none,True,False
+S332,龍潭交流道,motorway_link,,龍潭交流道,553.94868760526,1290355656,425568257,None,False,,none,True,False
+S333,1,motorway,1,五股楊梅高架道路,10431.42240576839,1294175337,5181231449,None,False,,none,True,False
+S334,1,motorway,1,中山高速公路,1837.9547598803847,1294175337,59840701,None,False,,none,True,False
+S335,關西交流道,motorway_link,,關西交流道,857.261491811762,1374041037,48078731,None,False,,none,True,False
+S336,3,motorway,3,福爾摩沙高速公路,488.0745881623459,1374041037,1422775992,None,False,,none,True,False
+S337,竹東端,trunk_link,,竹東端,49.61818135516796,1374041063,3285836225,None,False,,none,True,False
+S338,竹東端,trunk_link,,竹東端,42.15204860737644,1374041063,3669625150,None,False,,none,True,False
+S339,68,trunk,68,東西向快速公路 南寮竹東線,3465.50411575608,1374041152,1374041063,None,False,,none,True,False
+S340,竹東二交流道,trunk_link,,竹東二交流道,1798.9788448828538,1374041152,3284045183,None,False,,none,True,False
+S341,3,motorway,3,福爾摩沙高速公路,1229.5430577429577,1374041247,1708891711,None,False,,none,True,False
+S342,68,trunk,68,東西向快速公路 南寮竹東線,2280.526580174348,1374041634,3284044612,None,False,,none,True,False
+S343,芎林交流道,trunk_link,,芎林交流道,228.57471118886554,1374041658,1374041634,None,False,,none,True,False
+S344,segment_344,primary_link,,,133.1991237735957,1383535824,2105316971,None,False,,none,True,False
+S345,66,primary,66,快速路九段,120.54431165134638,1383535824,2111821368,None,False,,none,True,False
+S346,66,primary,66,快速路九段,680.0959146514455,1383535883,13851061084,None,False,,none,True,False
+S347,66,primary,66,快速路九段,716.9469345445515,1383535928,2111821381,None,False,,none,True,False
+S348,segment_348,motorway_link,,,93.54374379491985,1389523627,1389523613,None,False,,none,True,False
+S349,3,motorway,3,福爾摩沙高速公路,471.827605943073,1389523627,1374041247,None,False,,none,True,False
+S350,3,motorway,3,"['牛瀾河橋', '福爾摩沙高速公路']",1580.495492531737,1395250194,1374041037,None,False,,none,True,False
+S351,3,motorway,3,福爾摩沙高速公路,1270.710451274607,1395250307,1395250194,None,False,,none,True,False
+S352,segment_352,motorway_link,,,469.1365608284911,1395250307,382954421,None,False,,none,True,False
+S353,大溪交流道,motorway_link,,大溪交流道,343.7322187490735,1396094403,11827087933,None,False,,none,True,False
+S354,66,trunk,66,東西向快速公路 觀音大溪線,2226.856765832448,1404222416,205282013,None,False,,crack_pothole,True,False
+S355,segment_355,primary_link,,,12.819225970263005,1413143362,205280196,None,False,,none,True,False
+S356,segment_356,primary_link,,,93.49400835001514,1413143362,11827062698,None,False,,none,True,False
+S357,大溪端,trunk_link,,大溪端,467.10311373542515,1413143385,13142192878,None,False,,none,True,False
+S358,66,motorway_link,66,大溪交流道,1764.937694257619,1413143385,11827087933,None,False,,crack_pothole,True,False
+S359,平鎮三交流道,trunk_link,,平鎮三交流道,557.030032080256,1420657417,4463012730,None,False,,none,True,False
+S360,66,trunk,66,東西向快速公路 觀音大溪線,1302.9586688314946,1420657417,2496061863,None,False,,none,True,False
+S361,平鎮系統交流道,trunk_link,,平鎮系統交流道,90.66997978774164,1420657427,1257925850,None,False,,none,True,False
+S362,66,trunk,66,東西向快速公路 觀音大溪線,1737.649855090207,1420657429,1812019099,None,False,,none,True,False
+S363,66,trunk,66,東西向快速公路 觀音大溪線,1741.5996437402282,1420657437,315536333,None,False,,crack_pothole,True,False
+S364,3,motorway,3,"['牛瀾河橋', '福爾摩沙高速公路']",1646.2761679367993,1422775883,48071421,None,False,,none,True,False
+S365,關西交流道,motorway_link,,關西交流道,105.4878771146553,1422775909,1422775934,None,False,,none,True,False
+S366,關西交流道,motorway_link,,關西交流道,187.42111380061414,1422775934,1422775952,None,False,,none,True,False
+S367,關西交流道,motorway_link,,關西交流道,830.7595938298624,1422775952,1422775883,None,False,,none,True,False
+S368,關西交流道,motorway_link,,關西交流道,748.8933887602818,1422775952,1422775992,None,False,,none,True,False
+S369,3,motorway,3,"['鳳山溪橋', '福爾摩沙高速公路']",10709.864216377784,1422775992,78869499,None,False,,none,True,False
+S370,66,trunk,66,東西向快速公路 觀音大溪線,1801.3464854219799,1424808992,205282296,None,False,,none,True,False
+S371,66,primary,66,"['快速路三段', '快速路二段']",2896.3918947827983,1439005198,4463012730,None,False,,none,True,False
+S372,平鎮二交流道,trunk_link,,平鎮二交流道,512.1007215344765,1439005198,939016162,None,False,,none,True,False
+S373,66,primary,66,快速路三段,173.02269874782607,1439005201,1439005198,None,False,,none,True,False
+S374,7,primary,7,慈湖路,5.352061750685599,1455732755,300588048,None,False,,none,True,False
+S375,7,primary,7,"['水口橋', '復興路一段', '慈湖路', '復興路']",4744.240741863786,1455732755,300588163,None,False,,none,True,False
+S376,3,primary,3,信義路,883.6716182092774,1455732755,9853871380,None,False,,none,True,False
+S377,2,motorway,2,機場支線,1037.360196300335,1512760076,3074416497,None,False,,none,True,False
+S378,機場系統交流道,motorway_link,,機場系統交流道,625.384420750375,1512760128,510849925,None,False,,none,True,False
+S379,機場系統交流道,motorway_link,,機場系統交流道,1037.4958413156273,1512760128,1512760076,None,False,,none,True,False
+S380,3;竹37;竹45,primary,"['3;竹37;竹45', '3;竹37', '3']","['仁愛路', '埔心街', '中豐路', '中豐公路']",1404.6816522537051,1515021897,6141917048,None,False,,none,True,False
+S381,3,primary,3,埔心街,195.14075357742718,1515021897,4444208255,None,False,,none,True,False
+S382,3,primary,3,"['中豐公路', '社官橋']",548.458937015714,1515023658,4444208255,None,False,,none,True,False
+S383,寶山交流道,motorway_link,,寶山交流道,112.2030401391839,1515364110,1708891741,None,False,,none,True,False
+S384,segment_384,primary_link,,,126.00475414932019,1562700786,2105316681,None,False,,none,True,False
+S385,南桃園交流道,motorway_link,,南桃園交流道,630.4400244399834,1567942303,1567942124,None,False,,none,True,False
+S386,南桃園交流道,motorway_link,,南桃園交流道,592.843161588109,1567942303,2598416944,None,False,,none,True,False
+S387,1,motorway,1,中山高速公路,912.7167386665232,1598136494,286745037,None,False,,none,True,False
+S388,segment_388,motorway_link,,,340.13553346129873,1598136507,1598136552,None,False,,none,True,False
+S389,1,motorway,1,中山高速公路,712.5338115183927,1598136507,1598136678,None,False,,none,True,False
+S390,segment_390,motorway_link,,,185.0916388157312,1598136552,2539183762,None,False,,none,True,False
+S391,segment_391,motorway_link,,,399.1836357935146,1598136552,1598136678,None,False,,none,True,False
+S392,segment_392,motorway_link,,,351.07443227327803,1598136583,1598136494,None,False,,none,True,False
+S393,segment_393,motorway_link,,,425.0618586639617,1598136658,4189045245,None,False,,none,True,False
+S394,1,motorway,1,中山高速公路,785.241060628891,1598136658,1598136494,None,False,,landslide_block,False,True
+S395,1,motorway,1,中山高速公路,1742.7805685644255,1598136678,510849980,None,False,,none,True,False
+S396,3,primary,3,中豐路高平段,10.133111281271594,1701302304,3779483780,None,False,,none,True,False
+S397,3乙,primary,3乙,,43.204197773041585,1701302304,325705142,None,False,,none,True,False
+S398,3,primary,3,中豐路高平段,48.57564547633039,1701302337,6847981564,None,False,,none,True,False
+S399,高原交流道,motorway_link,,高原交流道,66.09164158003216,1701304181,7934992642,None,False,,none,True,False
+S400,寶山交流道,motorway_link,,寶山交流道,86.40427340659473,1708891674,1708891697,None,False,,none,True,False
+S401,3,motorway,3,"['頭前溪橋', '福爾摩沙高速公路']",7543.788322190291,1708891685,132586616,None,False,,none,True,False
+S402,寶山交流道,motorway_link,,寶山交流道,490.64780154106984,1708891697,1708891685,None,False,,none,True,False
+S403,寶山交流道,motorway_link,,寶山交流道,477.6606829045394,1708891711,1708891739,None,False,,none,True,False
+S404,3,motorway,3,福爾摩沙高速公路,1038.6417749482691,1708891711,1374041394,None,False,,none,True,False
+S405,寶山交流道,motorway_link,,寶山交流道,475.64702979932963,1708891717,12321432012,None,False,,none,True,False
+S406,3,motorway,3,福爾摩沙高速公路,1116.722729359667,1708891717,1708891685,None,False,,none,True,False
+S407,寶山交流道,motorway_link,,寶山交流道,170.03010327246903,1708891739,1708891741,None,False,,crack_pothole,True,False
+S408,寶山交流道,motorway_link,,寶山交流道,127.82347701978374,1708891739,1708891767,None,False,,none,True,False
+S409,寶山交流道,motorway_link,,寶山交流道,409.909479455491,1708891741,1374041394,None,False,,none,True,False
+S410,南桃園交流道,motorway_link,,南桃園交流道,101.4118280040223,1713676775,245390635,None,False,,none,True,False
+S411,南桃園交流道,motorway_link,,南桃園交流道,564.7201715974256,1713676795,1713676775,None,False,,none,True,False
+S412,南桃園交流道,motorway_link,,南桃園交流道,502.1928086109386,1713676797,1713676819,None,False,,none,True,False
+S413,南桃園交流道,motorway_link,,南桃園交流道,205.7340900909341,1713676819,47848901,None,False,,none,True,False
+S414,新竹交流道,motorway_link,,新竹交流道,80.97902581450509,1714279093,1714279084,None,False,,landslide_block,False,True
+S415,新竹交流道,motorway_link,,新竹交流道,68.8226470015293,1714279093,1371261651,None,False,,none,True,False
+S416,1,motorway,1,中山高速公路,1486.3250805445848,1714279107,425553853,None,False,,none,True,False
+S417,新竹交流道,motorway_link,,新竹交流道,4.554860955936036,1726059979,1983162853,None,False,,none,True,False
+S418,芎林交流道,trunk_link,,芎林交流道,67.94260210135361,1745599453,2141161050,None,False,,none,True,False
+S419,新竹交流道,motorway_link,,新竹交流道,137.5712549958051,1747620958,313164197,None,False,,none,True,False
+S420,新竹交流道,motorway_link,,新竹交流道,17.230667499511995,1747620958,1747620987,None,False,,none,True,False
+S421,新竹交流道,motorway_link,,新竹交流道,19.84370664882446,1747620973,4461256994,None,False,,landslide_block,False,True
+S422,新竹交流道,motorway_link,,新竹交流道,10.549902417828214,1747620973,1747620958,None,False,,landslide_block,False,True
+S423,新竹交流道,motorway_link,,新竹交流道,12.231090013444565,1747620987,1747620997,None,False,,none,True,False
+S424,新竹交流道,motorway_link,,新竹交流道,22.647784804569252,1747620987,1747621005,None,False,,none,True,False
+S425,新竹交流道,motorway_link,,新竹交流道,18.61719372914186,1747620997,1747620973,None,False,,none,True,False
+S426,新竹交流道,motorway_link,,新竹交流道,128.52650468446163,1747620997,1747621080,None,False,,none,True,False
+S427,新竹交流道,motorway_link,,新竹交流道,223.2879042530283,1747621036,313164197,None,False,,none,True,False
+S428,新竹交流道,motorway_link,,新竹交流道,254.2212478092387,1747621080,1747621095,None,False,,none,True,False
+S429,新竹交流道,motorway_link,,新竹交流道,356.82682320599224,1747621095,314947109,None,False,,none,True,False
+S430,segment_430,trunk_link,,,77.54789891998914,1812019099,1812019100,None,False,,none,True,False
+S431,66,trunk,66,東西向快速公路 觀音大溪線,1940.8125462121134,1812019099,3052002793,None,False,,none,True,False
+S432,66,primary,66,"['快速路六段', '快速路五段']",1945.0328952254717,1812019100,1918306836,None,False,,none,True,False
+S433,1,motorway,1,中山高速公路,1667.8850160620361,1828224138,939015960,None,False,,none,True,False
+S434,中壢交流道,motorway_link,,中壢交流道,272.30692685360805,1828224139,1828224181,None,False,,none,True,False
+S435,1,motorway,1,中山高速公路,714.8860857376186,1828224139,59840941,None,False,,none,True,False
+S436,中壢交流道,motorway_link,,中壢交流道,206.54585965543365,1828224181,1828224267,None,False,,none,True,False
+S437,中壢交流道,motorway_link,,中壢交流道,225.66914946495444,1828224181,1828224202,None,False,,none,True,False
+S438,中壢交流道,motorway_link,,中壢交流道,341.9034357256996,1828224203,1828224138,None,False,,none,True,False
+S439,中壢交流道,motorway_link,,中壢交流道,130.2309581509517,1828224208,1828224267,None,False,,none,True,False
+S440,中壢交流道,motorway_link,,中壢交流道,235.23183079943988,1828224267,59840941,None,False,,crack_pothole,True,False
+S441,桃園交流道,motorway_link,,桃園交流道,185.61501602545505,1906722879,32617741,None,False,,none,True,False
+S442,桃園交流道,motorway_link,,桃園交流道,281.7559389736535,1906722879,2992216455,None,False,,none,True,False
+S443,66,primary,66,快速路六段,199.49445354460784,1918306836,2383383197,None,False,,none,True,False
+S444,66,primary,66,快速路六段,14.530458034468039,1918306839,1918306840,None,False,,none,True,False
+S445,31,primary,31,高鐵南路六段,53.401169306820606,1918306839,2383383186,None,False,,none,True,False
+S446,66,primary,66,快速路六段,77.33207689111043,1918306840,4462884430,None,False,,none,True,False
+S447,31,primary,31,高鐵南路六段,29.62424918509928,1918306840,2498427720,None,False,,none,True,False
+S448,segment_448,trunk_link,,,112.19100405710343,1918306844,4597795881,None,False,,none,True,False
+S449,66,primary,66,快速路六段,997.59791213224,1918306844,1918306860,None,False,,none,True,False
+S450,66,primary,66,快速路六段,463.2810713068572,1918306860,13720471753,None,False,,none,True,False
+S451,66,primary,66,快速路七段,625.9465779339755,1918306870,3250476669,None,False,,none,True,False
+S452,新竹交流道,motorway_link,,新竹交流道,135.6944101916572,1919128579,1983162788,None,False,,none,True,False
+S453,機場系統交流道,motorway_link,,機場系統交流道,536.2303058732185,1946239283,251473568,None,False,,none,True,False
+S454,機場系統交流道,motorway_link,,機場系統交流道,776.9044848178023,1946239283,4070052323,None,False,,none,True,False
+S455,機場系統交流道,motorway_link,,機場系統交流道,219.32464897539637,1946239374,4954142986,None,False,,none,True,False
+S456,機場系統交流道,motorway_link,,機場系統交流道,238.4579169312668,1946239374,1946239283,None,False,,none,True,False
+S457,大竹交流道,motorway_link,,大竹交流道,148.02873528955175,1946339268,255096902,None,False,,none,True,False
+S458,大竹交流道,motorway_link,,大竹交流道,224.25499999583505,1946339293,255096876,None,False,,none,True,False
+S459,大竹交流道,motorway_link,,大竹交流道,501.55013417039714,1946339303,440826196,None,False,,none,True,False
+S460,大竹交流道,motorway_link,,大竹交流道,833.4222326803048,1946339303,1946339268,None,False,,none,True,False
+S461,31,primary,31,南青路,471.2762071392532,1946339420,255096902,None,False,,none,True,False
+S462,大竹交流道,motorway_link,,大竹交流道,861.1823827080815,1946339420,1946339293,None,False,,none,True,False
+S463,大竹交流道,motorway_link,,大竹交流道,475.2860790232089,1946339448,255097030,None,False,,none,True,False
+S464,大竹交流道,motorway_link,,大竹交流道,266.6939558281276,1946339448,1946339268,None,False,,crack_pothole,True,False
+S465,大竹交流道,motorway_link,,大竹交流道,332.06191248527966,1946339526,32415744,None,False,,none,True,False
+S466,大竹交流道,motorway_link,,大竹交流道,371.4630672020594,1946339613,1946339448,None,False,,none,True,False
+S467,2,motorway,2,機場支線,1230.838785817723,1946339613,255096876,None,False,,none,True,False
+S468,大竹交流道,motorway_link,,大竹交流道,489.59709657943415,1946339655,1946339526,None,False,,none,True,False
+S469,31,primary,31,南青路,485.8807969179842,1946339655,1946339420,None,False,,none,True,False
+S470,新竹交流道,motorway_link,,新竹交流道,313.0294119600467,1978206250,1978206287,None,False,,none,True,False
+S471,新竹交流道,motorway_link,,新竹交流道,333.5752026877595,1978206250,314947102,None,False,,none,True,False
+S472,新竹交流道,motorway_link,,新竹交流道,102.19306454875093,1978206287,1978206324,None,False,,none,True,False
+S473,新竹交流道,motorway_link,,新竹交流道,188.76577790221478,1978206287,314947113,None,False,,none,True,False
+S474,新竹交流道,motorway_link,,新竹交流道,410.1525799196703,1983162788,425553853,None,False,,none,True,False
+S475,新竹交流道,motorway_link,,新竹交流道,12.004742461548672,1983162853,1726059983,None,False,,none,True,False
+S476,新竹交流道,motorway_link,,新竹交流道,78.5975123777206,1983162853,338641976,None,False,,none,True,False
+S477,segment_477,primary,,,78.03193420584748,1985373776,1701302337,None,False,,none,True,False
+S478,3乙,primary,3乙,龍源路,46.16029967235607,1985373776,3779483780,None,False,,none,True,False
+S479,3,primary,3,"['中豐路二 段', '中豐公路', '芋子園橋', '北沙坑橋', '中豐路三段', '新城橋', '太平橋']",4908.1688504765625,1985402411,4378927011,None,False,,none,True,False
+S480,3,primary,3,"['南華橋', '中豐路二 段']",593.1289648175381,1985402411,6847021746,None,False,,none,True,False
+S481,南桃園交流道,motorway_link,,南桃園交流道,335.2087901674901,1987283949,49203329,None,False,,none,True,False
+S482,南桃園交流道,motorway_link,,南桃園交流道,674.6042935288713,1987283949,2598416957,None,False,,none,True,False
+S483,segment_483,motorway_link,,,15.053898573701241,1988045762,603803979,None,False,,none,True,False
+S484,3,motorway,3,福爾摩沙高速公路,804.5899932203636,1988045762,48068885,None,False,,landslide_block,False,True
+S485,segment_485,primary_link,,,157.64384033022367,2083425193,11827062698,None,False,,none,True,False
+S486,1,motorway,1,中山高速公路,921.5727810354216,2105113109,2675347328,None,False,,none,True,False
+S487,66,primary,66,快速路八段,695.153127498581,2105316681,4462884234,None,False,,none,True,False
+S488,66,primary_link,66,,697.2273227596932,2105316681,4462884234,None,False,,none,True,False
+S489,segment_489,trunk_link,,,364.4336444925946,2105316681,2111821086,None,False,,crack_pothole,True,False
+S490,segment_490,primary_link,,,166.74105014543406,2105316936,2105316938,None,False,,none,True,False
+S491,15,primary,15,濱海路大潭段,89.81007666365228,2105316936,2111821359,None,False,,none,True,False
+S492,66,primary,66,快速路九段,1501.9025867624775,2105316938,2111821208,None,False,,crack_pothole,True,False
+S493,15,primary,15,"['濱海路大潭段', '濱海路廣興段', '濱海路武威段']",4419.720677989914,2105316971,7099718648,None,False,,none,True,False
+S494,segment_494,primary_link,,,207.99047646341893,2105316974,1383535883,None,False,,none,True,False
+S495,15,primary,15,濱海路大潭段,84.04103483249446,2105316974,3229369129,None,False,,none,True,False
+S496,61,primary,61,西部濱海公路,76.61567498029942,2105317051,698992023,None,False,,none,True,False
+S497,segment_497,primary_link,,,116.1220541153753,2105317051,4461627842,None,False,,none,True,False
+S498,segment_498,primary_link,,,126.58588424207213,2105317364,7448606891,None,False,,none,True,False
+S499,15,primary,15,濱海路廣興段,147.53473846060214,2105317364,7099718643,None,False,,none,True,False
+S500,大溪交流道,motorway_link,,大溪交流道,229.9768579507832,2109309498,131934231,None,False,,none,True,False
+S501,大溪交流道,motorway_link,,大溪交流道,136.47185995472987,2109309498,2109309507,None,False,,none,True,False
+S502,平鎮系統交流道,motorway_link,,平鎮系統交流道,323.85633436111783,2111820934,2111820993,None,False,,none,True,False
+S503,平鎮系統交流道,motorway_link,,平鎮系統交流道,144.07050314029303,2111820993,1257925874,None,False,,none,True,False
+S504,segment_504,trunk_link,,,83.348392022978,2111821066,3052002792,None,False,,none,True,False
+S505,66,primary,66,"['快速路五段', '快速路六段']",1935.9645043048945,2111821066,3024771159,None,False,,none,True,False
+S506,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,870.1984719060727,2111821086,3250476779,None,False,,none,True,False
+S507,segment_507,trunk_link,,,448.40321549017074,2111821090,2111821113,None,False,,none,True,False
+S508,66,trunk,66,東西向快速公路 觀音大溪線,1124.0528716007307,2111821090,2111821148,None,False,,none,True,False
+S509,66,primary_link,66,,16.597817107852514,2111821110,4462884036,None,False,,none,True,False
+S510,66,primary,66,快速路八段,129.46713162499464,2111821110,2105316681,None,False,,none,True,False
+S511,segment_511,primary_link,,,170.08157578618722,2111821113,2111821124,None,False,,none,True,False
+S512,66,primary_link,66,,61.29818279775143,2111821113,2111821110,None,False,,none,True,False
+S513,66,primary,66,快速路八段,127.19072418087231,2111821113,2111821118,None,False,,none,True,False
+S514,66,primary,66,快速路八段,70.44611411300286,2111821114,2111821110,None,False,,none,True,False
+S515,segment_515,primary_link,,,98.59528862690817,2111821114,2111821107,None,False,,none,True,False
+S516,66,primary_link,66,,15.656489912068123,2111821118,4462884033,None,False,,none,True,False
+S517,66,primary,66,快速路八段,143.88267360100932,2111821118,2111821129,None,False,,none,True,False
+S518,segment_518,trunk_link,,,408.62312830924105,2111821129,2111821148,None,False,,landslide_block,False,True
+S519,segment_519,primary_link,,,519.8824907248294,2111821129,3229352067,None,False,,none,True,False
+S520,66,primary,66,"['快速路九段', '快速路八段']",516.4771777517257,2111821129,3229352067,None,False,,none,True,False
+S521,segment_521,trunk_link,,,477.4994919559005,2111821146,4462884032,None,False,,none,True,False
+S522,66,trunk,66,東西向快速公路 觀音大溪線,1128.4619697450185,2111821146,2111821086,None,False,,none,True,False
+S523,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,2378.6804540468493,2111821148,2111821211,None,False,,none,True,False
+S524,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,2381.911553165522,2111821208,2111821146,None,False,,none,True,False
+S525,66,primary,66,快速路九段,2257.755700396714,2111821208,3229352066,None,False,,none,True,False
+S526,66,primary,66,快速路九段,1474.2067623801395,2111821211,1383535824,None,False,,none,True,False
+S527,15,primary,15,濱海路大潭段,30.585712900225644,2111821359,2111821368,None,False,,none,True,False
+S528,66,primary,66,快速路九段,101.86322270360989,2111821359,2105316938,None,False,,none,True,False
+S529,66,primary,66,快速路九段,12.578837151677341,2111821363,2111821359,None,False,,none,True,False
+S530,15,primary,15,濱海路大潭段,78.85792113044978,2111821363,2111821349,None,False,,none,True,False
+S531,66,primary,66,快速路九段,11.459127342439547,2111821368,3229369129,None,False,,none,True,False
+S532,15,primary,15,濱海路大潭段,87.60577445414451,2111821368,2105316971,None,False,,crack_pothole,True,False
+S533,segment_533,primary_link,,,109.51994443238051,2111821381,2111821349,None,False,,none,True,False
+S534,66,primary,66,快速路九段,97.91413263606132,2111821381,2111821363,None,False,,landslide_block,False,True
+S535,1,motorway,1,中山高速公路,1159.1573680933134,2127480041,3128940579,None,False,,none,True,False
+S536,機場系統交流道,motorway_link,,機場系統交流道,1019.6072395383668,2127496178,3074416481,None,False,,none,True,False
+S537,1,motorway,1,五股楊梅高架道路,1050.9086599018947,2127496178,2127496176,None,False,,none,True,False
+S538,1,motorway,1,"['中山高速公路', '頭前溪橋']",1887.823689283994,2135530569,311080350,None,False,,none,True,False
+S539,芎林交流道,trunk_link,,芎林交流道,76.80778929868274,2141161046,2141161067,None,False,,none,True,False
+S540,芎林交流道,trunk_link,,芎林交流道,52.8270531851437,2141161046,1745599451,None,False,,none,True,False
+S541,芎林交流道,trunk_link,,芎林交流道,229.86155599691773,2141161050,2141161063,None,False,,crack_pothole,True,False
+S542,芎林交流道,trunk_link,,芎林交流道,261.9681167515915,2141161062,2141161046,None,False,,none,True,False
+S543,68,trunk,68,東西向快速公路 南寮竹東線,656.1521246170264,2141161062,2141161063,None,False,,none,True,False
+S544,68,trunk,68,東西向快速公路 南寮竹東線,4714.540073107752,2141161063,1188790081,None,False,,none,True,False
+S545,芎林交流道,trunk_link,,芎林交流道,128.06494401669346,2141161067,1374041658,None,False,,none,True,False
+S546,芎林交流道,trunk_link,,芎林交流道,113.35165190707697,2141161067,2141161050,None,False,,none,True,False
+S547,68,trunk,68,東西向快速公路 南寮竹東線,788.4638533121137,2141161070,1374041634,None,False,,none,True,False
+S548,芎林交流道,trunk_link,,芎林交流道,175.8016196762955,2141161070,4407931542,None,False,,none,True,False
+S549,竹林交流道南向入口,motorway_link,,"['竹林交流道南向入口', '竹林交流道']",93.16056495340499,2143401276,425626491,None,False,,none,True,False
+S550,竹林交流道,motorway_link,,竹林交流道,220.02254461803946,2143401284,132586694,None,False,,none,True,False
+S551,竹林交流道,motorway_link,,竹林交流道,215.20547538478917,2143401284,3284175951,None,False,,none,True,False
+S552,平鎮系統交流道,motorway_link,,平鎮系統交流道,289.14961202518674,2316981313,205282807,None,False,,none,True,False
+S553,平鎮系統交流道,motorway_link,,平鎮系統交流道,729.1524874411548,2316981313,4451903521,None,False,,none,True,False
+S554,3,primary,3,中豐路一段,274.3283737916075,2337217737,3669625150,None,False,,none,True,False
+S555,3;竹42,primary,"['3;竹42', '3']","['大林橋', '中豐公路', '中豐路三段', '中豐路一段', '中豐路二段']",5607.046610117282,2337217737,6141917048,None,False,,none,True,False
+S556,關西交流道,motorway_link,,關西交流道,789.2297850149749,2338211496,48078731,None,False,,none,True,False
+S557,3,motorway,3,福爾摩沙高速公路,1491.7950163297937,2338211496,1422775883,None,False,,none,True,False
+S558,31,primary,31,"['高鐵南路五段', '高鐵南路六段']",1062.9131194865622,2383383175,9352626216,None,False,,none,True,False
+S559,31,primary,31,高鐵南路六段,105.06100049616114,2383383186,4111381935,None,False,,none,True,False
+S560,66,primary,66,快速路六段,45.444887277728746,2383383197,1918306839,None,False,,none,True,False
+S561,31,primary_link,31,,52.095019180486204,2383383197,2383383186,None,False,,none,True,False
+S562,segment_562,primary,,,45.659572822523444,2383383206,12257933019,None,False,,none,True,False
+S563,31,primary,31,高鐵南路五段,417.99664927222796,2383383206,12257933021,None,False,,none,True,False
+S564,66,primary,66,快速路六段,1003.0184821721159,2384904853,4597795883,None,False,,none,True,False
+S565,segment_565,trunk_link,,,83.38839721373654,2384904853,3250474525,None,False,,none,True,False
+S566,66,primary,66,快速路六段,584.5694914264075,2385356260,2384904853,None,False,,none,True,False
+S567,湖口交流道,motorway_link,,湖口交流道,73.36083359417415,2387160094,2387162033,None,False,,none,True,False
+S568,湖口交流道,motorway_link,,湖口交流道,619.1401715875779,2387162033,59840800,None,False,,none,True,False
+S569,66,primary,66,快速路六段,57.3548632181091,2388032817,3136982087,None,False,,none,True,False
+S570,31,primary,31,高鐵南路六段,30.039081375654874,2388032817,1918306839,None,False,,none,True,False
+S571,竹北交流道,motorway_link,,竹北交流道,194.79286931512837,2407991474,315850123,None,False,,none,True,False
+S572,竹北交流道,motorway_link,,竹北交流道,122.71122037208468,2407991518,114343419,None,False,,none,True,False
+S573,segment_573,motorway_link,,,285.34430167612834,2490696561,2490696569,None,False,,none,True,False
+S574,1,motorway,1,中山高速公路,1268.4488992981874,2490696569,2779149512,None,False,,none,True,False
+S575,1,motorway,1,"['中山高速公路', '大鳳山溪橋']",3590.0434720249855,2490696593,59840859,None,False,,none,True,False
+S576,31,primary,31,高鐵南路三段,64.41495847996023,2490714552,9352656144,None,False,,none,True,False
+S577,segment_577,primary,,,21.69194952548721,2490714552,9352656141,None,False,,none,True,False
+S578,segment_578,primary_link,,,64.07572496092132,2490714599,1211875363,None,False,,none,True,False
+S579,31,primary,31,高鐵南路三段,84.23597037904372,2490714599,3129101008,None,False,,none,True,False
+S580,31,primary,31,高鐵南路三段,266.9750380176949,2490761724,2490761726,None,False,,none,True,False
+S581,segment_581,primary,,,51.14289451491214,2490761726,2490761728,None,False,,none,True,False
+S582,31,primary,31,高鐵南路三段,15.534240648026916,2490761726,2490714599,None,False,,none,True,False
+S583,31,primary,31,高鐵南路三段,48.36573261170503,2490761728,3129101008,None,False,,none,True,False
+S584,66,primary,66,"['快速路三段', '龍南幹線排水橋', '大坑崁溪排水橋']",1548.785607960721,2495985679,4462884520,None,False,,none,True,False
+S585,平鎮二交流道,trunk_link,,平鎮二交流道,400.0794778916853,2495985679,4088964342,None,False,,none,True,False
+S586,66,primary,66,快速路三段,194.96434890821322,2496037370,2495985679,None,False,,none,True,False
+S587,1,primary,1,延平路三段,28.346990309060246,2496037415,4462884520,None,False,,none,True,False
+S588,66,primary,66,"['快速路三段', '龍南幹線排水橋', '大坑崁溪排水橋']",1558.5731050626691,2496037415,1439005201,None,False,,none,True,False
+S589,66,trunk,66,東西向快速公路 觀音大溪線,2230.0265381112195,2496061863,1413143385,None,False,,landslide_block,False,True
+S590,大溪交流道,motorway_link,,大溪交流道,618.1324446008579,2496066146,7195210178,None,False,,none,True,False
+S591,66,primary,66,快速路六段,15.622339562652098,2498427720,2388032817,None,False,,none,True,False
+S592,31,primary,31,高鐵南路六段,51.84040936767115,2498427720,3247481390,None,False,,none,True,False
+S593,segment_593,motorway_link,,,185.0916388157312,2539183762,1598136552,None,False,,crack_pothole,True,False
+S594,segment_594,motorway_link,,,62.15992146607978,2539183762,1598136583,None,False,,landslide_block,False,True
+S595,segment_595,motorway_link,,,61.21687807753498,2539183762,4189045245,None,False,,none,True,False
+S596,segment_596,motorway_link,,,91.46902393414629,2539183794,1598136583,None,False,,none,True,False
+S597,segment_597,motorway_link,,,52.80504317300141,2539183794,2539183762,None,False,,none,True,False
+S598,1,motorway,1,中山高速公路,1213.42990350687,2581961093,2658687005,None,False,,crack_pothole,True,False
+S599,幼獅交流道,motorway_link,,幼獅交流道,178.87712086929736,2581961094,2581961093,None,False,,none,True,False
+S600,幼獅交流道,motorway_link,,幼獅交流道,252.25389871686093,2581961100,2675347332,None,False,,none,True,False
+S601,內壢交流道,motorway_link,,內壢交流道,353.23772548773354,2600923272,1232656367,None,False,,crack_pothole,True,False
+S602,竹科交流道,trunk_link,,竹科交流道,478.08479282220185,2612147350,26069794,None,False,,none,True,False
+S603,68,trunk,68,東西向快速公路 南寮竹東線,1132.415073452703,2612147350,1188790380,None,False,,none,True,False
+S604,1,motorway,1,中山高速公路,868.8361657679745,2658687005,2658687053,None,False,,crack_pothole,True,False
+S605,楊梅交流道,motorway_link,,楊梅交流道,349.5571957260026,2658687005,2658687015,None,False,,none,True,False
+S606,楊梅交流道,motorway_link,,楊梅交流道,92.61244830196787,2658687015,2658687054,None,False,,none,True,False
+S607,楊梅交流道,motorway_link,,楊梅交流道,201.22848459666568,2658687015,2658687022,None,False,,none,True,False
+S608,1,primary,1,中山北路一段,105.29089439324014,2658687022,3999391696,None,False,,none,True,False
+S609,1,primary,1,中山北路一段,73.73345988419953,2658687039,2658687057,None,False,,none,True,False
+S610,楊梅交流道,motorway_link,,楊梅交流道,199.2241258442353,2658687039,2658687109,None,False,,none,True,False
+S611,1,motorway,1,中山高速公路,1233.8608341515444,2658687053,4398578232,None,False,,none,True,False
+S612,楊梅交流道,motorway_link,,楊梅交流道,10.789435536137209,2658687054,2658687057,None,False,,none,True,False
+S613,1,primary,1,中山北路一段,155.009843663406,2658687054,2658687022,None,False,,none,True,False
+S614,1,primary,1,中山北路一段,142.23660764371334,2658687057,2658687059,None,False,,none,True,False
+S615,楊梅交流道,motorway_link,,楊梅交流道,478.7113997814051,2658687059,4523284407,None,False,,crack_pothole,True,False
+S616,1,primary,1,中山北路一段,126.6879737040635,2658687059,2675320907,None,False,,none,True,False
+S617,1,primary,1,"['頭重溪橋', '中山北路二段', '永美路']",2132.624941514778,2658687066,9596949648,None,False,,none,True,False
+S618,楊梅交流道,motorway_link,,楊梅交流道,493.2969160780525,2658687072,2658687109,None,False,,none,True,False
+S619,1,primary,1,中山北路一段,115.69265089849935,2658687072,2658687054,None,False,,none,True,False
+S620,楊梅交流道,motorway_link,,楊梅交流道,329.55044681426114,2658687109,2658687053,None,False,,none,True,False
+S621,楊梅交流道,motorway_link,,楊梅交流道,357.35481447511495,2675320892,2675320899,None,False,,none,True,False
+S622,1,motorway,1,中山高速公路,801.9154052114363,2675320892,2105113109,None,False,,none,True,False
+S623,楊梅交流道,motorway_link,,楊梅交流道,100.11705016115387,2675320899,2675320907,None,False,,none,True,False
+S624,楊梅交流道,motorway_link,,楊梅交流道,148.65360380705667,2675320899,2658687066,None,False,,none,True,False
+S625,楊梅交流道,motorway_link,,楊梅交流道,14.919740147470382,2675320907,2675320909,None,False,,none,True,False
+S626,1,primary,1,中山北路二段,95.1751619539899,2675320907,2658687066,None,False,,none,True,False
+S627,1,primary,1,中山北路一段,157.36741282376553,2675320909,2658687072,None,False,,none,True,False
+S628,1,primary,1,中山北路二段,92.5849958793239,2675320910,2675320909,None,False,,none,True,False
+S629,楊梅交流道,motorway_link,,楊梅交流道,213.21570635861215,2675320910,4523284407,None,False,,none,True,False
+S630,幼獅交流道,motorway_link,,幼獅交流道,374.53105005056767,2675347328,5671183577,None,False,,none,True,False
+S631,1,motorway,1,中山高速公路,877.4368175098297,2675347328,2675347332,None,False,,none,True,False
+S632,1,motorway,1,中山高速公路,1308.7291446606325,2675347332,59840966,None,False,,landslide_block,False,True
+S633,湖口交流道,motorway_link,,湖口交流道,681.4078895166824,2779149512,3204219751,None,False,,none,True,False
+S634,1,motorway,1,中山高速公路,1218.5134656476228,2779149512,391277632,None,False,,none,True,False
+S635,3乙,primary,3乙,龍源路大平段,422.77458741810915,2811004670,4461326585,None,False,,none,True,False
+S636,3乙,primary,3乙,"['龍源路', '龍源路大平段']",4115.293364344015,2811004670,1985373776,None,False,,none,True,False
+S637,3;4,primary,3;4,介壽路,1172.4229379679407,2850426736,52712006,None,False,,none,True,False
+S638,4,primary,4,介壽路,306.7561162550208,2850426736,52711608,None,False,,crack_pothole,True,False
+S639,3,primary,3,員林路一段,1744.6090692566895,2850426736,48085937,None,False,,none,True,False
+S640,1,motorway,1,中山高速公路,439.5470816677013,2992216435,9317130183,None,False,,crack_pothole,True,False
+S641,桃園交流道,motorway_link,,桃園交流道,282.492607143721,2992216439,9317130165,None,False,,none,True,False
+S642,桃園交流道,motorway_link,,桃園交流道,209.24030332333925,2992216439,9317130174,None,False,,none,True,False
+S643,桃園交流道,motorway_link,,桃園交流道,481.3809154195892,2992216451,2992216439,None,False,,none,True,False
+S644,桃園交流道,motorway_link,,桃園交流道,617.1273918894866,2992216451,2992216435,None,False,,none,True,False
+S645,桃園交流道,motorway_link,,桃園交流道,221.397342582208,2992216455,4493972360,None,False,,none,True,False
+S646,湖口交流道,motorway_link,,湖口交流道,455.28301864951106,2992220172,2992220173,None,False,,landslide_block,False,True
+S647,1,motorway,1,中山高速公路,1175.8897445825178,2992220172,59840800,None,False,,none,True,False
+S648,湖口交流道,motorway_link,,湖口交流道,67.95284503003316,2992220173,3331632393,None,False,,none,True,False
+S649,湖口交流道,motorway_link,,湖口交流道,114.23130800987455,2992220173,2387162033,None,False,,landslide_block,False,True
+S650,31,primary_link,31,南青路,479.79316223140785,3005953597,440826279,None,False,,none,True,False
+S651,南青路,primary,,南青路,77.80357695390299,3005953599,269206134,None,False,,none,True,False
+S652,31,primary_link,31,南青路,530.5604770830664,3005953599,3005953597,None,False,,none,True,False
+S653,31,primary,31,南青路,474.14440930959137,3005954320,1946339655,None,False,,none,True,False
+S654,南青路,primary,,南青路,73.89831318114165,3005954323,3005953597,None,False,,none,True,False
+S655,31,primary,31,南青路,620.7402015731643,3005954323,3005954320,None,False,,none,True,False
+S656,南青路,primary,,南青路,83.06635277191936,3005967836,583324177,None,False,,none,True,False
+S657,31,primary,31,南青路,550.2424462448201,3005967836,4111270312,None,False,,none,True,False
+S658,31,primary,31,領航北路四段,52.26166022946608,3006078346,10166290242,None,False,,none,True,False
+S659,31,primary,31,"['高鐵北路三段', '領航北路四段']",24.422803410665338,3006078349,3006078346,None,False,,none,True,False
+S660,segment_660,primary,,,49.45782253756752,3006078359,4111270379,None,False,,none,True,False
+S661,高鐵北路三段,primary,,高鐵北路三段,676.9014637098282,3006078359,3006078349,None,False,,none,True,False
+S662,高鐵北路三段,primary,,高鐵北路三段,220.4154647111171,3006078365,3006078359,None,False,,crack_pothole,True,False
+S663,segment_663,primary,,,25.934956618690055,3006078366,3006078365,None,False,,none,True,False
+S664,31,primary,31,高鐵北路三段,294.1919283501153,3006078366,4111270379,None,False,,none,True,False
+S665,高鐵北路三段,primary,,高鐵北路三段,174.23897029643481,3006078375,3006078365,None,False,,none,True,False
+S666,segment_666,trunk_link,,,76.47138208866944,3024771159,1420657437,None,False,,none,True,False
+S667,66,primary,66,快速路五段,3491.5136419526348,3024771159,1812019100,None,False,,none,True,False
+S668,segment_668,primary_link,,,101.99625767121091,3032570295,2496061853,None,False,,none,True,False
+S669,segment_669,primary_link,,,70.56247101834525,3032570295,1413143362,None,False,,none,True,False
+S670,segment_670,primary_link,,,111.43208810929141,3032572839,3136982087,None,False,,none,True,False
+S671,31,primary,31,高鐵南路六段,72.11352115000145,3032572839,2388032817,None,False,,none,True,False
+S672,66,trunk,66,東西向快速公路 觀音大溪線,1929.9698314979905,3052002792,1420657437,None,False,,none,True,False
+S673,segment_673,trunk_link,,,79.60124468320213,3052002793,1918306836,None,False,,none,True,False
+S674,66,trunk,66,東西向快速公路 觀音大溪線,1427.9915441275527,3052002793,4597795881,None,False,,none,True,False
+S675,新竹交流道,motorway_link,,新竹交流道,103.1337956776361,3064697455,1983162788,None,False,,none,True,False
+S676,機場系統交流道,motorway_link,,機場系統交流道,165.4775832655676,3074416481,3074416484,None,False,,none,True,False
+S677,機場系統交流道,motorway_link,,機場系統交流道,419.43296872744406,3074416484,3074416497,None,False,,none,True,False
+S678,2,motorway,2,機場支線,2625.7534504088744,3074416497,32415739,None,False,,none,True,False
+S679,平鎮系統交流道,trunk_link,,平鎮系統交流道,163.99860871171438,3075139246,1420657427,None,False,,crack_pothole,True,False
+S680,66,trunk,66,東西向快速公路 觀音大溪線,1311.9589768243732,3075139246,1420657429,None,False,,none,True,False
+S681,平鎮系統交流道,trunk_link,,平鎮系統交流道,63.96573500793674,3075139249,1257925863,None,False,,none,True,False
+S682,平鎮一交流道,trunk_link,,平鎮一交流道,265.1185502794722,3075139249,3109357476,None,False,,landslide_block,False,True
+S683,31,primary,31,高鐵南路六段,29.24067968060899,3075243489,9352581391,None,False,,none,True,False
+S684,segment_684,primary,,,23.120890357855174,3075243489,9352581395,None,False,,none,True,False
+S685,機場系統交流道,motorway_link,,機場系統交流道,1019.5538132006552,3088861665,3074416484,None,False,,none,True,False
+S686,1,motorway,1,五股楊梅高架道路,1422.2347388434732,3088861665,4070052323,None,False,,none,True,False
+S687,66,primary,66,快速路三段,13.921832235846006,3109357476,2496037415,None,False,,none,True,False
+S688,1,primary,1,延平路三段,102.45803490621766,3109357476,6839214667,None,False,,none,True,False
+S689,1,primary,"['1', '1;112']","['延平路二段', '環南路']",22.597967558256393,3109358573,131932279,None,False,,none,True,False
+S690,1;112,primary,1;112,環南路,12.594387979005754,3109358574,3109358573,None,False,,none,True,False
+S691,1,primary,1,"['延平路三段', '延平路二段']",1776.7176806420605,3109358574,4051801691,None,False,,none,True,False
+S692,1,motorway,1,五股楊梅高架道路,429.5142529596283,3128940579,4418827862,None,False,,none,True,False
+S693,1,motorway,1,中山高速公路,1166.9581827749419,3128940579,1232656457,None,False,,none,True,False
+S694,31;113丙,primary,"['31;113丙', '31']","['領航南橋', '領航南路二段', '領航南路四段', '領航南路三段', '高鐵南路二段', '領航南路一段']",3769.0609496691527,3129101008,10166290244,None,False,,none,True,False
+S695,3,primary,3,"['中興路九龍段', '九座寮橋', '中興路', '員林路三段']",4095.2439868155807,3129555326,7934954829,None,False,,none,True,False
+S696,3,primary,3,員林路三段,1381.389689787528,3129555326,939016067,None,False,,none,True,False
+S697,66,primary,66,快速路六段,186.74655203986362,3136982087,2111821066,None,False,,none,True,False
+S698,內壢交流道,motorway_link,,內壢交流道,72.57800878132706,3190151148,1232656486,None,False,,crack_pothole,True,False
+S699,內壢交流道,motorway_link,,內壢交流道,188.553845180242,3190151148,3190151154,None,False,,none,True,False
+S700,內壢交流道,motorway_link,,內壢交流道,122.64519972220347,3190151155,1232656555,None,False,,none,True,False
+S701,湖口交流道,motorway_link,,湖口交流道,73.15288481144967,3204219751,3331631989,None,False,,none,True,False
+S702,湖口交流道,motorway_link,,湖口交流道,93.47530555384961,3204219751,3281857328,None,False,,none,True,False
+S703,66,primary_link,66,,601.8341707145594,3229352066,4462884032,None,False,,none,True,False
+S704,66,primary,66,"['快速路九段', '快速路八段']",597.5292108023642,3229352066,4462884032,None,False,,none,True,False
+S705,66,primary,66,快速路九段,2270.0524786587234,3229352067,2111821211,None,False,,none,True,False
+S706,15,primary,15,濱海路大潭段,30.805768634317985,3229369129,2111821363,None,False,,none,True,False
+S707,66,primary,66,快速路九段,146.45170741550066,3229369129,1383535883,None,False,,none,True,False
+S708,31,primary,31,高鐵聯外公路,8.85736107888196,3247480521,3247480523,None,False,,none,True,False
+S709,1;竹12,primary,"['1;竹12', '1']","['羊喜橋', '長安橋', '八德路二段', '八德路三段', '鹿鳴橋']",3600.723382084949,3247480521,6838194712,None,False,,crack_pothole,True,False
+S710,1,primary,1,八德路二段,8.806832087869537,3247480523,4031295552,None,False,,none,True,False
+S711,31,primary,31,高鐵聯外公路,101.34314202682862,3247480523,7190996903,None,False,,none,True,False
+S712,31;桃102,primary,"['31;桃102', '31']","['高鐵南路十段', '高鐵南路九段', '高鐵聯外公路', '高鐵南路七段', '高鐵南路八段', '高鐵南路六段']",12014.445640881671,3247481390,4031295550,None,False,,none,True,False
+S713,66,primary,66,快速路六段,76.22396922483154,3247481392,2498427720,None,False,,crack_pothole,True,False
+S714,segment_714,primary_link,,,86.77194136832794,3247481392,3247481390,None,False,,none,True,False
+S715,61,primary,61,"['濱海路永安段', '西部濱海公路']",286.0164275665193,3249298765,3353354625,None,False,,none,True,False
+S716,永安交流道,trunk_link,,永安交流道,506.034111087391,3249298767,3353354596,None,False,,none,True,False
+S717,segment_717,trunk_link,,,103.72909235120434,3250474491,1918306860,None,False,,none,True,False
+S718,66,trunk,66,東西向快速公路 觀音大溪線,1356.5076753646856,3250474491,12198110923,None,False,,none,True,False
+S719,66,trunk,66,東西向快速公路 觀音大溪線,795.8527335684801,3250474525,4597795882,None,False,,none,True,False
+S720,segment_720,trunk_link,,,44.87304867745686,3250476669,12198110923,None,False,,none,True,False
+S721,66,primary,66,快速路七段,448.9073657695202,3250476669,3250476692,None,False,,none,True,False
+S722,66,primary,66,快速路七段,1127.3431793026348,3250476692,3250476727,None,False,,landslide_block,False,True
+S723,66,primary,66,"['快速路七段', '快速路八段']",1615.008735164585,3250476727,3250476781,None,False,,none,True,False
+S724,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,1545.0223206161031,3250476728,132434392,None,False,,none,True,False
+S725,66,primary,66,快速路七段,1578.6578170482985,3250476728,12198110925,None,False,,none,True,False
+S726,66,primary,66,"['快速路七段', '快速路八段']",1590.2298042289876,3250476779,3250476728,None,False,,none,True,False
+S727,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,905.3718131577896,3250476781,2111821090,None,False,,none,True,False
+S728,66,primary,66,快速路八段,830.9822185043608,3250476781,4462884051,None,False,,none,True,False
+S729,湖口交流道,motorway_link,,湖口交流道,439.10521448689974,3281857328,391277632,None,False,,none,True,False
+S730,68,trunk,68,東西向快速公路 南寮竹東線,1574.8775611388548,3284044612,1374041152,None,False,,none,True,False
+S731,68甲,"['trunk_link', 'trunk']",68甲,"['快速公路四重埔竹東線', '竹東一交流道']",2137.5736458933543,3284044612,132587378,None,False,,none,True,False
+S732,68,trunk,68,東西向快速公路 南寮竹東線,1402.8688543852115,3284045183,132587378,None,False,,none,True,False
+S733,竹林交流道,motorway_link,,竹林交流道,126.43424883217268,3284177077,425626491,None,False,,none,True,False
+S734,竹林交流道,motorway_link,,竹林交流道,355.0153835260706,3284177084,132586869,None,False,,none,True,False
+S735,竹林交流道,motorway_link,,"['竹林交流道', '竹林交流道南向出口']",683.3894409915291,3284177084,3284177068,None,False,,none,True,False
+S736,3,motorway,3,"['鳳山溪橋', '福爾摩沙高速公路']",9878.740407140864,3284177089,2338211496,None,False,,none,True,False
+S737,3,primary,3,"['中豐路一段', '竹東大橋']",480.9694421454227,3285836204,3285836220,None,False,,none,True,False
+S738,3;120,primary,"['3;120', '3']","['中豐路一段', '油羅溪橋', '頭份林橋', '中豐路二段']",6802.190155016354,3285836204,48082411,None,False,,none,True,False
+S739,竹東端,trunk_link,,竹東端,63.80328860743495,3285836220,132587942,None,False,,none,True,False
+S740,3,primary,3,"['中豐路一段', '竹東大橋']",480.9694421454227,3285836220,3285836204,None,False,,landslide_block,False,True
+S741,3,primary,3,竹東大橋,43.84984590635164,3285836220,3669625150,None,False,,none,True,False
+S742,3,primary,3,中豐路一段,237.97947657690673,3285836225,2337217737,None,False,,none,True,False
+S743,61,primary,61,西部濱海公路,420.636980324025,3289410144,2105317051,None,False,,landslide_block,False,True
+S744,湖口交流道,motorway_link,,湖口交流道,53.557069582371895,3331631990,3281857328,None,False,,none,True,False
+S745,新竹交流道,motorway_link,,新竹交流道,19.850001192859896,3340976219,1747620973,None,False,,none,True,False
+S746,校前路交流道,motorway_link,,校前路交流道,348.68434662170154,3341079222,5181231448,None,False,,none,True,False
+S747,3乙,primary,3乙,中正路三坑段,25.590199119307815,3350282835,6925124527,None,False,,none,True,False
+S748,segment_748,primary,,,38.9689272382749,3350282835,131935165,None,False,,none,True,False
+S749,永安交流道,trunk_link,,永安交流道,224.4014225359189,3353354575,3353354628,None,False,,none,True,False
+S750,61,trunk,61,西部濱海快速公路,1034.5291065432934,3353354575,3353354596,None,False,,none,True,False
+S751,永安交流道,trunk_link,,永安交流道,511.11736800355465,3353354600,3249298765,None,False,,none,True,False
+S752,61,trunk,61,西部濱海快速公路,1033.9349698000015,3353354600,3353354576,None,False,,none,True,False
+S753,61,primary,61,"['濱海路永興段', '濱海路永安段', '西部濱海公路']",5427.175273170622,3353354625,304159695,None,False,,none,True,False
+S754,永安交流道,trunk_link,,永安交流道,238.33416516006127,3353354625,3353354576,None,False,,none,True,False
+S755,61,primary,61,"['濱海路永安段', '西部濱海公路']",308.27832681760077,3353354628,3249298767,None,False,,none,True,False
+S756,芎林交流道,trunk_link,,芎林交流道,149.01442332996203,3669625129,1374041658,None,False,,none,True,False
+S757,3,primary,3,中豐路一段,38.35391908687123,3669625150,3285836225,None,False,,none,True,False
+S758,3,primary,3,竹東大橋,43.84984590635164,3669625150,3285836220,None,False,,none,True,False
+S759,竹東端,trunk_link,,竹東端,48.891458901591456,3669625150,132587942,None,False,,none,True,False
+S760,3乙,primary,3乙,龍源路,10.715111853456797,3779483780,325705126,None,False,,none,True,False
+S761,3,primary,3,中豐路高平段,43.91425191892699,3779483780,1701302337,None,False,,none,True,False
+S762,segment_762,primary_link,,,12.423849667055142,3999391692,3999391696,None,False,,none,True,False
+S763,1,primary,1,中山北路一段,188.30846045356327,3999391692,2658687039,None,False,,none,True,False
+S764,segment_764,primary_link,,,12.423849667055142,3999391696,3999391692,None,False,,none,True,False
+S765,1;115,primary,"['1;115', '1']","['中山路', '中山北路一段', '昇平橋', '八德路三段', '楊梅橋', '中山南路', '老坑溪橋', '大金山橋']",6023.836840223684,3999391696,4381799231,None,False,,landslide_block,False,True
+S766,31,primary_link,31,,83.24924917856995,4031295550,4031295551,None,False,,crack_pothole,True,False
+S767,31,primary,31,高鐵聯外公路,42.54518860712997,4031295550,4031295552,None,False,,landslide_block,False,True
+S768,31,primary,31,高鐵聯外公路,9.792280017396278,4031295552,4031295553,None,False,,none,True,False
+S769,1,primary,1,八德路二段,67.00848048549032,4031295552,4031295551,None,False,,none,True,False
+S770,1,primary,1,八德路二段,8.861655617537714,4031295553,3247480521,None,False,,none,True,False
+S771,1,primary,1,延平路三段,27.660475221082528,4051801691,3109357476,None,False,,crack_pothole,True,False
+S772,平鎮一交流道,trunk_link,,平鎮一交流道,438.8138858464396,4051801691,1420657427,None,False,,crack_pothole,True,False
+S773,66,primary,66,快速路三段,558.6258743920438,4051801691,4463012785,None,False,,none,True,False
+S774,1,motorway,1,五股楊梅高架道路,5505.170061127731,4070052323,13360753931,None,False,,landslide_block,False,True
+S775,66,trunk,66,東西向快速公路 觀音大溪線,1440.3787219568037,4088964342,3075139246,None,False,,none,True,False
+S776,南青路,primary,,南青路,39.496500224386274,4111270305,4111270306,None,False,,none,True,False
+S777,南青路,primary,,南青路,33.97303215227824,4111270307,4111270308,None,False,,none,True,False
+S778,31,primary,31,南青路,437.6447382632584,4111270307,269206134,None,False,,none,True,False
+S779,31,primary_link,31,南青路,327.20562191186326,4111270308,3005953599,None,False,,none,True,False
+S780,31,primary,31,南青路,449.97896366807504,4111270312,269206041,None,False,,crack_pothole,True,False
+S781,31,primary,31,高鐵北路三段,627.2464601663976,4111270379,1215066091,None,False,,none,True,False
+S782,31,primary,31,"['高鐵北路三段', '南青路']",1160.4506695285172,4111270380,255097027,None,False,,none,True,False
+S783,31,primary,31,高鐵南路三段,185.66930616980113,4111379770,4111381600,None,False,,crack_pothole,True,False
+S784,31,primary,31,高鐵南路三段,504.6864121594777,4111379773,4111379770,None,False,,none,True,False
+S785,segment_785,primary,,,46.05677465497871,4111381592,4111379773,None,False,,none,True,False
+S786,31,primary,31,高鐵南路三段,489.3530435602029,4111381592,4111381593,None,False,,none,True,False
+S787,segment_787,primary,,,60.96920274348826,4111381593,4111379770,None,False,,none,True,False
+S788,31,primary,31,高鐵南路三段,274.44695958342595,4111381593,2490714552,None,False,,none,True,False
+S789,31,primary,31,高鐵南路三段,332.43892385409293,4111381600,12257933055,None,False,,none,True,False
+S790,segment_790,primary_link,,,35.86282611087642,4111381600,4111381603,None,False,,none,True,False
+S791,31,primary,31,"['高鐵南路四段', '高鐵南路五段']",352.3455087514106,4111381639,12257933044,None,False,,none,True,False
+S792,31,primary,31,高鐵南路四段,302.268803273334,4111381641,4111381639,None,False,,none,True,False
+S793,segment_793,primary_link,,,27.77145204879765,4111381641,4111381643,None,False,,none,True,False
+S794,31,primary,31,高鐵南路六段,342.0222016811393,4111381928,315833721,None,False,,landslide_block,False,True
+S795,31,primary,31,高鐵南路六段,481.8544974508741,4111381935,9352581393,None,False,,none,True,False
+S796,31,primary,31,高鐵南路六段,456.7489533526148,4111381935,9352581396,None,False,,landslide_block,False,True
+S797,中豐交流道,motorway_link,,中豐交流道,211.75529510083618,4111442060,13368657347,None,False,,none,True,False
+S798,3,primary,3,"['中豐路二 段', '中豐公路', '芋子園橋', '北沙坑橋', '中豐路三段', '新城橋', '太平橋']",4908.168850476563,4378927011,1985402411,None,False,,crack_pothole,True,False
+S799,3,primary,3,"['中豐路二段', '中豐路三段', '南沙坑橋']",802.0447123180278,4378927011,6846502671,None,False,,none,True,False
+S800,segment_800,primary_link,,,10.793078290620135,4381799231,4381799232,None,False,,none,True,False
+S801,1,primary,1,八德路三段,328.7953850904156,4381799231,6838194713,None,False,,crack_pothole,True,False
+S802,segment_802,primary_link,,,10.793078290620135,4381799232,4381799231,None,False,,none,True,False
+S803,1;115,primary,"['1;115', '1']","['中山路', '昇平橋', '八德路三段', '楊梅橋', '中山南路', '老坑溪橋', '中山北路一段', '大金山橋']",6019.544801188256,4381799232,3999391692,None,False,,none,True,False
+S804,桃園交流道,motorway_link,,桃園交流道,238.26303117861596,4382872298,4413336587,None,False,,none,True,False
+S805,1,motorway,1,中山高速公路,938.4908279463739,4398578232,5314735678,None,False,,none,True,False
+S806,芎林交流道,trunk_link,,芎林交流道,721.4808887579718,4407931542,132587091,None,False,,none,True,False
+S807,芎林交流道,trunk_link,,芎林交流道,216.77991440287713,4407931542,1476163193,None,False,,none,True,False
+S808,桃園交流道,motorway_link,,桃園交流道,1099.6704277756344,4413336587,256123162,None,False,,none,True,False
+S809,1,motorway,1,五股楊梅高架道路,6334.432289020603,4418827862,2127496178,None,False,,none,True,False
+S810,竹北交流道,motorway_link,,竹北交流道,304.5915202664311,4419549208,114343965,None,False,,landslide_block,False,True
+S811,1,motorway,1,中山高速公路,985.1501176112588,4419549208,59841220,None,False,,landslide_block,False,True
+S812,segment_812,primary_link,,,74.01705152825416,4435633689,4462884337,None,False,,crack_pothole,True,False
+S813,66,primary,66,"['快速路七段', '快速路六段']",112.23150222236048,4435633689,2385356260,None,False,,none,True,False
+S814,segment_814,primary_link,,,8.965068857709664,4436233693,6848250527,None,False,,none,True,False
+S815,3,primary,3,"['中豐路上林段', '中豐路中山段', '大昌路一段']",4524.264081824532,4436233693,7934947387,None,False,,none,True,False
+S816,3,primary,3,埔心街,195.1407535774272,4444208255,1515021897,None,False,,none,True,False
+S817,3,primary,3,"['中豐公路', '社官橋']",540.974342705031,4444208255,1515023658,None,False,,none,True,False
+S818,平鎮系統交流道,trunk_link,,平鎮系統交流道,96.30485787857887,4451903521,1420657429,None,False,,none,True,False
+S819,新竹交流道,motorway_link,,新竹交流道,24.018190483595554,4461256993,1747620987,None,False,,none,True,False
+S820,4,primary,4,"['溪洲大橋', '龍源路大平段']",1650.9601611399964,4461326559,349086927,None,False,,none,True,False
+S821,4,primary,4,龍源路大平段,42.577311661372896,4461326559,4461326567,None,False,,crack_pothole,True,False
+S822,4,primary,"['4', '3乙']","['石門路', '中正路三坑段']",35.755776928012324,4461326567,4461327789,None,False,,none,True,False
+S823,4,primary,4,龍源路大平段,19.853074765814807,4461326567,256085219,None,False,,none,True,False
+S824,3乙,primary,3乙,龍源路大平段,25.486510217785984,4461326569,256085219,None,False,,crack_pothole,True,False
+S825,4,primary,4,龍源路大平段,31.427512956731693,4461326569,256085205,None,False,,landslide_block,False,True
+S826,3乙,primary,3乙,龍源路大平段,422.7745874181092,4461326585,2811004670,None,False,,none,True,False
+S827,3乙,primary,3乙,龍源路大平段,73.33344903419851,4461326585,4461326569,None,False,,none,True,False
+S828,3乙,primary,3乙,中正路三坑段,52.39020272461616,4461327789,4461327796,None,False,,none,True,False
+S829,3乙,primary,3乙,中正路三坑段,59.48536884926856,4461327795,256085219,None,False,,none,True,False
+S830,3乙,primary,3乙,中正路三坑段,98.11187010302089,4461327795,325705292,None,False,,crack_pothole,True,False
+S831,3乙,primary,3乙,中正路三坑段,19.749309238002777,4461327796,4461327795,None,False,,none,True,False
+S832,3乙,primary,3乙,"['石門二號橋', '中正路三坑段']",452.91155150256174,4461327796,256085262,None,False,,none,True,False
+S833,segment_833,primary_link,,,133.78668656904946,4461627843,4461627846,None,False,,none,True,False
+S834,61,primary,61,"['濱海路永興段', '濱海路永安段', '西部濱海公路']",5439.899231700958,4461627846,3353354628,None,False,,none,True,False
+S835,66,primary,66,快速路八段,89.95919240720238,4462884032,2111821114,None,False,,none,True,False
+S836,66,primary_link,66,,88.23043120004252,4462884032,2111821118,None,False,,none,True,False
+S837,66,primary_link,66,,522.8867566981761,4462884051,2111821113,None,False,,none,True,False
+S838,66,primary,66,快速路八段,520.1766216066193,4462884051,2111821113,None,False,,crack_pothole,True,False
+S839,66,primary,66,快速路八段,537.1881768174834,4462884234,3250476779,None,False,,none,True,False
+S840,segment_840,primary_link,,,51.19949963835982,4462884300,3250476692,None,False,,landslide_block,False,True
+S841,segment_841,primary_link,,,86.77626627514802,4462884339,1918306870,None,False,,none,True,False
+S842,segment_842,primary_link,,,65.45831610125418,4462884353,2385356260,None,False,,none,True,False
+S843,66,primary,66,快速路六段,899.3055510861476,4462884430,1918306844,None,False,,none,True,False
+S844,66,primary,66,快速路三段,541.8911068537908,4462884519,3109357476,None,False,,none,True,False
+S845,66,primary,66,快速路三段,15.304656471437577,4462884520,4051801691,None,False,,none,True,False
+S846,1,primary,1,"['延平路三段', '延平路二段']",1772.1718573987732,4462884520,3109358573,None,False,,none,True,False
+S847,66,primary,66,"['快速路一段', '快速路二段']",147.24968774845556,4463012730,10905676216,None,False,,none,True,False
+S848,66,primary,66,"['快速路三段', '快速路二段']",2903.2680710166524,4463012731,2496037370,None,False,,none,True,False
+S849,平鎮三交流道,trunk_link,,平鎮三交流道,562.604620890889,4463012731,1424808992,None,False,,none,True,False
+S850,桃園交流道,motorway_link,,桃園交流道,232.36290641783077,4493972360,2992216451,None,False,,none,True,False
+S851,楊梅交流道,motorway_link,,楊梅交流道,275.60785093791753,4523284407,2105113109,None,False,,none,True,False
+S852,中壢交流道,motorway_link,,中壢交流道,413.3235956154274,4585406045,939016122,None,False,,none,True,False
+S853,66,trunk,66,東西向快速公路 觀音大溪線,790.2262180793095,4597795881,3250474491,None,False,,none,True,False
+S854,segment_854,trunk_link,,,115.03915473240656,4597795882,4597795883,None,False,,none,True,False
+S855,66,trunk,66,東西向快速公路 觀音大溪線,1429.5259013624222,4597795882,3052002792,None,False,,none,True,False
+S856,66,primary,66,快速路六段,896.9187700590489,4597795883,3247481392,None,False,,none,True,False
+S857,機場系統交流道,motorway_link,,機場系統交流道,844.1592880986003,4954142986,255096759,None,False,,none,True,False
+S858,機場系統交流道,motorway_link,,機場系統交流道,1417.7366781488288,4954142986,2127496176,None,False,,none,True,False
+S859,1,motorway,1,五股楊梅高架道路,10507.446237502647,5181231448,2127480041,None,False,,none,True,False
+S860,校前路交流道,motorway_link,,校前路交流道,334.70579678909394,5181231449,3341079221,None,False,,none,True,False
+S861,1,motorway,1,五股楊梅高架道路,139.66175284595798,5181231449,9365298311,None,False,,none,True,False
+S862,1,motorway,1,中山高速公路,11429.777285870943,5314735678,2992220172,None,False,,none,True,False
+S863,幼獅交流道,motorway_link,,幼獅交流道,264.27569395339333,5671183577,2581961100,None,False,,none,True,False
+S864,幼獅交流道,motorway_link,,幼獅交流道,155.52115791254604,5671183577,5671183578,None,False,,none,True,False
+S865,幼獅交流道,motorway_link,,幼獅交流道,121.0547998541579,5671183578,2581961094,None,False,,none,True,False
+S866,幼獅交流道,motorway_link,,幼獅交流道,130.0588971237445,5671183578,2581961100,None,False,,crack_pothole,True,False
+S867,幼獅交流道,motorway_link,,幼獅交流道,91.28143541595571,5671183580,5671183588,None,False,,none,True,False
+S868,幼獅交流道,motorway_link,,幼獅交流道,129.2280400016339,5671183580,5671183578,None,False,,none,True,False
+S869,1,primary,1,環北路,9.639211081869695,6012628399,6012628400,None,False,,none,True,False
+S870,1,primary,"['1', '1;桃47', '1;110甲']","['永安橋', '中山路', '埔頂橋', '桃圳橋', '延平路', '中華路二段', '中華路一段', '中華路', '新街橋']",7388.494819916038,6012628399,48097850,None,False,,none,True,False
+S871,1;110甲,primary,1;110甲,延平路,9.562617107518909,6012628400,131931575,None,False,,landslide_block,False,True
+S872,1,primary,"['1', '1;112']","['環西路', '環北橋', '環南路', '環西路二段', '環北路']",3916.072324388713,6012628400,6842586122,None,False,,none,True,False
+S873,高原交流道,motorway_link,,高原交流道,176.6300171568667,6038657799,10616236922,None,False,,none,True,False
+S874,高原交流道,motorway_link,,高原交流道,188.5943969315008,6038657799,7934992642,None,False,,none,True,False
+S875,高原交流道,motorway_link,,高原交流道,558.623910265828,6038657807,7934992661,None,False,,none,True,False
+S876,高原交流道,motorway_link,,高原交流道,119.33508527777663,6038657811,1701304183,None,False,,none,True,False
+S877,高原交流道,motorway_link,,高原交流道,134.72618363569578,6038657811,6038657807,None,False,,none,True,False
+S878,幼獅交流道,motorway_link,,幼獅交流道,139.0541912465362,6108415623,2581961094,None,False,,none,True,False
+S879,3;竹37;竹45,primary,"['3;竹37;竹45', '3;竹37', '3']","['仁愛路', '中豐路', '中豐公路', '埔心街']",1389.1755131230157,6141917048,1515021897,None,False,,none,True,False
+S880,3;竹42,primary,"['3;竹42', '3']","['大林橋', '中豐公路', '中豐路三段', '中豐路一段', '中豐路二段']",5607.046610117283,6141917048,2337217737,None,False,,none,True,False
+S881,segment_881,motorway_link,,,119.00558166572955,6388613599,1374041247,None,False,,none,True,False
+S882,segment_882,primary_link,,,13.367023736898284,6838194712,6838194713,None,False,,none,True,False
+S883,1,primary,1,八德路三段,322.51031116111005,6838194712,4381799232,None,False,,crack_pothole,True,False
+S884,segment_884,primary_link,,,13.367023736898284,6838194713,6838194712,None,False,,none,True,False
+S885,1;竹12,primary,"['1;竹12', '1']","['長安橋', '羊喜橋', '八德路二段', '八德路三段', '鹿鳴橋']",3522.5219210760165,6838194713,418760080,None,False,,none,True,False
+S886,1,primary,1,延平路三段,105.03604782408829,6839214667,6839214669,None,False,,none,True,False
+S887,segment_887,primary_link,,,12.56367141841844,6839214667,6839214668,None,False,,none,True,False
+S888,1,primary,1,延平路三段,107.6521031943067,6839214668,2496037415,None,False,,none,True,False
+S889,segment_889,primary_link,,,12.56367141841844,6839214668,6839214667,None,False,,none,True,False
+S890,segment_890,primary_link,,,13.650613649174911,6839214669,6839214670,None,False,,crack_pothole,True,False
+S891,1,primary,1,"['延平路三段', '埔心陸橋', '永美路', '陸橋南路']",1878.736493450571,6839214669,9596949647,None,False,,none,True,False
+S892,1,primary,1,延平路三段,104.55985947213328,6839214670,6839214668,None,False,,none,True,False
+S893,segment_893,primary_link,,,13.650613649174911,6839214670,6839214669,None,False,,none,True,False
+S894,segment_894,primary_link,,,12.116866238575419,6842586121,6842586122,None,False,,none,True,False
+S895,1;112,primary,"['1;112', '1']","['環西路', '環北橋', '環南路', '環西路二段', '環北路']",3884.996042059185,6842586121,131931575,None,False,,crack_pothole,True,False
+S896,segment_896,primary_link,,,12.116866238575419,6842586122,6842586121,None,False,,none,True,False
+S897,1;112,primary,1;112,環南路,555.6565005546219,6842586122,3109358574,None,False,,none,True,False
+S898,segment_898,primary_link,,,15.32131871194713,6846502670,6846502671,None,False,,none,True,False
+S899,3,primary,3,"['中豐路二段', '中豐路三段', '南沙坑橋']",792.68557910471,6846502670,4378927011,None,False,,none,True,False
+S900,segment_900,primary_link,,,15.32131871194713,6846502671,6846502670,None,False,,none,True,False
+S901,3,primary,3,中豐路二段,202.74538558215556,6846502671,48081621,None,False,,none,True,False
+S902,segment_902,primary_link,,,9.478374690484458,6847021741,6847021742,None,False,,none,True,False
+S903,3,primary,3,中豐路二 段,112.93143152678478,6847021741,6847021745,None,False,,crack_pothole,True,False
+S904,segment_904,primary_link,,,9.478374690484458,6847021742,6847021741,None,False,,none,True,False
+S905,3,primary,3,"['中豐新路', '中豐路二 段', '關西二號橋']",2401.315534171186,6847021742,7934421277,None,False,,none,True,False
+S906,segment_906,primary_link,,,10.446502491159952,6847021745,6847021746,None,False,,none,True,False
+S907,3,primary,3,"['南華橋', '中豐路二 段']",591.1498112211291,6847021745,1985402411,None,False,,none,True,False
+S908,segment_908,primary_link,,,10.446502491159952,6847021746,6847021745,None,False,,none,True,False
+S909,3,primary,3,中豐路二 段,109.91808300415147,6847021746,6847021742,None,False,,none,True,False
+S910,segment_910,primary_link,,,6.952211369338736,6847964520,6847964521,None,False,,crack_pothole,True,False
+S911,3,primary,3,"['中豐路高平段', '中豐公路']",459.24753306633045,6847964520,6847964524,None,False,,none,True,False
+S912,3,primary,3,中豐路高平段,78.4254115895128,6847964521,6847981576,None,False,,none,True,False
+S913,segment_913,primary_link,,,6.952211369338736,6847964521,6847964520,None,False,,none,True,False
+S914,segment_914,primary_link,,,7.7846924632108605,6847964524,6847964525,None,False,,none,True,False
+S915,3,primary,3,中豐公路,185.80811838925757,6847964524,6847964526,None,False,,none,True,False
+S916,segment_916,primary_link,,,7.7846924632108605,6847964525,6847964524,None,False,,none,True,False
+S917,3,primary,3,"['中豐公路', '中豐路高平段']",460.7723585816228,6847964525,6847964521,None,False,,none,True,False
+S918,segment_918,primary_link,,,7.34137395863216,6847964526,6847964527,None,False,,crack_pothole,True,False
+S919,3,primary,3,中豐公路,1026.5777845837194,6847964526,6847964544,None,False,,none,True,False
+S920,segment_920,primary_link,,,7.34137395863216,6847964527,6847964526,None,False,,none,True,False
+S921,3,primary,3,中豐公路,185.73163425971683,6847964527,6847964525,None,False,,none,True,False
+S922,segment_922,primary_link,,,7.246068990878199,6847964544,6847964545,None,False,,none,True,False
+S923,3,primary,3,中豐公路,203.06161797048395,6847964544,6847964550,None,False,,none,True,False
+S924,segment_924,primary_link,,,7.246068990878199,6847964545,6847964544,None,False,,crack_pothole,True,False
+S925,3,primary,3,中豐公路,1029.3744959227336,6847964545,6847964527,None,False,,none,True,False
+S926,segment_926,primary_link,,,7.670902952510922,6847964550,6847964551,None,False,,none,True,False
+S927,3,primary,3,"['中豐新路', '關西一號橋', '中豐公路']",1021.2032032403158,6847964550,7934421278,None,False,,none,True,False
+S928,segment_928,primary_link,,,7.670902952510922,6847964551,6847964550,None,False,,none,True,False
+S929,3,primary,3,中豐公路,201.40551867634963,6847964551,6847964545,None,False,,none,True,False
+S930,segment_930,primary_link,,,9.265893801072306,6847981562,6847981563,None,False,,none,True,False
+S931,3,primary,3,"['中豐路上林段', '中豐路高平段']",1393.2308516897676,6847981562,4436233693,None,False,,none,True,False
+S932,segment_932,primary_link,,,9.265893801072306,6847981563,6847981562,None,False,,crack_pothole,True,False
+S933,3,primary,3,中豐路高平段,398.98429641620567,6847981563,6847981565,None,False,,none,True,False
+S934,segment_934,primary_link,,,9.084196450147028,6847981564,6847981565,None,False,,none,True,False
+S935,3,primary,3,中豐路高平段,399.8906838053722,6847981564,6847981562,None,False,,none,True,False
+S936,segment_936,primary_link,,,9.084196450147028,6847981565,6847981564,None,False,,none,True,False
+S937,3,primary,3,中豐路高平段,94.18136745711872,6847981565,325705126,None,False,,none,True,False
+S938,segment_938,primary_link,,,7.166712228627595,6847981571,6847981572,None,False,,none,True,False
+S939,3,primary,3,中豐路高平段,652.1120837028474,6847981571,6847990489,None,False,,none,True,False
+S940,segment_940,primary_link,,,7.166712228627595,6847981572,6847981571,None,False,,none,True,False
+S941,3,primary,3,中豐路高平段,254.91998006717233,6847981572,48084483,None,False,,none,True,False
+S942,3,primary,3,中豐路高平段,78.20567098777043,6847981575,6847964520,None,False,,none,True,False
+S943,segment_943,primary_link,,,6.415564643540289,6847981575,6847981576,None,False,,none,True,False
+S944,segment_944,primary_link,,,6.415564643540289,6847981576,6847981575,None,False,,none,True,False
+S945,3,primary,3,中豐路高平段,212.67517779164004,6847981576,6847990490,None,False,,none,True,False
+S946,segment_946,primary_link,,,6.8959683957352516,6847990489,6847990490,None,False,,none,True,False
+S947,3,primary,3,中豐路高平段,210.09886000555997,6847990489,6847981575,None,False,,none,True,False
+S948,segment_948,primary_link,,,6.8959683957352516,6847990490,6847990489,None,False,,none,True,False
+S949,3,primary,3,中豐路高平段,640.954424604552,6847990490,6847981572,None,False,,none,True,False
+S950,segment_950,primary_link,,,8.965068857709664,6848250527,4436233693,None,False,,none,True,False
+S951,3,primary,3,"['中豐路上林段', '中豐路高平段']",1386.3346749749044,6848250527,6847981563,None,False,,none,True,False
+S952,3乙,primary,3乙,文化路,9.009576891312639,6925124527,256085378,None,False,,crack_pothole,True,False
+S953,3乙,primary,3乙,文化路,21.790908207170084,6925124527,131935165,None,False,,none,True,False
+S954,15,primary,15,"['濱海路廣興段', '濱海路大潭段', '濱海路武威段']",4427.347148397045,7099718643,2105316974,None,False,,none,True,False
+S955,segment_955,primary_link,,,38.05647708378986,7099718645,7099718643,None,False,,none,True,False
+S956,15,primary,15,濱海路廣興段,131.3999120205346,7099718648,7099718651,None,False,,none,True,False
+S957,segment_957,primary_link,,,147.357077309221,7099718648,7099718651,None,False,,none,True,False
+S958,31,primary,31,"['高鐵南路十段', '高鐵聯外公路', '高鐵南路九段', '高鐵南路七段', '高鐵南路八段']",9379.832759931272,7190996903,9352581384,None,False,,none,True,False
+S959,大溪交流道,motorway_link,,大溪交流道,305.8467842546976,7195210178,939016205,None,False,,none,True,False
+S960,大溪交流道,motorway_link,,大溪交流道,227.04334242682017,7195258414,7195210178,None,False,,none,True,False
+S961,大溪交流道,motorway_link,,大溪交流道,349.45854286795276,7195258414,3014535104,None,False,,none,True,False
+S962,segment_962,primary_link,,,18.76940934868823,7934421277,7934421278,None,False,,none,True,False
+S963,3,primary,3,"['關西一號橋', '中豐新路', '中豐路', '中豐公路']",1007.2186449277278,7934421277,6847964551,None,False,,none,True,False
+S964,segment_964,primary_link,,,18.76940934868823,7934421278,7934421277,None,False,,none,True,False
+S965,3,primary,3,"['中豐路二 段', '中豐新路', '關西二號橋']",2388.9867108982357,7934421278,6847021741,None,False,,none,True,False
+S966,3,primary,3,"['大昌路一段', '中興路']",19.185889782061537,7934947387,49006130,None,False,,none,True,False
+S967,3,primary,3,中興路,9.35963530498323,7934954829,7934947387,None,False,,none,True,False
+S968,3,primary,3,"['中豐路上林段', '大昌路一段', '中豐路中山段']",4553.781806100647,7934954829,6848250527,None,False,,none,True,False
+S969,3,motorway,3,福爾摩沙高速公路,551.8753847306228,7934992640,7934992641,None,False,,crack_pothole,True,False
+S970,高原交流道,motorway_link,,高原交流道,658.9520976816749,7934992640,6038657799,None,False,,none,True,False
+S971,3,motorway,3,福爾摩沙高速公路,1249.2009494599895,7934992641,48071662,None,False,,landslide_block,False,True
+S972,segment_972,motorway_link,,,510.16373388414127,7934992641,13110375569,None,False,,none,True,False
+S973,高原交流道,motorway_link,,高原交流道,654.925940678762,7934992642,8855835726,None,False,,none,True,False
+S974,segment_974,motorway_link,,,708.5533057807811,7934992653,48070880,None,False,,none,True,False
+S975,高原交流道,motorway_link,,高原交流道,1039.6709005448126,7934992653,6038657811,None,False,,none,True,False
+S976,3,motorway,3,福爾摩沙高速公路,2207.214487761793,7934992661,1395250307,None,False,,none,True,False
+S977,segment_977,primary_link,,,6.2034497854462005,8398140446,8398140447,None,False,,none,True,False
+S978,4,primary,4,"['康莊路三段', '康莊路五段', '瑞安路二段']",5778.872570683872,8398140446,349086927,None,False,,none,True,False
+S979,segment_979,primary_link,,,6.2034497854462005,8398140447,8398140446,None,False,,none,True,False
+S980,4,primary,4,"['瑞安路一段', '瑞安路二段', '崁津大橋']",3619.7742174587556,8398140447,52712437,None,False,,none,True,False
+S981,segment_981,motorway_link,,,305.10540821242773,8855835726,48071662,None,False,,none,True,False
+S982,桃園交流道,motorway_link,,桃園交流道,43.515746750045224,9317130158,9317130172,None,False,,none,True,False
+S983,桃園交流道,motorway_link,,桃園交流道,67.18054224181022,9317130158,9317130169,None,False,,none,True,False
+S984,桃園交流道,motorway_link,,桃園交流道,299.2187725489938,9317130165,9317130183,None,False,,none,True,False
+S985,桃園交流道,motorway_link,,桃園交流道,78.19175357738699,9317130166,9317130165,None,False,,none,True,False
+S986,1,motorway,1,中山高速公路,994.1032160180571,9317130183,251473617,None,False,,none,True,False
+S987,31,primary,31,高鐵南路四段,343.0367981808794,9329753142,9329753147,None,False,,crack_pothole,True,False
+S988,segment_988,primary,,,49.80133826575728,9329753142,9329753144,None,False,,none,True,False
+S989,31,primary,31,高鐵南路四段,255.28611286099016,9329753144,9329753145,None,False,,none,True,False
+S990,31,primary,31,"['桃園大圳橋', '高鐵南路四段', '高鐵南路三段']",1527.1721811635578,9329753145,9352656135,None,False,,crack_pothole,True,False
+S991,segment_991,primary,,,40.10618493806483,9329753145,9329753147,None,False,,none,True,False
+S992,31,primary,31,"['桃園大圳橋', '高鐵南路四段', '高鐵南路三段']",1511.3575686224108,9329753147,9352656142,None,False,,none,True,False
+S993,segment_993,primary_link,,,7.3308990410895785,9352581384,9352581385,None,False,,none,True,False
+S994,31;桃102,primary,"['31;桃102', '31']","['高鐵南路六段', '高鐵南路七段']",2536.1748949732983,9352581384,3032572839,None,False,,crack_pothole,True,False
+S995,segment_995,primary_link,,,7.3308990410895785,9352581385,9352581384,None,False,,none,True,False
+S996,segment_996,primary,,,10.517829540629926,9352581390,9352581391,None,False,,none,True,False
+S997,31,primary,31,高鐵南路六段,245.42844180987572,9352581390,4111381928,None,False,,landslide_block,False,True
+S998,31,primary,31,高鐵南路六段,46.6264803646044,9352581391,9352581398,None,False,,none,True,False
+S999,segment_999,primary,,,28.525508804286943,9352581391,9352581392,None,False,,none,True,False
+S1000,segment_1000,primary,,,10.517829540629926,9352581391,9352581390,None,False,,none,True,False
+S1001,31,primary,31,高鐵南路六段,57.73031495586,9352581392,9352581395,None,False,,none,True,False
+S1002,segment_1002,primary,,,12.31584956066528,9352581392,9352581393,None,False,,crack_pothole,True,False
+S1003,segment_1003,primary,,,28.525508804286943,9352581392,9352581391,None,False,,none,True,False
+S1004,segment_1004,primary,,,12.31584956066528,9352581393,9352581392,None,False,,none,True,False
+S1005,31,primary,31,高鐵南路六段,396.86081016146693,9352581393,9352581401,None,False,,none,True,False
+S1006,31,primary,31,高鐵南路六段,361.73939472022585,9352581395,2383383175,None,False,,none,True,False
+S1007,31,primary,31,高鐵南路六段,24.096787969317468,9352581396,9352581392,None,False,,none,True,False
+S1008,segment_1008,primary,,,23.01761623470776,9352581396,9352581398,None,False,,none,True,False
+S1009,31,primary,31,高鐵南路六段,191.8074085995183,9352581398,4111381928,None,False,,none,True,False
+S1010,segment_1010,primary,,,33.3970125284077,9352581401,2383383175,None,False,,none,True,False
+S1011,31,primary,31,"['高鐵南路五段', '高鐵南路六段']",1060.030314533391,9352581401,9352626215,None,False,,none,True,False
+S1012,segment_1012,primary,,,41.29965253303152,9352581403,9352581404,None,False,,none,True,False
+S1013,31,primary,31,高鐵南路六段,367.8467897417927,9352581403,12257933013,None,False,,none,True,False
+S1014,31,primary,31,高鐵南路六段,324.7456120748333,9352581404,3075243489,None,False,,none,True,False
+S1015,segment_1015,primary,,,37.36643422095805,9352626215,9352626216,None,False,,none,True,False
+S1016,31,primary,31,高鐵南路五段,615.0719477759096,9352626215,12257933019,None,False,,none,True,False
+S1017,31,primary,31,高鐵南路五段,532.9372720234992,9352626216,2383383206,None,False,,none,True,False
+S1018,segment_1018,primary,,,41.38931784695445,9352656117,9352656118,None,False,,none,True,False
+S1019,31,primary,31,"['高鐵南路五段', '高鐵南路六段']",1054.1094122278,9352656117,9352581403,None,False,,none,True,False
+S1020,31,primary,31,"['高鐵南路五段', '高鐵南路六段']",1055.3001239172231,9352656118,9352581404,None,False,,none,True,False
+S1021,31,primary,31,高鐵南路四段,422.46430150544563,9352656123,9329753144,None,False,,none,True,False
+S1022,segment_1022,primary_link,,,31.950057566524237,9352656123,9352656126,None,False,,none,True,False
+S1023,segment_1023,primary,,,36.05051453942336,9352656127,9352656128,None,False,,none,True,False
+S1024,31,primary,31,高鐵南路四段,209.57297247716855,9352656127,12257933029,None,False,,crack_pothole,True,False
+S1025,31,primary,31,高鐵南路四段,138.1310620898256,9352656128,9352656123,None,False,,none,True,False
+S1026,segment_1026,primary,,,41.44649795212407,9352656129,4111381639,None,False,,none,True,False
+S1027,31,primary,31,"['高鐵南路四段', '高鐵南路五段']",354.0520773650792,9352656129,12257933043,None,False,,none,True,False
+S1028,31,primary,31,高鐵南路三段,847.719355845941,9352656135,2490761724,None,False,,none,True,False
+S1029,segment_1029,primary_link,,,31.976319161699358,9352656135,9352656138,None,False,,none,True,False
+S1030,31,primary,31,高鐵南路三段,729.6773433507826,9352656141,345180677,None,False,,none,True,False
+S1031,31,primary,31,高鐵南路三段,60.48430483171891,9352656142,9352656141,None,False,,none,True,False
+S1032,segment_1032,primary,,,28.941338264941667,9352656142,9352656144,None,False,,crack_pothole,True,False
+S1033,31,primary,31,高鐵南路三段,201.31969966001898,9352656144,12257933056,None,False,,none,True,False
+S1034,1,motorway,1,五股楊梅高架道路,134.25495747828168,9365298311,4398578232,None,False,,none,True,False
+S1035,segment_1035,motorway_link,,,1073.044593445279,9365298311,5314735678,None,False,,none,True,False
+S1036,桃園交流道,motorway_link,,桃園交流道,344.4598875594149,9368113697,4493972360,None,False,,none,True,False
+S1037,桃園交流道,motorway_link,,桃園交流道,600.5066624037662,9368113697,428581474,None,False,,none,True,False
+S1038,桃園交流道,motorway_link,,桃園交流道,14.27842458296371,9368113706,32415615,None,False,,none,True,False
+S1039,4,primary_link,4,新南路二段,135.8968261903615,9368113706,428581485,None,False,,none,True,False
+S1040,4,primary_link,4,新南路二段,26.563470585438928,9368113710,32415615,None,False,,none,True,False
+S1041,桃園交流道,motorway_link,,桃園交流道,509.833561747416,9368113710,2992216455,None,False,,none,True,False
+S1042,桃園交流道,motorway_link,,桃園交流道,233.70417234117696,9446451907,4413336587,None,False,,none,True,False
+S1043,1,motorway,1,中山高速公路,1247.080333583514,9499672573,1294175337,None,False,,none,True,False
+S1044,1,primary,1,永美路,8.074997047828946,9596949647,9596949648,None,False,,landslide_block,False,True
+S1045,1,primary,1,"['頭重溪橋', '永美路', '中山北路二段']",2125.012607124599,9596949647,2675320910,None,False,,none,True,False
+S1046,1,primary,1,"['延平路三段', '陸橋南路', '埔心陸橋', '永美路']",1877.2510078532446,9596949648,6839214670,None,False,,none,True,False
+S1047,segment_1047,primary_link,,,10.936406758572675,9853871379,9853871380,None,False,,none,True,False
+S1048,3,primary,3,信義路,879.7597745284321,9853871379,300588048,None,False,,none,True,False
+S1049,segment_1049,primary_link,,,10.936406758572675,9853871380,9853871379,None,False,,none,True,False
+S1050,高鐵北路三段,primary,,高鐵北路三段,11.358418441395441,10166290242,10166290244,None,False,,none,True,False
+S1051,31;113丙,primary,"['31;113丙', '31']","['領航南橋', '高鐵南路三段', '領航南路二段', '領航南路四段', '領航南路三段', '高鐵南路二段', '領航南路一段']",3813.8103593505193,10166290242,1211875188,None,False,,none,True,False
+S1052,高鐵北路三段,primary,,高鐵北路三段,8.070234632040588,10166290244,10166290245,None,False,,none,True,False
+S1053,31,primary,31,領航北路四段,52.44004976058368,10166290244,1215066091,None,False,,none,True,False
+S1054,31,primary,31,高鐵北路三段,673.471404356605,10166290245,4111270380,None,False,,none,True,False
+S1055,高鐵北路三段,primary,,高鐵北路三段,629.2313421719289,10166290245,429592316,None,False,,none,True,False
+S1056,高原交流道,motorway_link,,高原交流道,114.72073000954677,10616230899,6038657807,None,False,,none,True,False
+S1057,1,motorway,1,中山高速公路,2073.88937530379,10886258434,314947109,None,False,,none,True,False
+S1058,66,primary,66,"['快速路一段', '洪圳二號橋', '快速路', '石門大圳橋']",3305.4463596438427,10905676216,13142192878,None,False,,none,True,False
+S1059,平鎮三交流道,trunk_link,,平鎮三交流道,603.4409927603868,10905676216,2496061863,None,False,,none,True,False
+S1060,66,primary,66,"['快速路一段', '快速路二段']",126.04580824551914,10905676222,4463012731,None,False,,none,True,False
+S1061,66,primary,66,快速路,63.711168577901475,11827062697,13366571721,None,False,,none,True,False
+S1062,大溪端,trunk_link,,大溪端,428.0386186041407,11827062697,1404222416,None,False,,none,True,False
+S1063,66,primary,66,快速路,56.15275144944485,11827062698,11827062697,None,False,,none,True,False
+S1064,大溪交流道,motorway_link,,大溪交流道,410.80302869377584,11827087933,939016016,None,False,,none,True,False
+S1065,大溪交流道,motorway_link,,大溪交流道,154.6026813299682,11827123074,7195258414,None,False,,none,True,False
+S1066,66,"['trunk_link', 'trunk']",66,東西向快速公路 觀音大溪線,1525.953468480267,12198110923,3250476727,None,False,,crack_pothole,True,False
+S1067,66,primary,66,快速路七段,580.1292962013766,12198110925,4435633689,None,False,,none,True,False
+S1068,大溪交流道,motorway_link,,大溪交流道,413.2073661968332,12249906664,12278266016,None,False,,landslide_block,False,True
+S1069,66,motorway_link,66,大溪交流道,1877.0376059036396,12249906664,1404222416,None,False,,crack_pothole,True,False
+S1070,31,primary,31,高鐵南路六段,19.03418884987967,12257933013,9352581390,None,False,,none,True,False
+S1071,segment_1071,primary,,,8.838515370003662,12257933013,3075243489,None,False,,none,True,False
+S1072,31,primary,31,高鐵南路五段,339.6947017973895,12257933019,12257933020,None,False,,none,True,False
+S1073,segment_1073,primary,,,34.87383515287221,12257933020,12257933021,None,False,,none,True,False
+S1074,31,primary,31,"['高鐵南路四段', '高鐵南路五段']",686.2721928814033,12257933020,9352656128,None,False,,none,True,False
+S1075,31,primary,31,"['高鐵南路四段', '高鐵南路五段']",617.417610692248,12257933021,9352656127,None,False,,none,True,False
+S1076,segment_1076,primary,,,39.0529519403819,12257933023,12257933024,None,False,,none,True,False
+S1077,31,primary,31,高鐵南路五段,546.1448855769768,12257933023,12257933026,None,False,,none,True,False
+S1078,31,primary,31,高鐵南路五段,470.5467083479882,12257933024,12257933025,None,False,,none,True,False
+S1079,segment_1079,primary,,,38.93330472881617,12257933025,12257933026,None,False,,none,True,False
+S1080,31,primary,31,高鐵南路五段,195.0054450126397,12257933025,9352656118,None,False,,none,True,False
+S1081,31,primary,31,高鐵南路五段,116.04966421802186,12257933026,9352656117,None,False,,none,True,False
+S1082,31,primary,31,高鐵南路四段,87.46702771491407,12257933029,12257933039,None,False,,none,True,False
+S1083,segment_1083,primary,,,25.740057180027822,12257933029,12257933033,None,False,,none,True,False
+S1084,31,primary,31,高鐵南路四段,140.298831122127,12257933033,9352656129,None,False,,none,True,False
+S1085,31,primary,31,高鐵南路四段,89.64056931104932,12257933034,12257933033,None,False,,none,True,False
+S1086,segment_1086,primary,,,27.917793844161796,12257933034,12257933039,None,False,,none,True,False
+S1087,31,primary,31,高鐵南路四段,249.90088574644255,12257933039,9329753142,None,False,,none,True,False
+S1088,segment_1088,primary,,,39.79891994955507,12257933043,12257933044,None,False,,none,True,False
+S1089,31,primary,31,高鐵南路五段,669.0358079805309,12257933043,12257933024,None,False,,none,True,False
+S1090,31,primary,31,高鐵南路五段,591.717542688724,12257933044,12257933023,None,False,,none,True,False
+S1091,segment_1091,primary,,,31.555955977202334,12257933046,12257933047,None,False,,none,True,False
+S1092,31,primary,31,高鐵南路四段,254.94545526432967,12257933046,315833649,None,False,,none,True,False
+S1093,31,primary,31,高鐵南路四段,191.30100088627262,12257933047,12257933048,None,False,,none,True,False
+S1094,segment_1094,primary,,,34.22204464109059,12257933048,315833649,None,False,,none,True,False
+S1095,31,primary,31,高鐵南路四段,353.7895989468937,12257933048,4111381641,None,False,,none,True,False
+S1096,31,primary,31,高鐵南路三段,472.2741852238532,12257933055,12257933058,None,False,,none,True,False
+S1097,segment_1097,primary,,,39.59630803731296,12257933056,12257933055,None,False,,none,True,False
+S1098,31,primary,31,高鐵南路三段,537.2009157935065,12257933056,12257933059,None,False,,none,True,False
+S1099,segment_1099,primary,,,27.448993087849345,12257933058,12257933059,None,False,,none,True,False
+S1100,31,primary,31,"['桃園大圳橋', '高鐵南路四段', '高鐵南路三段']",803.9220042952062,12257933058,12257933047,None,False,,landslide_block,False,True
+S1101,31,primary,31,"['桃園大圳橋', '高鐵南路四段', '高鐵南路三段']",746.8030828105259,12257933059,12257933046,None,False,,crack_pothole,True,False
+S1102,大溪交流道,motorway_link,,大溪交流道,291.89194608315046,12278266016,11827123074,None,False,,none,True,False
+S1103,大溪交流道,motorway_link,,大溪交流道,437.32548942697224,12278266016,205280115,None,False,,none,True,False
+S1104,寶山交流道,motorway_link,,寶山交流道,76.58361791256856,12321432012,1515364273,None,False,,none,True,False
+S1105,寶山交流道,motorway_link,,寶山交流道,138.24788093142013,12321432012,1708891697,None,False,,none,True,False
+S1106,segment_1106,motorway_link,,,139.2506681716153,13110375569,13110375574,None,False,,none,True,False
+S1107,segment_1107,motorway_link,,,138.35169116402074,13110375569,13110375574,None,False,,none,True,False
+S1108,segment_1108,motorway_link,,,297.57211341775206,13110375574,8855835726,None,False,,none,True,False
+S1109,66,primary,66,快速路,42.89152587818889,13142192878,3032570295,None,False,,none,True,False
+S1110,segment_1110,motorway_link,,,19.120529231785476,13337710663,13337710664,None,False,,none,True,False
+S1111,3,motorway,3,"['埔頂1號隧道', '埔頂2號隧道', '福爾摩沙高速公路']",1231.1180629718192,13337710663,1988045762,None,False,,none,True,False
+S1112,segment_1112,motorway_link,,,19.120529231785476,13337710664,13337710663,None,False,,none,True,False
+S1113,中豐交流道,motorway_link,,中豐交流道,1430.4091585224323,13360600890,4418827862,None,False,,none,True,False
+S1114,中豐交流道,motorway_link,,中豐交流道,98.35211607051127,13360753910,13360600890,None,False,,crack_pothole,True,False
+S1115,1,motorway,1,五股楊梅高架道路,453.9630451235344,13360753931,9499672573,None,False,,none,True,False
+S1116,中豐交流道,motorway_link,,中豐交流道,970.0943407527869,13360753931,13360753937,None,False,,none,True,False
+S1117,中豐交流道,motorway_link,,中豐交流道,578.0424312366833,13360753937,4111442081,None,False,,none,True,False
+S1118,中豐交流道,motorway_link,,中豐交流道,713.7294038112028,13360753937,10598451900,None,False,,none,True,False
+S1119,segment_1119,primary_link,,,27.764514356825828,13366571721,13366571720,None,False,,none,True,False
+S1120,66,primary,66,"['石門大圳橋', '快速路', '洪圳二號橋', '快速路一段']",3197.665616247945,13366571721,10905676222,None,False,,none,True,False
+S1121,中豐交流道,motorway_link,,中豐交流道,27.484370746429946,13368657347,1962886953,None,False,,none,True,False
+S1122,中豐交流道,motorway_link,,中豐交流道,73.7386820461757,13368657347,13360600890,None,False,,none,True,False
+S1123,66,primary,66,"['快速路七段', '快速路六段']",135.563130463549,13720471753,1918306870,None,False,,none,True,False
+S1124,segment_1124,primary_link,,,99.65839568253307,13720471753,4462884340,None,False,,none,True,False
+S1125,66,primary,66,快速路九段,98.06052761112214,13851061084,304160419,None,False,,none,True,False
+S1126,segment_1126,primary_link,,,156.89480310554308,13851061084,2499580581,None,False,,none,True,False

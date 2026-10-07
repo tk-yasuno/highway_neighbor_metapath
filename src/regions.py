@@ -56,10 +56,22 @@ class RegionConfig:
     def map_basename(self) -> str:
         return "gurgaon_highway_metapath_map" if self.is_default else f"{self.key}_highway_metapath_map"
 
+    @property
+    def disaster_recovery_dir(self) -> Path:
+        """Root output directory for the v0.3 Disaster Pavement Recovery
+        Scheduling WCSP (synthetic earthquake scenario, repair lots,
+        tabu-search schedule, Recovery Benefit frontier). Follows the same
+        is_default flat-path backward-compatibility pattern as labels_dir /
+        figures_dir: gurgaon keeps outputs/disaster_recovery/, other regions
+        get outputs/<key>/disaster_recovery/."""
+        return config.OUTPUTS_DIR / "disaster_recovery" if self.is_default else config.OUTPUTS_DIR / self.key / "disaster_recovery"
+
 
 def ensure_dirs(region: RegionConfig) -> None:
     for d in (region.data_raw_dir, region.data_processed_dir, region.figures_dir, region.labels_dir):
         d.mkdir(parents=True, exist_ok=True)
+    for sub in ("labels", "schedule", "metrics", "figures"):
+        (region.disaster_recovery_dir / sub).mkdir(parents=True, exist_ok=True)
 
 
 REGIONS: dict[str, RegionConfig] = {
